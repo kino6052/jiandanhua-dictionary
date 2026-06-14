@@ -137,13 +137,22 @@ async function main() {
   result.atomicWords = Array.from(result.atomicWords)
   const allowed = buildAllowedCharsFromAtomicWords(result.atomicWords);
   result._allowed = Array.from(allowed);
+  result._allowedCount = result._allowed.length;
   console.log(
     `Built allowed set: ${allowed.size} unique characters from ${result.atomicWords.length} atomic words`,
   );
 
+  const _invalidChars = {};
+
   for (const [word, definition] of Object.entries(result.definitions)) {
     const invalidChars = findInvalidChars(definition, allowed);
     if (invalidChars.length > 0) {
+      invalidChars.forEach((c) => {
+        if (_invalidChars[c] === undefined) {
+          _invalidChars[c] = 1
+        }
+        _invalidChars[c] += 1;
+      })
       result.validation.invalidDefinitions.push({
         word,
         definition,
@@ -151,6 +160,8 @@ async function main() {
       });
     }
   }
+
+  result.invalidChars = Object.entries(_invalidChars).sort((a, b) => b[1] - a[1]);
 
   await Bun.write(OUTPUT_PATH, JSON.stringify(result, null, 2));
 
