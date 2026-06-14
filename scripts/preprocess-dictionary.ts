@@ -136,6 +136,7 @@ async function main() {
   // Pass 2: build allowed character set from atomic words, then validate definitions
   result.atomicWords = Array.from(result.atomicWords)
   const allowed = buildAllowedCharsFromAtomicWords(result.atomicWords);
+  result._allowed = Array.from(allowed);
   console.log(
     `Built allowed set: ${allowed.size} unique characters from ${result.atomicWords.length} atomic words`,
   );
