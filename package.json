@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "csv-parse": "^6.2.1",
     "jieba-wasm": "^2.4.0"
   }
 }
