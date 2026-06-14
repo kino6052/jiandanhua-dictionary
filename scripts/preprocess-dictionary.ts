@@ -1,6 +1,5 @@
 import { parse } from "csv-parse/sync";
 
-const HANZI_PATH = "./hanzi.md";
 const RAW_CSV_PATH = "./src/dictionaries/dictionary.raw.csv";
 const OUTPUT_PATH = "./src/dictionaries/dictionary.json";
 
@@ -30,7 +29,7 @@ interface DictionaryEntry {
 }
 
 interface DictionaryData {
-  atomicWords: string[];
+  atomicWords: Set<string>;
   definitions: Record<string, string>;
   entries: Record<string, DictionaryEntry>;
   validation: {
@@ -46,11 +45,10 @@ interface DictionaryData {
   };
 }
 
-async function loadAllowedCharacters(): Promise<Set<string>> {
-  const text = await Bun.file(HANZI_PATH).text();
+function buildAllowedCharsFromAtomicWords(atomicWords: string[]): Set<string> {
   const chars = new Set<string>();
-  for (const ch of text) {
-    if (/\p{Script=Han}/u.test(ch)) {
+  for (const word of atomicWords) {
+    for (const ch of word) {
       chars.add(ch);
     }
   }
@@ -71,9 +69,6 @@ function findInvalidChars(
 }
 
 async function main() {
-  const allowed = await loadAllowedCharacters();
-  console.log(`Loaded ${allowed.size} allowed characters from hanzi.md`);
-
   const csvText = await Bun.file(RAW_CSV_PATH).text();
   const rows: RawRow[] = parse(csvText, {
     columns: true,
@@ -84,7 +79,7 @@ async function main() {
   console.log(`Parsed ${rows.length} rows from CSV`);
 
   const result: DictionaryData = {
-    atomicWords: [],
+    atomicWords: new Set([]),
     definitions: {},
     entries: {},
     validation: {
@@ -96,6 +91,7 @@ async function main() {
     },
   };
 
+  // Pass 1: collect all entries, identify atomic words
   for (const row of rows) {
     const word = row.Word?.trim();
     if (!word) continue;
@@ -129,20 +125,29 @@ async function main() {
     result.entries[word] = entry;
 
     if (isAtomic) {
-      result.atomicWords.push(word);
+      result.atomicWords.add(word);
       result.validation.atomicCount++;
     } else {
       result.definitions[word] = definition;
       result.validation.definedCount++;
+    }
+  }
 
-      const invalidChars = findInvalidChars(definition, allowed);
-      if (invalidChars.length > 0) {
-        result.validation.invalidDefinitions.push({
-          word,
-          definition,
-          invalidChars,
-        });
-      }
+  // Pass 2: build allowed character set from atomic words, then validate definitions
+  result.atomicWords = Array.from(result.atomicWords)
+  const allowed = buildAllowedCharsFromAtomicWords(result.atomicWords);
+  console.log(
+    `Built allowed set: ${allowed.size} unique characters from ${result.atomicWords.length} atomic words`,
+  );
+
+  for (const [word, definition] of Object.entries(result.definitions)) {
+    const invalidChars = findInvalidChars(definition, allowed);
+    if (invalidChars.length > 0) {
+      result.validation.invalidDefinitions.push({
+        word,
+        definition,
+        invalidChars,
+      });
     }
   }
 

@@ -16,8 +16,6 @@
     "个",
     "中",
     "为",
-    "为",
-    "为",
     "乙",
     "九",
     "也",
@@ -172,7 +170,6 @@
     "女",
     "她",
     "好",
-    "好",
     "如",
     "如果",
     "姓",
@@ -219,7 +216,6 @@
     "应该",
     "底",
     "度",
-    "度",
     "建",
     "开",
     "开始",
@@ -240,6 +236,7 @@
     "想",
     "愿",
     "慢",
+    "成功",
     "我",
     "或",
     "房子",
@@ -248,8 +245,8 @@
     "所有",
     "手",
     "才",
-    "才",
     "打",
+    "扔",
     "找",
     "把",
     "抓",
@@ -302,11 +299,13 @@
     "某",
     "标准",
     "树",
+    "样子",
     "根",
     "根据",
     "根本",
     "桥",
     "植物",
+    "次",
     "欧洲",
     "止",
     "正",
@@ -344,6 +343,7 @@
     "火",
     "灯",
     "灰",
+    "点",
     "烟",
     "热",
     "然后",
@@ -367,6 +367,7 @@
     "由于",
     "甲",
     "电",
+    "电脑",
     "男",
     "疼",
     "病",
@@ -384,6 +385,7 @@
     "睡",
     "知识",
     "知道",
+    "短",
     "硬",
     "确实",
     "社会",
@@ -393,7 +395,6 @@
     "移",
     "窗",
     "笑",
-    "等",
     "等",
     "简单",
     "简直",
@@ -455,6 +456,7 @@
     "要是",
     "让",
     "记",
+    "话",
     "证",
     "语言",
     "说",
@@ -497,6 +499,7 @@
     "那",
     "那么",
     "部",
+    "部分",
     "都",
     "醒",
     "里",
@@ -522,6 +525,7 @@
     "静",
     "非洲",
     "靠",
+    "面",
     "顺",
     "领",
     "颜色",
@@ -539,6 +543,7 @@
     "鱼",
     "鲜",
     "鸟",
+    "鸡蛋",
     "黄色",
     "黑",
     "鼓",
@@ -559,12 +564,12 @@
     "一同": "一起",
     "一向": "一直",
     "一块儿": "一个地方，一起",
-    "一定": "肯定，不用怀疑",
+    "一定": "肯定",
     "一帆风顺": "一路顺",
     "一带": "一个地区",
     "一律": "全都一样",
     "一旦": "如果有一天",
-    "一时": "短时间 / 暂时",
+    "一时": "短时间",
     "一样": "没什么不同",
     "一模一样": "完全一样",
     "一次性": "用一次就扔",
@@ -583,11 +588,10 @@
     "一辈子": "一生",
     "一边": "两个动作同时做",
     "一道": "一起",
-    "一阵": "一段",
+    "一阵": "一个部分",
     "万一": "如果可能发生坏的",
     "万物": "所有的东西",
     "丈夫": "女人的爱人",
-    "上下": "高和低",
     "上传": "从自己电脑送到网上",
     "上升": "向高处走",
     "上午": "太阳出来后到中午前",
@@ -2698,7 +2702,6 @@
     "成交": "买卖双方同意",
     "成人": "成年人",
     "成分": "组成的东西",
-    "成功": "做好了想做的事",
     "成千上万": "很多很多",
     "成员": "组织里的人",
     "成就": "做好的大事",
@@ -2774,7 +2777,6 @@
     "打造": "通过做把东西造出来",
     "打针": "用针把药打进身体",
     "打雷": "天上发出很大的响声",
-    "扔": "用手把东西丢出去",
     "托运": "让车或飞机运",
     "扣": "从中拿掉 / 扣子",
     "执行": "按计划做",
@@ -3338,7 +3340,6 @@
     "校长": "学校的头管理人",
     "株": "一棵",
     "样": "一种",
-    "样子": "外看的样子",
     "样式": "样子",
     "核心": "最重要的中心",
     "格外": "特别",
@@ -3384,7 +3385,6 @@
     "橙子": "圆形水果，皮橙色，酸甜",
     "橡皮": "擦字的工具",
     "欠": "该给没给",
-    "次": "(not used as classifier – use 个 for times; adjective: 下一个)",
     "次数": "做了多少回",
     "欢乐": "高兴",
     "欢迎": "高兴地接来的人",
@@ -3422,7 +3422,6 @@
     "歪": "不正",
     "死亡": "死",
     "残疾": "身体有一部分不能用",
-    "段": "(not used in 简单话 – use 个)",
     "母": "女的",
     "母亲": "妈妈",
     "母女": "母亲和女儿",
@@ -3669,7 +3668,7 @@
     "炒": "用油在锅里快速翻动",
     "炒股": "买和卖股票想赚钱",
     "炸": "爆",
-    "点": "(verb: 让火着起来；noun: 小圆)",
+    "点": "(classifier not used – use 个; noun: 小圆)",
     "点击": "用手指在电脑或手机上按一下",
     "点名": "一个个叫人名字",
     "点头": "头上下动表示同意",
@@ -3862,7 +3861,6 @@
     "电梯": "用电上下的梯子",
     "电池": "给电器用电的东西",
     "电源": "电来的地方",
-    "电脑": "用电做事的机器",
     "电视": "看电影和节目的东西",
     "电视剧": "电视上放的剧",
     "电视台": "放电视节目的地方",
@@ -3997,7 +3995,6 @@
     "瞬间": "很短很短的时间",
     "矛盾": "两个想法不能都对",
     "知名": "有名的",
-    "短": "长度不大",
     "短信": "手机上写的小信",
     "短处": "不好的地方",
     "短期": "短的时间",
@@ -5026,7 +5023,6 @@
     "郊区": "城市的边远地方",
     "郊外": "城市外面的地方",
     "部位": "身体上的一个地方",
-    "部分": "一部分",
     "部门": "分出来的单位",
     "部队": "军队",
     "都市": "大城市",
@@ -5219,7 +5215,6 @@
     "青春期": "身体长大的时期",
     "非常": "很，非常",
     "靠近": "往近处走",
-    "面": "(classifier not used – use 个；noun: 脸；verb: 对着)",
     "面2": "一边",
     "面临": "正对着（问题）",
     "面前": "前面的地方",
@@ -5349,7 +5344,6 @@
     "鲜花": "新鲜的花",
     "鲨鱼": "海里的大鱼",
     "鸡": "一种鸟，人会养来吃它的肉和蛋",
-    "鸡蛋": "鸡下的蛋",
     "鸭子": "水鸟，会游泳",
     "麦克风": "话筒",
     "麻烦": "让人不方便或难",
@@ -5498,7 +5492,7 @@
       "word": "一定",
       "pinyin": "yídìng",
       "pos": "adjective/adverb (certain; certainly)",
-      "definition": "肯定，不用怀疑",
+      "definition": "肯定",
       "isAtomic": false,
       "speakingIndex": 90,
       "writingIndex": 85
@@ -5543,7 +5537,7 @@
       "word": "一时",
       "pinyin": "yìshí",
       "pos": "noun / adverb",
-      "definition": "短时间 / 暂时",
+      "definition": "短时间",
       "isAtomic": false,
       "speakingIndex": 65,
       "writingIndex": 65
@@ -5714,7 +5708,7 @@
       "word": "一阵",
       "pinyin": "yízhèn",
       "pos": "quantity",
-      "definition": "一段",
+      "definition": "一个部分",
       "isAtomic": false,
       "speakingIndex": 65,
       "writingIndex": 60
@@ -5781,15 +5775,6 @@
       "isAtomic": true,
       "speakingIndex": 95,
       "writingIndex": 95
-    },
-    "上下": {
-      "word": "上下",
-      "pinyin": "shàngxià",
-      "pos": "noun (up and down)",
-      "definition": "高和低",
-      "isAtomic": false,
-      "speakingIndex": 70,
-      "writingIndex": 75
     },
     "上传": {
       "word": "上传",
@@ -26774,8 +26759,8 @@
       "word": "成功",
       "pinyin": "chénggōng",
       "pos": "verb/adjective (to succeed; successful)",
-      "definition": "做好了想做的事",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 85,
       "writingIndex": 85
     },
@@ -27530,8 +27515,8 @@
       "word": "扔",
       "pinyin": "rēng",
       "pos": "verb (to throw)",
-      "definition": "用手把东西丢出去",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 75,
       "writingIndex": 70
     },
@@ -33056,8 +33041,8 @@
       "word": "样子",
       "pinyin": "yàngzi",
       "pos": "noun (appearance)",
-      "definition": "外看的样子",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 80,
       "writingIndex": 80
     },
@@ -33515,8 +33500,8 @@
       "word": "次",
       "pinyin": "cì",
       "pos": "classifier/adjective (measure for times; next in order)",
-      "definition": "(not used as classifier – use 个 for times; adjective: 下一个)",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 85,
       "writingIndex": 80
     },
@@ -33906,15 +33891,6 @@
       "isAtomic": false,
       "speakingIndex": 55,
       "writingIndex": 70
-    },
-    "段": {
-      "word": "段",
-      "pinyin": "duàn",
-      "pos": "classifier (segment, paragraph)",
-      "definition": "(not used in 简单话 – use 个)",
-      "isAtomic": false,
-      "speakingIndex": 70,
-      "writingIndex": 75
     },
     "母": {
       "word": "母",
@@ -36413,7 +36389,7 @@
       "word": "点",
       "pinyin": "diǎn",
       "pos": "verb/noun/classifier (to light; point; to order)",
-      "definition": "(verb: 让火着起来；noun: 小圆)",
+      "definition": "",
       "isAtomic": true,
       "speakingIndex": 80,
       "writingIndex": 75
@@ -38357,8 +38333,8 @@
       "word": "电脑",
       "pinyin": "diànnǎo",
       "pos": "noun (computer)",
-      "definition": "用电做事的机器",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 90,
       "writingIndex": 90
     },
@@ -39707,8 +39683,8 @@
       "word": "短",
       "pinyin": "duǎn",
       "pos": "adjective (short)",
-      "definition": "长度不大",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 75,
       "writingIndex": 70
     },
@@ -45940,6 +45916,15 @@
       "speakingIndex": 60,
       "writingIndex": 70
     },
+    "话": {
+      "word": "话",
+      "pinyin": "huà",
+      "pos": "noun",
+      "definition": "",
+      "isAtomic": true,
+      "speakingIndex": 75,
+      "writingIndex": 80
+    },
     "讲话": {
       "word": "讲话",
       "pinyin": "jiǎnghuà",
@@ -49922,8 +49907,8 @@
       "word": "部分",
       "pinyin": "bùfen",
       "pos": "noun (part, portion)",
-      "definition": "一部分",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 85,
       "writingIndex": 90
     },
@@ -51874,9 +51859,9 @@
     "面": {
       "word": "面",
       "pinyin": "miàn",
-      "pos": "suffix/verb/noun/classifier (person with characteristic; to face; side; measure for flat objects)",
-      "definition": "(classifier not used – use 个；noun: 脸；verb: 对着)",
-      "isAtomic": false,
+      "pos": "noun",
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 80,
       "writingIndex": 80
     },
@@ -53198,8 +53183,8 @@
       "word": "鸡蛋",
       "pinyin": "jīdàn",
       "pos": "noun (egg)",
-      "definition": "鸡下的蛋",
-      "isAtomic": false,
+      "definition": "",
+      "isAtomic": true,
       "speakingIndex": 80,
       "writingIndex": 75
     },
@@ -53395,70 +53380,10 @@
   },
   "validation": {
     "totalRows": 5401,
-    "atomicCount": 544,
-    "definedCount": 4854,
-    "ignoredCount": 3,
+    "atomicCount": 555,
+    "definedCount": 4842,
+    "ignoredCount": 4,
     "invalidDefinitions": [
-      {
-        "word": "一下",
-        "definition": "一次，一小点",
-        "invalidChars": [
-          "次",
-          "点"
-        ]
-      },
-      {
-        "word": "一会儿",
-        "definition": "很短的时间",
-        "invalidChars": [
-          "短"
-        ]
-      },
-      {
-        "word": "一再",
-        "definition": "很多次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "一半",
-        "definition": "分成两个一样的部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "一定",
-        "definition": "肯定，不用怀疑",
-        "invalidChars": [
-          "怀",
-          "疑"
-        ]
-      },
-      {
-        "word": "一时",
-        "definition": "短时间 / 暂时",
-        "invalidChars": [
-          "短",
-          "暂"
-        ]
-      },
-      {
-        "word": "一次性",
-        "definition": "用一次就扔",
-        "invalidChars": [
-          "次",
-          "扔"
-        ]
-      },
-      {
-        "word": "一点儿",
-        "definition": "一小点",
-        "invalidChars": [
-          "点"
-        ]
-      },
       {
         "word": "一生",
         "definition": "一辈子",
@@ -53497,24 +53422,9 @@
         ]
       },
       {
-        "word": "一阵",
-        "definition": "一段",
-        "invalidChars": [
-          "段"
-        ]
-      },
-      {
-        "word": "上下",
-        "definition": "高和低",
-        "invalidChars": [
-          "低"
-        ]
-      },
-      {
         "word": "上传",
         "definition": "从自己电脑送到网上",
         "invalidChars": [
-          "脑",
           "网"
         ]
       },
@@ -53530,13 +53440,6 @@
         "definition": "太阳出来后到中午前",
         "invalidChars": [
           "午"
-        ]
-      },
-      {
-        "word": "上去",
-        "definition": "从下面到上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -53573,13 +53476,6 @@
         ]
       },
       {
-        "word": "上来",
-        "definition": "从下面到说话人这里",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "上涨",
         "definition": "价格或数量变高",
         "invalidChars": [
@@ -53589,17 +53485,9 @@
         ]
       },
       {
-        "word": "上级",
-        "definition": "上面的人",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "上网",
         "definition": "用电脑或手机看网",
         "invalidChars": [
-          "脑",
           "网"
         ]
       },
@@ -53618,13 +53506,6 @@
         ]
       },
       {
-        "word": "上述",
-        "definition": "前面说的",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "上面",
         "definition": "上边的位置",
         "invalidChars": [
@@ -53637,20 +53518,6 @@
         "definition": "中午后到天黑前",
         "invalidChars": [
           "午"
-        ]
-      },
-      {
-        "word": "下去",
-        "definition": "从上面到下面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "下来",
-        "definition": "从上面到说话人这里",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -53679,8 +53546,7 @@
         "word": "下载",
         "definition": "从网上拿到自己电脑里",
         "invalidChars": [
-          "网",
-          "脑"
+          "网"
         ]
       },
       {
@@ -53696,13 +53562,6 @@
         "definition": "不长时间后",
         "invalidChars": [
           "长"
-        ]
-      },
-      {
-        "word": "不便",
-        "definition": "不方便",
-        "invalidChars": [
-          "便"
         ]
       },
       {
@@ -53803,8 +53662,6 @@
         "word": "专家",
         "definition": "在某方面很懂的人",
         "invalidChars": [
-          "某",
-          "面",
           "懂"
         ]
       },
@@ -53874,14 +53731,6 @@
         ]
       },
       {
-        "word": "严",
-        "definition": "管得紧，不许随便",
-        "invalidChars": [
-          "随",
-          "便"
-        ]
-      },
-      {
         "word": "严厉",
         "definition": "严",
         "invalidChars": [
@@ -53892,7 +53741,6 @@
         "word": "严寒",
         "definition": "非常冷",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -53935,8 +53783,7 @@
         "word": "个性",
         "definition": "一个人的特点",
         "invalidChars": [
-          "特",
-          "点"
+          "特"
         ]
       },
       {
@@ -53958,8 +53805,7 @@
         "word": "中午",
         "definition": "一天的一半，十二点",
         "invalidChars": [
-          "半",
-          "点"
+          "半"
         ]
       },
       {
@@ -54028,13 +53874,6 @@
         ]
       },
       {
-        "word": "中间",
-        "definition": "中的里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "丰收",
         "definition": "地里长的东西收了很多",
         "invalidChars": [
@@ -54048,13 +53887,6 @@
         "invalidChars": [
           "穿",
           "线"
-        ]
-      },
-      {
-        "word": "临时",
-        "definition": "短时间",
-        "invalidChars": [
-          "短"
         ]
       },
       {
@@ -54207,13 +54039,6 @@
         ]
       },
       {
-        "word": "之中",
-        "definition": "里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "乌龟",
         "definition": "壳硬爬得慢的动物",
         "invalidChars": [
@@ -54255,20 +54080,6 @@
         "definition": "桌上打的球",
         "invalidChars": [
           "桌"
-        ]
-      },
-      {
-        "word": "乘",
-        "definition": "坐车或做乘法",
-        "invalidChars": [
-          "乘"
-        ]
-      },
-      {
-        "word": "乘",
-        "definition": "坐在车船等里面移动",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -54408,7 +54219,6 @@
         "word": "事业",
         "definition": "工作或追求的事",
         "invalidChars": [
-          "追",
           "求"
         ]
       },
@@ -54479,8 +54289,7 @@
         "invalidChars": [
           "互",
           "相",
-          "影",
-          "响"
+          "影"
         ]
       },
       {
@@ -54502,7 +54311,6 @@
         "word": "互联网",
         "definition": "全世界的电脑连成的网",
         "invalidChars": [
-          "脑",
           "网"
         ]
       },
@@ -54525,15 +54333,7 @@
         "word": "交",
         "definition": "给；见面；朋友",
         "invalidChars": [
-          "见",
-          "面"
-        ]
-      },
-      {
-        "word": "交往",
-        "definition": "与人来往",
-        "invalidChars": [
-          "与"
+          "见"
         ]
       },
       {
@@ -54656,17 +54456,9 @@
         ]
       },
       {
-        "word": "人士",
-        "definition": "某一类人",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
         "word": "人山人海",
         "definition": "人非常多",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -54674,7 +54466,6 @@
         "word": "人工智能",
         "definition": "电脑像人一样想",
         "invalidChars": [
-          "脑",
           "像"
         ]
       },
@@ -54702,17 +54493,10 @@
         ]
       },
       {
-        "word": "从业",
-        "definition": "做某一行的工作",
+        "word": "今日",
+        "definition": "今天",
         "invalidChars": [
-          "某"
-        ]
-      },
-      {
-        "word": "从中",
-        "definition": "从这里面",
-        "invalidChars": [
-          "面"
+          "今"
         ]
       },
       {
@@ -54731,13 +54515,6 @@
         ]
       },
       {
-        "word": "从未",
-        "definition": "从过去到现在一次都没有",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
         "word": "仔细",
         "definition": "认真，细心",
         "invalidChars": [
@@ -54745,11 +54522,16 @@
         ]
       },
       {
+        "word": "他们",
+        "definition": "他加们",
+        "invalidChars": [
+          "们"
+        ]
+      },
+      {
         "word": "代价",
         "definition": "为了做某事而失去的",
         "invalidChars": [
-          "某",
-          "而",
           "失"
         ]
       },
@@ -54761,45 +54543,10 @@
         ]
       },
       {
-        "word": "以上",
-        "definition": "比这个多，或在这个上面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "以下",
-        "definition": "比这个少，或在这个下面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "以为",
         "definition": "心里觉得，但不一定真",
         "invalidChars": [
           "觉"
-        ]
-      },
-      {
-        "word": "以内",
-        "definition": "里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "以前",
-        "definition": "时间在前面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "以后",
-        "definition": "时间在后面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -54884,7 +54631,6 @@
         "word": "优异",
         "definition": "非常好",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -54893,7 +54639,6 @@
         "definition": "价钱便宜",
         "invalidChars": [
           "价",
-          "便",
           "宜"
         ]
       },
@@ -54917,7 +54662,6 @@
         "word": "会",
         "definition": "一群人聚在一起做事",
         "invalidChars": [
-          "群",
           "聚"
         ]
       },
@@ -54932,8 +54676,7 @@
         "word": "会见",
         "definition": "见面",
         "invalidChars": [
-          "见",
-          "面"
+          "见"
         ]
       },
       {
@@ -54961,7 +54704,6 @@
         "word": "伟大",
         "definition": "很大，非常了不起",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -55236,6 +54978,13 @@
         ]
       },
       {
+        "word": "你们",
+        "definition": "你们",
+        "invalidChars": [
+          "们"
+        ]
+      },
+      {
         "word": "侄子",
         "definition": "兄弟的儿子",
         "invalidChars": [
@@ -55260,24 +55009,9 @@
         ]
       },
       {
-        "word": "便于",
-        "definition": "对…方便",
-        "invalidChars": [
-          "便"
-        ]
-      },
-      {
-        "word": "便利",
-        "definition": "方便",
-        "invalidChars": [
-          "便"
-        ]
-      },
-      {
         "word": "便利店",
         "definition": "方便的小商店",
         "invalidChars": [
-          "便",
           "商",
           "店"
         ]
@@ -55287,20 +55021,6 @@
         "definition": "钱少，不贵",
         "invalidChars": [
           "贵"
-        ]
-      },
-      {
-        "word": "便捷",
-        "definition": "方便又快",
-        "invalidChars": [
-          "便"
-        ]
-      },
-      {
-        "word": "促使",
-        "definition": "让某人做某事",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -55467,13 +55187,6 @@
       },
       {
         "word": "倒",
-        "definition": "(verb: 倒下；adv: 却)",
-        "invalidChars": [
-          "倒"
-        ]
-      },
-      {
-        "word": "倒",
         "definition": "倒下",
         "invalidChars": [
           "倒"
@@ -55498,8 +55211,7 @@
         "word": "值",
         "definition": "价钱等于",
         "invalidChars": [
-          "价",
-          "于"
+          "价"
         ]
       },
       {
@@ -55559,20 +55271,6 @@
         "invalidChars": [
           "计",
           "划"
-        ]
-      },
-      {
-        "word": "催",
-        "definition": "让别人快一点",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
-        "word": "傻",
-        "definition": "脑子不好",
-        "invalidChars": [
-          "脑"
         ]
       },
       {
@@ -55646,7 +55344,6 @@
         "word": "充实",
         "definition": "里面满，不空",
         "invalidChars": [
-          "面",
           "空"
         ]
       },
@@ -55677,8 +55374,7 @@
         "word": "克服",
         "definition": "战胜困难",
         "invalidChars": [
-          "战",
-          "胜"
+          "战"
         ]
       },
       {
@@ -55730,20 +55426,6 @@
         "definition": "整个路程",
         "invalidChars": [
           "程"
-        ]
-      },
-      {
-        "word": "全部",
-        "definition": "所有的部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "全面",
-        "definition": "所有方面都有",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -55864,21 +55546,16 @@
         "word": "关注",
         "definition": "常常看并心里想",
         "invalidChars": [
-          "常"
+          "常",
+          "并"
         ]
       },
       {
         "word": "关爱",
         "definition": "关心并爱护",
         "invalidChars": [
+          "并",
           "护"
-        ]
-      },
-      {
-        "word": "关键",
-        "definition": "最重要的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -55886,13 +55563,6 @@
         "definition": "心里高兴激动",
         "invalidChars": [
           "激"
-        ]
-      },
-      {
-        "word": "其中",
-        "definition": "那里面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -55963,63 +55633,18 @@
         ]
       },
       {
-        "word": "内外",
-        "definition": "里面和外面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "内容",
-        "definition": "里面的东西",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "内涵",
         "definition": "里面的意思",
         "invalidChars": [
-          "面",
           "意",
           "思"
-        ]
-      },
-      {
-        "word": "内科",
-        "definition": "看里面病的科",
-        "invalidChars": [
-          "面"
         ]
       },
       {
         "word": "内衣",
         "definition": "穿在里面的衣服",
         "invalidChars": [
-          "穿",
-          "面"
-        ]
-      },
-      {
-        "word": "内部",
-        "definition": "里面的部分",
-        "invalidChars": [
-          "面",
-          "分"
-        ]
-      },
-      {
-        "word": "再三",
-        "definition": "多次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "再次",
-        "definition": "又一次",
-        "invalidChars": [
-          "次"
+          "穿"
         ]
       },
       {
@@ -56033,7 +55658,6 @@
         "word": "再说",
         "definition": "以后再说；而且",
         "invalidChars": [
-          "而",
           "且"
         ]
       },
@@ -56045,17 +55669,10 @@
         ]
       },
       {
-        "word": "军人",
-        "definition": "兵",
-        "invalidChars": [
-          "兵"
-        ]
-      },
-      {
         "word": "军队",
         "definition": "兵们",
         "invalidChars": [
-          "兵"
+          "们"
         ]
       },
       {
@@ -56125,8 +55742,7 @@
         "word": "冲",
         "definition": "对着某个方向 / 用很大力",
         "invalidChars": [
-          "着",
-          "某"
+          "着"
         ]
       },
       {
@@ -56182,13 +55798,6 @@
         ]
       },
       {
-        "word": "凉",
-        "definition": "不热，有点冷",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
         "word": "凉快",
         "definition": "不热，舒服",
         "invalidChars": [
@@ -56220,20 +55829,6 @@
         ]
       },
       {
-        "word": "出于",
-        "definition": "因为某个原因",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
-        "word": "出去",
-        "definition": "从里面到外面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "出口",
         "definition": "(noun: 出去的口；verb: 卖东西到外国)",
         "invalidChars": [
@@ -56249,13 +55844,6 @@
         ]
       },
       {
-        "word": "出场",
-        "definition": "从后面走到前面让大家看到",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "出差",
         "definition": "去外地办事",
         "invalidChars": [
@@ -56267,13 +55855,6 @@
         "definition": "到场",
         "invalidChars": [
           "场"
-        ]
-      },
-      {
-        "word": "出来",
-        "definition": "从里面到外面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -56317,15 +55898,7 @@
         "word": "分",
         "definition": "(classifier not used – use 个; verb: 分成小份)",
         "invalidChars": [
-          "分",
           "份"
-        ]
-      },
-      {
-        "word": "分为",
-        "definition": "分成",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -56333,41 +55906,6 @@
         "definition": "给别人自己的东西或快乐",
         "invalidChars": [
           "乐"
-        ]
-      },
-      {
-        "word": "分别",
-        "definition": "分开；各自；不同",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "分工",
-        "definition": "分成不同的部分做",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "分布",
-        "definition": "分在各个地方",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "分手",
-        "definition": "分开不再做男女朋友",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "分散",
-        "definition": "分开到不同地方",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -56380,27 +55918,11 @@
         ]
       },
       {
-        "word": "分期",
-        "definition": "分几次给钱",
-        "invalidChars": [
-          "分",
-          "次"
-        ]
-      },
-      {
         "word": "分析",
         "definition": "分开看，找答案",
         "invalidChars": [
-          "分",
           "答",
           "案"
-        ]
-      },
-      {
-        "word": "分离",
-        "definition": "分开",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -56408,16 +55930,14 @@
         "definition": "按种类分开",
         "invalidChars": [
           "按",
-          "种",
-          "分"
+          "种"
         ]
       },
       {
         "word": "分级",
         "definition": "按级别分",
         "invalidChars": [
-          "按",
-          "分"
+          "按"
         ]
       },
       {
@@ -56427,7 +55947,6 @@
           "按",
           "计",
           "划",
-          "分",
           "处"
         ]
       },
@@ -56439,38 +55958,10 @@
         ]
       },
       {
-        "word": "划",
-        "definition": "用桨让船走",
-        "invalidChars": [
-          "桨"
-        ]
-      },
-      {
-        "word": "划分",
-        "definition": "分开",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "列",
         "definition": "(verb: 一排排写；classifier: 行)",
         "invalidChars": [
           "排"
-        ]
-      },
-      {
-        "word": "刚刚",
-        "definition": "和“刚”一样，多说一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "刚才",
-        "definition": "刚过去的一点时间",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -56493,7 +55984,6 @@
         "word": "创建",
         "definition": "从无到有地建立",
         "invalidChars": [
-          "无",
           "立"
         ]
       },
@@ -56553,8 +56043,7 @@
         "word": "利润",
         "definition": "挣钱的部分",
         "invalidChars": [
-          "挣",
-          "分"
+          "挣"
         ]
       },
       {
@@ -56569,8 +56058,7 @@
         "definition": "(wind) 风吹得强；(scrape) 用刀去掉表面",
         "invalidChars": [
           "吹",
-          "掉",
-          "面"
+          "掉"
         ]
       },
       {
@@ -56639,7 +56127,6 @@
         "word": "前后",
         "definition": "前面和后面；大约",
         "invalidChars": [
-          "面",
           "约"
         ]
       },
@@ -56647,6 +56134,7 @@
         "word": "前天",
         "definition": "昨天之前的一天",
         "invalidChars": [
+          "昨",
           "之"
         ]
       },
@@ -56658,27 +56146,6 @@
         ]
       },
       {
-        "word": "前方",
-        "definition": "前面的方向",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "前期",
-        "definition": "前面的时期",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "前者",
-        "definition": "前面说的那个",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "前途",
         "definition": "以后的路，希望",
         "invalidChars": [
@@ -56687,17 +56154,9 @@
         ]
       },
       {
-        "word": "前面",
-        "definition": "前面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "剑",
         "definition": "两面都开刃的长武器",
         "invalidChars": [
-          "面",
           "刃",
           "长",
           "武"
@@ -56742,8 +56201,7 @@
         "word": "剪",
         "definition": "用剪刀把东西分开",
         "invalidChars": [
-          "剪",
-          "分"
+          "剪"
         ]
       },
       {
@@ -56758,8 +56216,7 @@
         "word": "副",
         "definition": "第二的，正的下面的",
         "invalidChars": [
-          "第",
-          "面"
+          "第"
         ]
       },
       {
@@ -56804,6 +56261,7 @@
         "word": "办公室",
         "definition": "人们工作、办事情用的地方",
         "invalidChars": [
+          "们",
           "办",
           "情"
         ]
@@ -56991,13 +56449,6 @@
         ]
       },
       {
-        "word": "包含",
-        "definition": "里面有",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "包子",
         "definition": "有馅的馒头",
         "invalidChars": [
@@ -57009,8 +56460,7 @@
         "word": "包括",
         "definition": "包含",
         "invalidChars": [
-          "包",
-          "含"
+          "包"
         ]
       },
       {
@@ -57077,13 +56527,6 @@
         ]
       },
       {
-        "word": "区分",
-        "definition": "分出不同",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "医学",
         "definition": "医学",
         "invalidChars": [
@@ -57117,7 +56560,6 @@
         "word": "十足",
         "definition": "非常够",
         "invalidChars": [
-          "非",
           "常",
           "够"
         ]
@@ -57162,7 +56604,6 @@
         "word": "半",
         "definition": "二分之一",
         "invalidChars": [
-          "分",
           "之"
         ]
       },
@@ -57171,7 +56612,6 @@
         "definition": "晚上十二点；一夜的一半",
         "invalidChars": [
           "晚",
-          "点",
           "半"
         ]
       },
@@ -57208,8 +56648,7 @@
         "word": "单元",
         "definition": "学习或生活中的一个部分",
         "invalidChars": [
-          "习",
-          "分"
+          "习"
         ]
       },
       {
@@ -57225,13 +56664,6 @@
         "definition": "收钱给别人东西",
         "invalidChars": [
           "收"
-        ]
-      },
-      {
-        "word": "南部",
-        "definition": "南边的部分",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -57348,13 +56780,6 @@
         ]
       },
       {
-        "word": "卷",
-        "definition": "卷起来 / 卷好的东西 / 一个卷",
-        "invalidChars": [
-          "卷"
-        ]
-      },
-      {
         "word": "厂商",
         "definition": "做东西和卖东西的方",
         "invalidChars": [
@@ -57386,24 +56811,10 @@
         ]
       },
       {
-        "word": "厕所",
-        "definition": "大小便的地方",
-        "invalidChars": [
-          "便"
-        ]
-      },
-      {
         "word": "厘米",
         "definition": "(not used – use 度 or 长度)",
         "invalidChars": [
           "长"
-        ]
-      },
-      {
-        "word": "厚",
-        "definition": "薄的反面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -57446,18 +56857,17 @@
         ]
       },
       {
+        "word": "去年",
+        "definition": "今年的前一年",
+        "invalidChars": [
+          "今"
+        ]
+      },
+      {
         "word": "参与",
         "definition": "加入一起做",
         "invalidChars": [
           "入"
-        ]
-      },
-      {
-        "word": "参加",
-        "definition": "去一个活动，成为其中的一部分",
-        "invalidChars": [
-          "其",
-          "分"
         ]
       },
       {
@@ -57480,7 +56890,6 @@
         "word": "叉",
         "definition": "一头分成两三个尖的东西 / 分成两路",
         "invalidChars": [
-          "分",
           "尖"
         ]
       },
@@ -57497,7 +56906,6 @@
         "invalidChars": [
           "考",
           "试",
-          "分",
           "够"
         ]
       },
@@ -57515,13 +56923,6 @@
         "definition": "友情",
         "invalidChars": [
           "情"
-        ]
-      },
-      {
-        "word": "反复",
-        "definition": "做很多次",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -57587,9 +56988,7 @@
         "word": "发炎",
         "definition": "身体一部分红肿、疼",
         "invalidChars": [
-          "分",
-          "肿",
-          "疼"
+          "肿"
         ]
       },
       {
@@ -57625,6 +57024,7 @@
         "definition": "印好并卖书、报、钱",
         "invalidChars": [
           "印",
+          "并",
           "卖",
           "报"
         ]
@@ -57642,6 +57042,7 @@
         "word": "发起",
         "definition": "开始做并带动",
         "invalidChars": [
+          "并",
           "带"
         ]
       },
@@ -57687,8 +57088,7 @@
         "word": "受",
         "definition": "被影响",
         "invalidChars": [
-          "影",
-          "响"
+          "影"
         ]
       },
       {
@@ -57808,13 +57208,6 @@
         "definition": "可信任",
         "invalidChars": [
           "信"
-        ]
-      },
-      {
-        "word": "台",
-        "definition": "(classifier not used – use 个; noun: 高的平面)",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -58041,13 +57434,6 @@
         ]
       },
       {
-        "word": "后期",
-        "definition": "后面的时期",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "后来",
         "definition": "过去的一个时间之后",
         "invalidChars": [
@@ -58062,27 +57448,6 @@
         ]
       },
       {
-        "word": "后者",
-        "definition": "两个中后面的那个",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "后退",
-        "definition": "往后面走",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "后面",
-        "definition": "后面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "吐",
         "definition": "从胃里从嘴里出",
         "invalidChars": [
@@ -58093,8 +57458,7 @@
         "word": "向",
         "definition": "对着某个方向",
         "invalidChars": [
-          "着",
-          "某"
+          "着"
         ]
       },
       {
@@ -58113,17 +57477,9 @@
         ]
       },
       {
-        "word": "含有",
-        "definition": "含",
-        "invalidChars": [
-          "含"
-        ]
-      },
-      {
         "word": "含量",
         "definition": "含的量",
         "invalidChars": [
-          "含",
           "量"
         ]
       },
@@ -58172,7 +57528,6 @@
         "word": "呆",
         "definition": "脑子不转，反应慢",
         "invalidChars": [
-          "脑",
           "转"
         ]
       },
@@ -58180,7 +57535,6 @@
         "word": "告别",
         "definition": "分开时说再见",
         "invalidChars": [
-          "分",
           "见"
         ]
       },
@@ -58241,7 +57595,8 @@
         "word": "命运",
         "definition": "注定的未来",
         "invalidChars": [
-          "注"
+          "注",
+          "未"
         ]
       },
       {
@@ -58267,6 +57622,13 @@
         "invalidChars": [
           "专",
           "议"
+        ]
+      },
+      {
+        "word": "咱们",
+        "definition": "(use 我们)",
+        "invalidChars": [
+          "们"
         ]
       },
       {
@@ -58453,13 +57815,6 @@
         ]
       },
       {
-        "word": "啊",
-        "definition": "(not used in 简单话 – use 啊 optionally as interjection)",
-        "invalidChars": [
-          "啊"
-        ]
-      },
-      {
         "word": "啤酒",
         "definition": "有酒精的饮料，用麦做",
         "invalidChars": [
@@ -58548,8 +57903,7 @@
         "definition": "(verb: 回到原处; classifier: use 次 or 个)",
         "invalidChars": [
           "回",
-          "处",
-          "次"
+          "处"
         ]
       },
       {
@@ -58628,13 +57982,6 @@
         ]
       },
       {
-        "word": "团圆",
-        "definition": "分开的人又在一起",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "团结",
         "definition": "大家在一起一条心",
         "invalidChars": [
@@ -58662,7 +58009,6 @@
         "word": "围",
         "definition": "四面围住",
         "invalidChars": [
-          "面",
           "围"
         ]
       },
@@ -58755,7 +58101,6 @@
         "definition": "属于哪个国家的身份",
         "invalidChars": [
           "属",
-          "于",
           "份"
         ]
       },
@@ -58831,8 +58176,7 @@
         "definition": "包括在里面",
         "invalidChars": [
           "包",
-          "括",
-          "面"
+          "括"
         ]
       },
       {
@@ -58854,13 +58198,6 @@
         "definition": "在网上",
         "invalidChars": [
           "网"
-        ]
-      },
-      {
-        "word": "地下",
-        "definition": "地的下面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -58904,17 +58241,9 @@
         "word": "地方",
         "definition": "一个点或一片位置",
         "invalidChars": [
-          "点",
           "片",
           "位",
           "置"
-        ]
-      },
-      {
-        "word": "地点",
-        "definition": "一个地方的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -58935,13 +58264,6 @@
         ]
       },
       {
-        "word": "地面",
-        "definition": "地的上面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "场合",
         "definition": "一个时间、地方和人组成的情况",
         "invalidChars": [
@@ -58953,7 +58275,6 @@
         "word": "场地",
         "definition": "做某事的空地",
         "invalidChars": [
-          "某",
           "空"
         ]
       },
@@ -58962,8 +58283,7 @@
         "definition": "电影或生活中的一个画面",
         "invalidChars": [
           "影",
-          "画",
-          "面"
+          "画"
         ]
       },
       {
@@ -59057,8 +58377,7 @@
         "word": "培训",
         "definition": "教人学会做某工作",
         "invalidChars": [
-          "教",
-          "某"
+          "教"
         ]
       },
       {
@@ -59087,16 +58406,8 @@
         "word": "基础",
         "definition": "下面的支持的东西",
         "invalidChars": [
-          "面",
           "支",
           "持"
-        ]
-      },
-      {
-        "word": "基金",
-        "definition": "存起来做某事的钱",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -59133,8 +58444,7 @@
         "word": "填",
         "definition": "把空的地方补上",
         "invalidChars": [
-          "空",
-          "补"
+          "空"
         ]
       },
       {
@@ -59149,21 +58459,7 @@
         "word": "增进",
         "definition": "增加并变好",
         "invalidChars": [
-          "增"
-        ]
-      },
-      {
-        "word": "增长",
-        "definition": "增加",
-        "invalidChars": [
-          "增"
-        ]
-      },
-      {
-        "word": "士兵",
-        "definition": "兵",
-        "invalidChars": [
-          "兵"
+          "并"
         ]
       },
       {
@@ -59198,14 +58494,6 @@
         ]
       },
       {
-        "word": "处",
-        "definition": "处理",
-        "invalidChars": [
-          "处",
-          "理"
-        ]
-      },
-      {
         "word": "处于",
         "definition": "在…情况下",
         "invalidChars": [
@@ -59237,13 +58525,6 @@
         ]
       },
       {
-        "word": "复习",
-        "definition": "再学一次以前学过的东西",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
         "word": "复印",
         "definition": "用机器复制纸上的字图",
         "invalidChars": [
@@ -59255,7 +58536,6 @@
         "word": "复杂",
         "definition": "很多部分，不容易",
         "invalidChars": [
-          "分",
           "容",
           "易"
         ]
@@ -59302,7 +58582,6 @@
         "word": "外套",
         "definition": "外面穿的衣服",
         "invalidChars": [
-          "面",
           "穿"
         ]
       },
@@ -59318,16 +58597,8 @@
         "word": "外形",
         "definition": "外面的形状",
         "invalidChars": [
-          "面",
           "形",
           "状"
-        ]
-      },
-      {
-        "word": "外来",
-        "definition": "外面来的",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -59337,42 +58608,6 @@
           "姐",
           "妹",
           "儿"
-        ]
-      },
-      {
-        "word": "外界",
-        "definition": "外面的世界",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "外表",
-        "definition": "外面的样子",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "外观",
-        "definition": "外面看到的样子",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "外边",
-        "definition": "外面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "外部",
-        "definition": "外面的部分",
-        "invalidChars": [
-          "面",
-          "分"
         ]
       },
       {
@@ -59396,7 +58631,6 @@
         "definition": "亏了某人帮忙",
         "invalidChars": [
           "亏",
-          "某",
           "忙"
         ]
       },
@@ -59416,13 +58650,6 @@
         "definition": "有很多种本事",
         "invalidChars": [
           "种"
-        ]
-      },
-      {
-        "word": "多数",
-        "definition": "多的部分",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -59466,7 +58693,8 @@
         "word": "大众",
         "definition": "很多人，普通人们",
         "invalidChars": [
-          "普"
+          "普",
+          "们"
         ]
       },
       {
@@ -59474,13 +58702,6 @@
         "definition": "很多人参加的会",
         "invalidChars": [
           "参"
-        ]
-      },
-      {
-        "word": "大使",
-        "definition": "一个国家派到另一个国家的最重要代表",
-        "invalidChars": [
-          "派"
         ]
       },
       {
@@ -59494,16 +58715,8 @@
         "word": "大吃一惊",
         "definition": "非常非常意外",
         "invalidChars": [
-          "非",
           "常",
           "意"
-        ]
-      },
-      {
-        "word": "大地",
-        "definition": "地球表面的土地",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -59512,13 +58725,6 @@
         "invalidChars": [
           "规",
           "模"
-        ]
-      },
-      {
-        "word": "大多",
-        "definition": "大部分",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -59555,7 +58761,6 @@
         "word": "大师",
         "definition": "本事非常大的人",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -59622,7 +58827,6 @@
         "invalidChars": [
           "皇",
           "帝",
-          "面",
           "官"
         ]
       },
@@ -59638,8 +58842,7 @@
         "definition": "冬天穿的外面衣服",
         "invalidChars": [
           "冬",
-          "穿",
-          "面"
+          "穿"
         ]
       },
       {
@@ -59660,7 +58863,6 @@
         "word": "大都",
         "definition": "大部分情况",
         "invalidChars": [
-          "分",
           "情",
           "况"
         ]
@@ -59670,13 +58872,6 @@
         "definition": "很多的数量",
         "invalidChars": [
           "量"
-        ]
-      },
-      {
-        "word": "天上",
-        "definition": "天的上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -59756,8 +58951,7 @@
         "word": "失恋",
         "definition": "恋爱中分手了",
         "invalidChars": [
-          "恋",
-          "分"
+          "恋"
         ]
       },
       {
@@ -59773,20 +58967,6 @@
         "definition": "头上的细丝",
         "invalidChars": [
           "丝"
-        ]
-      },
-      {
-        "word": "头痛",
-        "definition": "头里面痛",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "头脑",
-        "definition": "脑子",
-        "invalidChars": [
-          "脑"
         ]
       },
       {
@@ -59917,6 +59097,13 @@
         ]
       },
       {
+        "word": "她们",
+        "definition": "她加们",
+        "invalidChars": [
+          "们"
+        ]
+      },
+      {
         "word": "好久",
         "definition": "长时间",
         "invalidChars": [
@@ -60005,7 +59192,6 @@
         "word": "妙",
         "definition": "非常好",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -60192,7 +59378,6 @@
         "word": "存放",
         "definition": "把东西放在某处",
         "invalidChars": [
-          "某",
           "处"
         ]
       },
@@ -60250,8 +59435,7 @@
         "word": "学分",
         "definition": "学习的分数",
         "invalidChars": [
-          "习",
-          "分"
+          "习"
         ]
       },
       {
@@ -60283,10 +59467,10 @@
         ]
       },
       {
-        "word": "学院",
-        "definition": "大学的一部分",
+        "word": "它们",
+        "definition": "它加们",
         "invalidChars": [
-          "分"
+          "们"
         ]
       },
       {
@@ -60337,8 +59521,7 @@
         "word": "完美",
         "definition": "很好，没有缺点",
         "invalidChars": [
-          "缺",
-          "点"
+          "缺"
         ]
       },
       {
@@ -60361,8 +59544,7 @@
         "definition": "政府方面",
         "invalidChars": [
           "政",
-          "府",
-          "面"
+          "府"
         ]
       },
       {
@@ -60530,6 +59712,7 @@
         "word": "宣传",
         "definition": "让人知道并相信",
         "invalidChars": [
+          "并",
           "相",
           "信"
         ]
@@ -60685,17 +59868,9 @@
         ]
       },
       {
-        "word": "对于",
-        "definition": "关于",
-        "invalidChars": [
-          "于"
-        ]
-      },
-      {
         "word": "对待",
         "definition": "对某人或某事用某种方式",
         "invalidChars": [
-          "某",
           "种",
           "式"
         ]
@@ -60825,7 +60000,8 @@
         "definition": "对别人有礼貌并看重",
         "invalidChars": [
           "礼",
-          "貌"
+          "貌",
+          "并"
         ]
       },
       {
@@ -60910,7 +60086,6 @@
         "word": "小麦",
         "definition": "做面粉的粮食",
         "invalidChars": [
-          "面",
           "粉",
           "粮"
         ]
@@ -60921,13 +60096,6 @@
         "invalidChars": [
           "岁",
           "轻"
-        ]
-      },
-      {
-        "word": "少数",
-        "definition": "不多的部分",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -60949,7 +60117,6 @@
         "word": "尝",
         "definition": "吃一点试试味道",
         "invalidChars": [
-          "点",
           "试"
         ]
       },
@@ -60958,13 +60125,6 @@
         "definition": "试一下",
         "invalidChars": [
           "试"
-        ]
-      },
-      {
-        "word": "就算",
-        "definition": "即使",
-        "invalidChars": [
-          "即"
         ]
       },
       {
@@ -61003,8 +60163,7 @@
         "word": "尺寸",
         "definition": "东西的大小长短",
         "invalidChars": [
-          "长",
-          "短"
+          "长"
         ]
       },
       {
@@ -61030,17 +60189,8 @@
       },
       {
         "word": "局",
-        "definition": "一场比赛",
-        "invalidChars": [
-          "场",
-          "赛"
-        ]
-      },
-      {
-        "word": "局",
         "definition": "管一个方面的地方 / 情况",
         "invalidChars": [
-          "面",
           "情",
           "况"
         ]
@@ -61074,22 +60224,7 @@
         "word": "层面",
         "definition": "一个方面或一层",
         "invalidChars": [
-          "面",
           "层"
-        ]
-      },
-      {
-        "word": "居民",
-        "definition": "住在某地方的人",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
-        "word": "届",
-        "definition": "(not used – use 个 or 次)",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -61098,8 +60233,7 @@
         "invalidChars": [
           "显",
           "示",
-          "像",
-          "面"
+          "像"
         ]
       },
       {
@@ -61113,15 +60247,7 @@
         "word": "属",
         "definition": "属于",
         "invalidChars": [
-          "属",
-          "于"
-        ]
-      },
-      {
-        "word": "属于",
-        "definition": "是…的部分",
-        "invalidChars": [
-          "分"
+          "属"
         ]
       },
       {
@@ -61171,7 +60297,6 @@
         "word": "崭新",
         "definition": "非常新",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -61251,7 +60376,6 @@
         "word": "巨大",
         "definition": "非常大",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -61341,22 +60465,13 @@
         "word": "带领",
         "definition": "走在前面让大家跟着",
         "invalidChars": [
-          "面",
           "着"
-        ]
-      },
-      {
-        "word": "常",
-        "definition": "很多次",
-        "invalidChars": [
-          "次"
         ]
       },
       {
         "word": "常常",
         "definition": "很多次，经常",
         "invalidChars": [
-          "次",
           "常"
         ]
       },
@@ -61395,13 +60510,6 @@
         "invalidChars": [
           "范",
           "围"
-        ]
-      },
-      {
-        "word": "干",
-        "definition": "做一件事或工作",
-        "invalidChars": [
-          "件"
         ]
       },
       {
@@ -61448,8 +60556,7 @@
         "word": "平均",
         "definition": "把总数分给每个人",
         "invalidChars": [
-          "总",
-          "分"
+          "总"
         ]
       },
       {
@@ -61465,15 +60572,7 @@
         "invalidChars": [
           "米",
           "乘",
-          "面",
           "积"
-        ]
-      },
-      {
-        "word": "平静",
-        "definition": "心里或水面不动",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -61502,6 +60601,7 @@
         "word": "并且",
         "definition": "并且",
         "invalidChars": [
+          "并",
           "且"
         ]
       },
@@ -61532,7 +60632,6 @@
         "word": "广播",
         "definition": "用无线电或网络放声音",
         "invalidChars": [
-          "无",
           "线",
           "网",
           "络",
@@ -61558,17 +60657,9 @@
         "word": "应对",
         "definition": "面对解决问题",
         "invalidChars": [
-          "面",
           "解",
           "决",
           "题"
-        ]
-      },
-      {
-        "word": "底下",
-        "definition": "下面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -61589,7 +60680,6 @@
         "word": "庞大",
         "definition": "非常大",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -61621,13 +60711,6 @@
         "definition": "变长",
         "invalidChars": [
           "长"
-        ]
-      },
-      {
-        "word": "延期",
-        "definition": "往后面推",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -61672,7 +60755,6 @@
         "word": "开会",
         "definition": "一群人聚在一起说话或做事",
         "invalidChars": [
-          "群",
           "聚"
         ]
       },
@@ -61699,13 +60781,6 @@
         ]
       },
       {
-        "word": "开头",
-        "definition": "开始 / 最前面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "开学",
         "definition": "学校开始上课",
         "invalidChars": [
@@ -61717,6 +60792,7 @@
         "word": "开展",
         "definition": "开始做并扩大",
         "invalidChars": [
+          "并",
           "扩"
         ]
       },
@@ -61753,8 +60829,7 @@
         "word": "异常",
         "definition": "不正常 / 非常",
         "invalidChars": [
-          "常",
-          "非"
+          "常"
         ]
       },
       {
@@ -61819,7 +60894,6 @@
         "word": "弥补",
         "definition": "补上不够的",
         "invalidChars": [
-          "补",
           "够"
         ]
       },
@@ -61864,18 +60938,10 @@
         ]
       },
       {
-        "word": "强迫",
-        "definition": "逼",
-        "invalidChars": [
-          "逼"
-        ]
-      },
-      {
         "word": "归",
         "definition": "回 / 由某人负责",
         "invalidChars": [
           "回",
-          "某",
           "负",
           "责"
         ]
@@ -61896,13 +60962,6 @@
         ]
       },
       {
-        "word": "当中",
-        "definition": "在……里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "当年",
         "definition": "那时的年份",
         "invalidChars": [
@@ -61913,16 +60972,8 @@
         "word": "当选",
         "definition": "投票后被选中",
         "invalidChars": [
-          "投",
           "票",
           "选"
-        ]
-      },
-      {
-        "word": "当面",
-        "definition": "两人面对面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -61970,13 +61021,6 @@
         "invalidChars": [
           "情",
           "展"
-        ]
-      },
-      {
-        "word": "形象",
-        "definition": "外面看到的样子",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -62078,23 +61122,14 @@
         "invalidChars": [
           "赛",
           "考",
-          "试",
-          "分"
+          "试"
         ]
       },
       {
         "word": "得意",
         "definition": "心里觉得好而高兴",
         "invalidChars": [
-          "觉",
-          "而"
-        ]
-      },
-      {
-        "word": "得知",
-        "definition": "听别人说或看到而知道",
-        "invalidChars": [
-          "而"
+          "觉"
         ]
       },
       {
@@ -62102,13 +61137,6 @@
         "definition": "转了又转",
         "invalidChars": [
           "转"
-        ]
-      },
-      {
-        "word": "心底",
-        "definition": "心里最里面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -62131,13 +61159,6 @@
         "definition": "心里觉得",
         "invalidChars": [
           "觉"
-        ]
-      },
-      {
-        "word": "心里",
-        "definition": "心的里面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -62184,13 +61205,6 @@
         "definition": "忙",
         "invalidChars": [
           "忙"
-        ]
-      },
-      {
-        "word": "快捷",
-        "definition": "又快又方便",
-        "invalidChars": [
-          "便"
         ]
       },
       {
@@ -62256,13 +61270,6 @@
         ]
       },
       {
-        "word": "思路",
-        "definition": "脑子里想的路",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
         "word": "急",
         "definition": "心里很赶，不能等",
         "invalidChars": [
@@ -62324,33 +61331,17 @@
         ]
       },
       {
-        "word": "性别",
-        "definition": "男女的分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "性格",
         "definition": "人的特点",
         "invalidChars": [
-          "特",
-          "点"
+          "特"
         ]
       },
       {
         "word": "性质",
         "definition": "根本的特点",
         "invalidChars": [
-          "特",
-          "点"
-        ]
-      },
-      {
-        "word": "总",
-        "definition": "每次都是一样",
-        "invalidChars": [
-          "次"
+          "特"
         ]
       },
       {
@@ -62394,15 +61385,7 @@
         "word": "总算",
         "definition": "终于",
         "invalidChars": [
-          "终",
-          "于"
-        ]
-      },
-      {
-        "word": "总结",
-        "definition": "把重要的点放在一起",
-        "invalidChars": [
-          "点"
+          "终"
         ]
       },
       {
@@ -62441,7 +61424,6 @@
         "word": "恐惧",
         "definition": "非常怕",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -62558,7 +61540,6 @@
         "word": "惊讶",
         "definition": "没想到而吃惊",
         "invalidChars": [
-          "而",
           "惊"
         ]
       },
@@ -62566,7 +61547,6 @@
         "word": "惩罚",
         "definition": "因为做错事而让人难受",
         "invalidChars": [
-          "而",
           "受"
         ]
       },
@@ -62664,8 +61644,7 @@
         "invalidChars": [
           "菌",
           "受",
-          "影",
-          "响"
+          "影"
         ]
       },
       {
@@ -62723,7 +61702,6 @@
         "word": "成",
         "definition": "十分之一",
         "invalidChars": [
-          "分",
           "之"
         ]
       },
@@ -62766,6 +61744,13 @@
         ]
       },
       {
+        "word": "我们",
+        "definition": "我加们",
+        "invalidChars": [
+          "们"
+        ]
+      },
+      {
         "word": "戒指",
         "definition": "戴在手指上的圈",
         "invalidChars": [
@@ -62778,20 +61763,6 @@
         "definition": "或者",
         "invalidChars": [
           "者"
-        ]
-      },
-      {
-        "word": "截至",
-        "definition": "到某个时间为止",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
-        "word": "户外",
-        "definition": "房子外面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -62821,13 +61792,6 @@
         "invalidChars": [
           "词",
           "件"
-        ]
-      },
-      {
-        "word": "扇",
-        "definition": "用扇子让风动",
-        "invalidChars": [
-          "扇"
         ]
       },
       {
@@ -62887,13 +61851,6 @@
         "definition": "戴在手上的看时间的表",
         "invalidChars": [
           "戴"
-        ]
-      },
-      {
-        "word": "才华",
-        "definition": "做某事的本事",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -62975,13 +61932,6 @@
         ]
       },
       {
-        "word": "打工",
-        "definition": "做短期的简单工作",
-        "invalidChars": [
-          "短"
-        ]
-      },
-      {
         "word": "打扫",
         "definition": "把脏的地方变干净",
         "invalidChars": [
@@ -62997,13 +61947,6 @@
         ]
       },
       {
-        "word": "打扰",
-        "definition": "让别人不方便",
-        "invalidChars": [
-          "便"
-        ]
-      },
-      {
         "word": "打折",
         "definition": "买东西少要钱",
         "invalidChars": [
@@ -63014,8 +61957,7 @@
         "word": "打招呼",
         "definition": "见面说“你好”",
         "invalidChars": [
-          "见",
-          "面"
+          "见"
         ]
       },
       {
@@ -63059,15 +62001,7 @@
         "word": "打雷",
         "definition": "天上发出很大的响声",
         "invalidChars": [
-          "响",
           "声"
-        ]
-      },
-      {
-        "word": "扔",
-        "definition": "用手把东西丢出去",
-        "invalidChars": [
-          "丢"
         ]
       },
       {
@@ -63125,7 +62059,6 @@
         "definition": "演戏中当某角色",
         "invalidChars": [
           "戏",
-          "某",
           "角"
         ]
       },
@@ -63167,6 +62100,7 @@
         "invalidChars": [
           "接",
           "受",
+          "并",
           "负",
           "责"
         ]
@@ -63210,13 +62144,6 @@
         ]
       },
       {
-        "word": "投诉",
-        "definition": "对上面说不好",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "投资",
         "definition": "把钱放进去想赚",
         "invalidChars": [
@@ -63228,13 +62155,6 @@
         "definition": "断",
         "invalidChars": [
           "断"
-        ]
-      },
-      {
-        "word": "抛",
-        "definition": "扔",
-        "invalidChars": [
-          "扔"
         ]
       },
       {
@@ -63387,17 +62307,9 @@
         ]
       },
       {
-        "word": "抽象",
-        "definition": "不是具体的东西，要用脑子想",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
         "word": "担任",
         "definition": "做某个职位",
         "invalidChars": [
-          "某",
           "职",
           "位"
         ]
@@ -63413,7 +62325,6 @@
         "word": "拆",
         "definition": "把东西分开成小件",
         "invalidChars": [
-          "分",
           "件"
         ]
       },
@@ -63598,7 +62509,6 @@
         "definition": "按某规则做",
         "invalidChars": [
           "按",
-          "某",
           "规",
           "则"
         ]
@@ -63658,7 +62568,6 @@
         "word": "挺",
         "definition": "(use 很 or 非常 for adverb; verb sense: 忍着)",
         "invalidChars": [
-          "非",
           "常",
           "忍",
           "着"
@@ -63741,6 +62650,13 @@
         ]
       },
       {
+        "word": "掌握",
+        "definition": "知道并会",
+        "invalidChars": [
+          "并"
+        ]
+      },
+      {
         "word": "掏",
         "definition": "把手伸进去拿",
         "invalidChars": [
@@ -63814,6 +62730,7 @@
         "invalidChars": [
           "迎",
           "客",
+          "并",
           "排"
         ]
       },
@@ -63947,13 +62864,6 @@
         "definition": "问问题",
         "invalidChars": [
           "题"
-        ]
-      },
-      {
-        "word": "插",
-        "definition": "把一样东西放进另一样里面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -64423,14 +63333,6 @@
         ]
       },
       {
-        "word": "散",
-        "definition": "分开到各处",
-        "invalidChars": [
-          "分",
-          "处"
-        ]
-      },
-      {
         "word": "散文",
         "definition": "不押韵的文章",
         "invalidChars": [
@@ -64477,13 +63379,6 @@
         ]
       },
       {
-        "word": "整体",
-        "definition": "全部的部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "整理",
         "definition": "放整齐",
         "invalidChars": [
@@ -64502,7 +63397,6 @@
         "word": "文件",
         "definition": "写字的纸或电脑文件",
         "invalidChars": [
-          "脑",
           "件"
         ]
       },
@@ -64533,7 +63427,6 @@
         "word": "文档",
         "definition": "电脑里的文件",
         "invalidChars": [
-          "脑",
           "件"
         ]
       },
@@ -64570,24 +63463,9 @@
       },
       {
         "word": "料",
-        "definition": "材料",
-        "invalidChars": [
-          "材",
-          "料"
-        ]
-      },
-      {
-        "word": "料",
         "definition": "猜",
         "invalidChars": [
           "猜"
-        ]
-      },
-      {
-        "word": "断",
-        "definition": "分开，不连",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -64631,9 +63509,7 @@
         "word": "方便面",
         "definition": "快煮的面，方便吃",
         "invalidChars": [
-          "煮",
-          "面",
-          "便"
+          "煮"
         ]
       },
       {
@@ -64641,13 +63517,6 @@
         "definition": "做事的样式",
         "invalidChars": [
           "式"
-        ]
-      },
-      {
-        "word": "方方面面",
-        "definition": "每一个方面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -64662,8 +63531,7 @@
         "word": "方面",
         "definition": "一个角度看的部分",
         "invalidChars": [
-          "角",
-          "分"
+          "角"
         ]
       },
       {
@@ -64785,13 +63653,6 @@
         ]
       },
       {
-        "word": "早上",
-        "definition": "太阳出来到八九点",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
         "word": "早晚",
         "definition": "早上和晚上；总有一天",
         "invalidChars": [
@@ -64813,13 +63674,6 @@
         "invalidChars": [
           "段",
           "长"
-        ]
-      },
-      {
-        "word": "时刻",
-        "definition": "很短的时间",
-        "invalidChars": [
-          "短"
         ]
       },
       {
@@ -64865,6 +63719,20 @@
         ]
       },
       {
+        "word": "明天",
+        "definition": "今天的下一天",
+        "invalidChars": [
+          "今"
+        ]
+      },
+      {
+        "word": "明年",
+        "definition": "今年的下一年",
+        "invalidChars": [
+          "今"
+        ]
+      },
+      {
         "word": "明星",
         "definition": "有名的艺人",
         "invalidChars": [
@@ -64902,6 +63770,13 @@
         ]
       },
       {
+        "word": "昨天",
+        "definition": "今天的头一天",
+        "invalidChars": [
+          "今"
+        ]
+      },
+      {
         "word": "显然",
         "definition": "很容易看出",
         "invalidChars": [
@@ -64920,7 +63795,6 @@
         "word": "显著",
         "definition": "非常明显",
         "invalidChars": [
-          "非",
           "常",
           "显"
         ]
@@ -64960,7 +63834,6 @@
         "definition": "晚上分别时的客气话",
         "invalidChars": [
           "晚",
-          "分",
           "客"
         ]
       },
@@ -65010,15 +63883,7 @@
         "word": "景象",
         "definition": "看到的画面",
         "invalidChars": [
-          "画",
-          "面"
-        ]
-      },
-      {
-        "word": "智力",
-        "definition": "脑子",
-        "invalidChars": [
-          "脑"
+          "画"
         ]
       },
       {
@@ -65034,20 +63899,6 @@
         "invalidChars": [
           "思",
           "考"
-        ]
-      },
-      {
-        "word": "晾",
-        "definition": "放在外面让干",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "暂时",
-        "definition": "短时间",
-        "invalidChars": [
-          "短"
         ]
       },
       {
@@ -65100,13 +63951,6 @@
         "definition": "换",
         "invalidChars": [
           "换"
-        ]
-      },
-      {
-        "word": "最后",
-        "definition": "时间上的最后面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -65164,13 +64008,6 @@
         "definition": "不用化肥的",
         "invalidChars": [
           "肥"
-        ]
-      },
-      {
-        "word": "有点儿",
-        "definition": "有一点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -65291,15 +64128,7 @@
         "word": "本质",
         "definition": "根本的特点",
         "invalidChars": [
-          "特",
-          "点"
-        ]
-      },
-      {
-        "word": "机会",
-        "definition": "做某事的好时间",
-        "invalidChars": [
-          "某"
+          "特"
         ]
       },
       {
@@ -65352,13 +64181,6 @@
         "definition": "混在一起",
         "invalidChars": [
           "混"
-        ]
-      },
-      {
-        "word": "权利",
-        "definition": "有权做某事",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -65416,13 +64238,6 @@
         ]
       },
       {
-        "word": "来自",
-        "definition": "从某个地方来",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
         "word": "杯子",
         "definition": "用来装水喝的东西",
         "invalidChars": [
@@ -65433,7 +64248,6 @@
         "word": "杰出",
         "definition": "非常突出的好",
         "invalidChars": [
-          "非",
           "常",
           "突"
         ]
@@ -65442,7 +64256,6 @@
         "word": "极",
         "definition": "很，非常",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -65450,7 +64263,6 @@
         "word": "极为",
         "definition": "非常",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -65458,7 +64270,6 @@
         "word": "极其",
         "definition": "非常",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -65466,7 +64277,6 @@
         "word": "极端",
         "definition": "最头上的 / 非常非常 / 很偏的",
         "invalidChars": [
-          "非",
           "常",
           "偏"
         ]
@@ -65544,7 +64354,6 @@
         "definition": "挡住或分开的杆 / 报纸的一区",
         "invalidChars": [
           "挡",
-          "分",
           "杆",
           "报"
         ]
@@ -65560,8 +64369,7 @@
         "word": "校园",
         "definition": "学校的里面地方",
         "invalidChars": [
-          "校",
-          "面"
+          "校"
         ]
       },
       {
@@ -65857,6 +64665,7 @@
         "word": "欣赏",
         "definition": "看并且喜欢",
         "invalidChars": [
+          "并",
           "且"
         ]
       },
@@ -65963,20 +64772,6 @@
         ]
       },
       {
-        "word": "正面",
-        "definition": "前面 / 好的",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "此次",
-        "definition": "这一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
         "word": "武器",
         "definition": "打仗用的东西",
         "invalidChars": [
@@ -65989,13 +64784,6 @@
         "invalidChars": [
           "斗",
           "技"
-        ]
-      },
-      {
-        "word": "残疾",
-        "definition": "身体有一部分不能用",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -66059,17 +64847,9 @@
         ]
       },
       {
-        "word": "比赛",
-        "definition": "争胜的活动",
-        "invalidChars": [
-          "胜"
-        ]
-      },
-      {
         "word": "比重",
         "definition": "一部分占整体的多少",
         "invalidChars": [
-          "分",
           "占"
         ]
       },
@@ -66119,18 +64899,10 @@
         ]
       },
       {
-        "word": "毫不",
-        "definition": "一点也不",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
         "word": "毫升",
         "definition": "一升的千分之一",
         "invalidChars": [
           "升",
-          "分",
           "之"
         ]
       },
@@ -66139,7 +64911,6 @@
         "definition": "一米的千分之一",
         "invalidChars": [
           "米",
-          "分",
           "之"
         ]
       },
@@ -66161,8 +64932,7 @@
         "word": "民族",
         "definition": "有共同文化的一群人",
         "invalidChars": [
-          "共",
-          "群"
+          "共"
         ]
       },
       {
@@ -66228,24 +64998,10 @@
         ]
       },
       {
-        "word": "水分",
-        "definition": "水的一部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "水平",
         "definition": "好的程度",
         "invalidChars": [
           "程"
-        ]
-      },
-      {
-        "word": "水库",
-        "definition": "存水的大池",
-        "invalidChars": [
-          "池"
         ]
       },
       {
@@ -66268,13 +65024,6 @@
         "invalidChars": [
           "长",
           "稻"
-        ]
-      },
-      {
-        "word": "水面",
-        "definition": "水的上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -66305,8 +65054,7 @@
         "invalidChars": [
           "情",
           "告",
-          "诉",
-          "面"
+          "诉"
         ]
       },
       {
@@ -66457,7 +65205,6 @@
         "invalidChars": [
           "炸",
           "长",
-          "面",
           "条"
         ]
       },
@@ -66650,14 +65397,6 @@
         ]
       },
       {
-        "word": "浏览",
-        "definition": "随便看",
-        "invalidChars": [
-          "随",
-          "便"
-        ]
-      },
-      {
         "word": "浏览器",
         "definition": "看网页的软件",
         "invalidChars": [
@@ -66710,27 +65449,6 @@
           "检",
           "查",
           "口"
-        ]
-      },
-      {
-        "word": "海域",
-        "definition": "海的一部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
-        "word": "海拔",
-        "definition": "比海平面高多少",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "海面",
-        "definition": "海的上表面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -66840,13 +65558,6 @@
         ]
       },
       {
-        "word": "深入",
-        "definition": "进到里面很深",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "深刻",
         "definition": "很深，很深入",
         "invalidChars": [
@@ -66872,7 +65583,6 @@
         "definition": "影响很久",
         "invalidChars": [
           "影",
-          "响",
           "久"
         ]
       },
@@ -66880,7 +65590,6 @@
         "word": "混",
         "definition": "分不清 / 乱",
         "invalidChars": [
-          "分",
           "乱"
         ]
       },
@@ -66938,16 +65647,8 @@
         "word": "清醒",
         "definition": "脑子清楚不迷糊 / 脑子变清楚",
         "invalidChars": [
-          "脑",
           "迷",
           "糊"
-        ]
-      },
-      {
-        "word": "渐渐",
-        "definition": "慢慢地，一点一点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -66969,7 +65670,6 @@
         "word": "渴望",
         "definition": "非常想",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -67030,7 +65730,6 @@
         "word": "滴",
         "definition": "一点一点流下来 / 一小点液体",
         "invalidChars": [
-          "点",
           "流",
           "液"
         ]
@@ -67156,8 +65855,7 @@
         "word": "灯笼",
         "definition": "纸或布做的灯，挂在外面",
         "invalidChars": [
-          "挂",
-          "面"
+          "挂"
         ]
       },
       {
@@ -67185,7 +65883,6 @@
         "word": "炎热",
         "definition": "非常热",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -67216,24 +65913,9 @@
         ]
       },
       {
-        "word": "炸",
-        "definition": "用油煮",
-        "invalidChars": [
-          "煮"
-        ]
-      },
-      {
-        "word": "点",
-        "definition": "(verb: 让火着起来；noun: 小圆)",
-        "invalidChars": [
-          "着"
-        ]
-      },
-      {
         "word": "点击",
         "definition": "用手指在电脑或手机上按一下",
         "invalidChars": [
-          "脑",
           "按"
         ]
       },
@@ -67297,13 +65979,6 @@
         ]
       },
       {
-        "word": "烫",
-        "definition": "热到让人疼 / 很热",
-        "invalidChars": [
-          "疼"
-        ]
-      },
-      {
         "word": "热心",
         "definition": "心里很愿意帮人",
         "invalidChars": [
@@ -67335,7 +66010,6 @@
         "word": "热爱",
         "definition": "非常爱",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -67359,7 +66033,6 @@
         "definition": "光聚在一起的点 / 大家最关注的地方",
         "invalidChars": [
           "聚",
-          "点",
           "注"
         ]
       },
@@ -67497,20 +66170,6 @@
         "definition": "父亲",
         "invalidChars": [
           "父"
-        ]
-      },
-      {
-        "word": "片刻",
-        "definition": "很短时间",
-        "invalidChars": [
-          "短"
-        ]
-      },
-      {
-        "word": "片面",
-        "definition": "只看一面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -67682,8 +66341,7 @@
         "invalidChars": [
           "律",
           "规",
-          "则",
-          "允"
+          "则"
         ]
       },
       {
@@ -67719,8 +66377,7 @@
         "word": "独特",
         "definition": "很特别，只此一家",
         "invalidChars": [
-          "特",
-          "此"
+          "特"
         ]
       },
       {
@@ -67824,13 +66481,6 @@
         ]
       },
       {
-        "word": "环节",
-        "definition": "整体中的一个部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "现场",
         "definition": "事情发生的地方",
         "invalidChars": [
@@ -67920,13 +66570,6 @@
         ]
       },
       {
-        "word": "理性",
-        "definition": "用脑子想不是用心 / 脑子想的能力",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
         "word": "理想",
         "definition": "心里想的最好情况",
         "invalidChars": [
@@ -67938,7 +66581,6 @@
         "word": "理由",
         "definition": "为什么做某事的道理",
         "invalidChars": [
-          "某",
           "理"
         ]
       },
@@ -67946,7 +66588,6 @@
         "word": "理论",
         "definition": "关于事物道理的系统想法",
         "invalidChars": [
-          "于",
           "理",
           "统"
         ]
@@ -68119,13 +66760,6 @@
         ]
       },
       {
-        "word": "电子版",
-        "definition": "电脑或手机上的版本",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
         "word": "电影",
         "definition": "动的图，讲故事",
         "invalidChars": [
@@ -68171,13 +66805,6 @@
           "视",
           "节",
           "目"
-        ]
-      },
-      {
-        "word": "电话",
-        "definition": "用电远距离说话的东西",
-        "invalidChars": [
-          "距"
         ]
       },
       {
@@ -68236,13 +66863,6 @@
         "definition": "留话给别人",
         "invalidChars": [
           "留"
-        ]
-      },
-      {
-        "word": "番",
-        "definition": "一次动作",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -68326,7 +66946,6 @@
         "definition": "进入电脑或网站",
         "invalidChars": [
           "入",
-          "脑",
           "网",
           "站"
         ]
@@ -68360,7 +66979,6 @@
         "word": "百分点",
         "definition": "百分之一",
         "invalidChars": [
-          "分",
           "之"
         ]
       },
@@ -68385,7 +67003,6 @@
         "word": "皮",
         "definition": "外面的皮 / 皮做的",
         "invalidChars": [
-          "面",
           "皮"
         ]
       },
@@ -68393,7 +67010,6 @@
         "word": "皮肤",
         "definition": "身体外面的皮",
         "invalidChars": [
-          "面",
           "皮"
         ]
       },
@@ -68425,7 +67041,8 @@
         "word": "监测",
         "definition": "一直看着并记",
         "invalidChars": [
-          "着"
+          "着",
+          "并"
         ]
       },
       {
@@ -68475,13 +67092,6 @@
         ]
       },
       {
-        "word": "目录",
-        "definition": "书前面的表",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "目标",
         "definition": "想要达到的地方或程度",
         "invalidChars": [
@@ -68494,13 +67104,6 @@
         "definition": "眼睛看不见的人",
         "invalidChars": [
           "见"
-        ]
-      },
-      {
-        "word": "直到",
-        "definition": "一直到某个时间",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -68531,14 +67134,6 @@
         "invalidChars": [
           "照",
           "片"
-        ]
-      },
-      {
-        "word": "相对",
-        "definition": "面对面；不是绝对",
-        "invalidChars": [
-          "面",
-          "绝"
         ]
       },
       {
@@ -68591,7 +67186,6 @@
         "word": "眉毛",
         "definition": "眼睛上面的毛",
         "invalidChars": [
-          "面",
           "毛"
         ]
       },
@@ -68662,13 +67256,6 @@
         ]
       },
       {
-        "word": "眼前",
-        "definition": "眼睛前面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "眼泪",
         "definition": "眼泪",
         "invalidChars": [
@@ -68712,13 +67299,6 @@
         ]
       },
       {
-        "word": "瞬间",
-        "definition": "很短很短的时间",
-        "invalidChars": [
-          "短"
-        ]
-      },
-      {
         "word": "知名",
         "definition": "有名的",
         "invalidChars": [
@@ -68726,24 +67306,10 @@
         ]
       },
       {
-        "word": "短",
-        "definition": "长度不大",
-        "invalidChars": [
-          "长"
-        ]
-      },
-      {
         "word": "短信",
         "definition": "手机上写的小信",
         "invalidChars": [
           "信"
-        ]
-      },
-      {
-        "word": "短期",
-        "definition": "短的时间",
-        "invalidChars": [
-          "短"
         ]
       },
       {
@@ -68757,7 +67323,6 @@
         "word": "短裤",
         "definition": "腿短的裤子",
         "invalidChars": [
-          "短",
           "裤"
         ]
       },
@@ -68828,14 +67393,6 @@
         ]
       },
       {
-        "word": "硬件",
-        "definition": "电脑的硬部分",
-        "invalidChars": [
-          "脑",
-          "分"
-        ]
-      },
-      {
         "word": "确认",
         "definition": "确认",
         "invalidChars": [
@@ -68882,6 +67439,7 @@
         "word": "社",
         "definition": "人们一起的组织",
         "invalidChars": [
+          "们",
           "织"
         ]
       },
@@ -68923,8 +67481,7 @@
         "definition": "夫妻分开",
         "invalidChars": [
           "夫",
-          "妻",
-          "分"
+          "妻"
         ]
       },
       {
@@ -69029,13 +67586,6 @@
         ]
       },
       {
-        "word": "积累",
-        "definition": "一点点存起来变多",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
         "word": "称2",
         "definition": "量重量",
         "invalidChars": [
@@ -69074,13 +67624,6 @@
         ]
       },
       {
-        "word": "稍",
-        "definition": "一点点",
-        "invalidChars": [
-          "点"
-        ]
-      },
-      {
         "word": "稍微",
         "definition": "同“稍”",
         "invalidChars": [
@@ -69116,13 +67659,6 @@
         "definition": "有时间；空的",
         "invalidChars": [
           "空"
-        ]
-      },
-      {
-        "word": "空中",
-        "definition": "天上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -69172,7 +67708,6 @@
         "word": "窗台",
         "definition": "窗下面的小平台",
         "invalidChars": [
-          "面",
           "台"
         ]
       },
@@ -69201,13 +67736,6 @@
       },
       {
         "word": "站",
-        "definition": "(verb: 脚立在地上； noun: 停车的地方)",
-        "invalidChars": [
-          "立"
-        ]
-      },
-      {
-        "word": "站",
         "definition": "(verb: 脚立在地上；noun: 车停的地方)",
         "invalidChars": [
           "立"
@@ -69219,13 +67747,6 @@
         "invalidChars": [
           "站",
           "台"
-        ]
-      },
-      {
-        "word": "竞争",
-        "definition": "争胜",
-        "invalidChars": [
-          "胜"
         ]
       },
       {
@@ -69277,24 +67798,9 @@
         "word": "符合",
         "definition": "与规则或要求一样",
         "invalidChars": [
-          "与",
           "规",
           "则",
           "求"
-        ]
-      },
-      {
-        "word": "笨",
-        "definition": "脑子不好用",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
-        "word": "等到",
-        "definition": "一直等到某个时间",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -69481,7 +67987,6 @@
         "word": "篮球",
         "definition": "投筐的球",
         "invalidChars": [
-          "投",
           "筐"
         ]
       },
@@ -69520,13 +68025,6 @@
         "definition": "粉 / 粉色",
         "invalidChars": [
           "粉"
-        ]
-      },
-      {
-        "word": "粗",
-        "definition": "不细，表面不平",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -69578,7 +68076,6 @@
         "word": "精确",
         "definition": "一点不差",
         "invalidChars": [
-          "点",
           "差"
         ]
       },
@@ -69586,7 +68083,6 @@
         "word": "精致",
         "definition": "做得非常细",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -69594,7 +68090,6 @@
         "word": "精通",
         "definition": "非常懂",
         "invalidChars": [
-          "非",
           "常",
           "懂"
         ]
@@ -69622,15 +68117,6 @@
       },
       {
         "word": "系",
-        "definition": "用绳或带子捆",
-        "invalidChars": [
-          "绳",
-          "带",
-          "捆"
-        ]
-      },
-      {
-        "word": "系",
         "definition": "学校里的一个部门",
         "invalidChars": [
           "校"
@@ -69641,13 +68127,6 @@
         "definition": "一个一个连着",
         "invalidChars": [
           "着"
-        ]
-      },
-      {
-        "word": "系统",
-        "definition": "多个部分一起工作",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -69701,8 +68180,7 @@
         "definition": "约了见面",
         "invalidChars": [
           "约",
-          "见",
-          "面"
+          "见"
         ]
       },
       {
@@ -69787,13 +68265,6 @@
         ]
       },
       {
-        "word": "练",
-        "definition": "做很多次来学好",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
         "word": "练习",
         "definition": "同“练”",
         "invalidChars": [
@@ -69828,15 +68299,7 @@
         "word": "细致",
         "definition": "做得非常细",
         "invalidChars": [
-          "非",
           "常"
-        ]
-      },
-      {
-        "word": "细节",
-        "definition": "小的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -69861,13 +68324,6 @@
         "invalidChars": [
           "买",
           "卖"
-        ]
-      },
-      {
-        "word": "经常",
-        "definition": "很多次",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -69923,8 +68379,7 @@
         "definition": "最后收尾 / 最后的部分",
         "invalidChars": [
           "收",
-          "尾",
-          "分"
+          "尾"
         ]
       },
       {
@@ -69932,13 +68387,6 @@
         "definition": "东西的组成方式",
         "invalidChars": [
           "式"
-        ]
-      },
-      {
-        "word": "结果",
-        "definition": "事情的最后样子",
-        "invalidChars": [
-          "情"
         ]
       },
       {
@@ -70045,15 +68493,7 @@
         "definition": "让坏的情况变好一点",
         "invalidChars": [
           "情",
-          "况",
-          "点"
-        ]
-      },
-      {
-        "word": "缩短",
-        "definition": "变短",
-        "invalidChars": [
-          "短"
+          "况"
         ]
       },
       {
@@ -70136,7 +68576,6 @@
         "definition": "网；电脑之间连的系统",
         "invalidChars": [
           "网",
-          "脑",
           "之",
           "统"
         ]
@@ -70153,8 +68592,7 @@
         "word": "网页",
         "definition": "网上的一面",
         "invalidChars": [
-          "网",
-          "面"
+          "网"
         ]
       },
       {
@@ -70208,13 +68646,6 @@
         ]
       },
       {
-        "word": "群体",
-        "definition": "一群人或动物",
-        "invalidChars": [
-          "群"
-        ]
-      },
-      {
         "word": "羽毛球",
         "definition": "用拍子打带羽毛的球的运动",
         "invalidChars": [
@@ -70228,16 +68659,8 @@
         "word": "羽绒服",
         "definition": "里面是鸭毛的衣服",
         "invalidChars": [
-          "面",
           "鸭",
           "毛"
-        ]
-      },
-      {
-        "word": "翅膀",
-        "definition": "鸟或飞机飞的部分",
-        "invalidChars": [
-          "分"
         ]
       },
       {
@@ -70358,6 +68781,7 @@
         "word": "考察",
         "definition": "去看并研究",
         "invalidChars": [
+          "并",
           "研",
           "究"
         ]
@@ -70419,21 +68843,6 @@
         ]
       },
       {
-        "word": "耽误",
-        "definition": "因为某事让时间白白过去",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
-        "word": "聊",
-        "definition": "随便说话",
-        "invalidChars": [
-          "随",
-          "便"
-        ]
-      },
-      {
         "word": "聊天儿",
         "definition": "聊",
         "invalidChars": [
@@ -70482,7 +68891,6 @@
         "word": "联网",
         "definition": "把电脑连上网",
         "invalidChars": [
-          "脑",
           "网"
         ]
       },
@@ -70621,32 +69029,10 @@
         ]
       },
       {
-        "word": "背后",
-        "definition": "后面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "背心",
         "definition": "无袖上衣",
         "invalidChars": [
-          "无",
           "袖"
-        ]
-      },
-      {
-        "word": "背景",
-        "definition": "后面的环境",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "胜利",
-        "definition": "胜",
-        "invalidChars": [
-          "胜"
         ]
       },
       {
@@ -70668,7 +69054,6 @@
         "word": "胳膊",
         "definition": "身体的一部分，连接手和肩",
         "invalidChars": [
-          "分",
           "接",
           "肩"
         ]
@@ -70687,13 +69072,6 @@
         "definition": "粘东西的水",
         "invalidChars": [
           "粘"
-        ]
-      },
-      {
-        "word": "胸",
-        "definition": "身体前面的上部",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -70726,13 +69104,6 @@
         "definition": "有脏东西，不干净",
         "invalidChars": [
           "脏"
-        ]
-      },
-      {
-        "word": "脑子",
-        "definition": "脑",
-        "invalidChars": [
-          "脑"
         ]
       },
       {
@@ -70869,13 +69240,6 @@
         ]
       },
       {
-        "word": "航班",
-        "definition": "飞机飞的一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
         "word": "艰苦",
         "definition": "很难很苦",
         "invalidChars": [
@@ -70933,6 +69297,7 @@
           "特",
           "殊",
           "日",
+          "们",
           "纪",
           "念"
         ]
@@ -71078,25 +69443,9 @@
       },
       {
         "word": "落",
-        "definition": "从高处下到低处",
-        "invalidChars": [
-          "处",
-          "低"
-        ]
-      },
-      {
-        "word": "落",
         "definition": "落在后面",
         "invalidChars": [
-          "落",
-          "面"
-        ]
-      },
-      {
-        "word": "落后",
-        "definition": "在后面 / 不如别人",
-        "invalidChars": [
-          "面"
+          "落"
         ]
       },
       {
@@ -71165,8 +69514,7 @@
         "definition": "长条无脚的爬行动物",
         "invalidChars": [
           "长",
-          "条",
-          "无"
+          "条"
         ]
       },
       {
@@ -71182,10 +69530,7 @@
         "word": "蛋糕",
         "definition": "甜的、软的、用鸡蛋和面做的食物",
         "invalidChars": [
-          "甜",
-          "鸡",
-          "蛋",
-          "面"
+          "甜"
         ]
       },
       {
@@ -71212,14 +69557,7 @@
         "definition": "进入并成为一部分",
         "invalidChars": [
           "入",
-          "分"
-        ]
-      },
-      {
-        "word": "融合",
-        "definition": "合在一起分不开",
-        "invalidChars": [
-          "分"
+          "并"
         ]
       },
       {
@@ -71272,7 +69610,6 @@
         "word": "补偿",
         "definition": "给钱补损失",
         "invalidChars": [
-          "补",
           "损",
           "失"
         ]
@@ -71281,8 +69618,7 @@
         "word": "补课",
         "definition": "把没上的课补上",
         "invalidChars": [
-          "课",
-          "补"
+          "课"
         ]
       },
       {
@@ -71293,13 +69629,6 @@
           "格",
           "信",
           "息"
-        ]
-      },
-      {
-        "word": "表面",
-        "definition": "东西的外面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -71323,8 +69652,7 @@
         "invalidChars": [
           "盖",
           "胳",
-          "膊",
-          "分"
+          "膊"
         ]
       },
       {
@@ -71353,7 +69681,6 @@
         "word": "被迫",
         "definition": "被逼着做",
         "invalidChars": [
-          "逼",
           "着"
         ]
       },
@@ -71425,24 +69752,10 @@
         ]
       },
       {
-        "word": "西部",
-        "definition": "西边的部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "要么",
         "definition": "或者",
         "invalidChars": [
           "者"
-        ]
-      },
-      {
-        "word": "要点",
-        "definition": "最重要的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -71486,6 +69799,7 @@
         "word": "观赏",
         "definition": "看并欣赏",
         "invalidChars": [
+          "并",
           "欣",
           "赏"
         ]
@@ -71590,7 +69904,6 @@
         "word": "角落",
         "definition": "两面墙相交的里面",
         "invalidChars": [
-          "面",
           "相",
           "交"
         ]
@@ -71626,7 +69939,6 @@
         "word": "解读",
         "definition": "分析理解",
         "invalidChars": [
-          "分",
           "析",
           "理",
           "解"
@@ -71728,14 +70040,6 @@
         "definition": "认为就是",
         "invalidChars": [
           "认"
-        ]
-      },
-      {
-        "word": "认真",
-        "definition": "用心做，不随便",
-        "invalidChars": [
-          "随",
-          "便"
         ]
       },
       {
@@ -71854,7 +70158,8 @@
         "word": "访谈",
         "definition": "问人问题并听他说",
         "invalidChars": [
-          "题"
+          "题",
+          "并"
         ]
       },
       {
@@ -72130,6 +70435,13 @@
         ]
       },
       {
+        "word": "读",
+        "definition": "看字并明白",
+        "invalidChars": [
+          "并"
+        ]
+      },
+      {
         "word": "读书",
         "definition": "读书",
         "invalidChars": [
@@ -72194,16 +70506,6 @@
         "invalidChars": [
           "研",
           "究"
-        ]
-      },
-      {
-        "word": "调",
-        "definition": "换地方；声音的高低",
-        "invalidChars": [
-          "换",
-          "声",
-          "音",
-          "低"
         ]
       },
       {
@@ -72303,6 +70605,7 @@
         "definition": "管一件事并对结果负责",
         "invalidChars": [
           "件",
+          "并",
           "负",
           "责"
         ]
@@ -72313,13 +70616,6 @@
         "invalidChars": [
           "负",
           "责"
-        ]
-      },
-      {
-        "word": "负面",
-        "definition": "不好的方面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -72416,15 +70712,13 @@
         "definition": "把一张东西粘在另一上面",
         "invalidChars": [
           "张",
-          "粘",
-          "面"
+          "粘"
         ]
       },
       {
         "word": "贵",
         "definition": "钱多，不便宜",
         "invalidChars": [
-          "便",
           "宜"
         ]
       },
@@ -72463,7 +70757,6 @@
         "word": "资格",
         "definition": "做某事的条件",
         "invalidChars": [
-          "某",
           "条",
           "件"
         ]
@@ -72488,7 +70781,6 @@
         "word": "赔",
         "definition": "给钱补别人的损失",
         "invalidChars": [
-          "补",
           "损",
           "失"
         ]
@@ -72565,13 +70857,6 @@
         ]
       },
       {
-        "word": "赶上",
-        "definition": "追到",
-        "invalidChars": [
-          "追"
-        ]
-      },
-      {
         "word": "赶快",
         "definition": "同“赶紧”",
         "invalidChars": [
@@ -72583,20 +70868,6 @@
         "definition": "从哪儿开始 / 开始的地方",
         "invalidChars": [
           "儿"
-        ]
-      },
-      {
-        "word": "起飞",
-        "definition": "(飞机或鸟)从地面开始向上飞",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "趁",
-        "definition": "在好时间做某事",
-        "invalidChars": [
-          "某"
         ]
       },
       {
@@ -72624,24 +70895,10 @@
         ]
       },
       {
-        "word": "超越",
-        "definition": "跑到别人前面或比原来好",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "超速",
         "definition": "开得比规定快",
         "invalidChars": [
           "规"
-        ]
-      },
-      {
-        "word": "趟",
-        "definition": "(not used – use 次)",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -72684,22 +70941,15 @@
         "word": "距离",
         "definition": "两点的长度",
         "invalidChars": [
-          "点",
           "长"
-        ]
-      },
-      {
-        "word": "跟前",
-        "definition": "前面很近的地方",
-        "invalidChars": [
-          "面"
         ]
       },
       {
         "word": "跟踪",
         "definition": "跟着并记下去哪",
         "invalidChars": [
-          "着"
+          "着",
+          "并"
         ]
       },
       {
@@ -72709,13 +70959,6 @@
           "膝",
           "盖",
           "着"
-        ]
-      },
-      {
-        "word": "路上",
-        "definition": "路的上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -72738,13 +70981,6 @@
         "definition": "路的旁边",
         "invalidChars": [
           "旁"
-        ]
-      },
-      {
-        "word": "路面",
-        "definition": "路的上面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -72776,13 +71012,6 @@
         "invalidChars": [
           "稳",
           "乱"
-        ]
-      },
-      {
-        "word": "踩",
-        "definition": "脚放在上面动",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -72872,13 +71101,6 @@
       },
       {
         "word": "转",
-        "definition": "改变方向",
-        "invalidChars": [
-          "改"
-        ]
-      },
-      {
-        "word": "转",
         "definition": "转",
         "invalidChars": [
           "转"
@@ -72942,8 +71164,7 @@
         "invalidChars": [
           "形",
           "轮",
-          "流",
-          "次"
+          "流"
         ]
       },
       {
@@ -72958,7 +71179,6 @@
         "word": "软件",
         "definition": "电脑里的程序",
         "invalidChars": [
-          "脑",
           "程",
           "序"
         ]
@@ -73008,13 +71228,6 @@
         ]
       },
       {
-        "word": "输入",
-        "definition": "把数据放进电脑",
-        "invalidChars": [
-          "脑"
-        ]
-      },
-      {
         "word": "辣",
         "definition": "像辣椒的味道",
         "invalidChars": [
@@ -73034,7 +71247,6 @@
         "word": "达到",
         "definition": "到了某个程度或目标",
         "invalidChars": [
-          "某",
           "程",
           "目"
         ]
@@ -73050,7 +71262,6 @@
         "word": "过敏",
         "definition": "身体对某种东西有坏反应",
         "invalidChars": [
-          "某",
           "种"
         ]
       },
@@ -73143,13 +71354,6 @@
         ]
       },
       {
-        "word": "进去",
-        "definition": "从外面到里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "进口",
         "definition": "从外国买进",
         "invalidChars": [
@@ -73161,13 +71365,6 @@
         "definition": "事情往前走",
         "invalidChars": [
           "情"
-        ]
-      },
-      {
-        "word": "进来",
-        "definition": "从外面到里面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -73183,8 +71380,7 @@
         "word": "违法",
         "definition": "做法律不允许的事",
         "invalidChars": [
-          "律",
-          "允"
+          "律"
         ]
       },
       {
@@ -73304,13 +71500,6 @@
         ]
       },
       {
-        "word": "通常",
-        "definition": "大部分时候",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "通知",
         "definition": "把事告诉大家",
         "invalidChars": [
@@ -73375,13 +71564,6 @@
         "definition": "见到",
         "invalidChars": [
           "见"
-        ]
-      },
-      {
-        "word": "遍",
-        "definition": "(not used – use 一次 or 一下)",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -73501,24 +71683,9 @@
         ]
       },
       {
-        "word": "郊外",
-        "definition": "城市外面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "部分",
-        "definition": "一部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "部门",
         "definition": "分出来的单位",
         "invalidChars": [
-          "分",
           "位"
         ]
       },
@@ -73660,7 +71827,6 @@
         "word": "采取",
         "definition": "用某种方法",
         "invalidChars": [
-          "某",
           "种"
         ]
       },
@@ -73668,7 +71834,8 @@
         "word": "采纳",
         "definition": "同意并使用别人的想法",
         "invalidChars": [
-          "意"
+          "意",
+          "并"
         ]
       },
       {
@@ -73676,6 +71843,7 @@
         "definition": "问问题并记录",
         "invalidChars": [
           "题",
+          "并",
           "录"
         ]
       },
@@ -73690,73 +71858,15 @@
         "word": "采集",
         "definition": "把分散的东西收在一起",
         "invalidChars": [
-          "分",
           "散",
           "收"
-        ]
-      },
-      {
-        "word": "里头",
-        "definition": "里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "里面",
-        "definition": "里的里面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "重",
-        "definition": "再一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "重复",
-        "definition": "再做一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "重建",
-        "definition": "坏了再建一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "重新",
-        "definition": "再一次",
-        "invalidChars": [
-          "次"
-        ]
-      },
-      {
-        "word": "重点",
-        "definition": "重要的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
         "word": "重要",
         "definition": "很要紧，影响大",
         "invalidChars": [
-          "影",
-          "响"
-        ]
-      },
-      {
-        "word": "野外",
-        "definition": "城市外面的地方",
-        "invalidChars": [
-          "面"
+          "影"
         ]
       },
       {
@@ -73764,14 +71874,6 @@
         "definition": "野的",
         "invalidChars": [
           "野"
-        ]
-      },
-      {
-        "word": "量",
-        "definition": "用工具知道长度重量",
-        "invalidChars": [
-          "长",
-          "量"
         ]
       },
       {
@@ -73814,13 +71916,6 @@
         ]
       },
       {
-        "word": "针对",
-        "definition": "对某人或事",
-        "invalidChars": [
-          "某"
-        ]
-      },
-      {
         "word": "钓鱼",
         "definition": "用钩子把鱼从水里弄上来",
         "invalidChars": [
@@ -73848,7 +71943,6 @@
         "word": "铃",
         "definition": "响声的东西",
         "invalidChars": [
-          "响",
           "声"
         ]
       },
@@ -73859,7 +71953,6 @@
           "木",
           "包",
           "笔",
-          "面",
           "芯"
         ]
       },
@@ -73954,8 +72047,7 @@
         "invalidChars": [
           "相",
           "摄",
-          "影",
-          "面"
+          "影"
         ]
       },
       {
@@ -73977,13 +72069,6 @@
         "definition": "时间长",
         "invalidChars": [
           "长"
-        ]
-      },
-      {
-        "word": "长处",
-        "definition": "好的方面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -74020,13 +72105,6 @@
         "definition": "很长的路",
         "invalidChars": [
           "长"
-        ]
-      },
-      {
-        "word": "门口",
-        "definition": "门的外面",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -74088,8 +72166,7 @@
         "definition": "两个东西之间的空 / 把两个东西分开",
         "invalidChars": [
           "之",
-          "空",
-          "分"
+          "空"
         ]
       },
       {
@@ -74105,7 +72182,6 @@
         "word": "闹钟",
         "definition": "到时间会响的钟",
         "invalidChars": [
-          "响",
           "钟"
         ]
       },
@@ -74175,17 +72251,9 @@
         ]
       },
       {
-        "word": "阵雨",
-        "definition": "短雨",
-        "invalidChars": [
-          "短"
-        ]
-      },
-      {
         "word": "阶段",
         "definition": "做事的某一段",
         "invalidChars": [
-          "某",
           "段"
         ]
       },
@@ -74266,16 +72334,8 @@
         "definition": "不让超过某个范围",
         "invalidChars": [
           "超",
-          "某",
           "范",
           "围"
-        ]
-      },
-      {
-        "word": "限度",
-        "definition": "不能过去的点",
-        "invalidChars": [
-          "点"
         ]
       },
       {
@@ -74312,8 +72372,7 @@
         "word": "险",
         "definition": "危险 / 差一点",
         "invalidChars": [
-          "差",
-          "点"
+          "差"
         ]
       },
       {
@@ -74347,13 +72406,6 @@
         ]
       },
       {
-        "word": "随意",
-        "definition": "随自己想法",
-        "invalidChars": [
-          "随"
-        ]
-      },
-      {
         "word": "随着",
         "definition": "跟着",
         "invalidChars": [
@@ -74378,7 +72430,6 @@
         "word": "难免",
         "definition": "很难避免",
         "invalidChars": [
-          "避",
           "免"
         ]
       },
@@ -74509,13 +72560,6 @@
       },
       {
         "word": "露",
-        "definition": "让藏着的出来",
-        "invalidChars": [
-          "着"
-        ]
-      },
-      {
-        "word": "露",
         "definition": "露",
         "invalidChars": [
           "露"
@@ -74546,7 +72590,6 @@
         "word": "非常",
         "definition": "很，非常",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -74558,13 +72601,6 @@
         ]
       },
       {
-        "word": "面",
-        "definition": "(classifier not used – use 个；noun: 脸；verb: 对着)",
-        "invalidChars": [
-          "着"
-        ]
-      },
-      {
         "word": "面临",
         "definition": "正对着（问题）",
         "invalidChars": [
@@ -74573,17 +72609,9 @@
         ]
       },
       {
-        "word": "面前",
-        "definition": "前面的地方",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "面包",
         "definition": "用面做的食物，烤了吃",
         "invalidChars": [
-          "面",
           "烤"
         ]
       },
@@ -74591,15 +72619,7 @@
         "word": "面向",
         "definition": "对着某个方向",
         "invalidChars": [
-          "着",
-          "某"
-        ]
-      },
-      {
-        "word": "面对",
-        "definition": "面对",
-        "invalidChars": [
-          "面"
+          "着"
         ]
       },
       {
@@ -74607,15 +72627,7 @@
         "definition": "长条的细面",
         "invalidChars": [
           "长",
-          "条",
-          "面"
-        ]
-      },
-      {
-        "word": "面积",
-        "definition": "平面的大小",
-        "invalidChars": [
-          "面"
+          "条"
         ]
       },
       {
@@ -74631,7 +72643,6 @@
         "word": "面试",
         "definition": "面对面的考试",
         "invalidChars": [
-          "面",
           "考",
           "试"
         ]
@@ -74684,7 +72695,6 @@
         "word": "顶",
         "definition": "最高的部分 / 用头放 / 一个帽子",
         "invalidChars": [
-          "分",
           "帽"
         ]
       },
@@ -74804,13 +72814,6 @@
         ]
       },
       {
-        "word": "领先",
-        "definition": "在最前面",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
         "word": "领域",
         "definition": "学问或工作的范围",
         "invalidChars": [
@@ -74838,13 +72841,6 @@
         "definition": "脖子里的骨头",
         "invalidChars": [
           "骨"
-        ]
-      },
-      {
-        "word": "频率",
-        "definition": "多少次",
-        "invalidChars": [
-          "次"
         ]
       },
       {
@@ -74961,23 +72957,8 @@
         "word": "饺子",
         "definition": "面皮包肉或菜的食物",
         "invalidChars": [
-          "面",
           "皮",
           "包"
-        ]
-      },
-      {
-        "word": "饼干",
-        "definition": "干的小面食",
-        "invalidChars": [
-          "面"
-        ]
-      },
-      {
-        "word": "馒头",
-        "definition": "白面做的圆的吃的",
-        "invalidChars": [
-          "面"
         ]
       },
       {
@@ -74991,8 +72972,7 @@
         "word": "首次",
         "definition": "第一次",
         "invalidChars": [
-          "第",
-          "次"
+          "第"
         ]
       },
       {
@@ -75048,13 +73028,6 @@
         ]
       },
       {
-        "word": "骨头",
-        "definition": "身体里硬的部分",
-        "invalidChars": [
-          "分"
-        ]
-      },
-      {
         "word": "高价",
         "definition": "高的价钱",
         "invalidChars": [
@@ -75074,7 +73047,6 @@
         "definition": "高的层 / 上面的领导",
         "invalidChars": [
           "层",
-          "面",
           "导"
         ]
       },
@@ -75133,7 +73105,6 @@
         "word": "高超",
         "definition": "水平非常高",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -75148,8 +73119,7 @@
         "word": "魅力",
         "definition": "让人喜欢的特点",
         "invalidChars": [
-          "特",
-          "点"
+          "特"
         ]
       },
       {
@@ -75163,7 +73133,6 @@
         "word": "鲜艳",
         "definition": "颜色非常亮",
         "invalidChars": [
-          "非",
           "常"
         ]
       },
@@ -75172,16 +73141,7 @@
         "definition": "一种鸟，人会养来吃它的肉和蛋",
         "invalidChars": [
           "种",
-          "养",
-          "蛋"
-        ]
-      },
-      {
-        "word": "鸡蛋",
-        "definition": "鸡下的蛋",
-        "invalidChars": [
-          "鸡",
-          "蛋"
+          "养"
         ]
       },
       {
@@ -75197,13 +73157,6 @@
         "definition": "话筒",
         "invalidChars": [
           "筒"
-        ]
-      },
-      {
-        "word": "麻烦",
-        "definition": "让人不方便或难",
-        "invalidChars": [
-          "便"
         ]
       },
       {
@@ -75253,14 +73206,6 @@
         "definition": "让人心里有劲",
         "invalidChars": [
           "劲"
-        ]
-      },
-      {
-        "word": "鼠标",
-        "definition": "电脑用的点东西",
-        "invalidChars": [
-          "脑",
-          "点"
         ]
       }
     ]
