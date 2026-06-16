@@ -2706,7 +2706,7 @@
 1069,摔,shuāi,verb (to fall),倒下,FALSE,倒,下,Native thinks: “to fall down.” Not atomic; defined as 倒下.,70,65,
 1461,摘,zhāi,verb (to pick),从树上或枝上拿下,FALSE,拿,树上,Native thinks: “to take from a tree or branch.” Not atomic; defined as 从树上拿.,70,65,
 934,摩托车,mótuōchē,noun,两轮机器车,FALSE,车,两轮，机器,Native thinks: “motorcycle.”,65,55,
-781,摸,mō,verb (to touch),用手碰,FALSE,碰,用手,Native thinks: “to feel with the hand.” Not atomic; defined as 用手碰.,70,65,
+781,摸,mō,verb (to touch),用手碰,TRUE,碰,用手,Native thinks: “to feel with the hand.” Not atomic; defined as 用手碰.,70,65,
 152,撑,chēng,verb,用东西顶住不让倒,FALSE,顶住,不让倒,Native thinks: “to prop up so it doesn’t fall.”,65,65,
 1123,撒,sǎ,verb,把粉或水散开,FALSE,散开,粉或水,Native thinks: “to sprinkle powder or water.”,60,55,
 1562,撞,zhuàng,verb (to bump),突然碰到,FALSE,碰,突然,Native thinks: “to hit something suddenly.” Not atomic; defined as 碰.,70,65,
