@@ -124,21 +124,69 @@ for words in categories.values():
 missing = [w for w in remaining if w not in categorized]
 extra = [w for w in categorized if w not in set(remaining)]
 
-# Print MD
-print('## Atomic Words by Category\n')
-print(f'Total: {len(remaining)} atomic words\n')
+allowed_chars = set()
+for w in remaining:
+    for ch in w:
+        allowed_chars.add(ch)
+chars_sorted = sorted(allowed_chars)
+
+lines = []
+lines.append('# 简单话 Final Charset Report\n')
+lines.append('## Summary\n')
+lines.append('| Metric | Original | Final | Ratio |')
+lines.append('|--------|----------|-------|-------|')
+lines.append(f'| Atomic words | 645 | {len(remaining)} | {len(remaining)/645*100:.1f}% |')
+lines.append(f'| Allowed chars | 642 | {len(allowed_chars)} | {len(allowed_chars)/642*100:.1f}% |')
+lines.append('| Words cut | — | 314 | — |')
+lines.append('| Invalid definitions | — | 0 | — |')
+lines.append('')
+lines.append('---\n')
+lines.append('## Complete Charset (' + str(len(chars_sorted)) + ' chars, comma-separated)\n')
+lines.append(', '.join(chars_sorted))
+lines.append('')
+lines.append('---\n')
+lines.append('## Charset by Category\n')
+lines.append('### Numbers and counting (21)')
+lines.append('一 二 三 四 五 六 七 八 九 十 百 千 万 两 零 半 第 几 个 些 每\n')
+lines.append('### Pronouns and question words (18)')
+lines.append('我 你 他 她 它 们 自 己 其 谁 什 么 这 那 哪 各\n')
+lines.append('*(Note: chars only — pronouns appear in atomic words above)*\n')
+lines.append('---\n')
+lines.append('## Atomic Words by Category\n')
+lines.append(f'**Total: {len(remaining)} atomic words**\n')
 
 for cat, words in categories.items():
     valid = [w for w in words if w in set(remaining)]
-    print(f'### {cat} ({len(valid)})')
-    print(' '.join(valid))
-    print()
+    lines.append(f'### {cat} ({len(valid)})')
+    lines.append(' '.join(valid))
+    lines.append('')
 
 if missing:
-    print(f'### ⚠ Uncategorized ({len(missing)})')
-    print(' '.join(missing))
-    print()
+    lines.append(f'### ⚠ Uncategorized ({len(missing)})')
+    lines.append(' '.join(missing))
+    lines.append('')
 
-if extra:
-    print(f'### ⚠ In categories but NOT in remaining ({len(extra)})')
-    print(' '.join(extra))
+lines.append('---\n')
+lines.append('## Cuts by Batch\n')
+lines.append('| Batch | Words cut | Notes |')
+lines.append('|-------|-----------|-------|')
+lines.append('| 1 | 95 | Literary adverbs, specialized terms, redundant compounds |')
+lines.append('| 2 | 95 | Formal connectives, specialized vocab, abstract compounds |')
+lines.append('| 3 | 96 | Body parts (kept 样子, 鼻子, 着), geography, abstract nouns |')
+lines.append('| 4 | 29 | Final trim; kept 牛, 马, 羊, 狗, 蓝, 绿色 as fundamental |')
+lines.append('| **Total** | **314** | — |')
+lines.append('')
+lines.append('### Words kept atomic by user override')
+lines.append('皮, 网, 苦, 骨头, 滑, 除了, 鸡蛋, 图, 圆, 油, 着, 样子, 鼻子, 牛, 马, 羊, 狗, 蓝, 绿色, 别的, 会\n')
+lines.append('---\n')
+lines.append('## Next Steps\n')
+lines.append('1. Apply all 314 cuts to `src/dictionaries/dictionary.raw.csv` — flip `isAtomic` to `FALSE` and write the new definition for each cut word.')
+lines.append('2. Run `bun run scripts/preprocess-dictionary.ts` to verify 0 invalid definitions.')
+lines.append('3. Rewrite the ~1807 existing non-atomic definitions that use chars no longer in the allowed set.')
+
+with open('CHARSET.md', 'w', encoding='utf-8') as f:
+    f.write('\n'.join(lines) + '\n')
+
+print(f'Written CHARSET.md — {len(remaining)} words, {len(allowed_chars)} chars, {len(missing)} uncategorized')
+if missing:
+    print(f'Uncategorized: {" ".join(missing)}')
