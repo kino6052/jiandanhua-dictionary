@@ -1,104 +1,107 @@
-# Language Specification: 简单话 (Jiǎndānhuà)
+# 简单话 (Jiǎndānhuà) Language Specification
 
-## 1. Core Philosophy & Objectives
+**Version 1.0**
 
-**简单话 (Jiǎndānhuà)** is a constructed bridge language designed to solve the "Mount Everest" problem of learning Mandarin Chinese. Traditional learning methods (like HSK) teach vocabulary out of context, delaying access to native-level media for years.
-
-Jiǎndānhuà circumvents this by providing a complete, highly systematic, and fully expressive subset of Chinese. It strips away cultural nuance, idioms, and redundant grammar in favor of absolute logical clarity. By achieving fluency in Jiǎndānhuà in a fraction of the time, learners can immediately consume engaging, AI-translated media (books, subtitles) and use Jiǎndānhuà as the monolingual medium of instruction to learn real Mandarin.
-
-- **Clarity Over Conciseness:** Where native Chinese drops subjects and particles for brevity, Jiǎndānhuà demands strict verbosity to eliminate ambiguity.
-- **Asymmetric Communication:** Jiǎndānhuà is designed so that a native Chinese speaker will understand the learner perfectly, even if the learner cannot yet understand natural native speech.
+简单话 is a highly optimized, radically accessible version of Putonghua designed to function like an elegant "Logic Engine." Its core philosophy can be summarized as: **"Esperanto, but completely valid Mandarin."** It strips away centuries of historical, regional, and socio-cultural bloat, leaving a necessary-and-sufficient linguistic architecture that requires zero guessing from context.
 
 ---
 
-## 2. Phonology & Orthography
+## 1. Core Structural Guardrails
 
-To ensure a seamless eventual transition to native Chinese, the physical building blocks of the language remain completely unaltered.
-
-- **Pronunciation & Tones:** Standard Mandarin phonology and the four-tone system are strictly maintained. No phonetic simplifications are made.
-- **Writing System:** Standard Simplified Chinese characters (Hanzi) are used.
-- **Numerals:** Standard Chinese number characters (一, 二, 三, 十, 百, 万, etc.) are used exclusively. Arabic numerals (0-9) are not used in text.
-- **Spacing:** Characters are written continuously without spaces, training the learner's visual parsing skills for real Chinese text.
+- **Sacred Grammar:** Standard Putonghua grammar is unalterable. 简单话 achieves simplicity exclusively through the AI translation pipeline via strategic editing, hyper-explicit paraphrasing, and vocabulary curation. It never breaks or modifies native syntax.
+- **Bridge 1 Orthography:** The text layer is entirely Romanized Pinyin with standard dictionary tone marks retained. To bridge the gap between sight and sound without breaking dictionary lookups, **tone sandhi** (acoustic tone morphing like `nǐ hǎo` $\rightarrow$ `ní hǎo`) is **not** reflected in the written text. The learner reads the pristine lexical identity while the synchronized AI audio engine delivers natural native pronunciation.
+- **Visual Segmentation:** Text uses German-style hyphenated compound blocks to establish explicit word boundaries, eliminate visual tracking confusion, and reinforce semantic units.
 
 ---
 
-## 3. Vocabulary & Morphology
+## 2. The Vocabulary Engine & The Pareto Filter
 
-The vocabulary is built on a highly restricted foundation, relying on logical combinations rather than rote memorization of thousands of distinct words.
+The lexicon of 简单话 is derived by filtering the standard 5,000-word HSK corpus through a strict mathematical Pareto efficiency threshold to isolate the high-leverage core.
 
-### 3.1 The Atomic Character Set
+### The Core Atom Filter
 
-The language relies on a carefully curated set of **300 to 500 atomic characters**. These are mathematically derived from HSK frequency data but selected for their fundamental semantic utility (e.g., basic colors, elements, body parts, numbers, core actions).
+An HSK word is retained as a **Core Atom** if and only if it satisfies the following algorithmic condition:
 
-### 3.2 Logical Compounding
+$$\text{Retain if: } (\text{Speech Commonality} > 70\% \lor \text{Writing Commonality} > 80\%) \land \text{Speech Commonality} \ge 50\%$$
 
-Non-atomic concepts are constructed using highly descriptive, logical combinations of atomic characters.
+- **Decomposition Rule:** Any word failing this threshold is permanently archived. The AI pipeline must dynamically decompose and rewrite all occurrences of that concept using only the surviving Core Atoms (~1,200 to 1,500 words).
+- **Hyphenation of Derived Meanings:** Dynamic descriptive replacements are bound into visual blocks using hyphens if it does not violate native grammar (e.g., `nóngjù` [agricultural tools] is unrolled into the core block **`nóngmín-gōngjù`** [farmer-tools]).
 
-- _Example:_ Motorcycle $\rightarrow$ 两轮机器车 (Two-wheel machine car).
-- _Native Ontology:_ Compounds are designed to capture the native Chinese cognitive framework rather than direct Western translations.
+### Lexical Monopoly (Synonym Eradication)
 
-### 3.3 Proper Nouns & Foreign Terms
+To minimize cognitive friction, the vocabulary pool enforces a "one-concept, one-word" rule. Overlapping synonyms are purged, and a single high-frequency designated winner is crowned for every semantic slot:
 
-To avoid requiring learners to memorize rare characters used only for phonetic transliteration, proper nouns (countries, names, cities) use a semantic descriptor followed by Pinyin in parentheses.
-
-- _Example:_ Korea $\rightarrow$ 一个国家 (han2guo2)
-- _Example:_ John $\rightarrow$ 一个人 (yue1han4)
-
-### 3.4 The Official Dictionary
-
-Jiǎndānhuà is standardized via an official dictionary. This prevents the language from splintering into personalized dialects and provides the exact algorithmic mapping required for AI translation software.
+| Concept                | Purged Synonyms            | Designated Winner |
+| ---------------------- | -------------------------- | ----------------- |
+| **But / However**      | `kěshì`, `bùguò`, `rán'ér` | **`dànshì`**      |
+| **To think (Opinion)** | `rènwéi`, `yǐwéi`, `xiǎng` | **`juéde`**       |
 
 ---
 
-## 4. Grammar & Syntax
+## 3. Visual & Semantic Partition Laws
 
-Grammar is reduced to its "necessary and sufficient" components. Redundant structures are eliminated, and implicit context is forbidden.
+To maintain perfect clarity and error-free visual scanning, 简单话 deploys targeted typographical partitions and explicit paraphrases for high-ambiguity structures.
 
-### 4.1 Sentence Structure
+### Homophone Collision Mitigation
 
-- **Strict SVO:** Sentences must follow a strict Subject-Verb-Object word order.
-- **No Pro-Drop:** Subjects and pronouns must **always** be explicitly stated. Guessing from context is not permitted.
+Single-syllable words with high homophone collision profiles are systematically replaced by unique polysyllabic compound synonyms or structurally anchored via hyphenation (e.g., the isolated syllable `shì` is banned for everyday items in favor of **`chéngshì`** [city], **`shìqíng`** [matter], or **`fángjiān`** [room]).
 
-### 4.2 Nouns & Measurement
+### Non-Semantic Boundaries (The Quote Partition)
 
-- **Measure Words:** The vast system of Chinese classifiers is eliminated. **`个` (gè)** is used universally as the sole measure word for all countable nouns.
-- **Plurality:** The suffix `们` (men) is strictly reserved for pronouns (我们, 你们, 他们) and addressing people. All other nouns indicate plurality explicitly through numbers or quantifiers (e.g., 几个, 很多).
+Words that do not contribute to the strict logical or grammatical flow of a sentence are wrapped in quotation marks. This alerts the reader's brain to parse the string as a raw acoustic or phonetic unit:
 
-### 4.3 Particles & Markers
+- **Onomatopoeia:** `Wǒ-de dùzi "gūlū-gūlū" jiào.` (My stomach goes "rumble-rumble".)
+- **Foreign Loanwords / Transliterations:** `Wǒ qù "Lúndūn" chī "qiǎokèlì".` (I go to "London" to eat "chocolate".)
 
-- **Mandatory `的` (de):** The possessive and adjectival modifier `的` must be used explicitly every single time. It may never be dropped for conciseness (e.g., always 我的妈妈, never 我妈; always 大的车, never 大车).
-- **Mandatory `被` (bèi):** All passive voice constructions must explicitly use `被`. "Notional passives" (where the object simply sits at the front of the sentence) are forbidden.
-- **Aspect Markers:** `了`, `着`, and `过` are retained in their most basic, standardized forms to indicate tense/state.
+### Idiom (Chéngyǔ) Unrolling
 
-### 4.4 Asking Questions
+Classical four-character idioms are entirely stripped from the language. The AI pipeline translates the underlying meaning directly into descriptive phrases:
 
-- **The `吗` (ma) Rule:** Yes/no questions are formed exclusively by appending `吗` to the end of a declarative sentence.
-- **Eliminated:** The "Verb-not-Verb" (A-not-A) question structure (e.g., 去不去) is completely removed from the grammar.
-
-### 4.5 Verbs & Complements
-
-- **Action Verbs:** While fundamental verbs (做, 打, 有) are used frequently to construct actions, highly necessary distinct verbs (吃, 喝, 看) are retained to prevent the language from sounding like artificial code.
-- **Complements:** Resultative and directional complements (e.g., 找到, 走进去) are **fully retained** without simplification, as they are a necessary cognitive feature of how Chinese expresses spatial and action-based relationships.
+- _Standard:_ `huàshé-tiānzú` (Drawing a snake and adding feet)
+- _简单话:_ **`zuò-le-duōyú-de-shì`** (Did redundant things)
 
 ---
 
-## 5. Summary of Grammatical Reductions
+## 4. Grammatical & Cognitive Streamlining
 
-| Feature             | Standard Mandarin                             | 简单话 (Jiǎndānhuà)           |
-| ------------------- | --------------------------------------------- | ----------------------------- |
-| **Measure Words**   | Hundreds of specific classifiers (条, 张, 辆) | Universal **个** only         |
-| **Questions**       | Verb-不-Verb OR 吗                            | **吗** only                   |
-| **Passive Voice**   | Contextual/Notional OR 被                     | Explicit **被** only          |
-| **Subjects**        | Frequently dropped if implied                 | **Mandatory** at all times    |
-| **Possessive (的)** | Frequently dropped for flow                   | **Mandatory** at all times    |
-| **Vocabulary Size** | 3,000+ characters for fluency                 | **300–500** atomic characters |
+### Simplification via Paraphrasing
+
+Where standard Mandarin uses ambiguous structural shortcuts, 简单话 mandates hyper-explicit linear paraphrasing:
+
+- **Question-Words-as-Quantifiers:** Using interrogatives for universal statements (e.g., `shéi dōu` for "everyone") is replaced by verbose, clear paraphrasing: **`suǒyǒu-de rén`** (all people).
+- **Correlative Conjunctions:** Dual logical frameworks (e.g., `yīnwèi... suǒyǐ...` [Because... therefore...]) are **kept completely intact** to safeguard the native echoing rhythm of Mandarin logic and argumentation.
+- **Separable Verbs:** Verb-object splits (like `shuì-jiào` breaking apart into `shuì-le liǎng-gè xiǎoshí jiào`) are fully supported to respect standard grammar, but the pipeline actively prioritizes non-separable, linear transitive synonyms where available to keep blocks unified.
+
+### Stripping Social Deixis & Cultural Layers
+
+Egalitarian, streamlined alternatives are substituted for vocabulary historically dense with socio-cultural, hierarchical, or generational gatekeeping:
+
+- **Measure Words (Classifiers):** The 150+ arbitrary shape-based classifiers are collapsed down to the universal **`gè`** everywhere, unless a specialized classifier is explicitly required to resolve a severe semantic ambiguity.
+- **The Kinship Tree:** Complex relational terminology is completely flattened into analytical, self-explanatory formulas:
+- `bóbo` (Paternal older uncle) $\rightarrow$ **`bāba-de-gēgē`**
+- `jiùjiu` (Maternal uncle) $\rightarrow$ **`māmā-de-xiōngdì`**
+
+- **Pronoun Equalization:** Status-driven distinctions are purged. The honorific `nín` (您) defaults to **`nǐ`** (你), and the listener-inclusive `zánmen` (咱们) is normalized to **`wǒmen`** (我们).
 
 ---
 
-## 6. The Learning Ecosystem & Application
+## 5. Structural & Aspectual Mechanics
 
-Jiǎndānhuà is not just a language; it is a technological pipeline for acquiring native fluency.
+### Preservation of Cognitive Spatial Engines
 
-1. **AI Content Pipeline:** Large Language Models (LLMs) rewrite real native texts, books, and movie subtitles into a simpler, highly descriptive format (HSK4 equivalent). Custom software then tokenizes this text and translates it strictly into Jiǎndānhuà using the official dictionary.
-2. **Immediate Engagement:** Because the grammar is perfectly logical and the vocabulary is atomic, learners can begin reading novels and watching media almost immediately.
-3. **Monolingual Progression:** Once learners are in the Jiǎndānhuà "base camp," English is discarded. All further instruction, vocabulary acquisition, and grammatical expansion into real Mandarin are taught using Jiǎndānhuà as the instructional language.
+Unlike social constructs, Mandarin’s **Directional Complements** (`xiàqù` [down-go / continuation], `qǐlái` [up-come / inception]) represent the core spatial-temporal operating system of the Chinese mind. These are **preserved intact** but anchored cleanly to their verbs via hyphens (e.g., `xiào-qǐlái` [start laughing], `jìxù-xiàqù` [continue onward]).
+
+### Modular Affixation
+
+To keep the core dictionary lean while maximizing expressive power, 简单话 embraces Esperanto-style dynamic compounding using native structural affixes (`-zhě` [agent], `-xìng` [quality], `-huà` [process], `fǎn-` [anti-]). Compounding is highly encouraged as long as it preserves absolute clarity (e.g., optimizing "scientist" directly to **`kēxué-zhě`** [science-ist] instead of introducing the unique word `kēxuéjiā`).
+
+### Aspect Anchoring
+
+Standard aspect particles (`le`, `zhe`, `guò`) are highly trusted to execute their native duties. However, the moment a particle introduces timeline ambiguity, the pipeline automatically intervenes to inject explicit, hyper-literal time markers:
+
+- _Ambiguous:_ `Wǒ chī-le.`
+- _Failsafe 简单话:_ **`Wǒ yǐjīng chī-wán-le`** (I already eat-finish-completed) OR **`Wǒ xiànzài kāishǐ chī`** (I now start to eat).
+
+### Abstract Dimensions
+
+For abstract metrics, both primitive oppositional compounds (e.g., `dà-xiǎo` [big-small / size]) and formal technical suffixes (e.g., `sùdù` [speed]) are permitted. The translation pipeline dynamically evaluates and serves whichever variant is structurally more common and less ambiguous within the context of the sentence.
