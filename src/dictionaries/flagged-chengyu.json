@@ -1,0 +1,47 @@
+[
+  {
+    "word": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "pos": "phrase (sorry, embarrassed)",
+    "definition": "心里不太舒服，抱歉",
+    "speaking": 80,
+    "writing": 60,
+    "score": 75
+  },
+  {
+    "word": "中华民族",
+    "pinyin": "Zhōnghuá Mínzú",
+    "pos": "noun (Chinese nation)",
+    "definition": "中国的所有民族",
+    "speaking": 70,
+    "writing": 85,
+    "score": 73.75
+  },
+  {
+    "word": "十字路口",
+    "pinyin": "shízì lùkǒu",
+    "pos": "noun (intersection)",
+    "definition": "两条路交叉的地方",
+    "speaking": 75,
+    "writing": 70,
+    "score": 73.75
+  },
+  {
+    "word": "丰富多彩",
+    "pinyin": "fēngfù-duōcǎi",
+    "pos": "phrase (rich and colorful)",
+    "definition": "又多又好",
+    "speaking": 60,
+    "writing": 75,
+    "score": 63.75
+  },
+  {
+    "word": "各行各业",
+    "pinyin": "gèháng-gèyè",
+    "pos": "phrase (all trades and professions)",
+    "definition": "各种工作",
+    "speaking": 60,
+    "writing": 75,
+    "score": 63.75
+  }
+]
