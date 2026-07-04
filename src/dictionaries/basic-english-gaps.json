@@ -1,0 +1,948 @@
+[
+  {
+    "zh": "在...之后",
+    "english": [
+      "after (preposition)"
+    ]
+  },
+  {
+    "zh": "靠着",
+    "english": [
+      "against (preposition)"
+    ]
+  },
+  {
+    "zh": "在...之中",
+    "english": [
+      "among (preposition)"
+    ]
+  },
+  {
+    "zh": "在...之前",
+    "english": [
+      "before (preposition)"
+    ]
+  },
+  {
+    "zh": "在...之间",
+    "english": [
+      "between (preposition)"
+    ]
+  },
+  {
+    "zh": "在...里",
+    "english": [
+      "in (preposition)"
+    ]
+  },
+  {
+    "zh": "关掉",
+    "english": [
+      "off (adverb)"
+    ]
+  },
+  {
+    "zh": "在...上",
+    "english": [
+      "on (preposition)"
+    ]
+  },
+  {
+    "zh": "在...上方",
+    "english": [
+      "over (preposition)"
+    ]
+  },
+  {
+    "zh": "在...下面",
+    "english": [
+      "under (preposition)"
+    ]
+  },
+  {
+    "zh": "一个",
+    "english": [
+      "a (determiner)"
+    ]
+  },
+  {
+    "zh": "这样的",
+    "english": [
+      "such (determiner)"
+    ]
+  },
+  {
+    "zh": "当...的时候",
+    "english": [
+      "while (conjunction)"
+    ]
+  },
+  {
+    "zh": "什么时候",
+    "english": [
+      "when (adverb)"
+    ]
+  },
+  {
+    "zh": "当...时",
+    "english": [
+      "when (conjunction)"
+    ]
+  },
+  {
+    "zh": "向前",
+    "english": [
+      "forward (adverb)"
+    ]
+  },
+  {
+    "zh": "一点",
+    "english": [
+      "little (adverb)",
+      "bit (noun)"
+    ]
+  },
+  {
+    "zh": "很多",
+    "english": [
+      "much (adverb)"
+    ]
+  },
+  {
+    "zh": "鞠躬",
+    "english": [
+      "bow down (verb)"
+    ]
+  },
+  {
+    "zh": "反射",
+    "english": [
+      "reflect (verb)",
+      "reflection (noun)"
+    ]
+  },
+  {
+    "zh": "打猎",
+    "english": [
+      "hunt (verb)"
+    ]
+  },
+  {
+    "zh": "觅食",
+    "english": [
+      "forage (verb)"
+    ]
+  },
+  {
+    "zh": "蓝色",
+    "english": [
+      "blue (adjective)"
+    ]
+  },
+  {
+    "zh": "残忍",
+    "english": [
+      "cruel (adjective)"
+    ]
+  },
+  {
+    "zh": "精细",
+    "english": [
+      "delicate (adjective)"
+    ]
+  },
+  {
+    "zh": "大声",
+    "english": [
+      "loud (adjective)"
+    ]
+  },
+  {
+    "zh": "粗糙",
+    "english": [
+      "rough (adjective)"
+    ]
+  },
+  {
+    "zh": "活着",
+    "english": [
+      "alive (adjective)"
+    ]
+  },
+  {
+    "zh": "沸腾",
+    "english": [
+      "boiling (adjective)"
+    ]
+  },
+  {
+    "zh": "坏了",
+    "english": [
+      "broken (adjective)"
+    ]
+  },
+  {
+    "zh": "切开",
+    "english": [
+      "cut (adjective)"
+    ]
+  },
+  {
+    "zh": "第一",
+    "english": [
+      "first (adjective)"
+    ]
+  },
+  {
+    "zh": "挂着",
+    "english": [
+      "hanging (adjective)"
+    ]
+  },
+  {
+    "zh": "友善",
+    "english": [
+      "kind (adjective)"
+    ]
+  },
+  {
+    "zh": "活的",
+    "english": [
+      "living (adjective)"
+    ]
+  },
+  {
+    "zh": "已婚",
+    "english": [
+      "married (adjective)"
+    ]
+  },
+  {
+    "zh": "物质的",
+    "english": [
+      "material (adjective)"
+    ]
+  },
+  {
+    "zh": "军事",
+    "english": [
+      "military (adjective)"
+    ]
+  },
+  {
+    "zh": "平行",
+    "english": [
+      "parallel (adjective)"
+    ]
+  },
+  {
+    "zh": "身体的",
+    "english": [
+      "physical (adjective)"
+    ]
+  },
+  {
+    "zh": "现在的",
+    "english": [
+      "present (adjective)"
+    ]
+  },
+  {
+    "zh": "很可能",
+    "english": [
+      "probable (adjective)"
+    ]
+  },
+  {
+    "zh": "准备好",
+    "english": [
+      "ready (adjective)"
+    ]
+  },
+  {
+    "zh": "第二",
+    "english": [
+      "second (adjective)"
+    ]
+  },
+  {
+    "zh": "锋利",
+    "english": [
+      "sharp (adjective)"
+    ]
+  },
+  {
+    "zh": "光滑",
+    "english": [
+      "smooth (adjective)"
+    ]
+  },
+  {
+    "zh": "僵硬",
+    "english": [
+      "stiff (adjective)"
+    ]
+  },
+  {
+    "zh": "等待中",
+    "english": [
+      "waiting (adjective)"
+    ]
+  },
+  {
+    "zh": "性的",
+    "english": [
+      "sexual (adjective)"
+    ]
+  },
+  {
+    "zh": "拱门",
+    "english": [
+      "arch (noun)"
+    ]
+  },
+  {
+    "zh": "带子",
+    "english": [
+      "band (noun)"
+    ]
+  },
+  {
+    "zh": "篮子",
+    "english": [
+      "basket (noun)"
+    ]
+  },
+  {
+    "zh": "浆果",
+    "english": [
+      "berry (noun)"
+    ]
+  },
+  {
+    "zh": "刀刃",
+    "english": [
+      "blade (noun)"
+    ]
+  },
+  {
+    "zh": "板",
+    "english": [
+      "board (noun)"
+    ]
+  },
+  {
+    "zh": "靴子",
+    "english": [
+      "boot (noun)"
+    ]
+  },
+  {
+    "zh": "男孩",
+    "english": [
+      "boy (noun)"
+    ]
+  },
+  {
+    "zh": "树枝",
+    "english": [
+      "branch (noun)"
+    ]
+  },
+  {
+    "zh": "刷子",
+    "english": [
+      "brush (noun)"
+    ]
+  },
+  {
+    "zh": "扣子",
+    "english": [
+      "button (noun)"
+    ]
+  },
+  {
+    "zh": "推车",
+    "english": [
+      "cart (noun)"
+    ]
+  },
+  {
+    "zh": "链子",
+    "english": [
+      "chain (noun)"
+    ]
+  },
+  {
+    "zh": "下巴",
+    "english": [
+      "chin (noun)"
+    ]
+  },
+  {
+    "zh": "教堂",
+    "english": [
+      "church (noun)"
+    ]
+  },
+  {
+    "zh": "圆圈",
+    "english": [
+      "circle (noun)"
+    ]
+  },
+  {
+    "zh": "钟",
+    "english": [
+      "clock (noun)"
+    ]
+  },
+  {
+    "zh": "领子",
+    "english": [
+      "collar (noun)"
+    ]
+  },
+  {
+    "zh": "梳子",
+    "english": [
+      "comb (noun)"
+    ]
+  },
+  {
+    "zh": "绳子",
+    "english": [
+      "cord (noun)"
+    ]
+  },
+  {
+    "zh": "窗帘",
+    "english": [
+      "curtain (noun)"
+    ]
+  },
+  {
+    "zh": "垫子",
+    "english": [
+      "cushion (noun)"
+    ]
+  },
+  {
+    "zh": "水滴",
+    "english": [
+      "drop (noun)"
+    ]
+  },
+  {
+    "zh": "蛋",
+    "english": [
+      "egg (noun)"
+    ]
+  },
+  {
+    "zh": "引擎",
+    "english": [
+      "engine (noun)"
+    ]
+  },
+  {
+    "zh": "农场",
+    "english": [
+      "farm (noun)"
+    ]
+  },
+  {
+    "zh": "羽毛",
+    "english": [
+      "feather (noun)"
+    ]
+  },
+  {
+    "zh": "旗子",
+    "english": [
+      "flag (noun)"
+    ]
+  },
+  {
+    "zh": "地板",
+    "english": [
+      "floor (noun)"
+    ]
+  },
+  {
+    "zh": "苍蝇",
+    "english": [
+      "fly (noun)"
+    ]
+  },
+  {
+    "zh": "框架",
+    "english": [
+      "frame (noun)"
+    ]
+  },
+  {
+    "zh": "女孩",
+    "english": [
+      "girl (noun)"
+    ]
+  },
+  {
+    "zh": "锤子",
+    "english": [
+      "hammer (noun)"
+    ]
+  },
+  {
+    "zh": "钩子",
+    "english": [
+      "hook (noun)"
+    ]
+  },
+  {
+    "zh": "膝盖",
+    "english": [
+      "knee (noun)"
+    ]
+  },
+  {
+    "zh": "嘴唇",
+    "english": [
+      "lip (noun)"
+    ]
+  },
+  {
+    "zh": "指甲",
+    "english": [
+      "nail (noun)"
+    ]
+  },
+  {
+    "zh": "坚果",
+    "english": [
+      "nut (noun)"
+    ]
+  },
+  {
+    "zh": "烤箱",
+    "english": [
+      "oven (noun)"
+    ]
+  },
+  {
+    "zh": "监狱",
+    "english": [
+      "prison (noun)"
+    ]
+  },
+  {
+    "zh": "屋顶",
+    "english": [
+      "roof (noun)"
+    ]
+  },
+  {
+    "zh": "螺丝",
+    "english": [
+      "screw (noun)"
+    ]
+  },
+  {
+    "zh": "架子",
+    "english": [
+      "shelf (noun)"
+    ]
+  },
+  {
+    "zh": "海绵",
+    "english": [
+      "sponge (noun)"
+    ]
+  },
+  {
+    "zh": "弹簧",
+    "english": [
+      "spring (noun)"
+    ]
+  },
+  {
+    "zh": "正方形",
+    "english": [
+      "square (noun)"
+    ]
+  },
+  {
+    "zh": "茎",
+    "english": [
+      "stem (noun)"
+    ]
+  },
+  {
+    "zh": "棍子",
+    "english": [
+      "stick (noun)"
+    ]
+  },
+  {
+    "zh": "喉咙",
+    "english": [
+      "throat (noun)"
+    ]
+  },
+  {
+    "zh": "拇指",
+    "english": [
+      "thumb (noun)"
+    ]
+  },
+  {
+    "zh": "脚趾",
+    "english": [
+      "toe (noun)"
+    ]
+  },
+  {
+    "zh": "雨伞",
+    "english": [
+      "umbrella (noun)"
+    ]
+  },
+  {
+    "zh": "哨子",
+    "english": [
+      "whistle (noun)"
+    ]
+  },
+  {
+    "zh": "电线",
+    "english": [
+      "wire (noun)"
+    ]
+  },
+  {
+    "zh": "爬行动物",
+    "english": [
+      "reptile (noun)"
+    ]
+  },
+  {
+    "zh": "两栖动物",
+    "english": [
+      "amphibian (noun)"
+    ]
+  },
+  {
+    "zh": "容器",
+    "english": [
+      "container (noun)"
+    ]
+  },
+  {
+    "zh": "糊状物",
+    "english": [
+      "paste (noun)"
+    ]
+  },
+  {
+    "zh": "橡胶",
+    "english": [
+      "rubber (noun)"
+    ]
+  },
+  {
+    "zh": "收音机",
+    "english": [
+      "radio (noun)"
+    ]
+  },
+  {
+    "zh": "管子",
+    "english": [
+      "pipe (noun)",
+      "tube (noun)"
+    ]
+  },
+  {
+    "zh": "真菌",
+    "english": [
+      "fungus (noun)"
+    ]
+  },
+  {
+    "zh": "蘑菇",
+    "english": [
+      "mushroom (noun)"
+    ]
+  },
+  {
+    "zh": "胸部",
+    "english": [
+      "breast (noun)",
+      "chest (noun)"
+    ]
+  },
+  {
+    "zh": "黄油",
+    "english": [
+      "butter (noun)"
+    ]
+  },
+  {
+    "zh": "犯罪",
+    "english": [
+      "crime (noun)"
+    ]
+  },
+  {
+    "zh": "曲线",
+    "english": [
+      "curve (noun)"
+    ]
+  },
+  {
+    "zh": "债务",
+    "english": [
+      "debt (noun)"
+    ]
+  },
+  {
+    "zh": "厌恶",
+    "english": [
+      "disgust (noun)"
+    ]
+  },
+  {
+    "zh": "分割",
+    "english": [
+      "division (noun)"
+    ]
+  },
+  {
+    "zh": "边缘",
+    "english": [
+      "edge (noun)"
+    ]
+  },
+  {
+    "zh": "田地",
+    "english": [
+      "field (noun)"
+    ]
+  },
+  {
+    "zh": "火焰",
+    "english": [
+      "flame (noun)"
+    ]
+  },
+  {
+    "zh": "吻",
+    "english": [
+      "kiss (verb)"
+    ]
+  },
+  {
+    "zh": "举起",
+    "english": [
+      "lift (verb)"
+    ]
+  },
+  {
+    "zh": "清单",
+    "english": [
+      "list (noun)"
+    ]
+  },
+  {
+    "zh": "一餐",
+    "english": [
+      "meal (noun)"
+    ]
+  },
+  {
+    "zh": "我的",
+    "english": [
+      "mine (pronoun)"
+    ]
+  },
+  {
+    "zh": "噪音",
+    "english": [
+      "noise (noun)"
+    ]
+  },
+  {
+    "zh": "付款",
+    "english": [
+      "payment (noun)"
+    ]
+  },
+  {
+    "zh": "粉末",
+    "english": [
+      "powder (noun)"
+    ]
+  },
+  {
+    "zh": "抗议",
+    "english": [
+      "protest (verb)"
+    ]
+  },
+  {
+    "zh": "速率",
+    "english": [
+      "rate (noun)"
+    ]
+  },
+  {
+    "zh": "感官",
+    "english": [
+      "sense (noun)"
+    ]
+  },
+  {
+    "zh": "仆人",
+    "english": [
+      "servant (noun)"
+    ]
+  },
+  {
+    "zh": "震惊",
+    "english": [
+      "shock (noun)"
+    ]
+  },
+  {
+    "zh": "滑倒",
+    "english": [
+      "slip (verb)"
+    ]
+  },
+  {
+    "zh": "打喷嚏",
+    "english": [
+      "sneeze (verb)"
+    ]
+  },
+  {
+    "zh": "肥皂",
+    "english": [
+      "soap (noun)"
+    ]
+  },
+  {
+    "zh": "声明",
+    "english": [
+      "statement (noun)"
+    ]
+  },
+  {
+    "zh": "蒸汽",
+    "english": [
+      "steam (noun)"
+    ]
+  },
+  {
+    "zh": "针脚",
+    "english": [
+      "stitch (noun)"
+    ]
+  },
+  {
+    "zh": "伸展",
+    "english": [
+      "stretch (verb)"
+    ]
+  },
+  {
+    "zh": "顶部",
+    "english": [
+      "top (noun)"
+    ]
+  },
+  {
+    "zh": "诡计",
+    "english": [
+      "trick (noun)"
+    ]
+  },
+  {
+    "zh": "波浪",
+    "english": [
+      "wave (noun)"
+    ]
+  },
+  {
+    "zh": "羊毛",
+    "english": [
+      "wool (noun)"
+    ]
+  },
+  {
+    "zh": "百万",
+    "english": [
+      "million (number)"
+    ]
+  },
+  {
+    "zh": "怪物",
+    "english": [
+      "monster (noun)"
+    ]
+  },
+  {
+    "zh": "叫声",
+    "english": [
+      "animal sound (noun)"
+    ]
+  },
+  {
+    "zh": "上下文",
+    "english": [
+      "context (noun)"
+    ]
+  },
+  {
+    "zh": "兄弟姐妹",
+    "english": [
+      "sibling (noun)"
+    ]
+  },
+  {
+    "zh": "蜘蛛",
+    "english": [
+      "spider (noun)"
+    ]
+  },
+  {
+    "zh": "假装",
+    "english": [
+      "pretend (verb)"
+    ]
+  },
+  {
+    "zh": "更好",
+    "english": [
+      "superior (adjective)"
+    ]
+  },
+  {
+    "zh": "哺乳动物",
+    "english": [
+      "mammal (noun)"
+    ]
+  },
+  {
+    "zh": "平面",
+    "english": [
+      "flat surface (noun)"
+    ]
+  },
+  {
+    "zh": "鲜味",
+    "english": [
+      "umami (noun)"
+    ]
+  }
+]
