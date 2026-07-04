@@ -177,140 +177,6 @@ When an adjective phrase directly modifies a noun as a single unit, it uses the 
 
 - `Wǒ kàn yī-ge hěn-dà-de dòngwù.` (I see a very big animal.)
 
-My apologies—let's strip out the formatting errors, eliminate the Hanzi completely, and apply the exact syntactic hyphenation rules cleanly.
-
-Here is the opening section and first lessons of the book, mapped directly from the structure of the official Toki Pona book.
-
----
-
-# HAOHUA: THE LANGUAGE OF GOOD
-
-This creative work is based on the official Toki Pona book and website by Sonja Lang.
-
----
-
-## What is Hǎohuà?
-
-Modern languages are cluttered with complex ways to express the simplest things. Hǎohuà is a language that breaks down advanced ideas to their most basic elements. If you are hungry, you _yào chī_ (want eat). To teach is to _gěi zhīdào_ (give knowledge). This allows us to drastically reduce the vocabulary and grammatical structures needed to say what we have to say.
-
-### Design
-
-Hǎohuà is semantically, lexically, and phonetically minimalist. The entire language uses only 123 words expressed through standard Mandarin Pinyin grammar rules.
-
-Each word has been carefully selected to cover a broad range of meanings. For example, _shuǐguǒ_ means any fruit or vegetable. A _zhǐ_ is any document, whether a printed book, postcard, or paper. A _rén_ is any human being, regardless of status or background.
-
----
-
-## Part 1: Lessons
-
-### Lesson 1: Letters and Sounds
-
-Hǎohuà uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, Hǎohuà adopts standard Chinese dictionary tones.
-
-#### Tones
-
-Dictation forms always retain their standard baseline tones in writing, regardless of natural spoken flow:
-
-- **ā** (First tone: high and level)
-- **á** (Second tone: making a question/rising)
-- **ǎ** (Third tone: dipping low then rising)
-- **à** (Fourth tone: sharp and dropping)
-
-#### Hyphenation Rules
-
-To make the architecture of the language transparent, Hǎohuà separates vocabulary from grammar visually:
-
-1. **Lexical words stay solid:** Multi-syllables that form a single dictionary word are never split (e.g., `dòngwù`, `shuìjiào`, `dànshì`).
-2. **Syntactic units bind:** Hyphens are used strictly to glue grammatical particles, measure words, or description phrases to their targets (e.g., `zhè-ge`, `yī-ge`, `hěn-dà-de`).
-
----
-
-### Lesson 2: Words and Sentences
-
-#### Vocabulary
-
-- **dōngxi** — thing, something, being
-
-- **rén** — person, human
-
-- **shuǐguǒ** — fruit, vegetable
-
-- **zhǐ** — document, paper, flat object
-
-- **nǚrén** — woman, female
-
-- **zhè** — this
-
-- **dòngwù** — animal, land mammal
-
-#### Grammar
-
-To build a simple descriptive sentence in Hǎohuà, follow the standard Mandarin copula model:
-
-$$\text{Subject} + \text{shì} + \text{Noun}$$
-
-By themselves, nouns do not inherently dictate singular or plural forms. The word `nǚrén` can mean either "woman" or "women" depending on context. Hǎohuà links demonstratives directly to the universal measure word `gè` via a hyphen.
-
-#### Examples
-
-- `Zhè-ge shì rén.` (This is a person.)
-
-- `Zhè-ge shì shuǐguǒ.` (This is a fruit.)
-
-- `Zhǐ shì dōngxi.` (A book/paper is a thing.)
-
-- `Rén shì nǚrén.` (The person is a woman.)
-
-- `Dòngwù shì dōngxi.` (Animals are things.)
-
-- `Nǚrén shì rén.` (Women are people.)
-
-#### Practice Exercise
-
-Translate the following sentences into Hǎohuà rules (Answers below):
-
-1. This is a document.
-2. A woman is a human.
-3. Animals are beings.
-
-#### Answers to Exercise
-
-1. `Zhè-ge shì zhǐ.`
-2. `Nǚrén shì rén.`
-3. `Dòngwù shì dōngxi.`
-
----
-
-### Lesson 3: Nouns and Adjectives
-
-#### Vocabulary
-
-- **shuǐ** — water, liquid
-
-- **fángzi** — house, building, room
-
-- **xiǎo** — little, small
-
-- **hǎo** — good, simple, friendly
-
-- **dà** — big, important, tall
-
-#### Grammar
-
-An adjective can modify a noun directly by following standard predicate structure:
-
-$$\text{Subject} + \text{hěn} + \text{Adjective}$$
-
-When an adjective phrase directly modifies a noun as a single unit, it uses the structural particle `-de`.
-
-#### Examples
-
-- `Shuǐ hěn hǎo.` (Water is good.)
-
-- `Zhè-ge shì hěn-xiǎo-de fángzi.` (This is a small room.)
-
-- `Wǒ kàn yī-ge hěn-dà-de dòngwù.` (I see a very big animal.)
-
 ---
 
 ## Lesson 4: Nǐ hé Wǒ (You and I)
@@ -1278,3 +1144,295 @@ These philosophical standard expressions illustrate how complex human values are
 - `Nǐ yào kàn dì biàn la, bǎ nǐ biàn hǎo.` (Be the change you want to see in the world. — Mahatma Gandhi)
 
 - `Nǐ bù-kěyǐ yòng xiǎo-de fāngfǎ shuō la, nǐ bù hǎo-de zhīdào tā.` (If you can’t explain something simply, you don’t understand it well. — Albert Einstein)
+
+# THE OFFICIAL HǍOHUÀ DICTIONARY
+
+This section presents the complete core vocabulary of Hǎohuà sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
+
+---
+
+### A
+
+- **ài** [verb] — to love, have compassion for, show deep affection to. (Maps to: _olin_).
+
+### B
+
+- **bǎ** [particle] — grammatical object-introducing particle. Used to implement the transitive state-change framework.
+
+- **báisè** [adjective/noun] — white, pale, light-colored. (Maps to: _walo_).
+
+- **biàn** [verb] — to become, change into, transform. Combined with _bǎ_ to act as a causative verbal engine. (Maps to: _kama_ as a state change).
+
+- **bízi** [noun] — nose, snout, protuberance. (Maps to: _nena_ as a facial feature).
+
+- **bù** [particle] — not, no. Used for standard negation of verbs and adjectives, except for _yǒu_. (Maps to: _ala_).
+
+- **bùtóng** [adjective/noun] — different, altered, changed, other. (Maps to: _ante_).
+
+### C
+
+- **chī** [verb/noun] — to eat, drink, consume, ingest; food, meal, edible substance. (Maps to: _moku_).
+
+- **chóngzi** [noun] — insect, bug, beetle, spider. (Maps to: _pipi_).
+
+### D
+
+- **dǎ** [verb] — to hit, fight, battle, challenge, compete against. (Maps to: _utala_).
+
+- **dà** [adjective] — big, heavy, large, long, tall, important, adult. (Maps to: _suli_).
+
+- **dànshì** [conjunction] — but, however, only. (Maps to: _taso_ as a conjunction).
+
+- **de** [particle] — possessive marker, structural adjectival particle. Used to bind modifiers and multi-word description structures onto target nouns. (Maps to: _pi_ or modifier ordering).
+
+- **dì** [noun] — land, ground, earth, country, soil, territory, world. (Maps to: _ma_).
+
+- **dìbǎn** [noun] — floor, horizontal surface, platform, couch, flat resting area. (Maps to: _supa_).
+
+- **dòng** [noun] — hole, opening, door, window, orifice. (Maps to: _lupa_).
+
+- **dòngwù** [noun] — animal, land mammal, beast. (Maps to: _soweli_).
+
+- **dōngxi** [noun] — thing, phenomenon, object, physical being, matter. (Maps to: _ijo_).
+
+- **duō** [adjective] — many, a lot, much, several, very, abundant. Used contextually to signify quantities greater than two. (Maps to: _mute_).
+
+### F
+
+- **fángzi** [noun] — building, house, home, indoor space, room. (Maps to: _tomo_).
+
+- **fāngfǎ** [noun] — way, custom, path, road, method, doctrine. (Maps to: _nasin_).
+
+- **fùmǔ** [noun] — parent, ancestor, creator, caretaker. (Maps to: _mama_).
+
+### G
+
+- **gè** [measure word] — universal classifier. Mandatory interface between numbers/demonstratives and nouns.
+
+- **gěi** [verb/coverb] — to give, send, emit, provide; to, for, from the perspective of. (Maps to: _pana_ and _tawa_).
+
+- **gōngjù** [noun] — tool, implement, machine, device. (Maps to: _ilo_).
+
+- **gùnzi** [noun] — stick, rod, branch, long hard thing. (Maps to: _palisa_).
+
+### H
+
+- **hào** [particle] — sequence marker, number identity, ordinal number prefix. (Maps to: _nanpa_).
+
+- **hǎo** [adjective] — good, positive, useful, friendly, peaceful, simple. (Maps to: _pona_).
+
+- **hé** [conjunction] — and. Used strictly to join multiple nouns or subjects. (Maps to: _en_).
+
+- **hēisè** [adjective/noun] — black, dark, unlit, obscure. (Maps to: _pimeja_).
+
+- **hěn** [adverb] — very, highly, intensely. Syntactic structural anchor required before isolated adjectives in predicates. (Maps to: _mute_ as an intensity modifier).
+
+- **hézi** [noun] — container, bag, bowl, box, cup, vessel. (Maps to: _poki_).
+
+- **hòumiàn** [noun] — back, behind, area rearward. (Maps to: _monsi_).
+
+- **hóngsè** [adjective/noun] — red, reddish. (Maps to: _loje_).
+
+- **huài** [adjective/verb] — bad, negative, broken, damaged, non-essential. (Maps to: _ike_ and _pakala_).
+
+- **huángsè** [adjective/noun] — yellow, yellowish. (Maps to: _jelo_).
+
+- **huòzhě** [conjunction] — or. Links choices or alternative clauses. (Maps to: _anu_).
+
+- **huǒ** [noun] — fire, cooking element, chemical heat source. (Maps to: _seli_ as a noun).
+
+### J
+
+- **jiǎo** [noun] — foot, leg, organ of locomotion, bottom part. (Maps to: _noka_).
+
+- **jiào** [verb] — to call, be named; to produce an animal vocalization under the Quote Partition. (Maps to: _nimi_ as a verb, and _mu_).
+
+- **juéde** [noun/adjective/verb] — feeling, emotion, direct experience; to feel, think. (Maps to: _pilin_).
+
+### K
+
+- **kāishǐ** [verb/auxiliary] — to begin, start, open; turn on; manage to. (Maps to: _open_ and _kama_ as a pre-verb).
+
+- **kàn** [verb] — to look at, see, examine, observe, read, watch. (Maps to: _lukin_).
+
+- **kěyǐ** [auxiliary] — to be able to, be allowed to, can, may, possible. (Maps to: _ken_).
+
+- **kōngqì** [noun] — air, wind, breath, spirit, hidden reality. (Maps to: _kon_).
+
+### L
+
+- **lái** [verb] — to come, arrive, happen. (Maps to: _kama_ as a main action).
+
+- **lánsè** [adjective/noun] — blue, green, aqua, shifting spectrum colors. (Maps to: _laso_).
+
+- **le** [particle] — perfective aspect marker, completed change of state. (Maps to: _pini_ as an aspect phase).
+
+- **lěng** [adjective] — cold, cool, uncooked, raw. (Maps to: _lete_).
+
+- **lǐmiàn** [noun] — inside, center, content, between, internal organ. (Maps to: _insa_).
+
+- **lìliang** [noun/adjective] — energy, power, intensity, physical strength; confident, sure, intense. (Maps to: _wawa_).
+
+- **liú** [verb] — to stay, wait, remain, keep, endure, protect. (Maps to: _awen_).
+
+- **liǎng** [number] — two. Quantifies dual entities when coupled to the measure word (_liǎng-ge_). (Maps to: _tu_).
+
+- **líkāi** [verb/adjective] — to leave, go away, depart; absent, ignored. (Maps to: _weka_).
+
+### M
+
+- **ma** [particle] — final interrogative yes-or-no question marker.
+
+- **méi** [particle] — negative particle used exclusively to negate the verb _yǒu_ (to form _méiyǒu_).
+
+- **mǐfàn** [noun] — grain, rice, cereal, bread, pasta, staple food. (Maps to: _pan_).
+
+- **míngzi** [noun] — name, word, linguistic token. (Maps to: _nimi_).
+
+### N
+
+- **nà** [pronoun/adjective] — that, those. Syntactically binds as _nà-ge_. (Maps to: _ni_ contextually).
+
+- **nánrén** [noun] — man, male, masculine human, husband. (Maps to: _mije_).
+
+- **nǐ** [pronoun] — you. (Maps to: _sina_).
+
+- **ní** [noun] — paste, mud, dough, clay, semi-solid substance, powder. (Maps to: _ko_).
+
+- **niǎo** [noun] — bird, flying creature, winged animal. (Maps to: _waso_).
+
+- **nǚrén** [noun] — woman, female, feminine human, wife. (Maps to: _meli_).
+
+### P
+
+- **pángbiān** [noun] — side, vicinity, area beside, hip. (Maps to: _poka_).
+
+- **páxíngdòngwù** [noun] — reptile, amphibian, non-cute crawling animal. (Maps to: _akesi_).
+
+- **pífū** [noun] — skin, outer layer, bark, peel, shell, boundary. (Maps to: _selo_).
+
+### Q
+
+- **qián** [noun] — money, cash, savings, wealth. (Maps to: _mani_).
+
+- **qiánmiàn** [noun] — front, face, foremost area, chest. (Maps to: _sinpin_).
+
+- **qíguài** [adjective] — strange, unusual, foolish, crazy, intoxicated. (Maps to: _nasa_).
+
+- **qù** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
+
+- **qún** [noun] — group, community, company, nation, society, tribe. (Maps to: _kulupu_).
+
+### R
+
+- **rè** [adjective] — hot, warm, cooked, chemically energetic. (Maps to: _seli_ as an attribute).
+
+- **rén** [noun] — human being, person, somebody. (Maps to: _jan_).
+
+### S
+
+- **shàngmiàn** [noun] — above, highest part, sky, elevated location, supernatural area. (Maps to: _sewi_ as a direction).
+
+- **shénme** [pronoun/particle] — what? which?. Retains position without altering Chinese SVO statement geometry. (Maps to: _seme_).
+
+- **shēntǐ** [noun] — body, physical torso, physical state. (Maps to: _sijelo_).
+
+- **shì** [verb] — to be, copula link between subjects and identity predicates.
+
+- **shìchǎng** [noun] — market, shop, fair, business location, transaction hub. (Maps to: _esun_).
+
+- **shíjiān** [noun] — time, duration, moment, occasion, period, situation. (Maps to: _tenpo_).
+
+- **shǒu** [noun] — hand, arm, tactile organ. (Maps to: _luka_ as a limb).
+
+- **shuō** [verb/noun] — to communicate, say, speak, talk, use language; language, speech. (Maps to: _toki_).
+
+- **shuǐ** [noun] — water, liquid, fluid, wet substance, beverage. (Maps to: _telo_).
+
+- **shuǐguǒ** [noun] — fruit, vegetable, mushroom, plant food crop. (Maps to: _kili_).
+
+- **shuìjiào** [verb/adjective] — to sleep, rest, be inactive; sleeping, asleep. (Maps to: _lape_).
+
+- **sǐ** [verb/adjective] — to die; dead, dying. (Maps to: _moli_).
+
+### T
+
+- **tā** [pronoun] — he, she, it, they, them. Syntactically genderless and number-fluid. (Maps to: _ona_).
+
+- **tàiyáng** [noun] — sun, radiant light source, brightness, glow. (Maps to: _suno_).
+
+- **tián** [adjective] — sweet, fragrant, cute, innocent, adorable. (Maps to: _suwi_).
+
+- **tīng** [verb] — to hear, listen, pay attention to, obey. (Maps to: _kute_ as a verb).
+
+- **tóu** [noun] — head, mind, internal regulatory director. (Maps to: _lawa_ as a body part).
+
+### W
+
+- **wán** [verb complement] — finish, end, achieve completion. Syntactically binds behind action verbs to express resultative closure. (Maps to: _pini_ as a modification).
+
+- **wán** [verb/adjective] — to play, have fun, engage in recreation; playful, artistic, frivolous. (Maps to: _musi_).
+
+- **wǒ** [pronoun] — I, me, we, us. (Maps to: _mi_).
+
+### X
+
+- **xiàmiàn** [noun] — below, underneath, under, lower part. (Maps to: _noka_ as a direction, and _anpa_).
+
+- **xiàn** [noun] — line, rope, hair, thread, cord, flexible long thing. (Maps to: _linja_).
+
+- **xiǎo** [adjective] — little, small, short, few, young, a bit. (Maps to: _lili_).
+
+- **xiě** [verb] — to write, draw, represent with marks. (Maps to: _sitelen_ as a verb).
+
+- **xīn** [adjective] — new, fresh, additional, another, extra. (Maps to: _sin_).
+
+- **xìng** [noun] — sex, sexuality, marital relations. (Maps to: _unpa_).
+
+### Y
+
+- **yán** [noun] — salt, spice, flavor enhancer, extra context. (Maps to: _namako_ contextually).
+
+- **yánsè** [noun] — color, pigment, tint frame. (Maps to: _kule_).
+
+- **yào** [auxiliary/verb] — to want, need, require, must, should. (Maps to: _wile_).
+
+- **yě** [adverb] — also, too, additionally. Placed directly before verbs to structure compound actions.
+
+- **yī** [number] — one, unique, united. (Maps to: _wan_).
+
+- **yīfu** [noun] — clothing, cloth, fabric, textile, privacy layer. (Maps to: _len_).
+
+- **yīnwèi** [conjunction/coverb] — because, because of; by, from, originating direction. (Maps to: _tan_).
+
+- **yíyàng** [adjective] — same, similar, peer, fellow, each other. (Maps to: _sama_).
+
+- **yìng** [adjective/noun] — hard, stone-like; rock, stone, metal. (Maps to: _kiwen_).
+
+- **yòng** [verb/coverb] — to use, utilize; with, by means of. (Maps to: _kepeken_).
+
+- **yǒu** [verb] — to have, contain, carry, hold, exist, there is. Must be negated with _méi_, never _bù_. (Maps to: _jo_ and _lon_ as existence).
+
+- **yú** [noun] — fish, marine animal, sea creature. (Maps to: _kala_).
+
+- **yuán** [adjective/noun] — round, circular, spherical; ball, circle, wheel, cycle. (Maps to: _sike_).
+
+- **yuèliàng** [noun] — moon, night sky object, star. (Maps to: _mun_).
+
+### Z
+
+- **zài** [verb/coverb] — to exist at, be located at, present in a room. (Maps to: _lon_ as a location marker).
+
+- **zhǎo** [verb] — to hunt, forage, search for, look for. (Maps to: _alasa_).
+
+- **zhè** [pronoun/adjective] — this, these. Syntactically binds as _zhè-ge_. (Maps to: _ni_ contextually).
+
+- **zhǐ** [noun] — paper, document, flat object, card, record, website. (Maps to: _lipu_).
+
+- **zhǐdào** [verb/auxiliary] — to know, be wise about, possess information; know how to. (Maps to: _sona_).
+
+- **zhíwù** [noun] — plant, vegetation, herb, leaf. (Maps to: _kasi_).
+
+- **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).
+
+- **zuǐ** [noun] — mouth, lips, oral cavity, jaw. (Maps to: _uta_).
