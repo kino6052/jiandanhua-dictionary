@@ -1,0 +1,979 @@
+[
+  {
+    "word": "的",
+    "pinyin": "",
+    "sources": [
+      "tp:pi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "啊",
+    "pinyin": "a",
+    "sources": [
+      "tp:a"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "爬行动物",
+    "pinyin": "páxíng-dòngwù",
+    "sources": [
+      "tp:akesi"
+    ],
+    "inCsv": false
+  },
+  {
+    "word": "不",
+    "pinyin": "bù",
+    "sources": [
+      "tp:ala"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "找",
+    "pinyin": "zhǎo",
+    "sources": [
+      "tp:alasa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "都",
+    "pinyin": "dōu",
+    "sources": [
+      "tp:ale/ali"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "下面",
+    "pinyin": "xiàmiàn",
+    "sources": [
+      "tp:anpa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "不同",
+    "pinyin": "bùtóng",
+    "sources": [
+      "tp:ante"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "或者",
+    "pinyin": "huòzhě",
+    "sources": [
+      "tp:anu"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "留",
+    "pinyin": "liú",
+    "sources": [
+      "tp:awen"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "和",
+    "pinyin": "hé",
+    "sources": [
+      "tp:en"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "市场",
+    "pinyin": "shìchǎng",
+    "sources": [
+      "tp:esun"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "东西",
+    "pinyin": "dōngxi",
+    "sources": [
+      "tp:ijo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "坏",
+    "pinyin": "huài",
+    "sources": [
+      "tp:ike",
+      "tp:pakala"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "工具",
+    "pinyin": "gōngjù",
+    "sources": [
+      "tp:ilo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "里面",
+    "pinyin": "lǐmiàn",
+    "sources": [
+      "tp:insa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "脏",
+    "pinyin": "zāng",
+    "sources": [
+      "tp:jaki"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "人",
+    "pinyin": "rén",
+    "sources": [
+      "tp:jan"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "黄色",
+    "pinyin": "huángsè",
+    "sources": [
+      "tp:jelo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "有",
+    "pinyin": "yǒu",
+    "sources": [
+      "tp:jo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "鱼",
+    "pinyin": "yú",
+    "sources": [
+      "tp:kala"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "声音",
+    "pinyin": "shēngyīn",
+    "sources": [
+      "tp:kalama"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "来",
+    "pinyin": "lái",
+    "sources": [
+      "tp:kama"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "植物",
+    "pinyin": "zhíwù",
+    "sources": [
+      "tp:kasi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "可以",
+    "pinyin": "kěyǐ",
+    "sources": [
+      "tp:ken"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "用",
+    "pinyin": "yòng",
+    "sources": [
+      "tp:kepeken"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "水果",
+    "pinyin": "shuǐguǒ",
+    "sources": [
+      "tp:kili"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "硬",
+    "pinyin": "yìng",
+    "sources": [
+      "tp:kiwen"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "泥",
+    "pinyin": "ní",
+    "sources": [
+      "tp:ko"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "空气",
+    "pinyin": "kōngqì",
+    "sources": [
+      "tp:kon"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "颜色",
+    "pinyin": "yánsè",
+    "sources": [
+      "tp:kule"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "群",
+    "pinyin": "qún",
+    "sources": [
+      "tp:kulupu"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "听",
+    "pinyin": "tīng",
+    "sources": [
+      "tp:kute"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "睡觉",
+    "pinyin": "shuìjiào",
+    "sources": [
+      "tp:lape"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "蓝色",
+    "pinyin": "lánsè",
+    "sources": [
+      "tp:laso"
+    ],
+    "inCsv": false
+  },
+  {
+    "word": "头",
+    "pinyin": "tóu",
+    "sources": [
+      "tp:lawa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "衣服",
+    "pinyin": "yīfu",
+    "sources": [
+      "tp:len"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "冷",
+    "pinyin": "lěng",
+    "sources": [
+      "tp:lete"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "小",
+    "pinyin": "xiǎo",
+    "sources": [
+      "tp:lili"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "线",
+    "pinyin": "xiàn",
+    "sources": [
+      "tp:linja"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "纸",
+    "pinyin": "zhǐ",
+    "sources": [
+      "tp:lipu"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "红色",
+    "pinyin": "hóngsè",
+    "sources": [
+      "tp:loje"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "在",
+    "pinyin": "zài",
+    "sources": [
+      "tp:lon"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "手",
+    "pinyin": "shǒu",
+    "sources": [
+      "tp:luka"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "看",
+    "pinyin": "kàn",
+    "sources": [
+      "tp:lukin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "洞",
+    "pinyin": "dòng",
+    "sources": [
+      "tp:lupa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "地",
+    "pinyin": "dì",
+    "sources": [
+      "tp:ma"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "父母",
+    "pinyin": "fùmǔ",
+    "sources": [
+      "tp:mama"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "钱",
+    "pinyin": "qián",
+    "sources": [
+      "tp:mani"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "女人",
+    "pinyin": "nǚrén",
+    "sources": [
+      "tp:meli"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "我",
+    "pinyin": "wǒ",
+    "sources": [
+      "tp:mi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "男人",
+    "pinyin": "nánrén",
+    "sources": [
+      "tp:mije"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "吃",
+    "pinyin": "chī",
+    "sources": [
+      "tp:moku"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "死",
+    "pinyin": "sǐ",
+    "sources": [
+      "tp:moli"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "后面",
+    "pinyin": "hòumiàn",
+    "sources": [
+      "tp:monsi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "叫",
+    "pinyin": "jiào",
+    "sources": [
+      "tp:mu"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "月亮",
+    "pinyin": "yuèliàng",
+    "sources": [
+      "tp:mun"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "玩",
+    "pinyin": "wán",
+    "sources": [
+      "tp:musi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "多",
+    "pinyin": "duō",
+    "sources": [
+      "tp:mute"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "盐",
+    "pinyin": "yán",
+    "sources": [
+      "tp:namako"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "号",
+    "pinyin": "hào",
+    "sources": [
+      "tp:nanpa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "奇怪",
+    "pinyin": "qíguài",
+    "sources": [
+      "tp:nasa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "方法",
+    "pinyin": "fāngfǎ",
+    "sources": [
+      "tp:nasin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "鼻子",
+    "pinyin": "bízi",
+    "sources": [
+      "tp:nena"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "这",
+    "pinyin": "zhè",
+    "sources": [
+      "tp:ni"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "名字",
+    "pinyin": "míngzi",
+    "sources": [
+      "tp:nimi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "脚",
+    "pinyin": "jiǎo",
+    "sources": [
+      "tp:noka"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "爱",
+    "pinyin": "ài",
+    "sources": [
+      "tp:olin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "他",
+    "pinyin": "tā",
+    "sources": [
+      "tp:ona"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "开始",
+    "pinyin": "kāishǐ",
+    "sources": [
+      "tp:open"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "做",
+    "pinyin": "zuò",
+    "sources": [
+      "tp:pali"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "棍子",
+    "pinyin": "gùnzi",
+    "sources": [
+      "tp:palisa"
+    ],
+    "inCsv": false
+  },
+  {
+    "word": "米饭",
+    "pinyin": "mǐfàn",
+    "sources": [
+      "tp:pan"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "给",
+    "pinyin": "gěi",
+    "sources": [
+      "tp:pana"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "觉得",
+    "pinyin": "juéde",
+    "sources": [
+      "tp:pilin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "黑色",
+    "pinyin": "hēisè",
+    "sources": [
+      "tp:pimeja"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "完",
+    "pinyin": "wán",
+    "sources": [
+      "tp:pini"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "虫子",
+    "pinyin": "chóngzi",
+    "sources": [
+      "tp:pipi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "旁边",
+    "pinyin": "pángbiān",
+    "sources": [
+      "tp:poka"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "盒子",
+    "pinyin": "hézi",
+    "sources": [
+      "tp:poki"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "好",
+    "pinyin": "hǎo",
+    "sources": [
+      "tp:pona"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "一样",
+    "pinyin": "yíyàng",
+    "sources": [
+      "tp:sama"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "火",
+    "pinyin": "huǒ",
+    "sources": [
+      "tp:seli"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "热",
+    "pinyin": "rè",
+    "sources": [
+      "tp:seli (quality)"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "皮肤",
+    "pinyin": "pífū",
+    "sources": [
+      "tp:selo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "什么",
+    "pinyin": "shénme",
+    "sources": [
+      "tp:seme"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "上面",
+    "pinyin": "shàngmiàn",
+    "sources": [
+      "tp:sewi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "身体",
+    "pinyin": "shēntǐ",
+    "sources": [
+      "tp:sijelo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "圆",
+    "pinyin": "yuán",
+    "sources": [
+      "tp:sike"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "新",
+    "pinyin": "xīn",
+    "sources": [
+      "tp:sin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "你",
+    "pinyin": "nǐ",
+    "sources": [
+      "tp:sina"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "前面",
+    "pinyin": "qiánmiàn",
+    "sources": [
+      "tp:sinpin"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "写",
+    "pinyin": "xiě",
+    "sources": [
+      "tp:sitelen"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "知道",
+    "pinyin": "zhīdào",
+    "sources": [
+      "tp:sona"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "动物",
+    "pinyin": "dòngwù",
+    "sources": [
+      "tp:soweli"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "大",
+    "pinyin": "dà",
+    "sources": [
+      "tp:suli"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "太阳",
+    "pinyin": "tàiyáng",
+    "sources": [
+      "tp:suno"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "地板",
+    "pinyin": "dìbǎn",
+    "sources": [
+      "tp:supa"
+    ],
+    "inCsv": false
+  },
+  {
+    "word": "甜",
+    "pinyin": "tián",
+    "sources": [
+      "tp:suwi"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "因为",
+    "pinyin": "yīnwèi",
+    "sources": [
+      "tp:tan"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "但是",
+    "pinyin": "dànshì",
+    "sources": [
+      "tp:taso"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "去",
+    "pinyin": "qù",
+    "sources": [
+      "tp:tawa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "水",
+    "pinyin": "shuǐ",
+    "sources": [
+      "tp:telo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "时间",
+    "pinyin": "shíjiān",
+    "sources": [
+      "tp:tenpo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "说",
+    "pinyin": "shuō",
+    "sources": [
+      "tp:toki"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "房子",
+    "pinyin": "fángzi",
+    "sources": [
+      "tp:tomo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "两",
+    "pinyin": "liǎng",
+    "sources": [
+      "tp:tu"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "性",
+    "pinyin": "xìng",
+    "sources": [
+      "tp:unpa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "嘴",
+    "pinyin": "zuǐ",
+    "sources": [
+      "tp:uta"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "打",
+    "pinyin": "dǎ",
+    "sources": [
+      "tp:utala"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "白色",
+    "pinyin": "báisè",
+    "sources": [
+      "tp:walo"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "一",
+    "pinyin": "yī",
+    "sources": [
+      "tp:wan"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "鸟",
+    "pinyin": "niǎo",
+    "sources": [
+      "tp:waso"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "力量",
+    "pinyin": "lìliang",
+    "sources": [
+      "tp:wawa"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "离开",
+    "pinyin": "líkāi",
+    "sources": [
+      "tp:weka"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "要",
+    "pinyin": "yào",
+    "sources": [
+      "tp:wile"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "是",
+    "pinyin": "shì",
+    "sources": [
+      "grammar:copula (to be, for noun=noun)"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "了",
+    "pinyin": "le",
+    "sources": [
+      "grammar:perfective aspect marker"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "吗",
+    "pinyin": "ma",
+    "sources": [
+      "grammar:yes/no question marker"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "也",
+    "pinyin": "yě",
+    "sources": [
+      "grammar:also, too"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "很",
+    "pinyin": "hěn",
+    "sources": [
+      "grammar:very"
+    ],
+    "inCsv": true
+  },
+  {
+    "word": "那",
+    "pinyin": "nà",
+    "sources": [
+      "grammar:that"
+    ],
+    "inCsv": true
+  }
+]
