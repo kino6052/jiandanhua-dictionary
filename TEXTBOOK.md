@@ -1,4 +1,4 @@
-# WELCOME TO HǍOHUÀ: THE QUANTUM CORE
+# WELCOME TO HǍO-SHUO-DE: THE QUANTUM CORE
 
 ---
 
@@ -15,23 +15,23 @@ The difficulty isn't a myth, but it _is_ misunderstood. Traditional language cou
 
 When you try to memorize a massive dictionary while simultaneously learning how to structure a sentence, your brain runs out of processing power. You spend so much energy hunting for the specific word for "refrigerator," "employee," or "cat" that you never actually learn how to _think_ in the language. You freeze up before you can even begin.
 
-**Hǎohuà changes the rules of the game.**
+**HǍO-SHUO-DE changes the rules of the game.**
 
 ---
 
 ## 2. The Solution: Radical Reduction
 
-Hǎohuà (pronounced _hao-hwa_, meaning "good speech") is based on a radical engineering question:
+HǍO-SHUO-DE (meaning "good speech") is based on a radical engineering question:
 
 > What is the absolute smallest number of words required to speak 100% grammatically correct, real Mandarin?
 
-The answer is **123 words**.
+The answer is about **120 words**.
 
 This idea was inspired by _Toki Pona_, a minimalist invented language created in 2014 by linguist Sonja Lang. Toki Pona proved to the world that you can express almost any human thought using a tiny toolkit of roughly 120 basic concepts. If you are hungry, you say "want eat". If you teach, you "give knowledge".
 
 Hǎohuà steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
 
-By freezing your vocabulary at just 123 words, the exhausting chore of word-hunting completely vanishes. Your mind is freed to focus 100% of its energy on mastering native sentence structure, rhythm, and flow.
+By freezing your vocabulary at just about 120 words, the exhausting chore of word-hunting completely vanishes. Your mind is freed to focus 100% of its energy on mastering native sentence structure, rhythm, and flow.
 
 ---
 
@@ -39,7 +39,7 @@ By freezing your vocabulary at just 123 words, the exhausting chore of word-hunt
 
 There are plenty of simplified or artificial languages out there, but they usually create a trap: you end up speaking a private code that only a small club of enthusiasts understands.
 
-Hǎohuà is explicitly designed to avoid this. Every single sentence you build in Hǎohuà is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you instantly.**
+Hǎohuà is explicitly designed to avoid this. Every single sentence you build in Hǎohuà is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
 
 Because we are working with a tiny vocabulary, we use the clever, elegant structures built directly into native Chinese grammar to handle complex ideas. For example, to change the state of an object, we use the standard native Mandarin _bǎ_ construction paired with _biàn_ (to become or change):
 
@@ -57,13 +57,14 @@ $$\text{Subject} + \text{bǎ} + \text{Object} + \text{biàn} + \text{State/Adjec
 To make your entry completely seamless, this book applies a few strict visual rules to protect you from cognitive overload:
 
 - **Zero Characters:** The visual wall of Chinese characters is entirely stripped away. You will read and write exclusively using Pinyin—the standard, phonetic Latin alphabet for Chinese.
+
 - **Explicit Word Boundaries:** Multi-syllable dictionary words are kept as solid blocks so you know they are a single unit (e.g., `dòngwù` for animal, `shuìjiào` for sleep).
 
 - **Syntactic Hyphens:** Hyphens are used strictly to show how grammar particles and descriptions glue onto their targets (e.g., `zhè-ge` for _this one_, `hěn-dà-de` for _very big_).
 
 - **The Quote Partition:** Any specialized foreign names or literal animal sounds are cordoned off in quotation marks (e.g., `jiào "wāng-wāng"` for _goes "woof woof"_) so your brain knows to skip looking them up in the vocabulary.
 
-This is not a toy version of Chinese. It is the sophisticated, high-performance operating system of the language, stripped of all historical baggage. Master these 123 words, and you install the structural muscle memory of Mandarin directly into your brain.
+This is not a toy version of Chinese. It is the sophisticated, high-performance operating system of the language, stripped of all historical baggage. Master these 120 words, and you install the structural muscle memory of Mandarin directly into your brain.
 
 ---
 
@@ -72,6 +73,8 @@ This is not a toy version of Chinese. It is the sophisticated, high-performance 
 ### Lesson 1: Letters and Sounds
 
 Hǎohuà uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, Hǎohuà adopts standard Chinese dictionary tones.
+
+This book doesn't teach you pinyin, so for more information please consult standard Chinese materials for beginners about pinyin, like HSK 1 or analogs.
 
 #### Tones
 
@@ -101,7 +104,7 @@ To make the architecture of the language transparent, Hǎohuà separates vocabul
 
 - **shuǐguǒ** — fruit, vegetable
 
-- **zhǐ** — document, paper, flat object
+- **xiě** — document, paper, flat object
 
 - **nǚrén** — woman, female
 
@@ -1369,7 +1372,7 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 ### W
 
-- **wán** [verb complement] — finish, end, achieve completion. Syntactically binds behind action verbs to express resultative closure. (Maps to: _pini_ as a modification).
+- **wáncháng** [verb complement] — finish, end, achieve completion. Syntactically binds behind action verbs to express resultative closure. (Maps to: _pini_ as a modification).
 
 - **wán** [verb/adjective] — to play, have fun, engage in recreation; playful, artistic, frivolous. (Maps to: _musi_).
 
