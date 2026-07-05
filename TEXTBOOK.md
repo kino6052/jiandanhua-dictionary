@@ -29,7 +29,7 @@ The answer is about **120 words**.
 
 This idea was inspired by _Toki Pona_, a minimalist invented language created in 2014 by linguist Sonja Lang. Toki Pona proved to the world that you can express almost any human thought using a tiny toolkit of roughly 120 basic concepts. If you are hungry, you say "want eat". If you teach, you "give knowledge".
 
-Hǎohuà steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
+HǍO-SHUO-DE steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
 
 By freezing your vocabulary at just about 120 words, the exhausting chore of word-hunting completely vanishes. Your mind is freed to focus 100% of its energy on mastering native sentence structure, rhythm, and flow.
 
@@ -39,7 +39,7 @@ By freezing your vocabulary at just about 120 words, the exhausting chore of wor
 
 There are plenty of simplified or artificial languages out there, but they usually create a trap: you end up speaking a private code that only a small club of enthusiasts understands.
 
-Hǎohuà is explicitly designed to avoid this. Every single sentence you build in Hǎohuà is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
+HǍO-SHUO-DE is explicitly designed to avoid this. Every single sentence you build in HǍO-SHUO-DE is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
 
 Because we are working with a tiny vocabulary, we use the clever, elegant structures built directly into native Chinese grammar to handle complex ideas. For example, to change the state of an object, we use the standard native Mandarin _bǎ_ construction paired with _biàn_ (to become or change):
 
@@ -72,7 +72,7 @@ This is not a toy version of Chinese. It is the sophisticated, high-performance 
 
 ### Lesson 1: Letters and Sounds
 
-Hǎohuà uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, Hǎohuà adopts standard Chinese dictionary tones.
+HǍO-SHUO-DE uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, HǍO-SHUO-DE adopts standard Chinese dictionary tones.
 
 This book doesn't teach you pinyin, so for more information please consult standard Chinese materials for beginners about pinyin, like HSK 1 or analogs.
 
@@ -87,7 +87,7 @@ Dictation forms always retain their standard baseline tones in writing, regardle
 
 #### Hyphenation Rules
 
-To make the architecture of the language transparent, Hǎohuà separates vocabulary from grammar visually:
+To make the architecture of the language transparent, HǍO-SHUO-DE separates vocabulary from grammar visually:
 
 1. **Lexical words stay solid:** Multi-syllables that form a single dictionary word are never split (e.g., `dòngwù`, `shuìjiào`, `dànshì`).
 2. **Syntactic units bind:** Hyphens are used strictly to glue grammatical particles, measure words, or description phrases to their targets (e.g., `zhè-ge`, `yī-ge`, `hěn-dà-de`).
@@ -104,7 +104,7 @@ To make the architecture of the language transparent, Hǎohuà separates vocabul
 
 - **shuǐguǒ** — fruit, vegetable
 
-- **xiě** — document, paper, flat object
+- **xiě** — write
 
 - **nǚrén** — woman, female
 
@@ -112,31 +112,36 @@ To make the architecture of the language transparent, Hǎohuà separates vocabul
 
 - **dòngwù** — animal, land mammal
 
-#### Grammar
+### Grammar
 
-To build a simple descriptive sentence in Hǎohuà, follow the standard Mandarin copula model:
+To build a basic descriptive sentence in HǍO-SHUO-DE, use the standard Mandarin **is/am/are** structure. You do not need to change the verb based on who is speaking:
 
-$$\text{Subject} + \text{shì} + \text{Noun}$$
+`Subject + shì + Noun`
 
-By themselves, nouns do not inherently dictate singular or plural forms. The word `nǚrén` can mean either "woman" or "women" depending on context. Hǎohuà links demonstratives directly to the universal measure word `gè` via a hyphen.
+- **No Plurals:** By themselves, HǍO-SHUO-DE nouns are completely number-neutral. Context dictates the volume. For example, the word `nǚrén` can mean either "woman" or "women" depending on the situation.
+- **Pointing to Things:** To say "this" or "that," HǍO-SHUO-DE links the demonstrative pointers (`zhè` or `nà`) directly to the universal measure word `gè` using a hyphen (`zhè-ge` / `nà-ge`).
+- **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle `de`. Because HǍO-SHUO-DE avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (`xiě-de dōngxi`).
 
-#### Examples
+---
 
-- `Zhè-ge shì rén.` (This is a person.)
+### Examples
 
-- `Zhè-ge shì shuǐguǒ.` (This is a fruit.)
-
-- `Zhǐ shì dōngxi.` (A book/paper is a thing.)
-
-- `Rén shì nǚrén.` (The person is a woman.)
-
-- `Dòngwù shì dōngxi.` (Animals are things.)
-
-- `Nǚrén shì rén.` (Women are people.)
+- `Zhè-ge shì rén.`
+  (This is a person.)
+- `Zhè-ge shì shuǐguǒ.`
+  (This is a fruit.)
+- `Yī-ge xiě-de dōngxi shì dōngxi.`
+  (A written thing [book/document] is a thing.)
+- `Rén shì nǚrén.`
+  (The person is a woman.)
+- `Dòngwù shì dōngxi.`
+  (Animals are things.)
+- `Nǚrén shì rén.`
+  (Women are people.)
 
 #### Practice Exercise
 
-Translate the following sentences into Hǎohuà rules (Answers below):
+Translate the following sentences into HǍO-SHUO-DE rules (Answers below):
 
 1. This is a document.
 2. A woman is a human.
@@ -144,7 +149,7 @@ Translate the following sentences into Hǎohuà rules (Answers below):
 
 #### Answers to Exercise
 
-1. `Zhè-ge shì zhǐ.`
+1. `Zhè-ge shì xiě-de dōngxi.`
 2. `Nǚrén shì rén.`
 3. `Dòngwù shì dōngxi.`
 
@@ -156,7 +161,7 @@ Translate the following sentences into Hǎohuà rules (Answers below):
 
 - **shuǐ** — water, liquid
 
-- **fángzi** — house, building, room
+- **dìfāng** — a place (both in space or metaphorical to mean part of something).
 
 - **xiǎo** — little, small
 
@@ -176,13 +181,13 @@ When an adjective phrase directly modifies a noun as a single unit, it uses the 
 
 - `Shuǐ hěn hǎo.` (Water is good.)
 
-- `Zhè-ge shì hěn-xiǎo-de fángzi.` (This is a small room.)
+- `Zhè-ge shì hěn-xiǎo-de dìfāng.` (This is a small room.)
 
 - `Wǒ kàn yī-ge hěn-dà-de dòngwù.` (I see a very big animal.)
 
 ---
 
-## Lesson 4: Nǐ hé Wǒ (You and I)
+## Lesson 4: You and I
 
 ### Vocabulary
 
@@ -200,17 +205,17 @@ When an adjective phrase directly modifies a noun as a single unit, it uses the 
 
 ### Grammar
 
-Unlike Toki Pona, where pronouns drop specific structural elements, Hǎohuà functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wǒ-de`, `nǐ-de`).
+Unlike Toki Pona, where pronouns drop specific structural elements, HǍO-SHUO-DE functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wǒ-de`, `nǐ-de`).
 
-To express the adjective "strong," Hǎohuà leverages the native construction `yǒu lìliang` (to have power or strength).
+To express the adjective "strong," HǍO-SHUO-DE leverages the native construction `yǒu lìliang` (to have power or strength).
 
 ### Examples
 
-- `Nǐ-de fángzi hěn xīn.` (Your home is new.)
+- `Nǐ-de dìfāng hěn xīn.` (Your home is new.)
 
 - `Nánrén shì hǎo-de rén.` (The man is a friend / a good person.)
 
-- `Dòngwù-de fángzi hěn xiǎo.` (The doghouse / animal's house is small.)
+- `Dòngwù-de dìfāng hěn xiǎo.` (The doghouse / animal's house is small.)
 
 - `Nǐ shì yǒu-lìliang-de nánrén.` (You’re a confident/strong man.)
 
@@ -220,7 +225,7 @@ To express the adjective "strong," Hǎohuà leverages the native construction `y
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. You are strong.
 2. My community is large.
@@ -248,33 +253,33 @@ Translate the following into Hǎohuà:
 
 - **zhīdào** — to know
 
-- **shuō** — to talk, speak, communicate; language, speech
+- **shuō** — to talk, speak, communicate;
 
 ### Grammar
 
-Hǎohuà eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
+HǍO-SHUO-DE eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
 
 Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `le` can be appended to show completed actions. Words fluidly shift roles depending on context—for instance, `chī` represents the action "to eat" or the noun "food," while `zhīdào-de rén` acts as "a knowledgeable person".
 
 ### Examples
 
-- `Wǒ zhīdào hǎo-de shuō.` (I know a simple language / good speech.)
+- `Wǒ zhīdào hǎo shuō-de.` (I know a simple language / good speech.)
 
 - `Nà-ge nánrén shì shuō-de rén.` (That man is a messenger / speaking person.)
 
 - `Dà-de dòngwù zài chī nǐ.` (A large animal is eating you.)
 
-- `Qún-de zhǐ hěn hǎo.` (The community’s book is reliable.)
+- `Qún-de xiě-de dōngxi hěn hǎo.` (The community’s book is reliable.)
 
 - `Nǐ zuò le xīn-de chī.` (You made new food.)
 
 - `Zhīdào-de rén tīng.` (A person of knowledge listens.)
 
-- `Zhīdào-de fángzi yǒu zhǐ.` (The school / house of knowledge has books.)
+- `Zhīdào-de dìfāng yǒu xiě-de dōngxi.` (The school / house of knowledge has books.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. I will listen to you.
 2. The woman obeyed the man.
@@ -288,7 +293,7 @@ Translate the following into Hǎohuà:
 
 ---
 
-## Lesson 6: Cí-xìng de Biànhuà (More Adjectives & State Changes)
+## Lesson 6: More Adjectives & State Changes
 
 ### Vocabulary
 
@@ -314,195 +319,35 @@ Adjectives can modify other adjectives or verbs by preceding them directly as ad
 
 ### Examples
 
-- `Nǐ-de zuò hěn hǎo.` (Your work is very good.)
+- `Nǐ-de zuò-de hěn hǎo.` (Your work is very good.)
 
 - `Shuǐ gěi wǒ lìliang.` (Water strengthens me / gives me energy.)
 
-- `Zhīdào-de rén kàn zhǐ.` (The scholars read the document / look at the paper.)
+- `Zhīdào-de rén kàn xiě-de dōngxi.` (The scholars read the document / look at the paper.)
 
 - `Xiǎo-de nǚrén méiyǒu hǎo-de tīng fùmǔ.` (The girls misheard / didn't listen well to the parent.)
 
 - `Méiyǒu rén shì huài-de.` (Nobody is bad.)
 
-- `Nánrén-de fùmǔ duō-de kàn zhǐ.` (Fathers use/read the book a lot.)
+- `Nánrén-de fùmǔ duō-de kàn xiě-de dōngxi.` (Fathers use/read the book a lot.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. The man doesn't eat bad fruit.
 2. Eating makes me tall.
-3. I know Hǎohuà a bit.
+3. I know HǍO-SHUO-DE a bit.
 
 #### Answers
 
 1. `Nánrén bù chī huài-de shuǐguǒ.`
 2. `Chī bǎ wǒ biàn dà.`
-3. `Wǒ xiǎo-de zhīdào Hǎohuà.`
+3. `hǎo-shuō-de, wǒ zhīdào-de bù duō.`
 
 ---
 
-## Lesson 4: Nǐ hé Wǒ (You and I)
-
-### Vocabulary
-
-- **wǒ** — I, me, we
-
-- **nánrén** — man, male
-
-- **nǐ** — you
-
-- **qún** — community, group
-
-- **xīn** — new, another, fresh
-
-- **lìliang** — power, energy (used alongside _yǒu_ to mean strong, confident, or dependable)
-
-### Grammar
-
-Unlike Toki Pona, where pronouns drop specific structural elements, Hǎohuà functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wǒ-de`, `nǐ-de`).
-
-To express the adjective "strong," Hǎohuà leverages the native construction `yǒu lìliang` (to have power or strength).
-
-### Examples
-
-- `Nǐ-de fángzi hěn xīn.` (Your home is new.)
-
-- `Nánrén shì hǎo-de rén.` (The man is a friend / a good person.)
-
-- `Dòngwù-de fángzi hěn xiǎo.` (The doghouse / animal's house is small.)
-
-- `Nǐ shì yǒu-lìliang-de nánrén.` (You’re a confident/strong man.)
-
-- `Xīn-de qún hěn yǒu lìliang.` (The new community is strong.)
-
-- `Zhè-ge shì nǐ-de zhǐ.` (This is your book / document.)
-
-### Practice Exercise
-
-Translate the following into Hǎohuà:
-
-1. You are strong.
-2. My community is large.
-3. Fresh water is a good thing.
-
-#### Answers
-
-1. `Nǐ hěn yǒu lìliang.`
-2. `Wǒ-de qún hěn dà.`
-3. `Xīn-de shuǐ shì hǎo-de dōngxi.`
-
----
-
-## Lesson 5: Dòngzuò (Verbs)
-
-### Vocabulary
-
-- **yǒu** — to have, contain, carry
-
-- **tīng** — to listen to, hear, obey
-
-- **chī** — to eat, drink, consume; food
-
-- **zuò** — to make, do, work on
-
-- **zhīdào** — to know
-
-- **shuō** — to talk, speak, communicate; language, speech
-
-### Grammar
-
-Hǎohuà eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
-
-Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `le` can be appended to show completed actions. Words fluidly shift roles depending on context—for instance, `chī` represents the action "to eat" or the noun "food," while `zhīdào-de rén` acts as "a knowledgeable person".
-
-### Examples
-
-- `Wǒ zhīdào hǎo-de shuō.` (I know a simple language / good speech.)
-
-- `Nà-ge nánrén shì shuō-de rén.` (That man is a messenger / speaking person.)
-
-- `Dà-de dòngwù zài chī nǐ.` (A large animal is eating you.)
-
-- `Qún-de zhǐ hěn hǎo.` (The community’s book is reliable.)
-
-- `Nǐ zuò le xīn-de chī.` (You made new food.)
-
-- `Zhīdào-de rén tīng.` (A person of knowledge listens.)
-
-- `Zhīdào-de fángzi yǒu zhǐ.` (The school / house of knowledge has books.)
-
-### Practice Exercise
-
-Translate the following into Hǎohuà:
-
-1. I will listen to you.
-2. The woman obeyed the man.
-3. The friends ate meat.
-
-#### Answers
-
-1. `Wǒ tīng nǐ.`
-2. `Nǚrén tīng le nánrén.`
-3. `Hǎo-de rén chī le dòngwù.`
-
----
-
-## Lesson 6: Cí-xìng de Biànhuà (More Adjectives & State Changes)
-
-### Vocabulary
-
-- **bù** — not, no
-
-- **huài** — bad, negative, broken
-
-- **duō** — many, a lot, very
-
-- **fùmǔ** — parent, ancestor
-
-- **yī** — one, united
-
-### Grammar
-
-Adjectives can modify other adjectives or verbs by preceding them directly as adverbs (e.g., `hěn duō` for "very many").
-
-> ### The Causative Rule
->
-> To turn an adjective into a transitive action (such as transforming "good" into "to fix/improve" or "bad" into "to break"), you must use the standard Mandarin **把 (bǎ)** construction paired with **变 (biàn — to become/change)**:
->
-> $$\text{Subject} + \text{bǎ} + \text{Object} + \text{biàn} + \text{Adjective}$$
-
-### Examples
-
-- `Nǐ-de zuò hěn hǎo.` (Your work is very good.)
-
-- `Shuǐ gěi wǒ lìliang.` (Water strengthens me / gives me energy.)
-
-- `Zhīdào-de rén kàn zhǐ.` (The scholars read the document / look at the paper.)
-
-- `Xiǎo-de nǚrén méiyǒu hǎo-de tīng fùmǔ.` (The girls misheard / didn't listen well to the parent.)
-
-- `Méiyǒu rén shì huài-de.` (Nobody is bad.)
-
-- `Nánrén-de fùmǔ duō-de kàn zhǐ.` (Fathers use/read the book a lot.)
-
-### Practice Exercise
-
-Translate the following into Hǎohuà:
-
-1. The man doesn't eat bad fruit.
-2. Eating makes me tall.
-3. I know Hǎohuà a bit.
-
-#### Answers
-
-1. `Nánrén bù chī huài-de shuǐguǒ.`
-2. `Chī bǎ wǒ biàn dà.`
-3. `Wǒ xiǎo-de zhīdào Hǎohuà.`
-
----
-
-## Lesson 7: Wèntí hé Huídá (Questions and Answers)
+## Lesson 7: Questions and Answers
 
 ### Vocabulary
 
@@ -516,11 +361,15 @@ Translate the following into Hǎohuà:
 
 - **shénme** — what, which
 
+- **wèishénme** - why
+
+- **zenme** - how
+
 ### Grammar
 
-To ask a "what" or "which" question in Hǎohuà, you do not alter the sentence structure. Simply place the question word `shénme` directly into the syntactic position of the information you want to discover.
+To ask a "what" or "which" question in HǍO-SHUO-DE, you do not alter the sentence structure. Simply place the question word `shénme` directly into the syntactic position of the information you want to discover.
 
-For yes-or-no questions, Hǎohuà completely bypasses Toki Pona's particle rules by adopting standard Mandarin grammatical structures:
+For yes-or-no questions, HǍO-SHUO-DE completely bypasses Toki Pona's particle rules by adopting standard Mandarin grammatical structures:
 
 1. **The ma Construction:** Append the question marker `ma` to the very end of a standard statement.
 
@@ -530,7 +379,7 @@ To answer "yes," simply repeat the main verb. To answer "no," repeat the verb al
 
 ### Examples
 
-- `Shénme hěn xīn?` (What is new?)
+- `Shénme shì xīn-de?` (What is new?)
 
 - `Shénme rén zài shuō?` (Which person is speaking?)
 
@@ -546,9 +395,13 @@ To answer "yes," simply repeat the main verb. To answer "no," repeat the verb al
 
 - `Nǐ gěi tā yú ma?` (Are you giving her a fish?)
 
+- `Wèishénme nǐ gěi tā yú?` (Why you are giving her a fish?)
+
+- `Nǐ zěnme bǎ HAOSHUODE biàn zhīdào?` (How do you learn HAOSHUODE?)
+
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. What tools do you have?
 2. Does he listen?
@@ -562,7 +415,7 @@ Translate the following into Hǎohuà:
 
 ---
 
-## Lesson 8: Jiècí (Prepositions & Coverbs)
+## Lesson 8: Prepositions & Coverbs
 
 ### Vocabulary
 
@@ -576,19 +429,19 @@ Translate the following into Hǎohuà:
 
 ### Grammar
 
-In Hǎohuà, prepositions function exactly like standard Mandarin coverbs. They typically introduce a noun phrase and sit right before the main action of the sentence:
+In HǍO-SHUO-DE, prepositions function exactly like standard Mandarin coverbs. They typically introduce a noun phrase and sit right before the main action of the sentence:
 
 $$\text{Subject} + \text{Coverb Phrase} + \text{Main Verb} + \text{Object}$$
 
-If no other action verb is present in the clause, the coverb itself steps up to serve as the main predicate of the sentence (e.g., `Wǒ zài fángzi` — I am in the house).
+If no other action verb is present in the clause, the coverb itself steps up to serve as the main predicate of the sentence (e.g., `Wǒ zài dìfāng` — I am in the house).
 
 ### Examples
 
 - `Wǒ gěi tā yú.` (I give fish to her.)
 
-- `Wǒ zài fángzi gěi tā yú.` (I give fish to her in the house.)
+- `Wǒ zài dìfāng gěi tā yú.` (I give fish to her in the house.)
 
-- `Wǒ zài fángzi.` (I am in the house.)
+- `Wǒ zài dìfāng.` (I am in the house.)
 
 - `Wǒ qù nǐ-de pángbiān.` (I am moving towards you / going to your side.)
 
@@ -596,11 +449,11 @@ If no other action verb is present in the clause, the coverb itself steps up to 
 
 - `Yīnwèi zhè-ge, wǒ zuò le hěn duō.` (Because of this, I worked a lot.)
 
-- `Wǒ yòng Hǎohuà shuō.` (I speak in Hǎohuà / use Hǎohuà to speak.)
+- `Wǒ yòng HǍO-SHUO-DE shuō.` (I speak in HǍO-SHUO-DE / use HǍO-SHUO-DE to speak.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. The worker uses tools.
 2. He gives things from his house.
@@ -609,52 +462,60 @@ Translate the following into Hǎohuà:
 #### Answers
 
 1. `Zhè-ge gōngjù-de rén yòng gōngjù.` (or `Jié-gè rén yòng gōngjù.`)
-2. `Yīnwèi tā-de fángzi, tā gěi dōngxi.`
-3. `Yīnwèi shénme nǐ zuò le zhè-ge?`
+2. `tā gěi lai-tā-de-difang-de dōngxi.`
+3. `Weishénme nǐ zuò le zhè-ge?`
 
 ---
 
-## Lesson 9: Míngzi hé Dìlǐ (Proper Names & Geography)
+## Lesson 9: Proper Names & Geography
 
 ### Vocabulary
 
-- **dì** — land, ground, country, territory
-
 - **fāngfǎ** — way, street, method, path
-
-- **míngzi** — name, word
-
+- **míngzi** — name
 - **dǎ** — to fight, battle, compete against
 
 ### Grammar
 
 Unique external identities, such as specific regional locations or personal human titles, follow standard Mandarin phonetic spelling and capitalization rules.
 
-In line with standard Chinese modifier syntax, proper names always behave as adjectives. This means they are placed directly _after_ the generic baseline noun that identifies what kind of thing they are:
+Proper names are always enclosed within quotation marks.
 
-- `rén` + Name (The person named...)
-- `dì` + Name (The country/land of...)
-- `fāngfǎ` + Name (The street/way of...)
+In line with standard Chinese modifier syntax, proper names always behave as adjectives. This means they are placed directly **before** the generic baseline noun that identifies what kind of thing they are:
+
+- `"Name"` + `rén` (The person named...)
+- `"Name"` + `fāngfǎ` (The street/way of...)
+- `"Name"` + `dìfāng` (The place/country of...)
+
+---
 
 ### Examples
 
-- `Wǒ-de míngzi shì Āpǔ.` (My name is Apu.)
+- **`Wǒ-de míngzi shì "Āpǔ".`** (My name is Apu.)
+- **`"Āfēilìjiā" dìfāng yǒu hěn-duō rén.`** (Africa has many people.)
 
-- `Āfēilìjiā-de dì yǒu hěn-duō-de rén.` (Africa has many people.)
+  > _Correction:_ Placed `"Āfēilìjiā"` before `dìfāng` to match standard Mandarin word order.
 
-- `Zhōngguó-de nǚrén qù nà-ge fāngfǎ.` (The Chinese lady is going to that street/way.)
+- **`"Zhōngguó" nǚrén qù nà-ge fāngfǎ.`** (The Chinese lady is going to that street/way.)
 
-- `Bélín-de fángzi zài Déguó-de dì.` (Berlin is in Germany.)
+  > _Correction:_ Placed `"Zhōngguó"` before `nǚrén`.
 
-- `Nǐ zhīdào-bù-zhīdào Yīngyǔ?` (Do you know English?)
+- **`"Bélín" dìfāng zài "Déguó" dìfāng.`** (Berlin is in Germany.)
 
-- `Sūlù nánrén dǎ huài-de rén.` (Mr. Sulu fights a bad guy.)
+  > _Correction:_ Both locations now use the correct proper name + baseline noun order.
 
-- `Zhè-ge dì hěn suli.` (This country is very large.)
+- **`Nǐ zhīdào-bù-zhīdào "Yīngyǔ"?`** (Do you know English?)
+- **`"Sūlù" nánrén dǎ huài-rén.`** (Mr. Sulu fights a bad guy.)
+
+  > _Correction:_ Placed `"Sūlù"` before `nánrén`.
+
+- **`Zhè-ge hěn-duō-rén-de-dìfāng hěn dà.`** (This country is very large.)
+
+---
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. Are you from Germany?
 2. What is your name?
@@ -662,13 +523,17 @@ Translate the following into Hǎohuà:
 
 #### Answers
 
-1. `Nǐ shì-bú-shì yīnwèi Déguó-de dì?` (or `Nǐ lái-zì Déguó ma?`)
-2. `Nǐ-de míngzi shì shénme?`
-3. `Wǒ qù Yīngguó-de dì.`
+1. **`Nǐ shì-bú-shì "Déguó" dìfāng-de rén?`**
+
+   > _Literal translation:_ "Are you a person of the Germany place?"
+
+2. **`Nǐ-de míngzi shì shénme?`**
+3. **`Wǒ qù "Yīngguó" dìfāng.`**
+   > _Literal translation:_ "I go to the England place."
 
 ---
 
-## Lesson 10: Qíhòu hé Juéde (Greetings and Feelings)
+## Lesson 10: Greetings and Feelings
 
 ### Vocabulary
 
@@ -680,7 +545,7 @@ Translate the following into Hǎohuà:
 
 ### Grammar
 
-Greetings and emotional imperatives in Hǎohuà rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
+Greetings and emotional imperatives in HǍO-SHUO-DE rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
 
 - **Greetings:** Expressed using foundational semantic combinations like `Nǐ hǎo ma?` or descriptive movements.
 
@@ -692,7 +557,7 @@ Greetings and emotional imperatives in Hǎohuà rely on standard Mandarin struct
 
 - `Nǐ hǎo ma?` (Hello! / Are you well?)
 
-- `Qù nǐ-de fángzi.` (Go to your room!)
+- `Qù nǐ-de dìfāng.` (Go to your room!)
 
 - `Bù shuō. Zuò dōngxi.` (Don't speak. Take action.)
 
@@ -708,7 +573,7 @@ Greetings and emotional imperatives in Hǎohuà rely on standard Mandarin struct
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. Give the tool to me.
 2. Lisa is happy.
@@ -722,7 +587,7 @@ Translate the following into Hǎohuà:
 
 ---
 
-## Lesson 11: Xiu-shì de Jī-gòu (Modification Stacking)
+## Lesson 11: Modification Stacking
 
 ### Vocabulary
 
@@ -730,33 +595,33 @@ Translate the following into Hǎohuà:
 
 - **shēntǐ** — body, physical state
 
-- **tàiyáng** — sun, light
+- **rì** — sun, light
 
 - **shíjiān** — time, duration
 
-- **liú** — to stay, wait, remain
+- **děng** — to wait
 
 ### Grammar
 
-In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. Hǎohuà bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
+In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. HǍO-SHUO-DE bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
 
 When a descriptive phrase modifies a target noun, the entire qualifying concept precedes the noun block, bound securely by `-de`. Complex modifier groupings are read from left to right as a unified block before resolving onto the primary head noun.
 
 ### Examples
 
-- `Zhè-ge tàiyáng-de shíjiān hěn hǎo.` (Today / this sun-time is excellent for me.)
+- `Zhè-ge rì hěn hǎo.` (Today is good.)
 
 - `Hěn-hǎo-de nǚrén gěi zhíwù shuǐ.` (The healthy woman waters the plants.)
 
-- `Hǎohuà-de qún gěi hěn-duō-de dōngxi.` (The Hǎohuà community gives many things.)
+- `HǍO-SHUO-DE-de qún gěi hěn-duō-de dōngxi.` (The HǍO-SHUO-DE community gives many things.)
 
-- `Liú hěn-cháng-de shíjiān.` (Wait a very long time.)
+- `Děng hěn-cháng-de shíjiān.` (Wait a very long time.)
 
 - `Bù yòng huài-de gōngjù.` (Don't use bad tools.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. This battlefield is small.
 2. Men with strong bodies were waiting.
@@ -764,9 +629,9 @@ Translate the following into Hǎohuà:
 
 #### Answers
 
-1. `Zhè-ge dǎ-de dì hěn xiǎo.`
-2. `Yǒu-lìliang-de shēntǐ-de nánrén zài liú.`
-3. `Tàiyáng gěi zhíwù hǎo-de dōngxi.`
+1. `Zhè-ge dǎ-de dìfāng hěn xiǎo.`
+2. `Yǒu-lìliang-de shēntǐ-de nánrén zài děng.`
+3. `rì bǎ zhíwù bian hǎo.`
 
 ---
 
@@ -774,37 +639,63 @@ Translate the following into Hǎohuà:
 
 ### Vocabulary
 
+- **di** — sequence marker
 - **yī** — one
-
-- **liǎng** — two
-
-- **hào** — number, ordinal marker
+- **liǎng** — two (used exclusively before measure words for counting objects/quantities)
+- **èr** — two (used exclusively for mathematics, digit lists, serial numbers, and ordinal rankings)
+- **sān** — three
+- **sì** — four
+- **wǔ** — five
+- **liù** — six
+- **qī** — seven
+- **bā** — eight
+- **jiǔ** — nine
+- **shí** — ten
+- **bǎi** — hundred
+- **qiān** — thousand
+- **dì** — ordinal marker prefix (placed before a number to turn it into "first, second, third...")
+- **hào** — number identity, name of a number, day of the month
+- **quánbù** — all, completely, everything
 
 ### Grammar
 
-Hǎohuà avoids complex mathematical counting tokens by map-matching directly onto native Mandarin numeric and quantity limits.
+HǍO-SHUO-DE simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
 
-- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `gè` via a syntactic hyphen (e.g., `yī-ge`, `liǎng-ge`).
+- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `ge` via a syntactic hyphen:
+- Use `yī-ge` for "one thing."
+- Use `liǎng-ge` for "two things." _Never use èr when counting physical objects._
 
-- **Indefinite Plurals:** For numbers beyond two, Hǎohuà implements the core modifier `duō` (many / a lot) to convey generalized abundance.
+- **Indefinite Plurals:** For numbers beyond two, HǍO-SHUO-DE implements the core root `duō` (many / a lot) to convey generalized abundance.
+- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `dì-` directly before the number root (`dì-yī`, `dì-èr`).
 
-- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), the structural ordinal token `hào` is placed directly before the number baseline.
+---
 
 ### Examples
 
-- `Nǐ shì hào-yī!` (You're number one!)
+- **`Nǐ shì dì-yī-hào!`** (You are number one!)
 
-- `Zhè-ge shì shíjiān hào-liǎng.` (This is the second day / time number two.)
+  > _Grammar Check:_ `dì-yī-hào` is the standard Mandarin way to say "Number 1" (like a ranking or contestant number).
 
-- `Liǎng-ge xiǎo-de nánrén liú le duō-de zhíwù.` (The two boys kept many plants.)
+- **`Zhè-ge shì dì-èr-ge shíjiān.`** (This is the second time / the second day.)
 
-- `Wǒ zhīdào duō-de shuō.` (I know many languages.)
+  > _Correction:_ Changed to `dì-èr-ge` (the second one). For sequencing an item, standard Mandarin uses `dì + number + measure word`.
 
-- `Ale rén tīng tā.` (Everybody listens to her.)
+- **`Liǎng-ge xiǎo nánrén liú-le hěn-duō zhíwù.`** (The two boys kept many plants.)
+
+  > _Correction:_ Removed `-de` from `xiǎo`. Changed `duō-de` to `hěn-duō` to align with your core modifier syntax for "many."
+
+- **`Wǒ zhīdào hěn-duō shuō.`** (I know many languages.)
+
+  > _Correction:_ Swapped `duō-de` for `hěn-duō`.
+
+- **`Quánbù rén tīng tā.`** (Everybody listens to her.)
+  > _Status:_ **Perfect.** Beautiful and highly accurate deployment of your new universal root `quánbù`!
+
+---
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. What is the third thing?
 2. I know two languages.
@@ -812,51 +703,55 @@ Translate the following into Hǎohuà:
 
 #### Answers
 
-1. `Hào-duō-de dōngxi shì shénme?`
-2. `Wǒ zhīdào liǎng-ge shuō.`
-3. `Zhè-ge shì shíjiān hào-yī.`
+1. **`dì-sang-ge dōngxi shì shénme?`**
+2. **`Wǒ zhīdào liǎng-ge shuō.`**
+3. **`Zhè-ge rì shì dì-yī-ge.`**
 
 ---
 
-## Lesson 13: Niàn-tóu de Biǎodá (Pre-Verbs & Auxiliaries)
+Here is the fully corrected and streamlined **Lesson 13**.
+
+I have cleaned up the formatting, removed the LaTeX from the prose to match your design guidelines, fixed minor typos like the missing tone mark on `liú`, and ensured everything flows naturally under your strict grammatical architecture.
+
+---
+
+## Lesson 13: Pre-Verbs & Auxiliaries
 
 ### Vocabulary
 
 - **yào** — to want, need, must, should
-
 - **kěyǐ** — can, may, be able to
-
 - **zhīdào** — to know, know how to
-
 - **kāishǐ** — to begin to, start to, manage to
-
 - **biàn** — to become, change into
 
 ### Grammar
 
-Hǎohuà maps Toki Pona's pre-verb structures directly onto standard Mandarin auxiliary verbs. These words express intent, ability, or an unfolding state change. In native Chinese sentence patterns, auxiliary verbs sit naturally right before the main action or description predicate:
+HǍO-SHUO-DE maps Toki Pona's pre-verb structures directly onto standard Mandarin auxiliary verbs. These words express intent, ability, or an unfolding state change. In native Chinese sentence patterns, auxiliary verbs sit naturally right before the main action or description predicate:
 
-$$\text{Subject} + \text{Auxiliary Verb} + \text{Main Predicate}$$
+**Subject + Auxiliary Verb + Main Predicate**
 
-When expressing transitions of state (such as "becoming big" or "turning bad"), Hǎohuà applies the core verb `biàn` (to become/change) directly into the main verb slot. To express a gradual change or the start of an action, use `kāishǐ` right before the modifier or main verb.
+When expressing transitions of state (such as "becoming big" or "turning bad"), HǍO-SHUO-DE applies the core verb `biàn` (to become/change) directly into the main verb slot. To express a gradual change or the start of an action, use `kāishǐ` right before the modifier or main verb.
+
+---
 
 ### Examples
 
-- `Fángzi biàn dà.` (The city / room is becoming big.)
+- **`dìfāng biàn dà.`** (The city / room is becoming big.)
+- **`Wǒ kāishǐ zhīdào HǍO-SHUO-DE.`** (I am learning HǍO-SHUO-DE / beginning to know HǍO-SHUO-DE.)
+- **`Nǐ kěyǐ-bù-kěyǐ lái?`** (Are you able to come?)
+- **`Shuǐguǒ biàn huài le.`** (The fruit became bad.)
+- **`Wǒ yào liú zài wǒ fùmǔ-de dìfāng.`** (I want to stay in my parents' place.)
 
-- `Wǒ kāishǐ zhīdào Hǎohuà.` (I am learning Hǎohuà / beginning to know Hǎohuà.)
+  > _Correction:_ Added the missing tone mark to **liú** (留). Streamlined `wǒ-de fùmǔ-de` down to `wǒ fùmǔ-de` to sound much more natural in Chinese.
 
-- `Nǐ kěyǐ-bù-kěyǐ lái?` (Are you able to come?)
+- **`Zhíwù kāishǐ yǒu shuǐ.`** (The plants started to have water.)
 
-- `Shuǐguǒ biàn huài le.` (The fruit became bad.)
-
-- `Wǒ yào zài wǒ-de fùmǔ-de dì.` (I want to be in my motherland / parents' country.)
-
-- `Zhíwù kāishǐ yǒu shuǐ.` (The plants received water / started to have water.)
+---
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. You may keep your name.
 2. The path becomes narrow.
@@ -864,13 +759,13 @@ Translate the following into Hǎohuà:
 
 #### Answers
 
-1. `Nǐ kěyǐ liú nǐ-de míngzi.`
-2. `Fāngfǎ biàn xiǎo.`
-3. `Nǐ yào-bú-yào chī yú?` (or `Nǐ yào chī yú ma?`)
+1. **`Nǐ kěyǐ liú nǐ-de míngzi.`**
+2. **`Fāngfǎ biàn xiǎo.`**
+3. **`Nǐ yào-bú-yào chī yú?`**
 
 ---
 
-## Lesson 14: Yánsè hé Shíjiān Context (Colors and la)
+## Lesson 14: Colors and la
 
 ### Vocabulary
 
@@ -886,13 +781,13 @@ Translate the following into Hǎohuà:
 
 ### Grammar
 
-In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. Hǎohuà replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
+In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. HǍO-SHUO-DE replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
 
 To set a temporal, situational, or environmental background, place the context block at the absolute start of the sentence, immediately followed by a pause or a comma:
 
 $$\text{[Context / Condition Phrase]} , + \text{[Main Statement]}$$
 
-Colors function as two-syllable nouns or adjectives in Hǎohuà. When they actively modify a target noun, they wrap standardly into the syntactic unit by binding to the modifier particle `-de` via a hyphen.
+Colors function as two-syllable nouns or adjectives in HǍO-SHUO-DE. When they actively modify a target noun, they wrap standardly into the syntactic unit by binding to the modifier particle `-de` via a hyphen.
 
 ### Examples
 
@@ -900,17 +795,17 @@ Colors function as two-syllable nouns or adjectives in Hǎohuà. When they activ
 
 - `Nǐ kàn huángsè-de shuǐ, bù chī tā.` (If you see a yellow liquid, don't drink it.)
 
-- `Lánsè-de gōngjù zài báisè-de fángzi.` (The blue/green tool is in the white shed.)
+- `Lánsè-de gōngjù zài báisè-de dìfāng.` (The blue/green tool is in the white shed.)
 
 - `Shénme shíjiān nǐ-de fùmǔ lái?` (What time are your parents coming?)
 
-- `Wǒ-de shēntǐ bǎ lánsè biàn huài le.` (If your body turns blue, that is bad.)
+- `Wǒ-de shēntǐ biàn lánsè, zhè hěn huài.` (If your body turns blue, that is bad.)
 
-- `Qún la, wǒ mùte hěn yǒu lìliang.` (In a group, we are strong.)
+- `Qún lǐmiàn, wǒ he ni he ta hěn yǒu lìliang.` (In a group, we are strong.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. When the sun is red, it is the right time.
 2. If we don't have any meat, we will eat vegetables.
@@ -918,13 +813,13 @@ Translate the following into Hǎohuà:
 
 #### Answers
 
-1. `Tàiyáng hóngsè-de shíjiān, hǎo-de shíjiān zài.`
+1. `rì hóngsè-de shíjiān, shi hǎo-de shíjiān.`
 2. `Wǒ méiyǒu dòngwù, wǒ chī shuǐguǒ.`
 3. `Yīnwèi dà-de dǎ, wǒ juéde huài.`
 
 ---
 
-## Lesson 15: Kōngjiān de Biǎodá (Spatial Nouns)
+## Lesson 15: Spatial Nouns
 
 ### Vocabulary
 
@@ -942,7 +837,7 @@ Translate the following into Hǎohuà:
 
 ### Grammar
 
-Hǎohuà builds locational settings by treating spatial concepts as absolute destination nouns rather than abstract markers. To express where an object exists or where an action occurs, utilize the native Mandarin coverb syntax framework:
+HǍO-SHUO-DE builds locational settings by treating spatial concepts as absolute destination nouns rather than abstract markers. To express where an object exists or where an action occurs, utilize the native Mandarin coverb syntax framework:
 
 $$\text{Subject} + \text{zài} + \text{Target Object} + \text{de} + \text{Spatial Noun}$$
 
@@ -952,19 +847,19 @@ When describing an action originating from a direction (such as "from the sky"),
 
 - `Wǒ zài nǐ-de pángbiān.` (I am at your side.)
 
-- `Xiàmiàn-de fángzi hěn yǒu lìliang.` (The foundation / lower part of the building is stable.)
+- `Xiàmiàn-de dìfāng hěn yǒu lìliang.` (The foundation / lower part of the building is stable.)
 
 - `Dà-de gōngjù zài shàngmiàn yí-yàng tawa.` (A large machine is moving in the sky.)
 
 - `Zhǐ zài dòngwù-de xiàmiàn.` (The document is under the cat / animal.)
 
-- `Wǒ kàn hēisè-de nǚrén zài fángzi-de qiánmiàn.` (I see a dark lady in front of the building.)
+- `Wǒ kàn hēisè-de nǚrén zài dìfāng-de qiánmiàn.` (I see a dark lady in front of the building.)
 
 - `Yán zài pimeja-de pángbiān.` (Light is next to darkness.)
 
 ### Practice Exercise
 
-Translate the following into Hǎohuà:
+Translate the following into HǍO-SHUO-DE:
 
 1. Water is coming from the sky.
 2. Protect your back.
@@ -1002,7 +897,7 @@ Translate the following into Hǎohuà:
 
 #### Grammar
 
-Hǎohuà handles subjective perspective using the native Mandarin coverb construction `gěi... lái shuō` (from the perspective of / to someone).
+HǍO-SHUO-DE handles subjective perspective using the native Mandarin coverb construction `gěi... lái shuō` (from the perspective of / to someone).
 
 To connect multiple subjects within standard Mandarin grammar, use `hé`. Multiple actions or states applied to a single subject are sequenced naturally by using the adverbial particle `yě` (also) instead of structural conjunction markers.
 
@@ -1012,13 +907,13 @@ To connect multiple subjects within standard Mandarin grammar, use `hé`. Multip
 
 - `Gěi sewi lái shuō, nǐ hé wǒ hěn xiàmiàn.` (You and I are lowly from the perspective of God.)
 
-- `Fùmǔ-de dì hěn xiǎo, yě hěn lěng.` (The fatherland is small and cold.)
+- `Fùmǔ-de dìfāng hěn xiǎo, yě hěn lěng.` (The fatherland is small and cold.)
 
 - `Dànshì nánrén hé nǚrén zài zuò dōngxi, yě juéde hěn hǎo.` (But men and women are working and are happy.)
 
 - `Wǒ-de yīyàng-de nǚrén kāishǐ le dòng hào-yī hé dòng hào-liǎng.` (My sister opened the first door and the second door.)
 
-- `Nǐ-de fángzi shì hēisè-de, bù-shì bùtóng-de fángzi.` (Only your house is black. / Your house is black, not other houses.)
+- `Nǐ-de dìfāng shì hēisè-de, bù-shì bùtóng-de dìfāng.` (Only your house is black. / Your house is black, not other houses.)
 
 ---
 
@@ -1046,7 +941,7 @@ To connect multiple subjects within standard Mandarin grammar, use `hé`. Multip
 
 #### Story
 
-`Mǎwéijiǔ nánrén zài hěn-duō-de zhíwù-de dì yǒu yī-ge xiǎo fángzi.` (Uncle Mawijo has a small house in the forest.) `Tā yào zhǎo dòngwù, kāishǐ yǒu le zhǎo-de gōngjù hé hóngsè-de yīfu.` (He wants to go hunting and gets a bow and orange vest.) `Shíjiān hào-yī, tā kàn le lánsè-de niǎo, méiyǒu kàn bùtóng-de dōngxi.` (On the first day, he only sees a blue bird.) `Niǎo zài chī xiǎo-de chóngzi.` (The bird is eating little insects.)
+`Mǎwéijiǔ nánrén zài hěn-duō-de zhíwù-de dìfāng yǒu yī-ge xiǎo dìfāng.` (Uncle Mawijo has a small house in the forest.) `Tā yào zhǎo dòngwù, kāishǐ yǒu le zhǎo-de gōngjù hé hóngsè-de yīfu.` (He wants to go hunting and gets a bow and orange vest.) `Shíjiān hào-yī, tā kàn le lánsè-de niǎo, méiyǒu kàn bùtóng-de dōngxi.` (On the first day, he only sees a blue bird.) `Niǎo zài chī xiǎo-de chóngzi.` (The bird is eating little insects.)
 
 `Shíjiān hào-liǎng, tā tīng le hěn-dà-de dòngwù-de shēngyīn.` (On the second day, he hears the loud call of an animal.) `Mǎwéijiǔ liú.` (Mawijo waits.) `Tā kàn le hěn-dà-de dòngwù.` (He sees a large moose.) `Dòngwù-de tóu yǒu gùnzi.` (The moose’s head has antlers.) `Mǎwéijiǔ yòng le zhǎo-de gōngjù, dànshì xiàn huài le.` (Mawijo uses the bow, but the string breaks.) `Hěn-dà-de dòngwù líkāi le.` (The moose runs away.)
 
@@ -1072,7 +967,7 @@ To connect multiple subjects within standard Mandarin grammar, use `hé`. Multip
 
 #### Story
 
-`Mǎwéijiǔ yǒu yī-ge tā ài-de nǚrén.` (Mawijo has a beloved wife.) `Tā-de míngzi shì Sīlǐ.` (Her name is Sili.) `Sīlǐ zài dìbǎn shàngmiàn xiǎo-de shuìjiào.` (Sili is napping on the sofa.) `Qiánmiàn-de shíjiān, Sīlǐ bǎ fángzi biàn hǎo le, yě yòng shuǐ bǎ yīfu biàn xīn le.` (Yesterday, Sili tidied up the house and washed the clothing.) `Mǎwéijiǔ zài shénme shíjiān lái?` (When is Mawijo arriving?)
+`Mǎwéijiǔ yǒu yī-ge tā ài-de nǚrén.` (Mawijo has a beloved wife.) `Tā-de míngzi shì Sīlǐ.` (Her name is Sili.) `Sīlǐ zài dìbǎn shàngmiàn xiǎo-de shuìjiào.` (Sili is napping on the sofa.) `Qiánmiàn-de shíjiān, Sīlǐ bǎ dìfāng biàn hǎo le, yě yòng shuǐ bǎ yīfu biàn xīn le.` (Yesterday, Sili tidied up the house and washed the clothing.) `Mǎwéijiǔ zài shénme shíjiān lái?` (When is Mawijo arriving?)
 
 `Yǒu shēngyīn!` (A noise!) `Zhè-ge shíjiān, Mǎwéijiǔ lái le dòng pángbiān, tā yǒu liǎng-ge xiǎo dòngwù.` (Now Mawijo arrives at the door, carrying two hares.) `Sīlǐ juéde hěn hǎo, yòng zuǐ gěi Mǎwéijiǔ ài.` (Sili is happy and kisses Mawijo.) `Tā yòng huǒ bǎ dòngwù hé mǐfàn biàn rè le.` (She cooks the hares and some rice.)
 
@@ -1090,7 +985,7 @@ To connect multiple subjects within standard Mandarin grammar, use `hé`. Multip
 
 ---
 
-### Part 2: Hǎohuà-de Gǔ-yǔ (Hǎohuà Proverbs)
+### Part 2: HǍO-SHUO-DE-de Gǔ-yǔ (HǍO-SHUO-DE Proverbs)
 
 These philosophical standard expressions illustrate how complex human values are stated via fronted conditional frames and standard native syntax:
 
@@ -1130,7 +1025,7 @@ These philosophical standard expressions illustrate how complex human values are
 
 - `Shuō shì hǎo-de.` (Communication is good.)
 
-- `Gěi dì hěn-dà-de ài.` (Love the earth / Take care of the planet.)
+- `Gěi dìfāng hěn-dà-de ài.` (Love the earth / Take care of the planet.)
 
 - `Dǎ shì huài-de.` (Fighting is harmful.)
 
@@ -1144,13 +1039,13 @@ These philosophical standard expressions illustrate how complex human values are
 
 - `Nǐ-de juéde, nǐ-de shuō, hé nǐ-de zuò shì yíyàng la, nǐ juéde hěn hǎo.` (Happiness is when what you think, what you say, and what you do are in harmony. — Mahatma Gandhi)
 
-- `Nǐ yào kàn dì biàn la, bǎ nǐ biàn hǎo.` (Be the change you want to see in the world. — Mahatma Gandhi)
+- `Nǐ yào kàn dìfāng biàn la, bǎ nǐ biàn hǎo.` (Be the change you want to see in the world. — Mahatma Gandhi)
 
 - `Nǐ bù-kěyǐ yòng xiǎo-de fāngfǎ shuō la, nǐ bù hǎo-de zhīdào tā.` (If you can’t explain something simply, you don’t understand it well. — Albert Einstein)
 
-# THE OFFICIAL HǍOHUÀ DICTIONARY
+# THE OFFICIAL HǍO-SHUO-DE DICTIONARY
 
-This section presents the complete core vocabulary of Hǎohuà sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
+This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
 
 ---
 
@@ -1188,9 +1083,11 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 - **de** [particle] — possessive marker, structural adjectival particle. Used to bind modifiers and multi-word description structures onto target nouns. (Maps to: _pi_ or modifier ordering).
 
-- **dì** [noun] — land, ground, earth, country, soil, territory, world. (Maps to: _ma_).
+- **děng** [verb] - to wait
 
 - **dìbǎn** [noun] — floor, horizontal surface, platform, couch, flat resting area. (Maps to: _supa_).
+
+- **dìfāng** [noun] — a place (both in space or metaphorical to mean part of something).
 
 - **dòng** [noun] — hole, opening, door, window, orifice. (Maps to: _lupa_).
 
@@ -1201,8 +1098,6 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 - **duō** [adjective] — many, a lot, much, several, very, abundant. Used contextually to signify quantities greater than two. (Maps to: _mute_).
 
 ### F
-
-- **fángzi** [noun] — building, house, home, indoor space, room. (Maps to: _tomo_).
 
 - **fāngfǎ** [noun] — way, custom, path, road, method, doctrine. (Maps to: _nasin_).
 
@@ -1276,7 +1171,7 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 - **lìliang** [noun/adjective] — energy, power, intensity, physical strength; confident, sure, intense. (Maps to: _wawa_).
 
-- **liú** [verb] — to stay, wait, remain, keep, endure, protect. (Maps to: _awen_).
+- **liú** [verb] — to stay, remain, keep, endure, protect. (Maps to: _awen_).
 
 - **liǎng** [number] — two. Quantifies dual entities when coupled to the measure word (_liǎng-ge_). (Maps to: _tu_).
 
@@ -1324,6 +1219,8 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 - **qù** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
+- **quánbù** [adjective] - all
+
 - **qún** [noun] — group, community, company, nation, society, tribe. (Maps to: _kulupu_).
 
 ### R
@@ -1362,7 +1259,7 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 - **tā** [pronoun] — he, she, it, they, them. Syntactically genderless and number-fluid. (Maps to: _ona_).
 
-- **tàiyáng** [noun] — sun, radiant light source, brightness, glow. (Maps to: _suno_).
+- **rì** [noun] — sun, radiant light source, brightness, glow. (Maps to: _suno_).
 
 - **tián** [adjective] — sweet, fragrant, cute, innocent, adorable. (Maps to: _suwi_).
 
@@ -1375,6 +1272,8 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 - **wáncháng** [verb complement] — finish, end, achieve completion. Syntactically binds behind action verbs to express resultative closure. (Maps to: _pini_ as a modification).
 
 - **wán** [verb/adjective] — to play, have fun, engage in recreation; playful, artistic, frivolous. (Maps to: _musi_).
+
+- **wèishénme** - why
 
 - **wǒ** [pronoun] — I, me, we, us. (Maps to: _mi_).
 
@@ -1428,9 +1327,9 @@ This section presents the complete core vocabulary of Hǎohuà sorted alphabetic
 
 - **zhǎo** [verb] — to hunt, forage, search for, look for. (Maps to: _alasa_).
 
-- **zhè** [pronoun/adjective] — this, these. Syntactically binds as _zhè-ge_. (Maps to: _ni_ contextually).
+- **zenme** - how
 
-- **zhǐ** [noun] — paper, document, flat object, card, record, website. (Maps to: _lipu_).
+- **zhè** [pronoun/adjective] — this, these. Syntactically binds as _zhè-ge_. (Maps to: _ni_ contextually).
 
 - **zhǐdào** [verb/auxiliary] — to know, be wise about, possess information; know how to. (Maps to: _sona_).
 
