@@ -443,9 +443,9 @@ If no other action verb is present in the clause, the coverb itself steps up to 
 
 - `Wǒ zài dìfāng.` (I am in the house.)
 
-- `Wǒ qù nǐ-de pángbiān.` (I am moving towards you / going to your side.)
+- `Wǒ zǒu nǐ-de pángbiān.` (I am moving towards you / going to your side.)
 
-- `Wǒ-de fùmǔ qù hěn-dà-de shuǐ.` (My parent is going to the sea / big water.)
+- `Wǒ-de fùmǔ zǒu-dào hěn-dà-de shuǐ.` (My parent is going to the sea / big water.)
 
 - `Yīnwèi zhè-ge, wǒ zuò le hěn duō.` (Because of this, I worked a lot.)
 
@@ -472,7 +472,7 @@ Translate the following into HǍO-SHUO-DE:
 ### Vocabulary
 
 - **fāngfǎ** — way, street, method, path
-- **míngzi** — name
+- **nǐ-jiào-de cí** — name
 - **dǎ** — to fight, battle, compete against
 
 ### Grammar
@@ -491,12 +491,12 @@ In line with standard Chinese modifier syntax, proper names always behave as adj
 
 ### Examples
 
-- **`Wǒ-de míngzi shì "Āpǔ".`** (My name is Apu.)
+- **`Wǒ-de nǐ-jiào-de cí shì "Āpǔ".`** (My name is Apu.)
 - **`"Āfēilìjiā" dìfāng yǒu hěn-duō rén.`** (Africa has many people.)
 
   > _Correction:_ Placed `"Āfēilìjiā"` before `dìfāng` to match standard Mandarin word order.
 
-- **`"Zhōngguó" nǚrén qù nà-ge fāngfǎ.`** (The Chinese lady is going to that street/way.)
+- **`"Zhōngguó" nǚrén zǒu-dào nà-ge fāngfǎ.`** (The Chinese lady is going to that street/way.)
 
   > _Correction:_ Placed `"Zhōngguó"` before `nǚrén`.
 
@@ -527,8 +527,8 @@ Translate the following into HǍO-SHUO-DE:
 
    > _Literal translation:_ "Are you a person of the Germany place?"
 
-2. **`Nǐ-de míngzi shì shénme?`**
-3. **`Wǒ qù "Yīngguó" dìfāng.`**
+2. **`Nǐ-de nǐ-jiào-de cí shì shénme?`**
+3. **`Wǒ zǒu-dào "Yīngguó" dìfāng.`**
    > _Literal translation:_ "I go to the England place."
 
 ---
@@ -557,15 +557,15 @@ Greetings and emotional imperatives in HǍO-SHUO-DE rely on standard Mandarin st
 
 - `Nǐ hǎo ma?` (Hello! / Are you well?)
 
-- `Qù nǐ-de dìfāng.` (Go to your room!)
+- `Zǒu-dào nǐ-de dìfāng!` (Go to your room!)
 
 - `Bù shuō. Zuò dōngxi.` (Don't speak. Take action.)
 
-- `Wǒ qù le.` (I am going. / Goodbye.)
+- `Wǒ zǒu le.` (I am going. / Goodbye.)
 
 - `Nà-ge dòngwù jiào "wāng-wāng".` (That animal goes "woof woof".)
 
-- `Yīnwèi shénme nǐ juéde huài?` (Why are you sad / feeling bad?)
+- `Wèishénme nǐ juéde huài?` (Why are you sad / feeling bad?)
 
 - `Nǐ hěn dà!` (You're so tall!)
 
@@ -709,12 +709,6 @@ Translate the following into HǍO-SHUO-DE:
 
 ---
 
-Here is the fully corrected and streamlined **Lesson 13**.
-
-I have cleaned up the formatting, removed the LaTeX from the prose to match your design guidelines, fixed minor typos like the missing tone mark on `liú`, and ensured everything flows naturally under your strict grammatical architecture.
-
----
-
 ## Lesson 13: Pre-Verbs & Auxiliaries
 
 ### Vocabulary
@@ -759,7 +753,7 @@ Translate the following into HǍO-SHUO-DE:
 
 #### Answers
 
-1. **`Nǐ kěyǐ liú nǐ-de míngzi.`**
+1. **`Nǐ kěyǐ liú nǐ-de nǐ-jiào-de cí.`**
 2. **`Fāngfǎ biàn xiǎo.`**
 3. **`Nǐ yào-bú-yào chī yú?`**
 
@@ -770,13 +764,9 @@ Translate the following into HǍO-SHUO-DE:
 ### Vocabulary
 
 - **huángsè** — yellow
-
 - **lánsè** — blue, green
-
 - **hóngsè** — red
-
 - **hēisè** — black, dark
-
 - **báisè** — white, pale
 
 ### Grammar
@@ -785,37 +775,36 @@ In Toki Pona, the contextual particle _la_ establishes a frame of reference or a
 
 To set a temporal, situational, or environmental background, place the context block at the absolute start of the sentence, immediately followed by a pause or a comma:
 
-$$\text{[Context / Condition Phrase]} , + \text{[Main Statement]}$$
+**[Context / Condition Phrase] , [Main Statement]**
 
-Colors function as two-syllable nouns or adjectives in HǍO-SHUO-DE. When they actively modify a target noun, they wrap standardly into the syntactic unit by binding to the modifier particle `-de` via a hyphen.
+Colors function as two-syllable adjectives in HǍO-SHUO-DE. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-de` via a hyphen.
+
+---
 
 ### Examples
 
-- `Zhè-ge hēisè-de shíjiān, tā lái.` (Tonight / during this dark time, he is coming.)
+- **`Zhè-ge hēisè-de shíjiān, tā lái.`** (Tonight / during this dark time, he is coming.)
+- **`Nǐ kàn-jiàn huángsè-de shuǐ, bù chī tā.`** (If you see yellow water, don't drink it.)
+- **`lánsè-de gōngjù zài báisè-de dìfāng.`** (The blue/green tool is in the white place.)
+- **`Shénme shíjiān nǐ fùmǔ lái?`** (What time are your parents coming?)
+- **`Wǒ-de shēntǐ biàn lánsè, zhè-ge hěn huài.`** (If my body turns blue, this is very bad.)
+- **`hěn-duō-rén-de dìfāng, wǒ hé nǐ hé tā hěn yǒu lìliang.`** (In a group, we are strong.)
 
-- `Nǐ kàn huángsè-de shuǐ, bù chī tā.` (If you see a yellow liquid, don't drink it.)
-
-- `Lánsè-de gōngjù zài báisè-de dìfāng.` (The blue/green tool is in the white shed.)
-
-- `Shénme shíjiān nǐ-de fùmǔ lái?` (What time are your parents coming?)
-
-- `Wǒ-de shēntǐ biàn lánsè, zhè hěn huài.` (If your body turns blue, that is bad.)
-
-- `Qún lǐmiàn, wǒ he ni he ta hěn yǒu lìliang.` (In a group, we are strong.)
+---
 
 ### Practice Exercise
 
 Translate the following into HǍO-SHUO-DE:
 
 1. When the sun is red, it is the right time.
-2. If we don't have any meat, we will eat vegetables.
+2. If we don't have any meat, we will eat fruit.
 3. I feel bad because of the large battle.
 
 #### Answers
 
-1. `rì hóngsè-de shíjiān, shi hǎo-de shíjiān.`
-2. `Wǒ méiyǒu dòngwù, wǒ chī shuǐguǒ.`
-3. `Yīnwèi dà-de dǎ, wǒ juéde huài.`
+1. **`shàngmiàn-de-ri hóngsè-de shíjiān, shì hǎo-de shíjiān.`**
+2. **`wǒ hé nǐ hé tā méi-yǒu dòngwù dōngxi, wǒ hé nǐ hé tā chī shuǐguǒ.`**
+3. **`Yǒu dà-de dǎ, wǒ juéde huài.`**
 
 ---
 
@@ -824,38 +813,38 @@ Translate the following into HǍO-SHUO-DE:
 ### Vocabulary
 
 - **lǐmiàn** — inside, between, internal organ
-
 - **hòumiàn** — area behind, back
-
 - **xiàmiàn** — area below, under, lower part, leg
-
 - **pángbiān** — side, area beside, vicinity
-
 - **shàngmiàn** — area above, highest part, sky
-
 - **qiánmiàn** — area in front, face, chest
+- **dào** — to go to, arrive at, move towards
+- **zǒu** — to walk, move, travel
 
 ### Grammar
 
-HǍO-SHUO-DE builds locational settings by treating spatial concepts as absolute destination nouns rather than abstract markers. To express where an object exists or where an action occurs, utilize the native Mandarin coverb syntax framework:
+HǍO-SHUO-DE builds locational settings by treating spatial concepts as absolute noun destinations rather than abstract markers. To express static location, use the coverb **zài** (在). To express movement or direction toward a destination, use the universal movement root **dào** (到).
 
-$$\text{Subject} + \text{zài} + \text{Target Object} + \text{de} + \text{Spatial Noun}$$
+Both roots follow standard Mandarin spatial syntax:
 
-When describing an action originating from a direction (such as "from the sky"), leverage the coverb particle `yīnwèi` (which translates contextually as "from/because of") positioned right before the spatial target.
+**Subject + zài / dào + Target Object + Spatial Noun**
+
+To explicitly express movement currently in progress toward a location (active traveling), combine the progressive aspect marker **zài-** with the kinetic verb **zǒu** and the destination marker **dào** to form the compound unit **zài-zǒu-dào** (在走到).
+
+When a spatial noun stands alone without a target object modifying it, it functions as a regular baseline noun block.
+
+---
 
 ### Examples
 
-- `Wǒ zài nǐ-de pángbiān.` (I am at your side.)
+- **`wǒ zài nǐ-de pángbiān.`** (I am at your side.)
+- **`xiàmiàn-de dìfāng hěn yǒu lìliang.`** (The foundation / lower part of the place is strong.)
+- **`dà-de gōngjù zài-zǒu-dào shàngmiàn-de dìfāng.`** (A large machine is moving in progress toward the sky.)
+- **`xiě-de dōngxi zài dòngwù-de xiàmiàn.`** (The document / word-thing is under the animal.)
+- **`wǒ kàn-jiàn hēisè-de nǚrén zài dìfāng-de qiánmiàn.`** (I see a dark lady in front of the place.)
+- **`yán-sè dōngxi zài hēisè-de pángbiān.`** (Color-things are next to the darkness.)
 
-- `Xiàmiàn-de dìfāng hěn yǒu lìliang.` (The foundation / lower part of the building is stable.)
-
-- `Dà-de gōngjù zài shàngmiàn yí-yàng tawa.` (A large machine is moving in the sky.)
-
-- `Zhǐ zài dòngwù-de xiàmiàn.` (The document is under the cat / animal.)
-
-- `Wǒ kàn hēisè-de nǚrén zài dìfāng-de qiánmiàn.` (I see a dark lady in front of the building.)
-
-- `Yán zài pimeja-de pángbiān.` (Light is next to darkness.)
+---
 
 ### Practice Exercise
 
@@ -867,11 +856,11 @@ Translate the following into HǍO-SHUO-DE:
 
 #### Answers
 
-1. `Shuǐ yīnwèi shàngmiàn lái.`
-2. `Bǎ nǐ-de hòumiàn biàn hǎo.` (or `Liú nǐ-de hòumiàn.`)
-3. `Nǐ bǎ hóngsè-de shíjiān gōngjù pàng zài shénme-de pángbiān?`
+1. **`shuǐ cóng shàngmiàn-de dìfāng lái.`**
+2. **`bǎ nǐ-de hòumiàn biàn hǎo.`**
+3. **`nǐ bǎ hóngsè-de shíjiān gōngjù dào shénme dōngxi-de pángbiān?`**
 
-### Lesson 16: Shīxiǎng hé Duì-liàng (Particles and Perspective)
+### Lesson 16: Particles and Perspective
 
 #### Vocabulary
 
@@ -895,153 +884,228 @@ Translate the following into HǍO-SHUO-DE:
 
 - **gěi** — to, for, from the perspective of
 
+- **shàngmiàn-de ài** - God (literally love from above)
+
 #### Grammar
 
-HǍO-SHUO-DE handles subjective perspective using the native Mandarin coverb construction `gěi... lái shuō` (from the perspective of / to someone).
+HǍO-SHUO-DE handles subjective perspective using the native Mandarin coverb construction `duì ... lái shuō` (from the perspective of / to someone).
 
 To connect multiple subjects within standard Mandarin grammar, use `hé`. Multiple actions or states applied to a single subject are sequenced naturally by using the adverbial particle `yě` (also) instead of structural conjunction markers.
 
 #### Examples
 
-- `Gěi wǒ lái shuō, tián-de dōngxi hěn hǎo.` (I like sweets. / From my perspective, sweet things are good.)
+- `Duì wǒ lái shuō, tián-de dōngxi hěn hǎo.` (I like sweets. / From my perspective, sweet things are good.)
 
-- `Gěi sewi lái shuō, nǐ hé wǒ hěn xiàmiàn.` (You and I are lowly from the perspective of God.)
+- `Duì shàngmiàn-de ài lái shuō, quanbu difang hen hao.` (The universe is beautiful from the perspective of God.)
 
 - `Fùmǔ-de dìfāng hěn xiǎo, yě hěn lěng.` (The fatherland is small and cold.)
 
 - `Dànshì nánrén hé nǚrén zài zuò dōngxi, yě juéde hěn hǎo.` (But men and women are working and are happy.)
 
-- `Wǒ-de yīyàng-de nǚrén kāishǐ le dòng hào-yī hé dòng hào-liǎng.` (My sister opened the first door and the second door.)
+- `Wǒ-de yīyàng-de nǚrén kāishǐ le dòng hào hé dòng hào-liǎng.` (My sister opened the first door and the second door.)
 
 - `Nǐ-de dìfāng shì hēisè-de, bù-shì bùtóng-de dìfāng.` (Only your house is black. / Your house is black, not other houses.)
 
 ---
 
-### Lesson 17: Zhǎo Dòngwù (Hunting Adventure)
+### Lesson 17: Hunting Adventure
 
 #### Vocabulary
 
-- **zhǎo** — to hunt, forage, search
-
-- **tóu** — head, mind
-
-- **yīfu** — clothing, cloth
-
-- **xiàn** — long flexible thing, string, rope
-
-- **huài** — broken, botched, bad
-
+- **zhǎo** — to search, look for, hunt
+- **tóu** — head, mind, antlers/horns
+- **yīfu** — clothing, cloth, protective vest
+- **xiàn** — long flexible thing, string, rope, bowstring
+- **huài** — broken, botched, bad, to break/fail
 - **gùnzi** — long hard thing, stick, rod
-
-- **chóngzi** — insect, bug
-
+- **chóngzi** — insect, bug, worm
 - **niǎo** — bird, flying creature
-
-- **líkāi** — away, absent, leave
-
-#### Story
-
-`Mǎwéijiǔ nánrén zài hěn-duō-de zhíwù-de dìfāng yǒu yī-ge xiǎo dìfāng.` (Uncle Mawijo has a small house in the forest.) `Tā yào zhǎo dòngwù, kāishǐ yǒu le zhǎo-de gōngjù hé hóngsè-de yīfu.` (He wants to go hunting and gets a bow and orange vest.) `Shíjiān hào-yī, tā kàn le lánsè-de niǎo, méiyǒu kàn bùtóng-de dōngxi.` (On the first day, he only sees a blue bird.) `Niǎo zài chī xiǎo-de chóngzi.` (The bird is eating little insects.)
-
-`Shíjiān hào-liǎng, tā tīng le hěn-dà-de dòngwù-de shēngyīn.` (On the second day, he hears the loud call of an animal.) `Mǎwéijiǔ liú.` (Mawijo waits.) `Tā kàn le hěn-dà-de dòngwù.` (He sees a large moose.) `Dòngwù-de tóu yǒu gùnzi.` (The moose’s head has antlers.) `Mǎwéijiǔ yòng le zhǎo-de gōngjù, dànshì xiàn huài le.` (Mawijo uses the bow, but the string breaks.) `Hěn-dà-de dòngwù líkāi le.` (The moose runs away.)
+- **líkāi** — away, absent, to leave, run away
 
 ---
 
-### Lesson 18: Zuò Chī (Cooking Adventure)
+#### Story
+
+**`"Mǎwéijiǔ" nánrén zài hěn-duō-de zhíwù-de dìfāng yǒu yī-ge xiǎo dìfāng.`**
+
+(Uncle Mawijo has a small house in the forest.)
+
+**`Tā yào zhǎo dòngwù, ná-le zhǎo-de gōngjù hé hóngsè-de yīfu.`**
+
+(He wants to go hunting and gets a bow and orange vest.)
+
+**`Yī shíjiān, tā zhǐ kàn-jiàn lánsè-de niǎo, méiyǒu kàn-jiàn bùtóng-de dōngxi.`**
+
+(On the first day, he only sees a blue bird and nothing else.)
+
+**`Niǎo zài chī xiǎo-de chóngzi.`**
+
+(The bird is eating little insects.)
+
+**`Èr shíjiān, tā tīng-jiàn hěn-dà-de dòngwù-de shēngyīn.`**
+
+(On the second day, he hears the loud call of an animal.)
+
+**`"Mǎwéijiǔ" liú-zài dìfāng.`**
+
+(Mawijo waits in place.)
+
+**`Tā kàn-jiàn hěn-dà-de dòngwù.`**
+
+(He sees a large moose.)
+
+**`Dòngwù-de tóu-shàng yǒu gùnzi dōngxi.`**
+
+(The moose’s head has antler-sticks.)
+
+**`"Mǎwéijiǔ" yòng zhǎo-de gōngjù, dànshì xiàn huài-le.`**
+
+(Mawijo uses the bow, but the string breaks.)
+
+**`Hěn-dà-de dòngwù líkāi-le.`**
+
+(The moose runs away.)
+
+---
+
+### Lesson 18: Cooking Adventure
 
 #### Vocabulary
 
-- **shuìjiào** — to sleep
-
+- **shuìjiào** — to sleep, nap
 - **ài** — to love
-
 - **mǐfàn** — cereal, grain, rice
-
 - **wán** — finished, past, end
-
-- **huǒ** — fire, heat source
-
+- **huǒ** — fire, heat source, cooking heat
 - **dìbǎn** — horizontal surface, floor, sofa
-
-- **zuǐ** — mouth, lips
-
-#### Story
-
-`Mǎwéijiǔ yǒu yī-ge tā ài-de nǚrén.` (Mawijo has a beloved wife.) `Tā-de míngzi shì Sīlǐ.` (Her name is Sili.) `Sīlǐ zài dìbǎn shàngmiàn xiǎo-de shuìjiào.` (Sili is napping on the sofa.) `Qiánmiàn-de shíjiān, Sīlǐ bǎ dìfāng biàn hǎo le, yě yòng shuǐ bǎ yīfu biàn xīn le.` (Yesterday, Sili tidied up the house and washed the clothing.) `Mǎwéijiǔ zài shénme shíjiān lái?` (When is Mawijo arriving?)
-
-`Yǒu shēngyīn!` (A noise!) `Zhè-ge shíjiān, Mǎwéijiǔ lái le dòng pángbiān, tā yǒu liǎng-ge xiǎo dòngwù.` (Now Mawijo arrives at the door, carrying two hares.) `Sīlǐ juéde hěn hǎo, yòng zuǐ gěi Mǎwéijiǔ ài.` (Sili is happy and kisses Mawijo.) `Tā yòng huǒ bǎ dòngwù hé mǐfàn biàn rè le.` (She cooks the hares and some rice.)
-
-`Hǎo-de chī!` (Bon appétit!)
+- **kǒu** — mouth, lips, door, opening
 
 ---
 
-### Lesson 19: Qián-fāng (The Frontier)
-
 #### Story
 
-`Zhè-ge duō-de kè-chéng gěi nǐ xiǎo-de fāngfǎ zhīdào zhè-ge shuō.` (These lessons have equipped you with basic guidance of how the language works.) `Zhǐ zài hòumiàn gěi duō-de fāngfǎ.` (The texts in Part 2 of this book provide more examples.) `Míngzi-de hézi zài hòumiàn.` (The official dictionary / box of words can be found at the back.) `Tā lǐmiàn yǒu ale míngzi hé fāngfǎ.` (It contains all the words and their meanings.)
+**`"Mǎwéijiǔ" nánrén yǒu yī-ge tā ài-de nǚrén.`**
 
-`Zhè-ge shíjiān, dōngxi ale kàn nǐ.` (Now the rest depends on you.) `Qù hǎo-de wán.` (Go enjoy yourself.) `Zuò dōngxi, wán, yě bǎ nǐ biàn hǎo!` (Create, play, and be pona / become good!)
+(Mawijo has a beloved woman/wife.)
+
+**`Tā-de nǐ-jiào-de cí shì "Sīlǐ".`**
+
+(Her name/the word you call her is Sili.)
+
+**`"Sīlǐ" zài dìbǎn-shàng shuìjiào.`**
+
+(Sili is sleeping on the sofa.)
+
+**`Wán-shíjiān, "Sīlǐ" bǎ dìfāng biàn hǎo-le, yě yòng shuǐ bǎ yīfu biàn xīn-le.`**
+
+(In the past-time/yesterday, Sili tidied up the place and washed the clothing.)
+
+**`"Mǎwéijiǔ" zài shénme shíjiān dào?`**
+
+(At what time will Mawijo arrive?)
+
+**`Yǒu shēngyīn!`**
+
+(There is a noise!)
+
+**`Zhè shíjiān, "Mǎwéijiǔ" dào-le kǒu-de pángbiān, tā ná-le liǎng-ge xiǎo dòngwù.`**
+
+(At this time, Mawijo arrives next to the door, carrying two small animals.)
+
+**`"Sīlǐ" juéde hěn hǎo, yòng kǒu mō "Mǎwéijiǔ"-de tóu.`**
+
+(Sili feels very good and touches Mawijo's head using her mouth/kisses him.)
+
+**`Tā yòng huǒ bǎ dòngwù hé mǐfàn biàn rè-le.`**
+
+(She uses fire to make the animals and rice hot/cooks them.)
+
+**`Chī-de dōngxi hěn hǎo!`**
+
+(The food is wonderful! / Bon appétit!)
 
 ---
 
-### Part 2: HǍO-SHUO-DE-de Gǔ-yǔ (HǍO-SHUO-DE Proverbs)
+### Lesson 19: The Frontier
+
+#### Story
+
+**`Zhè-ge hěn-duō-de kè-chéng gěi nǐ xiǎo-de fāngfǎ zhīdào zhè-ge shuō.`**
+
+(These lessons have equipped you with basic guidance of how the language works.)
+
+**`Hòumiàn-de xǐe-de dōngxi gěi nǐ gèng-duō-de fāngfǎ.`**
+
+(The texts in Part 2 of this book provide more examples / further guidance.)
+
+**`Duo-cí-de xǐe-de dōngxi zài hòumiàn.`**
+
+(The official dictionary / written thing of called-words can be found at the back.)
+
+**`Tā lǐmiàn yǒu-le nǐ-jiào-de cí hé fāngfǎ.`**
+
+(It contains all the words and their structures/meanings.)
+
+**`Zhè shíjiān, dōngxi quánbù kàn nǐ-de.`**
+
+(Now, everything depends completely on you.)
+
+**`Zǒu zǒu, wán wán.`**
+
+(Go out toward good play-time / go enjoy yourself!)
+
+**`Zuò dōngxi, wán, yě bǎ nǐ biàn hǎo!`**
+
+(Create things, play, and make yourself become good!)
+
+---
+
+### Part 2: HǍO-SHUO-DE Proverbs
 
 These philosophical standard expressions illustrate how complex human values are stated via fronted conditional frames and standard native syntax:
 
-- `Ale dōngxi yǒu shíjiān.` (Everything has a time.)
-
-- `Ale dōngxi shì hǎo-de.` (All is good / Life is beautiful.)
-
-- `Bùtóng-de dōngxi lái le.` (Change comes / Times change.)
-
-- `Huài-de dōngxi yào lái.` (Bad things will happen.)
-
-- `Rén hěn dà. Qián hěn xiǎo.` (People are more important than money.)
-
-- `Zhīdào-de rén shì qíguài-de rén.` (A sage is a fool / unconventional.)
-
-- `Nǚrén-de dòng shì ale dōngxi-de fùmǔ.` (A woman’s womb is the mother of all things.)
-
-- `Wǒ bǎ wǒ-de ale dōngxi biàn hǎo la, wǒ bǎ wǒ biàn hǎo.` (When I improve all areas of my life, I improve myself.)
-
-- `Hǎo-de fāngfǎ hěn duō.` (The good ways are many.)
-
-- `Ài nǐ pángbiān-de rén.` (Love thy neighbor.)
-
-- `Zhīdào nǐ!` (Know thyself!)
-
-- `Zuò dōngxi gěi rén zhīdào.` (Actions give knowledge / One learns by experience.)
-
-- `Hǎo-de juéde gěi hǎo-de shēntǐ.` (Positive feelings grant good health.)
-
-- `Nǐ gěi huài-de dōngxi la, nǐ yào liú huài-de dōngxi.` (If you give evil, you will receive evil.)
-
-- `Lìliang zài lǐmiàn.` (Energy is within.)
-
-- `Shuǐ shì hǎo-de.` (Water is beneficial.)
-
-- `Shuìjiào shì hǎo-de.` (Sleep is good.)
-
-- `Shuō shì hǎo-de.` (Communication is good.)
-
-- `Gěi dìfāng hěn-dà-de ài.` (Love the earth / Take care of the planet.)
-
-- `Dǎ shì huài-de.` (Fighting is harmful.)
+- **`Quánbù dōngxi dōu yǒu shíjiān.`**
+  (Everything has a time.)
+- **`Quánbù ni-he-wo-de-liu-de-shijian dōu shì hǎo-de.`**
+  (All is good / Life is beautiful.)
+- **`Shijian bian.`**
+  (Change comes / Times change.)
+  _> Correction: Bound the completion particle **-le** to the kinetic verb._
+- **`Huài-de dōngxi yào lái.`**
+  (Bad things will happen / are coming.)
+- **`Rén hěn dà. Qián hěn xiǎo.`**
+  (People are more important than money / People are big, money is small.)
+- **`Zhīdào-de rén shì qíguài-de rén.`**
+  (A sage is unconventional / A fool.)
+- **`Wǒ bǎ quánbù dōngxi biàn hǎo, wǒ bǎ wǒ-zìjǐ biàn hǎo.`**
+  (When I improve all areas of my life, I improve myself.)
+- **`Hǎo-de fāngfǎ hěn duō.`**
+  (The good ways are many.)
+- **`Ài nǐ pángbiān-de rén.`**
+  (Love thy neighbor / Love the person beside you.)
+- **`Zhīdào nǐ-zìjǐ!`**
+  (Know thyself!)
+  _> Correction: Changed "nǐ" to **nǐ-zìjǐ** (yourself) so the reflexive command targets the subject properly._
+- **`Zuò dōngxi gěi rén zhīdào.`**
+  (Actions give knowledge / One learns by experience.)
+- **`Hǎo-de juéde gěi hǎo-de shēntǐ.`**
+  (Positive feelings grant good health.)
+- **`Nǐ gěi huài-de dōngxi, nǐ you huài-de dōngxi.`**
+  (If you give evil, you will receive evil.)
+- **`Lìliang zài lǐmiàn.`**
+  (Energy is within.)
+- **`Shuǐ shì hǎo-de.`**
+  (Water is beneficial.)
+- **`Shuìjiào shì hǎo-de.`**
+  (Sleep is good.)
+- **`Shuō shì hǎo-de.`**
+  (Communication is good.)
+- **`Gěi dìfāng hěn-dà-de ài.`**
+  (Love the earth / Give great love to the place.)
+- **`Dǎ dōngxi shì huài-de.`**
+  (Fighting is harmful / Hitting things is bad.)
 
 ---
-
-### Part 2: Duō-de Rén-de Shuō (Famous Quotations)
-
-- `Bǎ huài-de míngzi biàn méiyǒu.` (Omit needless words. — William Strunk)
-
-- `Rén zhīdào yī-ge shuō la, tā bù hǎo-de zhīdào zhè-ge shuō.` (The person who knows only one language does not truly know that language. — Goethe)
-
-- `Nǐ-de juéde, nǐ-de shuō, hé nǐ-de zuò shì yíyàng la, nǐ juéde hěn hǎo.` (Happiness is when what you think, what you say, and what you do are in harmony. — Mahatma Gandhi)
-
-- `Nǐ yào kàn dìfāng biàn la, bǎ nǐ biàn hǎo.` (Be the change you want to see in the world. — Mahatma Gandhi)
-
-- `Nǐ bù-kěyǐ yòng xiǎo-de fāngfǎ shuō la, nǐ bù hǎo-de zhīdào tā.` (If you can’t explain something simply, you don’t understand it well. — Albert Einstein)
 
 # THE OFFICIAL HǍO-SHUO-DE DICTIONARY
 
@@ -1073,6 +1137,10 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **chóngzi** [noun] — insect, bug, beetle, spider. (Maps to: _pipi_).
 
+- **cóng** [preposition] - from
+
+- **cí** [noun] — word
+
 ### D
 
 - **dǎ** [verb] — to hit, fight, battle, challenge, compete against. (Maps to: _utala_).
@@ -1089,13 +1157,13 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **dìfāng** [noun] — a place (both in space or metaphorical to mean part of something).
 
-- **dòng** [noun] — hole, opening, door, window, orifice. (Maps to: _lupa_).
-
 - **dòngwù** [noun] — animal, land mammal, beast. (Maps to: _soweli_).
 
 - **dōngxi** [noun] — thing, phenomenon, object, physical being, matter. (Maps to: _ijo_).
 
 - **duō** [adjective] — many, a lot, much, several, very, abundant. Used contextually to signify quantities greater than two. (Maps to: _mute_).
+
+- **duì** [preposition / coverb] — facing, towards, regarding, beneficial to; correct. (Maps to: tawa when identifying a beneficiary or personal perspective).
 
 ### F
 
@@ -1157,6 +1225,8 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **kōngqì** [noun] — air, wind, breath, spirit, hidden reality. (Maps to: _kon_).
 
+- **kǒu** [noun] — hole, opening, door, window, orifice. (Maps to: _lupa_).
+
 ### L
 
 - **lái** [verb] — to come, arrive, happen. (Maps to: _kama_ as a main action).
@@ -1185,11 +1255,13 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **mǐfàn** [noun] — grain, rice, cereal, bread, pasta, staple food. (Maps to: _pan_).
 
-- **míngzi** [noun] — name, word, linguistic token. (Maps to: _nimi_).
+- **mō** [verb] — to touch, feel, pet, perceive by contact. (Maps to: piline as a physical action).
 
 ### N
 
 - **nà** [pronoun/adjective] — that, those. Syntactically binds as _nà-ge_. (Maps to: _ni_ contextually).
+
+- **ná** [verb] — take
 
 - **nánrén** [noun] — man, male, masculine human, husband. (Maps to: _mije_).
 
@@ -1216,8 +1288,6 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 - **qiánmiàn** [noun] — front, face, foremost area, chest. (Maps to: _sinpin_).
 
 - **qíguài** [adjective] — strange, unusual, foolish, crazy, intoxicated. (Maps to: _nasa_).
-
-- **qù** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
 - **quánbù** [adjective] - all
 
@@ -1305,7 +1375,7 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **yīfu** [noun] — clothing, cloth, fabric, textile, privacy layer. (Maps to: _len_).
 
-- **yīnwèi** [conjunction/coverb] — because, because of; by, from, originating direction. (Maps to: _tan_).
+- **yīnwèi** [conjunction/coverb] — because, because of; by,
 
 - **yíyàng** [adjective] — same, similar, peer, fellow, each other. (Maps to: _sama_).
 
@@ -1335,6 +1405,6 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 
 - **zhíwù** [noun] — plant, vegetation, herb, leaf. (Maps to: _kasi_).
 
-- **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).
+- **zǒu** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
-- **zuǐ** [noun] — mouth, lips, oral cavity, jaw. (Maps to: _uta_).
+- **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).

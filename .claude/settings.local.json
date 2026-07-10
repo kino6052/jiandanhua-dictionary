@@ -3,7 +3,9 @@
     "allow": [
       "Bash(bun init *)",
       "Bash(bun run *)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(mkdir -p \"C:/Repos/listening-practice-generator\")",
+      "Bash(bun generate.ts)"
     ]
   }
 }
