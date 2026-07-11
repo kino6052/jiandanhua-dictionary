@@ -1,0 +1,36 @@
+.label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 2px solid var(--border-card);
+  border-radius: 12px;
+  padding: 14px 16px;
+  transition: border-color 0.15s;
+}
+.card:hover {
+  border-color: var(--accent);
+}
+
+.pinyin {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--accent);
+}
+.def {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 3px;
+}

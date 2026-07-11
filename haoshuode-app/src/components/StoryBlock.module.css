@@ -1,0 +1,27 @@
+.story { margin-bottom: 28px; }
+
+.label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 16px;
+}
+
+.line {
+  margin-bottom: 20px;
+}
+
+.pinyin {
+  font-weight: 700;
+  font-size: 16.5px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.translation {
+  font-size: 14.5px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 2px;
+}

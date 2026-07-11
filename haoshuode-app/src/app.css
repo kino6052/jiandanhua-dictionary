@@ -1,0 +1,62 @@
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: #FFD9A0; }
+
+:root {
+  --bg-page: #FBF5E9;
+  --bg-card: #FFFDF7;
+  --bg-practice: #F4EEDF;
+  --bg-callout: #FFF3E0;
+  --bg-accent-light: #FFE9CE;
+  --bg-vocab-hover: #FFF8F0;
+
+  --border-card: #EADFC5;
+  --border-sidebar: #E7D9BE;
+  --border-callout: #F0B87A;
+  --border-progress: #EFE3CC;
+
+  --accent: #FF5A36;
+  --accent-shadow: #D8431F;
+  --accent-text: #B85A1E;
+
+  --text-primary: #2B241D;
+  --text-body: #3B3226;
+  --text-tertiary: #5A4E3E;
+  --text-muted: #8A7B65;
+  --text-label: #B79B6E;
+  --text-handwritten: #B7885B;
+
+  --green: #4E9A6D;
+  --green-bg: #CDEBD8;
+  --blue: #5B7FD1;
+  --blue-bg: #D8E3FA;
+  --amber-bg: #FFD9A0;
+
+  --font-heading: 'Baloo 2', cursive;
+  --font-handwritten: 'Caveat', cursive;
+  --font-body: 'Nunito', sans-serif;
+
+  --sidebar-w: 264px;
+  --content-max: 820px;
+}
+
+html.font-rounded { --font-body: 'Nunito', sans-serif; }
+html.font-warm    { --font-body: 'Lora', Georgia, serif; }
+html.font-classic { --font-body: 'Source Serif 4', Georgia, serif; }
+
+a { color: inherit; }
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes wiggle {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}

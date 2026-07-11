@@ -1,0 +1,126 @@
+.sidebar {
+  width: var(--sidebar-w);
+  flex: none;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 28px 20px;
+  border-right: 2px dashed var(--border-sidebar);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 0 var(--accent-shadow);
+}
+.logoIcon span {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 22px;
+  color: #FFF9EF;
+}
+
+.logoTitle {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.1;
+}
+.logoSub {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.tocGroup { margin-top: 4px; }
+
+.tocLabel {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-label);
+  margin: 0 0 8px 4px;
+}
+
+.tocItem {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 8px;
+  border-radius: 8px;
+  margin-bottom: 2px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+  font-size: 13.5px;
+  transition: background 0.15s;
+}
+.tocItem:hover { background: var(--bg-callout); }
+.tocDone {
+  color: var(--text-primary);
+  font-weight: 700;
+  background: var(--bg-callout);
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--border-sidebar);
+  background: transparent;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: #fff;
+  transition: all 0.2s;
+}
+.dotDone {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.tagline {
+  margin-top: auto;
+  font-family: var(--font-handwritten);
+  font-size: 16px;
+  color: var(--text-handwritten);
+  line-height: 1.3;
+}
+
+:global(.progress-label) {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+:global(.progress-track) {
+  height: 10px;
+  border-radius: 6px;
+  background: var(--border-progress);
+  overflow: hidden;
+  border: 1.5px solid var(--border-sidebar);
+}
+:global(.progress-fill) {
+  height: 100%;
+  border-radius: 6px;
+  background: var(--accent);
+  transition: width 0.4s ease;
+}

@@ -1,0 +1,43 @@
+.label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+}
+
+.prose {
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: var(--text-body);
+}
+.prose p { margin: 0 0 1em; }
+.prose p:last-child { margin-bottom: 0; }
+
+.prose ul {
+  padding-left: 22px;
+  line-height: 1.9;
+}
+
+.prose b, .prose strong { font-weight: 700; }
+
+.prose code {
+  background: var(--bg-accent-light);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.prose blockquote {
+  margin: 18px 0;
+  padding: 18px 22px;
+  background: var(--bg-callout);
+  border: 2px dashed var(--border-callout);
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--accent-text);
+}
+.prose blockquote p { margin: 0; }
