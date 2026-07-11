@@ -117,6 +117,11 @@ export function useAppRouter() {
     if (config) document.documentElement.lang = config.htmlLang;
   }, [state.lang]);
 
+  const resetProgress = useCallback(() => {
+    setCompleted(new Set());
+    localStorage.removeItem(PROGRESS_KEY);
+  }, []);
+
   return {
     lang: state.lang,
     pageId: state.pageId,
@@ -131,5 +136,6 @@ export function useAppRouter() {
     next,
     prev,
     switchLang,
+    resetProgress,
   };
 }

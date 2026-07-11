@@ -14,6 +14,7 @@ export function Sidebar({
   onSwitchLang,
   theme,
   onToggleTheme,
+  onResetProgress,
 }) {
   const [open, setOpen] = useState(false);
   const total = sections.length;
@@ -66,7 +67,7 @@ export function Sidebar({
           ))}
         </div>
 
-        <ProgressBar done={done} total={total} />
+        <ProgressBar done={done} total={total} onReset={onResetProgress} />
 
         {intros.length > 0 && (
           <TocGroup

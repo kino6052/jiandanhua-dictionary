@@ -79,6 +79,7 @@ export function App() {
         onSwitchLang={router.switchLang}
         theme={theme}
         onToggleTheme={toggleTheme}
+        onResetProgress={router.resetProgress}
       />
 
       <main class="main-content" ref={mainRef}>

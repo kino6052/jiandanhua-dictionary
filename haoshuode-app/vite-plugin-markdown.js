@@ -34,7 +34,8 @@ export default function markdownPlugin() {
     transform(src, id) {
       if (!id.endsWith('.md')) return null;
 
-      const { data: meta, content } = matter(src);
+      const { data: meta, content: rawContent } = matter(src);
+      const content = rawContent.replace(/\r\n/g, '\n');
 
       const structured = { vocab: [], examples: [], exercise: [], answers: [], story: [], dict: [] };
       const prose = content.replace(FENCE_RE, (_, type, body) => {

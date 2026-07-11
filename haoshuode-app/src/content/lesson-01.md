@@ -1,14 +1,10 @@
-Here's the corrected English version with accurate pinyin (including tone marks) applied throughout.
-
 ---
-
 id: lesson-01
 title: "Sounds and Symbols"
 lessonNumber: 1
 type: lesson
 order: 1
 language: eng
-
 ---
 
 Chinese doesn't write itself out letter by letter, in one continuous stream of sound the way English words like "understand" do. It's built in blocks -- one block per syllable, and (mostly) one syllable per idea. Pinyin keeps that structure visible: `Zhōngguó`, the word for China, isn't read as one long fused sound; it's two syllables, `Zhōng` and `guó`, sitting side by side. Get in the habit of reading pinyin syllable by syllable, the way it's actually spoken, rather than stressing it the way you would an English word. This one habit will save you from a hundred small mispronunciations later.
