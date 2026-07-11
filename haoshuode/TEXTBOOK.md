@@ -1,70 +1,43 @@
-﻿# WELCOME TO Hǎo-shuō-de: THE QUANTUM CORE
+﻿# Welcome to Hǎo-shuō-de: The Minimal Chinese Language
 
 ---
 
-## 1. The Problem: The Cognitive Wall
+## 1. Why is Chinese so hard?
 
-If you have ever thought about learning Mandarin Chinese, you have probably been told it is one of the hardest languages on Earth.
+Ask any beginner why Chinese is difficult, and you'll hear the same answer: too many characters. That's true, but it's only part of the story — and not even the most important part.
 
-The difficulty isn't a myth, but it _is_ misunderstood. Traditional language courses force you to attack four massive walls at the exact same time:
+Here is what really happens. Open a Chinese textbook, and on page one you are asked to do four things at once. Learn a character that looks nothing like any letter you've ever seen. Learn to pronounce it with a tone that can turn "mother" into "horse" if you get it slightly wrong. Learn where it belongs in a sentence, according to rules that owe nothing to English. And remember it, among the thousands of others waiting on the following pages. Try to do all four at once, and your attention doesn't focus — it scatters. No wonder progress feels so slow: you're not learning one hard thing, you're juggling four of them.
 
-- **Thousands of complex characters** (Hanzi)
-- **Unfamiliar tones and pronunciation**
-- **An entirely foreign grammar system**
-- **An overwhelming library of thousands of words**
+There's a name for this kind of problem, and it comes from an unexpected place — not linguistics, but software engineering. When every part of a system depends on every other part, so that touching one thing forces you to think about ten others, engineers call the system "tightly coupled." Such systems are notoriously hard to build, and even harder to learn, because a house, once built, can stand as it is — but software has to keep changing for as long as it's used, so programmers had to learn how to tame this kind of tangled complexity. Their answer was "separation of concerns": pull the tangled system apart into independent pieces, each of which can be learned, tested, or improved on its own.
 
-When you try to memorize a massive dictionary while simultaneously learning how to structure a sentence, your brain runs out of processing power. You spend so much energy hunting for the specific word for "refrigerator," "employee," or "cat" that you never actually learn how to _think_ in the language. You freeze up before you can even begin.
+Hǎo-shuō-de is that idea applied to Chinese. It takes the four tangled problems — characters, tones, grammar, vocabulary — and pulls one of them loose: vocabulary. What's left is small enough to hold in your head all at once, and real enough that you're speaking actual Mandarin from the very first sentence.
 
 **Hǎo-shuō-de changes the rules of the game.**
 
 ---
 
-## 2. The Solution: Radical Reduction
+## 2. How small can a language be?
 
-Hǎo-shuō-de (meaning "good speech") is based on a radical engineering question:
+Here's a question worth sitting with: what is the smallest number of words you would need to say almost anything, and still be understood?
 
-> What is the absolute smallest number of words required to speak 100% grammatically correct, real Mandarin?
+In 2001, a linguist named Sonja Lang decided to find out. She built a language called Toki Pona, and gave herself just about 120 words to work with — no more. It sounds impossibly restrictive. How do you say "car" without the word for car? You don't invent one. Instead you combine what you already have: a car becomes a "moving box." Hunger becomes "wanting to eat." Teaching becomes "giving knowledge." Lang wasn't trying to replace English, or any other language — she was running an experiment. And the experiment worked: with only 120 well-chosen concepts, combined freely, people could think clearly and say almost anything they needed to.
 
-The answer is about **120 words**.
+Hǎo-shuō-de borrows the result of that experiment, but not the language itself. Every word you'll learn here, and every rule of grammar, is ordinary, real, standard Mandarin — nothing invented, nothing to unlearn later. What Hǎo-shuō-de borrows from Toki Pona is only the discipline: freeze the vocabulary at around 120 words, and suddenly there's nothing left to distract you from the grammar. All your effort goes into learning how Mandarin sentences are actually built — their order, their rhythm, their logic — instead of into memorizing more and more words.
 
-This idea was inspired by _Toki Pona_, a minimalist invented language created in 2014 by linguist Sonja Lang. Toki Pona proved to the world that you can express almost any human thought using a tiny toolkit of roughly 120 basic concepts. If you are hungry, you say "want eat". If you teach, you "give knowledge".
+And because the grammar is entirely real, a native speaker understands you from your very first sentence. Don't expect to sound fluent — with 120 words, you'll speak the way a very honest, very literal person speaks, saying exactly what you mean and nothing more. But every sentence will be correct Mandarin, not a simplified stand-in for it. Soon enough, you'll be able to say things like:
 
-Hǎo-shuō-de steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
+- `Nǐ hǎo ma?` — Hello, how are you? (literally: "you good?")
+- `Wǒ zhīdào Hǎo-shuō-de.` — I know Hǎo-shuō-de.
 
-By freezing your vocabulary at just about 120 words, the exhausting chore of word-hunting completely vanishes. Your mind is freed to focus 100% of its energy on mastering native sentence structure, rhythm, and flow.
-
----
-
-## 3. A Real Bridge, Not an Island
-
-There are plenty of simplified or artificial languages out there, but they usually create a trap: you end up speaking a private code that only a small club of enthusiasts understands.
-
-Hǎo-shuō-de is explicitly designed to avoid this. Every single sentence you build in Hǎo-shuō-de is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
-
-Because we are working with a tiny vocabulary, we use the clever, elegant structures built directly into native Chinese grammar to handle complex ideas. For example, to change the state of an object, we use the standard native Mandarin _bǎ_ construction paired with _biàn_ (to become or change):
-
-$$\text{Subject} + \text{bǎ} + \text{Object} + \text{biàn} + \text{State/Adjective}$$
-
-- **To break something** (Make a thing become bad):
-  `Tā bǎ dōngxi biàn huài le.` _(Literally: He took the thing and made it become bad.)_
-- **To cool down water** (Make water become cold):
-  `Wǒ yào bǎ shuǐ biàn lěng.` _(Literally: I want to take the water and make it become cold.)_
+Ordinary sentences. Not a toy version of the language — the real thing, just small.
 
 ---
 
-## 4. The Rules of the Sandbox
+## 3. How this book works
 
-To make your entry completely seamless, this book applies a few strict visual rules to protect you from cognitive overload:
+One hundred and twenty words is not much to memorize, but even a small pile of syllables can look like a wall if it's written without any signposts. So this book marks a few of them for you: words that belong together are written as one solid block, like `dòngwù` for animal, and hyphens show you exactly where a piece of grammar has attached itself to a word, like `zhè-ge` for "this one." You'll find the complete set of these rules, worked through with examples, in Lesson 1.
 
-- **Zero Characters:** The visual wall of Chinese characters is entirely stripped away. You will read and write exclusively using Pinyin—the standard, phonetic Latin alphabet for Chinese.
-
-- **Explicit Word Boundaries:** Multi-syllable dictionary words are kept as solid blocks so you know they are a single unit (e.g., `dòngwù` for animal, `shuìjiào` for sleep).
-
-- **Syntactic Hyphens:** Hyphens are used strictly to show how grammar particles and descriptions glue onto their targets (e.g., `zhè-ge` for _this one_, `hěn-dà-de` for _very big_).
-
-- **The Quote Partition:** Any specialized foreign names or literal animal sounds are cordoned off in quotation marks (e.g., `jiào "wāng-wāng"` for _goes "woof woof"_) so your brain knows to skip looking them up in the vocabulary.
-
-This is not a toy version of Chinese. It is the sophisticated, high-performance operating system of the language, stripped of all historical baggage. Master these 120 words, and you install the structural muscle memory of Mandarin directly into your brain.
+You don't need to know any Chinese to begin. Just take the lessons in the order they come — each one rests on the one before it, and builds only what you're ready for.
 
 ---
 
@@ -397,7 +370,7 @@ To answer "yes," simply repeat the main verb. To answer "no," repeat the verb al
 
 - `Wèishénme nǐ gěi tā yú?` (Why you are giving her a fish?)
 
-- `Nǐ zěnme bǎ HAOSHUODE biàn zhīdào?` (How do you learn HAOSHUODE?)
+- `Nǐ zěnme bǎ Hǎo-shuō-de biàn zhīdào?` (How do you learn Hǎo-shuō-de?)
 
 ### Practice Exercise
 
@@ -1408,4 +1381,3 @@ This section presents the complete core vocabulary of Hǎo-shuō-de sorted alpha
 - **zǒu** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
 - **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).
-

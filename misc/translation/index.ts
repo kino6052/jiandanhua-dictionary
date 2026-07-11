@@ -6,7 +6,7 @@ import {
 } from "./src";
 import type { Tokenizer } from "./src";
 
-import fs from 'fs';
+import fs from "fs";
 
 const text = `关于新汉语水平考试（HSK 3.0）的介绍
 
@@ -15,4 +15,4 @@ const text = `关于新汉语水平考试（HSK 3.0）的介绍
 const tokenizer = new JiebaTokenizer("default", true);
 const tokens = tokenizer.tokenize(text);
 
-fs.writeFileSync('output.json', JSON.stringify(tokens));
+fs.writeFileSync("output.json", JSON.stringify(tokens));
