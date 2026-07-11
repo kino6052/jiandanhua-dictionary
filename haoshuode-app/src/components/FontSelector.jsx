@@ -11,7 +11,8 @@ export function FontSelector() {
 
   function pick(key) {
     setActive(key);
-    document.documentElement.className = key;
+    FONTS.forEach(f => document.documentElement.classList.remove(f.key));
+    document.documentElement.classList.add(key);
   }
 
   return (

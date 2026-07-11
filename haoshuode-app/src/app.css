@@ -52,6 +52,33 @@ html.font-rounded { --font-body: 'Nunito', sans-serif; }
 html.font-warm    { --font-body: 'Lora', Georgia, serif; }
 html.font-classic { --font-body: 'Source Serif 4', Georgia, serif; }
 
+:root[data-theme="dark"] {
+  --bg-page: #1C1916;
+  --bg-card: #262220;
+  --bg-practice: #2A2622;
+  --bg-callout: #302818;
+  --bg-accent-light: #3D2C1C;
+  --border-card: #3E3630;
+  --border-sidebar: #3E3630;
+  --border-callout: #6B4A2A;
+  --border-progress: #3E3630;
+  --accent: #FF6B4A;
+  --accent-shadow: #B83D1A;
+  --accent-text: #F0A070;
+  --text-primary: #EDE4D4;
+  --text-body: #D4C8B8;
+  --text-tertiary: #A89888;
+  --text-muted: #807060;
+  --text-label: #807060;
+  --text-handwritten: #C0A878;
+  --green: #6ABF8A;
+  --green-bg: #1E3328;
+  --blue: #7B9FE1;
+  --blue-bg: #1E2838;
+  --amber-bg: #3D2C1C;
+}
+[data-theme="dark"] ::selection { background: #5A3A1A; color: #F0E8D8; }
+
 a { color: inherit; }
 
 .app-shell {

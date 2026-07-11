@@ -1,17 +1,18 @@
 import { useState } from 'preact/hooks';
+import { t } from '../lib/i18n.js';
 import styles from './PracticeExercise.module.css';
 
-export function PracticeExercise({ questions, answers }) {
+export function PracticeExercise({ questions, answers, lang }) {
   if (!questions || questions.length === 0) return null;
   const [showAnswers, setShowAnswers] = useState(false);
 
   return (
     <div class={styles.wrap}>
       <div class={styles.header}>
-        <span>✏️ Practice Exercise</span>
+        <span>✏️ {t(lang, 'practice')}</span>
         {answers && answers.length > 0 && (
           <button class={styles.toggle} onClick={() => setShowAnswers(!showAnswers)}>
-            {showAnswers ? 'Hide answers' : 'Show answers'}
+            {showAnswers ? t(lang, 'hideAnswers') : t(lang, 'showAnswers')}
           </button>
         )}
       </div>

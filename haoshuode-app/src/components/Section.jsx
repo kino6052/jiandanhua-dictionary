@@ -1,11 +1,11 @@
 import styles from './Section.module.css';
 
 const BADGE_THEMES = {
-  intro: { bg: '#FFD9A0', icon: '❓', color: '#B7885B' },
+  intro: { bg: 'var(--amber-bg)', icon: '❓', color: 'var(--text-handwritten)' },
   lesson: { bg: null, icon: null, color: null },
-  proverbs: { bg: '#CDEBD8', icon: '🌿', color: '#4E9A6D' },
-  dictionary: { bg: '#D8E3FA', icon: '📖', color: '#5B7FD1' },
-  appendix: { bg: '#D8E3FA', icon: '🔤', color: '#5B7FD1' },
+  proverbs: { bg: 'var(--green-bg)', icon: '🌿', color: 'var(--green)' },
+  dictionary: { bg: 'var(--blue-bg)', icon: '📖', color: 'var(--blue)' },
+  appendix: { bg: 'var(--blue-bg)', icon: '🔤', color: 'var(--blue)' },
 };
 
 export function Section({ data, children }) {

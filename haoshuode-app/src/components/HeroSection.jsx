@@ -1,19 +1,18 @@
-import styles from './HeroSection.module.css';
+import { t } from "../lib/i18n.js";
+import styles from "./HeroSection.module.css";
 
-export function HeroSection() {
+export function HeroSection({ lang }) {
   return (
     <div class={styles.hero}>
       <div class={styles.badge}>
-        <span class={styles.badgeIcon}>📖</span> an interactive book
+        <span class={styles.badgeIcon}>📖</span> {t(lang, "heroBadge")}
       </div>
       <h1 class={styles.title}>
-        Hǎo-shuō-de<br />
-        <span class={styles.accent}>the minimal Chinese language</span>
+        Hǎo-shuō-de
+        <br />
+        <span class={styles.accent}>{t(lang, "subtitle")}</span>
       </h1>
-      <p class={styles.subtitle}>
-        Real Mandarin, frozen to about 120 words. Nothing invented, nothing to
-        unlearn — just enough to start speaking today.
-      </p>
+      <p class={styles.subtitle}>{t(lang, "heroSubtitle")}</p>
     </div>
   );
 }

@@ -114,6 +114,58 @@
   font-size: 16px;
   color: var(--text-handwritten);
   line-height: 1.3;
+  white-space: pre-line;
+}
+
+.langRow {
+  display: flex;
+  gap: 4px;
+}
+
+.langBtn {
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-card);
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.langBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.langActive {
+  border-color: var(--accent) !important;
+  background: var(--bg-callout);
+  color: var(--accent) !important;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.themeBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-card);
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+  margin-left: auto;
+}
+.themeBtn:hover {
+  border-color: var(--accent);
 }
 
 .hamburger {

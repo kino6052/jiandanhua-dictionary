@@ -4,33 +4,34 @@ title: "Words and Sentences"
 lessonNumber: 2
 type: lesson
 order: 2
+language: eng
 ---
 
 ```vocab
-dongxi | thing, something, being
-ren | person, human
-shuiguo | fruit, vegetable
-xie | write
-nuren | woman, female
-zhe | this
-dongwu | animal, land mammal
+dōngxi | thing, something, being
+rén | person, human
+shuǐguǒ | fruit, vegetable
+xiě | write
+nǚrén | woman, female
+zhè | this
+dòngwù | animal, land mammal
 ```
 
 To build a basic descriptive sentence in Hao-shuo-de, use the standard Mandarin **is/am/are** structure. You do not need to change the verb based on who is speaking:
 
-`Subject + shi + Noun`
+`Subject + shì + Noun`
 
-- **No Plurals:** By themselves, Hao-shuo-de nouns are completely number-neutral. Context dictates the volume. For example, the word `nuren` can mean either "woman" or "women" depending on the situation.
-- **Pointing to Things:** To say "this" or "that," Hao-shuo-de links the demonstrative pointers (`zhe` or `na`) directly to the universal measure word `ge` using a hyphen (`zhe-ge` / `na-ge`).
-- **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle `de`. Because Hao-shuo-de avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (`xie-de dongxi`).
+- **No Plurals:** By themselves, Hao-shuo-de nouns are completely number-neutral. Context dictates the volume. For example, the word `nǚrén` can mean either "woman" or "women" depending on the situation.
+- **Pointing to Things:** To say "this" or "that," Hao-shuo-de links the demonstrative pointers (`zhè` or `nà`) directly to the universal measure word `gè` using a hyphen (`zhè-ge` / `nà-ge`).
+- **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle `de`. Because Hao-shuo-de avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (`xiě-de dōngxi`).
 
 ```examples
-Zhe-ge shi ren. | This is a person.
-Zhe-ge shi shuiguo. | This is a fruit.
-Yi-ge xie-de dongxi shi dongxi. | A written thing (book/document) is a thing.
-Ren shi nuren. | The person is a woman.
-Dongwu shi dongxi. | Animals are things.
-Nuren shi ren. | Women are people.
+Zhè-ge shì rén. | This is a person.
+Zhè-ge shì shuǐguǒ. | This is a fruit.
+Yī-ge xiě-de dōngxi shì dōngxi. | A written thing (book/document) is a thing.
+Rén shì nǚrén. | The person is a woman.
+Dòngwù shì dōngxi. | Animals are things.
+Nǚrén shì rén. | Women are people.
 ```
 
 ```exercise
@@ -40,7 +41,7 @@ Animals are beings.
 ```
 
 ```answers
-Zhe-ge shi xie-de dongxi.
-Nuren shi ren.
-Dongwu shi dongxi.
+Zhè-ge shì xiě-de dōngxi.
+Nǚrén shì rén.
+Dòngwù shì dōngxi.
 ```

@@ -4,24 +4,25 @@ title: "Nouns and Adjectives"
 lessonNumber: 3
 type: lesson
 order: 3
+language: eng
 ---
 
 ```vocab
-shui | water, liquid
-difang | a place (both in space or metaphorical to mean part of something)
-xiao | little, small
-hao | good, simple, friendly
-da | big, important, tall
+shuǐ | water, liquid
+dìfāng | a place (both in space or metaphorical to mean part of something)
+xiǎo | little, small
+hǎo | good, simple, friendly
+dà | big, important, tall
 ```
 
 An adjective can modify a noun directly by following standard predicate structure:
 
-`Subject + hen + Adjective`
+`Subject + hěn + Adjective`
 
 When an adjective phrase directly modifies a noun as a single unit, it uses the structural particle `-de`.
 
 ```examples
-Shui hen hao. | Water is good.
-Zhe-ge shi hen-xiao-de difang. | This is a small room.
-Wo kan yi-ge hen-da-de dongwu. | I see a very big animal.
+Shuǐ hěn hǎo. | Water is good.
+Zhè-ge shì hěn-xiǎo-de dìfāng. | This is a small room.
+Wǒ kàn yī-ge hěn-dà-de dòngwù. | I see a very big animal.
 ```
