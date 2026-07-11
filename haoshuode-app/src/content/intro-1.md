@@ -3,6 +3,7 @@ id: intro-1
 title: "Why is Chinese so hard?"
 type: intro
 order: 1
+language: eng
 ---
 
 Ask any beginner why Chinese is difficult, and you'll hear the same answer: too many characters. That's true, but it's only part of the story — and not even the most important part.

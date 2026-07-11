@@ -3,6 +3,7 @@ id: intro-2
 title: "How small can a language be?"
 type: intro
 order: 2
+language: eng
 ---
 
 Here's a question worth sitting with: what is the smallest number of words you would need to say almost anything, and still be understood?
