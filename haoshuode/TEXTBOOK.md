@@ -43,27 +43,46 @@ You don't need to know any Chinese to begin. Just take the lessons in the order 
 
 ## Part 1: Lessons
 
-### Lesson 1: Letters and Sounds
+### Lesson 1: Sounds and Symbols
 
-Hǎo-shuō-de uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, Hǎo-shuō-de adopts standard Chinese dictionary tones.
+Chinese doesn't write itself out letter by letter, in one continuous stream of sound the way English words like "understand" do. It's built in blocks — one block per syllable, and (mostly) one syllable per idea. Pīnyīn keeps that structure visible: `Zhōngguó`, the word for China, isn't read as one long fused sound; it's two syllables, `Zhōng` and `guó`, sitting side by side. Get in the habit of reading pīnyīn syllable by syllable, the way it's actually spoken, rather than stressing it the way you would an English word. This one habit will save you from a hundred small mispronunciations later.
 
-This book doesn't teach you pinyin, so for more information please consult standard Chinese materials for beginners about pinyin, like HSK 1 or analogs.
+Beyond that, most pīnyīn reads close to what you'd expect from Latin letters — but not identical, and a few spellings are outright misleading if you read them as English. `c` sounds like the "ts" in "cats," not like a "k" or an "s." `q` and `x` don't exist as English sounds at all; the closest approximations are a light "ch" and a light "sh." And some vowel combinations hide sounds that aren't obvious from the letters at all — `yun`, for instance, isn't pronounced "yoon"; it's closer to "yoo-in," built around a vowel English doesn't have. Rather than front-load every rule here, this book keeps a complete sound-by-sound reference — the full pīnyīn system, letter by letter, with every one of these traps flagged — in the **Pīnyīn Appendix** at the back. Whenever a word's spelling doesn't tell you how to say it, that's where to look.
 
 #### Tones
 
-Dictation forms always retain their standard baseline tones in writing, regardless of natural spoken flow:
+One thing pīnyīn can't hide, though, is tone — and tone is not a decoration, it's part of the word. Say `mā` (mother), `má` (hemp), `mǎ` (horse), and `mà` (to scold) with the wrong pitch, and you haven't mispronounced a word — you've said a different one.
 
-- **ā** (First tone: high and level)
-- **á** (Second tone: making a question/rising)
-- **ǎ** (Third tone: dipping low then rising)
-- **à** (Fourth tone: sharp and dropping)
+- **ā** — First tone. Flat and held, like humming a single note and not letting it move.
+- **á** — Second tone. Rising, like the "huh?" you say when you mishear something.
+- **ǎ** — Third tone. Dips down, then curls back up — the sound of a skeptical "hmm..."
+- **à** — Fourth tone. Sharp and falling, like a flat, final "No."
 
-#### Hyphenation Rules
+This book always writes a word's baseline tone — the tone it carries in the dictionary — even in places where fast, natural speech would blur or shift it slightly. That keeps every written form consistent and lookup-able, at the small cost of not capturing every detail of how a sentence actually sounds out loud.
 
-To make the architecture of the language transparent, Hǎo-shuō-de separates vocabulary from grammar visually:
+Because tone marks are awkward to type on an ordinary keyboard, there's a standard shorthand you'll meet in apps, dictionaries, and casual typing: write the tone as a digit right after the syllable instead of as a mark above the vowel. `Nǐ hǎo` becomes `ni3 hao3`. This book always uses proper tone marks, but recognizing the number system will save you confusion the first time you run into it elsewhere.
 
-1. **Lexical words stay solid:** Multi-syllables that form a single dictionary word are never split (e.g., `dòngwù`, `shuìjiào`, `dànshì`).
-2. **Syntactic units bind:** Hyphens are used strictly to glue grammatical particles, measure words, or description phrases to their targets (e.g., `zhè-ge`, `yī-ge`, `hěn-dà-de`).
+#### Writing Hǎo-shuō-de
+
+Reading tones and syllables gets you through any pīnyīn text. But Hǎo-shuō-de adds a small layer of its own notation on top, to keep vocabulary and grammar visually distinct as you read:
+
+1. **Words stay solid.** When several syllables form one dictionary word, they're never split apart, no matter how long the word is — `dòngwù`, `shuìjiào`, `dànshì`. Read a solid block as a single unit.
+2. **Hyphens bind grammar.** A hyphen glues a grammar particle, measure word, or description directly onto the word it modifies — `zhè-ge` (this one), `yī-ge` (one thing), `hěn-dà-de` (very big). A hyphen always signals "these two pieces work as one" — never a word break.
+3. **Quotes wall off the untranslatable.** Proper names and imitated sounds — things that aren't really Hǎo-shuō-de vocabulary at all — are kept inside quotation marks: `"Bĕijīng"`, `jiào "wāng-wāng"` (goes "woof woof"). If you see quotes, don't look for the word in the dictionary; it isn't one.
+
+#### Practice Exercise
+
+1. Break `Zhōngguórén` into its syllables.
+2. Which tone is this: `à`? Describe it in one word.
+3. Rewrite `Wǒ hǎo` using tone-number notation instead of tone marks.
+4. Is `hěn-dà-de` one dictionary word, or a word plus a bound grammar piece? How do you know from the punctuation alone?
+
+#### Answers
+
+1. `Zhōng-guó-rén` (three syllables: Zhōng, guó, rén).
+2. Fourth tone — sharp and falling.
+3. `Wo3 hao3`.
+4. A word (`dà`, big) plus a bound grammar piece (`-de`) — the hyphen shows they're glued together, not a single solid dictionary word.
 
 ---
 
@@ -1381,3 +1400,51 @@ This section presents the complete core vocabulary of Hǎo-shuō-de sorted alpha
 - **zǒu** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
 - **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).
+
+---
+
+# Appendix: The Pīnyīn System
+
+This is the complete reference Lesson 1 pointed you to — every sound pīnyīn can spell, with the spellings that mislead English speakers flagged explicitly. You won't need to memorize this table; just come back to it whenever a word's spelling doesn't tell you how to say it.
+
+### Initials
+
+Chinese has three parallel sets of consonants that English speakers routinely confuse with each other: a soft palatal set (`j q x`), a retroflex set (`zh ch sh r`, tongue curled back), and a plain sibilant set (`z c s`). They are three distinct sounds, not variations of one.
+
+| Pīnyīn | Sounds roughly like | Note |
+|---|---|---|
+| b, p | "p" in "spy" / "p" in "pie" | b is unaspirated, p has a puff of air |
+| d, t | "t" in "stop" / "t" in "top" | same unaspirated/aspirated pairing |
+| g, k | "k" in "skate" / "k" in "kite" | same pairing again |
+| m, n, l, f, h | m, n, l, f, h as in English | h is slightly raspier |
+| j | "j" in "jeep," but lighter, tongue forward | not like English "j" in "jump" |
+| q | light "ch," tongue forward | **not** a "k" sound |
+| x | light "sh," tongue forward, lips spread | **not** an "s" or "z" sound |
+| zh | "j" in "judge," tongue curled back | |
+| ch | "ch" in "church," tongue curled back | |
+| sh | "sh" in "shirt," tongue curled back | |
+| r | tongue curled back, buzzed like the "s" in "measure" | **not** an English "r" |
+| z | "ds" in "kids" | **not** an English "z" |
+| c | "ts" in "cats" | **not** a "k" or "s" |
+| s | "s" in "sun" | |
+| y, w | glides, like "y" in "yes" / "w" in "way" | |
+
+### Finals
+
+| Group | Pīnyīn | Note |
+|---|---|---|
+| Simple | a, o, e, i, u, ü | `e` alone sounds like "uh," not "eh" as in "bed"; `ü` doesn't exist in English — say "ee" with your lips rounded like "oo" |
+| Diphthongs | ai, ei, ao, ou | read close to English "eye," "ay," "ow," "oh" |
+| Nasal | an, en, ang, eng, ong | |
+| i-group | ia, ie, iao, iu, ian, in, iang, ing, iong | `iu` is really "iou," said "yo," not "ee-oo"; `ian` is said "yen," not "eye-an" |
+| u-group | ua, uo, uai, ui, uan, un, uang, ueng | `ui` is really "uei," said "way," not "oo-ee" |
+| ü-group | üe, üan, ün | |
+
+### Spelling rules that hide the sound
+
+- **Bare vowels get a stand-in consonant.** A syllable that's just `i`, `u`, or `ü` with no initial consonant is spelled `yi`, `wu`, `yu` instead — same sound, different spelling, purely so the syllable doesn't start with a vowel on the page.
+- **`ü` quietly becomes `u`.** After `j`, `q`, `x`, or `y`, the `ü` sound is written as plain `u` — because these consonants never pair with a regular `u` anyway, there's no ambiguity in speech, only on paper. So `ju`, `qu`, `xu`, and `yu` all secretly contain the `ü` sound, not "oo." This is exactly what's happening in `yun` (Lesson 1's example): it's really `ün`, said "yoo-in," not "yoon."
+
+### A note on tone changes in real speech
+
+In fast, natural speech, a few tones shift automatically: two third tones in a row, and the first one turns into a second tone; `bù` and `yī` change tone depending on the word that follows them. As Lesson 1 mentioned, this book always prints the dictionary's baseline tone rather than these live shifts, so what you hear in real conversation may sound slightly different from what's written here — that's expected, not an error.
