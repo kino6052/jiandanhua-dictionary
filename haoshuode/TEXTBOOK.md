@@ -1,4 +1,4 @@
-# WELCOME TO HǍO-SHUO-DE: THE QUANTUM CORE
+﻿# WELCOME TO Hǎo-shuō-de: THE QUANTUM CORE
 
 ---
 
@@ -15,13 +15,13 @@ The difficulty isn't a myth, but it _is_ misunderstood. Traditional language cou
 
 When you try to memorize a massive dictionary while simultaneously learning how to structure a sentence, your brain runs out of processing power. You spend so much energy hunting for the specific word for "refrigerator," "employee," or "cat" that you never actually learn how to _think_ in the language. You freeze up before you can even begin.
 
-**HǍO-SHUO-DE changes the rules of the game.**
+**Hǎo-shuō-de changes the rules of the game.**
 
 ---
 
 ## 2. The Solution: Radical Reduction
 
-HǍO-SHUO-DE (meaning "good speech") is based on a radical engineering question:
+Hǎo-shuō-de (meaning "good speech") is based on a radical engineering question:
 
 > What is the absolute smallest number of words required to speak 100% grammatically correct, real Mandarin?
 
@@ -29,7 +29,7 @@ The answer is about **120 words**.
 
 This idea was inspired by _Toki Pona_, a minimalist invented language created in 2014 by linguist Sonja Lang. Toki Pona proved to the world that you can express almost any human thought using a tiny toolkit of roughly 120 basic concepts. If you are hungry, you say "want eat". If you teach, you "give knowledge".
 
-HǍO-SHUO-DE steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
+Hǎo-shuō-de steals that brilliant minimalist footprint but completely throws out the invented conlang elements. Instead, it routes those core concepts through **real, uncompromised, native Mandarin grammar**.
 
 By freezing your vocabulary at just about 120 words, the exhausting chore of word-hunting completely vanishes. Your mind is freed to focus 100% of its energy on mastering native sentence structure, rhythm, and flow.
 
@@ -39,7 +39,7 @@ By freezing your vocabulary at just about 120 words, the exhausting chore of wor
 
 There are plenty of simplified or artificial languages out there, but they usually create a trap: you end up speaking a private code that only a small club of enthusiasts understands.
 
-HǍO-SHUO-DE is explicitly designed to avoid this. Every single sentence you build in HǍO-SHUO-DE is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
+Hǎo-shuō-de is explicitly designed to avoid this. Every single sentence you build in Hǎo-shuō-de is **grammatically perfect, standard Mandarin**. Nothing you learn here will ever have to be unlearned. Because the grammar engine is 100% authentic, **any native Mandarin speaker on the planet will understand you.**
 
 Because we are working with a tiny vocabulary, we use the clever, elegant structures built directly into native Chinese grammar to handle complex ideas. For example, to change the state of an object, we use the standard native Mandarin _bǎ_ construction paired with _biàn_ (to become or change):
 
@@ -72,7 +72,7 @@ This is not a toy version of Chinese. It is the sophisticated, high-performance 
 
 ### Lesson 1: Letters and Sounds
 
-HǍO-SHUO-DE uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, HǍO-SHUO-DE adopts standard Chinese dictionary tones.
+Hǎo-shuō-de uses standard Latin Pinyin orthography to express real Mandarin words. Unlike languages with invented phonetic systems, Hǎo-shuō-de adopts standard Chinese dictionary tones.
 
 This book doesn't teach you pinyin, so for more information please consult standard Chinese materials for beginners about pinyin, like HSK 1 or analogs.
 
@@ -87,7 +87,7 @@ Dictation forms always retain their standard baseline tones in writing, regardle
 
 #### Hyphenation Rules
 
-To make the architecture of the language transparent, HǍO-SHUO-DE separates vocabulary from grammar visually:
+To make the architecture of the language transparent, Hǎo-shuō-de separates vocabulary from grammar visually:
 
 1. **Lexical words stay solid:** Multi-syllables that form a single dictionary word are never split (e.g., `dòngwù`, `shuìjiào`, `dànshì`).
 2. **Syntactic units bind:** Hyphens are used strictly to glue grammatical particles, measure words, or description phrases to their targets (e.g., `zhè-ge`, `yī-ge`, `hěn-dà-de`).
@@ -114,13 +114,13 @@ To make the architecture of the language transparent, HǍO-SHUO-DE separates voc
 
 ### Grammar
 
-To build a basic descriptive sentence in HǍO-SHUO-DE, use the standard Mandarin **is/am/are** structure. You do not need to change the verb based on who is speaking:
+To build a basic descriptive sentence in Hǎo-shuō-de, use the standard Mandarin **is/am/are** structure. You do not need to change the verb based on who is speaking:
 
 `Subject + shì + Noun`
 
-- **No Plurals:** By themselves, HǍO-SHUO-DE nouns are completely number-neutral. Context dictates the volume. For example, the word `nǚrén` can mean either "woman" or "women" depending on the situation.
-- **Pointing to Things:** To say "this" or "that," HǍO-SHUO-DE links the demonstrative pointers (`zhè` or `nà`) directly to the universal measure word `gè` using a hyphen (`zhè-ge` / `nà-ge`).
-- **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle `de`. Because HǍO-SHUO-DE avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (`xiě-de dōngxi`).
+- **No Plurals:** By themselves, Hǎo-shuō-de nouns are completely number-neutral. Context dictates the volume. For example, the word `nǚrén` can mean either "woman" or "women" depending on the situation.
+- **Pointing to Things:** To say "this" or "that," Hǎo-shuō-de links the demonstrative pointers (`zhè` or `nà`) directly to the universal measure word `gè` using a hyphen (`zhè-ge` / `nà-ge`).
+- **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle `de`. Because Hǎo-shuō-de avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (`xiě-de dōngxi`).
 
 ---
 
@@ -141,7 +141,7 @@ To build a basic descriptive sentence in HǍO-SHUO-DE, use the standard Mandarin
 
 #### Practice Exercise
 
-Translate the following sentences into HǍO-SHUO-DE rules (Answers below):
+Translate the following sentences into Hǎo-shuō-de rules (Answers below):
 
 1. This is a document.
 2. A woman is a human.
@@ -205,9 +205,9 @@ When an adjective phrase directly modifies a noun as a single unit, it uses the 
 
 ### Grammar
 
-Unlike Toki Pona, where pronouns drop specific structural elements, HǍO-SHUO-DE functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wǒ-de`, `nǐ-de`).
+Unlike Toki Pona, where pronouns drop specific structural elements, Hǎo-shuō-de functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wǒ-de`, `nǐ-de`).
 
-To express the adjective "strong," HǍO-SHUO-DE leverages the native construction `yǒu lìliang` (to have power or strength).
+To express the adjective "strong," Hǎo-shuō-de leverages the native construction `yǒu lìliang` (to have power or strength).
 
 ### Examples
 
@@ -225,7 +225,7 @@ To express the adjective "strong," HǍO-SHUO-DE leverages the native constructio
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. You are strong.
 2. My community is large.
@@ -257,7 +257,7 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-HǍO-SHUO-DE eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
+Hǎo-shuō-de eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
 
 Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `le` can be appended to show completed actions. Words fluidly shift roles depending on context—for instance, `chī` represents the action "to eat" or the noun "food," while `zhīdào-de rén` acts as "a knowledgeable person".
 
@@ -279,7 +279,7 @@ Verbs do not change their forms to reflect past, present, or future tenses. Inst
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. I will listen to you.
 2. The woman obeyed the man.
@@ -333,11 +333,11 @@ Adjectives can modify other adjectives or verbs by preceding them directly as ad
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. The man doesn't eat bad fruit.
 2. Eating makes me tall.
-3. I know HǍO-SHUO-DE a bit.
+3. I know Hǎo-shuō-de a bit.
 
 #### Answers
 
@@ -367,9 +367,9 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-To ask a "what" or "which" question in HǍO-SHUO-DE, you do not alter the sentence structure. Simply place the question word `shénme` directly into the syntactic position of the information you want to discover.
+To ask a "what" or "which" question in Hǎo-shuō-de, you do not alter the sentence structure. Simply place the question word `shénme` directly into the syntactic position of the information you want to discover.
 
-For yes-or-no questions, HǍO-SHUO-DE completely bypasses Toki Pona's particle rules by adopting standard Mandarin grammatical structures:
+For yes-or-no questions, Hǎo-shuō-de completely bypasses Toki Pona's particle rules by adopting standard Mandarin grammatical structures:
 
 1. **The ma Construction:** Append the question marker `ma` to the very end of a standard statement.
 
@@ -401,7 +401,7 @@ To answer "yes," simply repeat the main verb. To answer "no," repeat the verb al
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. What tools do you have?
 2. Does he listen?
@@ -429,7 +429,7 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-In HǍO-SHUO-DE, prepositions function exactly like standard Mandarin coverbs. They typically introduce a noun phrase and sit right before the main action of the sentence:
+In Hǎo-shuō-de, prepositions function exactly like standard Mandarin coverbs. They typically introduce a noun phrase and sit right before the main action of the sentence:
 
 $$\text{Subject} + \text{Coverb Phrase} + \text{Main Verb} + \text{Object}$$
 
@@ -449,11 +449,11 @@ If no other action verb is present in the clause, the coverb itself steps up to 
 
 - `Yīnwèi zhè-ge, wǒ zuò le hěn duō.` (Because of this, I worked a lot.)
 
-- `Wǒ yòng HǍO-SHUO-DE shuō.` (I speak in HǍO-SHUO-DE / use HǍO-SHUO-DE to speak.)
+- `Wǒ yòng Hǎo-shuō-de shuō.` (I speak in Hǎo-shuō-de / use Hǎo-shuō-de to speak.)
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. The worker uses tools.
 2. He gives things from his house.
@@ -515,7 +515,7 @@ In line with standard Chinese modifier syntax, proper names always behave as adj
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. Are you from Germany?
 2. What is your name?
@@ -545,7 +545,7 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-Greetings and emotional imperatives in HǍO-SHUO-DE rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
+Greetings and emotional imperatives in Hǎo-shuō-de rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
 
 - **Greetings:** Expressed using foundational semantic combinations like `Nǐ hǎo ma?` or descriptive movements.
 
@@ -573,7 +573,7 @@ Greetings and emotional imperatives in HǍO-SHUO-DE rely on standard Mandarin st
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. Give the tool to me.
 2. Lisa is happy.
@@ -603,7 +603,7 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. HǍO-SHUO-DE bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
+In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. Hǎo-shuō-de bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
 
 When a descriptive phrase modifies a target noun, the entire qualifying concept precedes the noun block, bound securely by `-de`. Complex modifier groupings are read from left to right as a unified block before resolving onto the primary head noun.
 
@@ -613,7 +613,7 @@ When a descriptive phrase modifies a target noun, the entire qualifying concept 
 
 - `Hěn-hǎo-de nǚrén gěi zhíwù shuǐ.` (The healthy woman waters the plants.)
 
-- `HǍO-SHUO-DE-de qún gěi hěn-duō-de dōngxi.` (The HǍO-SHUO-DE community gives many things.)
+- `Hǎo-shuō-de-de qún gěi hěn-duō-de dōngxi.` (The Hǎo-shuō-de community gives many things.)
 
 - `Děng hěn-cháng-de shíjiān.` (Wait a very long time.)
 
@@ -621,7 +621,7 @@ When a descriptive phrase modifies a target noun, the entire qualifying concept 
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. This battlefield is small.
 2. Men with strong bodies were waiting.
@@ -659,13 +659,13 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-HǍO-SHUO-DE simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
+Hǎo-shuō-de simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
 
 - **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `ge` via a syntactic hyphen:
 - Use `yī-ge` for "one thing."
 - Use `liǎng-ge` for "two things." _Never use èr when counting physical objects._
 
-- **Indefinite Plurals:** For numbers beyond two, HǍO-SHUO-DE implements the core root `duō` (many / a lot) to convey generalized abundance.
+- **Indefinite Plurals:** For numbers beyond two, Hǎo-shuō-de implements the core root `duō` (many / a lot) to convey generalized abundance.
 - **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `dì-` directly before the number root (`dì-yī`, `dì-èr`).
 
 ---
@@ -695,7 +695,7 @@ HǍO-SHUO-DE simplifies counting by mapping directly onto native Mandarin number
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. What is the third thing?
 2. I know two languages.
@@ -721,18 +721,18 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-HǍO-SHUO-DE maps Toki Pona's pre-verb structures directly onto standard Mandarin auxiliary verbs. These words express intent, ability, or an unfolding state change. In native Chinese sentence patterns, auxiliary verbs sit naturally right before the main action or description predicate:
+Hǎo-shuō-de maps Toki Pona's pre-verb structures directly onto standard Mandarin auxiliary verbs. These words express intent, ability, or an unfolding state change. In native Chinese sentence patterns, auxiliary verbs sit naturally right before the main action or description predicate:
 
 **Subject + Auxiliary Verb + Main Predicate**
 
-When expressing transitions of state (such as "becoming big" or "turning bad"), HǍO-SHUO-DE applies the core verb `biàn` (to become/change) directly into the main verb slot. To express a gradual change or the start of an action, use `kāishǐ` right before the modifier or main verb.
+When expressing transitions of state (such as "becoming big" or "turning bad"), Hǎo-shuō-de applies the core verb `biàn` (to become/change) directly into the main verb slot. To express a gradual change or the start of an action, use `kāishǐ` right before the modifier or main verb.
 
 ---
 
 ### Examples
 
 - **`dìfāng biàn dà.`** (The city / room is becoming big.)
-- **`Wǒ kāishǐ zhīdào HǍO-SHUO-DE.`** (I am learning HǍO-SHUO-DE / beginning to know HǍO-SHUO-DE.)
+- **`Wǒ kāishǐ zhīdào Hǎo-shuō-de.`** (I am learning Hǎo-shuō-de / beginning to know Hǎo-shuō-de.)
 - **`Nǐ kěyǐ-bù-kěyǐ lái?`** (Are you able to come?)
 - **`Shuǐguǒ biàn huài le.`** (The fruit became bad.)
 - **`Wǒ yào liú zài wǒ fùmǔ-de dìfāng.`** (I want to stay in my parents' place.)
@@ -745,7 +745,7 @@ When expressing transitions of state (such as "becoming big" or "turning bad"), 
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. You may keep your name.
 2. The path becomes narrow.
@@ -771,13 +771,13 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. HǍO-SHUO-DE replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
+In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. Hǎo-shuō-de replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
 
 To set a temporal, situational, or environmental background, place the context block at the absolute start of the sentence, immediately followed by a pause or a comma:
 
 **[Context / Condition Phrase] , [Main Statement]**
 
-Colors function as two-syllable adjectives in HǍO-SHUO-DE. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-de` via a hyphen.
+Colors function as two-syllable adjectives in Hǎo-shuō-de. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-de` via a hyphen.
 
 ---
 
@@ -794,7 +794,7 @@ Colors function as two-syllable adjectives in HǍO-SHUO-DE. When they modify a t
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. When the sun is red, it is the right time.
 2. If we don't have any meat, we will eat fruit.
@@ -823,7 +823,7 @@ Translate the following into HǍO-SHUO-DE:
 
 ### Grammar
 
-HǍO-SHUO-DE builds locational settings by treating spatial concepts as absolute noun destinations rather than abstract markers. To express static location, use the coverb **zài** (在). To express movement or direction toward a destination, use the universal movement root **dào** (到).
+Hǎo-shuō-de builds locational settings by treating spatial concepts as absolute noun destinations rather than abstract markers. To express static location, use the coverb **zài** (在). To express movement or direction toward a destination, use the universal movement root **dào** (到).
 
 Both roots follow standard Mandarin spatial syntax:
 
@@ -848,7 +848,7 @@ When a spatial noun stands alone without a target object modifying it, it functi
 
 ### Practice Exercise
 
-Translate the following into HǍO-SHUO-DE:
+Translate the following into Hǎo-shuō-de:
 
 1. Water is coming from the sky.
 2. Protect your back.
@@ -888,7 +888,7 @@ Translate the following into HǍO-SHUO-DE:
 
 #### Grammar
 
-HǍO-SHUO-DE handles subjective perspective using the native Mandarin coverb construction `duì ... lái shuō` (from the perspective of / to someone).
+Hǎo-shuō-de handles subjective perspective using the native Mandarin coverb construction `duì ... lái shuō` (from the perspective of / to someone).
 
 To connect multiple subjects within standard Mandarin grammar, use `hé`. Multiple actions or states applied to a single subject are sequenced naturally by using the adverbial particle `yě` (also) instead of structural conjunction markers.
 
@@ -1060,7 +1060,7 @@ To connect multiple subjects within standard Mandarin grammar, use `hé`. Multip
 
 ---
 
-### Part 2: HǍO-SHUO-DE Proverbs
+### Part 2: Hǎo-shuō-de Proverbs
 
 These philosophical standard expressions illustrate how complex human values are stated via fronted conditional frames and standard native syntax:
 
@@ -1107,9 +1107,9 @@ These philosophical standard expressions illustrate how complex human values are
 
 ---
 
-# THE OFFICIAL HǍO-SHUO-DE DICTIONARY
+# THE OFFICIAL Hǎo-shuō-de DICTIONARY
 
-This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
+This section presents the complete core vocabulary of Hǎo-shuō-de sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
 
 ---
 
@@ -1408,3 +1408,4 @@ This section presents the complete core vocabulary of HǍO-SHUO-DE sorted alphab
 - **zǒu** [verb] — to go, move toward, travel away. (Maps to: _tawa_ as an active verb).
 
 - **zuò** [verb] — to do, take action on, work on, build, make, prepare. (Maps to: _pali_).
+
