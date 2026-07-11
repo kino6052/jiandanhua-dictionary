@@ -1,9 +1,9 @@
 .sidebar {
   width: var(--sidebar-w);
   flex: none;
-  position: sticky;
+  position: fixed;
   top: 0;
-  align-self: flex-start;
+  left: 0;
   height: 100vh;
   overflow-y: auto;
   padding: 28px 20px;
@@ -11,6 +11,8 @@
   display: flex;
   flex-direction: column;
   gap: 22px;
+  background: var(--bg-page);
+  z-index: 100;
 }
 
 .logo {
@@ -58,7 +60,6 @@
 }
 
 .tocItem {
-  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -69,12 +70,23 @@
   font-weight: 500;
   font-size: 13.5px;
   transition: background 0.15s;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 .tocItem:hover { background: var(--bg-callout); }
 .tocDone {
   color: var(--text-primary);
   font-weight: 700;
   background: var(--bg-callout);
+}
+.tocActive {
+  background: var(--bg-accent-light) !important;
+  color: var(--accent) !important;
+  font-weight: 700;
 }
 
 .dot {
@@ -104,6 +116,32 @@
   line-height: 1.3;
 }
 
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 200;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 2px solid var(--border-card);
+  background: var(--bg-card);
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 90;
+}
+
 :global(.progress-label) {
   display: flex;
   justify-content: space-between;
@@ -123,4 +161,20 @@
   border-radius: 6px;
   background: var(--accent);
   transition: width 0.4s ease;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    box-shadow: 4px 0 24px rgba(0,0,0,0.1);
+  }
+  .sidebarOpen {
+    transform: translateX(0);
+  }
+  .hamburger {
+    display: flex;
+  }
+  .overlay { display: block; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+  .overlayOpen { opacity: 1; pointer-events: auto; }
 }
