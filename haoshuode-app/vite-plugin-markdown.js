@@ -27,6 +27,16 @@ function parseList(raw) {
   return raw.trim().split('\n').filter(Boolean).map(s => s.trim());
 }
 
+function parseAnswers(raw) {
+  return raw.trim().split('\n').filter(Boolean).map(line => {
+    const parts = line.split('|').map(s => s.trim());
+    const item = { text: parts[0] || '' };
+    if (parts[1]) item.audioFile = parts[1];
+    if (parts[2]) item.ttsText = parts[2];
+    return item;
+  });
+}
+
 function parseDict(raw) {
   return raw.trim().split('\n').filter(Boolean).map(line => {
     const parts = line.split('|').map(s => s.trim());
@@ -49,7 +59,7 @@ export default function markdownPlugin() {
           case 'vocab': structured.vocab = parseVocab(body); break;
           case 'examples': structured.examples = parseExamples(body); break;
           case 'exercise': structured.exercise = parseList(body); break;
-          case 'answers': structured.answers = parseList(body); break;
+          case 'answers': structured.answers = parseAnswers(body); break;
           case 'story': structured.story = parseExamples(body); break;
           case 'dict': structured.dict = parseDict(body); break;
         }
