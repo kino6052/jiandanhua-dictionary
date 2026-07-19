@@ -1,7 +1,8 @@
 import matter from 'gray-matter';
 import { marked } from 'marked';
 
-const FENCE_RE = /```(vocab|examples|exercise|answers|story|dict)\n([\s\S]*?)```/g;
+const FENCE_TYPES = 'vocab|examples|exercise|answers|story|dict';
+const HEADING_RE = /^##\s+(.+)$/gm;
 
 function parseVocab(raw) {
   return raw.trim().split('\n').filter(Boolean).map(line => {
@@ -37,10 +38,14 @@ function parseAnswers(raw) {
   });
 }
 
-function parseDict(raw) {
+function parseDict(raw, category) {
   return raw.trim().split('\n').filter(Boolean).map(line => {
     const parts = line.split('|').map(s => s.trim());
-    return { term: parts[0] || '', pos: parts[1] || '', definition: parts[2] || '', maps: parts[3] || '' };
+    const item = { term: parts[0] || '', pos: parts[1] || '', definition: parts[2] || '', maps: parts[3] || '' };
+    if (parts[4]) item.audioFile = parts[4];
+    if (parts[5]) item.ttsText = parts[5];
+    if (category) item.category = category;
+    return item;
   });
 }
 
@@ -54,17 +59,32 @@ export default function markdownPlugin() {
       const content = rawContent.replace(/\r\n/g, '\n');
 
       const structured = { vocab: [], examples: [], exercise: [], answers: [], story: [], dict: [] };
-      const prose = content.replace(FENCE_RE, (_, type, body) => {
-        switch (type) {
-          case 'vocab': structured.vocab = parseVocab(body); break;
-          case 'examples': structured.examples = parseExamples(body); break;
-          case 'exercise': structured.exercise = parseList(body); break;
-          case 'answers': structured.answers = parseAnswers(body); break;
-          case 'story': structured.story = parseExamples(body); break;
-          case 'dict': structured.dict = parseDict(body); break;
+      const fenceRe = new RegExp('```(' + FENCE_TYPES + ')\\n([\\s\\S]*?)```', 'g');
+      const proseParts = [];
+      let currentCategory = null;
+      let lastIndex = 0;
+      let match;
+      while ((match = fenceRe.exec(content)) !== null) {
+        const [full, type, body] = match;
+        const between = content.slice(lastIndex, match.index);
+        const headingMatches = [...between.matchAll(HEADING_RE)];
+        if (headingMatches.length > 0) {
+          currentCategory = headingMatches[headingMatches.length - 1][1].trim();
         }
-        return '';
-      });
+        proseParts.push(between);
+        lastIndex = match.index + full.length;
+
+        switch (type) {
+          case 'vocab': structured.vocab = structured.vocab.concat(parseVocab(body)); break;
+          case 'examples': structured.examples = structured.examples.concat(parseExamples(body)); break;
+          case 'exercise': structured.exercise = structured.exercise.concat(parseList(body)); break;
+          case 'answers': structured.answers = structured.answers.concat(parseAnswers(body)); break;
+          case 'story': structured.story = structured.story.concat(parseExamples(body)); break;
+          case 'dict': structured.dict = structured.dict.concat(parseDict(body, currentCategory)); break;
+        }
+      }
+      proseParts.push(content.slice(lastIndex));
+      const prose = proseParts.join('');
 
       const bodyHtml = marked.parse(prose.trim());
 
