@@ -9,7 +9,6 @@ order: 12
 ```vocab
 zhiwu | plant, vegetation
 shenti | body, physical state
-ri | sun, light
 shijian | time, duration
 deng | to wait
 ```
