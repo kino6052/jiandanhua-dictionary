@@ -3,6 +3,7 @@ id: categorical-dictionary
 title: "The Official Hao-shuo-de Categorical Dictionary"
 type: dictionary
 order: 2
+language: eng
 ---
 
 This section presents the complete core vocabulary of Hao-shuo-de organized into logical, thematic categories rather than a standard alphabetical list. By grouping related terms together, this layout offers a clearer overview of the entire language, making it easier to study, compare, and navigate the vocabulary as a cohesive system.
@@ -26,7 +27,6 @@ yīnwèi | conjunction/coverb | because, because of |
 duì | preposition/coverb | facing, towards, regarding, beneficial to; correct | tawa
 yòng | verb/coverb | to use, utilize; with, by means of | kepeken
 zài | verb/coverb | to exist at, be located at, present in a room | lon
-
 ```
 
 ---
@@ -42,7 +42,6 @@ zhè | pronoun/adjective | this, these; syntactically binds as zhe-ge | ni
 shénme | pronoun/particle | what? which?; retains position without altering Chinese SVO statement geometry | seme
 wèishénme | pronoun | why |
 zěnme | pronoun | how |
-
 ```
 
 ---
@@ -53,7 +52,6 @@ zěnme | pronoun | how |
 shì | verb | to be, copula link between subjects and identity predicates |
 kěyǐ | auxiliary | to be able to, be allowed to, can, may, possible | ken
 yào | auxiliary/verb | to want, need, require, must, should | wile
-
 ```
 
 ---
@@ -66,7 +64,6 @@ liǎng | number | two; quantifies dual entities when coupled to the measure word
 duō | adjective | many, a lot, much, several, very, abundant; used contextually to signify quantities greater than two | mute
 quánbù | adjective | all |
 hào | particle | sequence marker, number identity, ordinal number prefix | nanpa
-
 ```
 
 ---
@@ -93,7 +90,6 @@ xīn | adjective | new, fresh, additional, another, extra | sin
 bùtóng | adjective/noun | different, altered, changed, other | ante
 yīyàng | adjective | same, similar, peer, fellow, each other | sama
 hěn | adverb | very, highly, intensely; syntactic structural anchor required before isolated adjectives in predicates | mute
-
 ```
 
 ---
@@ -110,7 +106,6 @@ qiánmiàn | noun | front, face, foremost area, chest | sinpin
 shàngmiàn | noun | above, highest part, sky, elevated location, supernatural area | sewi
 xiàmiàn | noun | below, underneath, under, lower part | noka, anpa
 shìchǎng | noun | market, shop, fair, business location, transaction hub | esun
-
 ```
 
 ---
@@ -128,7 +123,6 @@ líkāi | verb/adjective | to leave, go away, depart; absent, ignored | weka
 liú | verb | to stay, remain, keep, endure, protect | awen
 rì | noun | sun, radiant light source, brightness, glow | suno
 yuèliang | noun | moon, night sky object, star | mun
-
 ```
 
 ---
@@ -143,7 +137,6 @@ pífū | noun | skin, outer layer, bark, peel, shell, boundary | selo
 shēntǐ | noun | body, physical torso, physical state | sijelo
 shǒu | noun | hand, arm, tactile organ | luka
 tóu | noun | head, mind, internal regulatory director | lawa
-
 ```
 
 ---
@@ -156,7 +149,6 @@ fùmǔ | noun | parent, ancestor, creator, caretaker | mama
 nánrén | noun | man, male, masculine human, husband | mije
 nǚrén | noun | woman, female, feminine human, wife | meli
 qún | noun | group, community, company, nation, society, tribe | kulupu
-
 ```
 
 ---
@@ -169,7 +161,6 @@ mǐfàn | noun | grain, rice, cereal, bread, pasta, staple food | pan
 shuǐguǒ | noun | fruit, vegetable, mushroom, plant food crop | kili
 yán | noun | salt, spice, flavor enhancer, extra context | namako
 shuǐ | noun | water, liquid, fluid, wet substance, beverage | telo
-
 ```
 
 ---
@@ -185,7 +176,6 @@ yú | noun | fish, marine animal, sea creature | kala
 zhíwù | noun | plant, vegetation, herb, leaf | kasi
 huǒ | noun | fire, cooking element, chemical heat source | seli
 kōngqì | noun | air, wind, breath, spirit, hidden reality | kon
-
 ```
 
 ---
@@ -201,7 +191,6 @@ ní | noun | paste, mud, dough, clay, semi-solid substance, powder | ko
 qián | noun | money, cash, savings, wealth | mani
 xiàn | noun | line, rope, hair, thread, cord, flexible long thing | linja
 yīfu | noun | clothing, cloth, fabric, textile, privacy layer | len
-
 ```
 
 ---
@@ -222,12 +211,11 @@ xìng | noun | sex, sexuality, marital relations | unpa
 sǐ | verb/adjective | to die; dead, dying | moli
 xiě | verb | to write, draw, represent with marks | sitelen
 yánsè | noun | color, pigment, tint frame | kule
-
 ```
 
 ---
 
-## 14. Action, Motion, and State‑Change Verbs
+## 14. Action, Motion, and State-Change Verbs
 
 ```dict
 biàn | verb | to become, change into, transform; combined with ba to act as a causative verbal engine | kama
@@ -241,5 +229,7 @@ zhǎo | verb | to hunt, forage, search for, look for | alasa
 zǒu | verb | to go, move toward, travel away | tawa
 zuò | verb | to do, take action on, work on, build, make, prepare | pali
 yǒu | verb | to have, contain, carry, hold, exist, there is; must be negated with mei, never bu | jo, lon
-
 ```
+
+---
+

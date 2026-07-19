@@ -1,0 +1,257 @@
+{
+  "categories": [
+    {
+      "title": {
+        "eng": "Particles, Conjunctions, Prepositions, and Measure Words",
+        "rus": "Частицы, союзы, предлоги и счётные слова",
+        "zh": "助词、连词、介词与量词"
+      },
+      "words": [
+        { "term": "bǎ", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "grammatical object-introducing particle; used to implement the transitive state-change framework", "rus": "грамматическая частица, вводящая объект; используется для реализации переходной конструкции изменения состояния", "zh": "引出宾语的语法助词；用于实现及物性状态改变结构" }, "maps": "" },
+        { "term": "bù", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "not, no; used for standard negation of verbs and adjectives, except for you", "rus": "не, нет; используется для стандартного отрицания глаголов и прилагательных, кроме you", "zh": "不，没；用于动词和形容词的标准否定，you 除外" }, "maps": "ala" },
+        { "term": "cóng", "pos": { "eng": "preposition", "rus": "предлог", "zh": "介词" }, "definition": { "eng": "from", "rus": "от, из", "zh": "从" }, "maps": "" },
+        { "term": "dànshì", "pos": { "eng": "conjunction", "rus": "союз", "zh": "连词" }, "definition": { "eng": "but, however, only", "rus": "но, однако, лишь", "zh": "但是，然而，只是" }, "maps": "taso" },
+        { "term": "de", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "possessive marker, structural adjectival particle; used to bind modifiers and multi-word description structures onto target nouns", "rus": "показатель принадлежности, структурная определительная частица; используется для присоединения определений и многословных описательных конструкций к существительным", "zh": "所属标记，结构性定语助词；用于把修饰语和多词描述结构连接到目标名词上" }, "maps": "pi" },
+        { "term": "gè", "pos": { "eng": "measure word", "rus": "счётное слово", "zh": "量词" }, "definition": { "eng": "universal classifier; mandatory interface between numbers/demonstratives and nouns", "rus": "универсальный классификатор; обязательное связующее звено между числительными/указательными местоимениями и существительными", "zh": "通用量词；数词/指示词与名词之间的强制连接件" }, "maps": "" },
+        { "term": "hé", "pos": { "eng": "conjunction", "rus": "союз", "zh": "连词" }, "definition": { "eng": "and; used strictly to join multiple nouns or subjects", "rus": "и; используется строго для соединения нескольких существительных или подлежащих", "zh": "和；严格用于连接多个名词或主语" }, "maps": "en" },
+        { "term": "huòzhě", "pos": { "eng": "conjunction", "rus": "союз", "zh": "连词" }, "definition": { "eng": "or; links choices or alternative clauses", "rus": "или; связывает варианты выбора или альтернативные части предложения", "zh": "或者；连接选择项或备选分句" }, "maps": "anu" },
+        { "term": "le", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "perfective aspect marker, completed change of state", "rus": "показатель совершённого вида, завершённое изменение состояния", "zh": "完成体标记，表示状态变化已完成" }, "maps": "pini" },
+        { "term": "ma", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "final interrogative yes-or-no question marker", "rus": "конечная вопросительная частица для вопросов да/нет", "zh": "句末是非疑问助词" }, "maps": "" },
+        { "term": "méi", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "negative particle used exclusively to negate the verb you (to form meiyou)", "rus": "отрицательная частица, используемая исключительно для отрицания глагола you (образует meiyou)", "zh": "专用于否定动词 you 的否定助词（构成 meiyou）" }, "maps": "" },
+        { "term": "yě", "pos": { "eng": "adverb", "rus": "наречие", "zh": "副词" }, "definition": { "eng": "also, too, additionally; placed directly before verbs to structure compound actions", "rus": "тоже, также, к тому же; ставится непосредственно перед глаголами для построения составных действий", "zh": "也，还，另外；直接放在动词前，用来构造复合动作" }, "maps": "" },
+        { "term": "yīnwèi", "pos": { "eng": "conjunction/coverb", "rus": "союз/коверб", "zh": "连词/动介词" }, "definition": { "eng": "because, because of", "rus": "потому что, из-за", "zh": "因为，由于" }, "maps": "" },
+        { "term": "duì", "pos": { "eng": "preposition/coverb", "rus": "предлог/коверб", "zh": "介词/动介词" }, "definition": { "eng": "facing, towards, regarding, beneficial to; correct", "rus": "лицом к, по направлению к, касательно, полезный для; правильный", "zh": "面对，朝向，关于，对……有益；正确" }, "maps": "tawa" },
+        { "term": "yòng", "pos": { "eng": "verb/coverb", "rus": "глагол/коверб", "zh": "动词/动介词" }, "definition": { "eng": "to use, utilize; with, by means of", "rus": "использовать, применять; с помощью, посредством", "zh": "使用，利用；用，凭借" }, "maps": "kepeken" },
+        { "term": "zài", "pos": { "eng": "verb/coverb", "rus": "глагол/коверб", "zh": "动词/动介词" }, "definition": { "eng": "to exist at, be located at, present in a room", "rus": "находиться в, быть расположенным в, присутствовать в помещении", "zh": "存在于，位于，在某处/房间里" }, "maps": "lon" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Pronouns, Demonstratives, and Interrogatives",
+        "rus": "Местоимения, указательные слова и вопросительные слова",
+        "zh": "代词、指示词与疑问词"
+      },
+      "words": [
+        { "term": "wǒ", "pos": { "eng": "pronoun", "rus": "местоимение", "zh": "代词" }, "definition": { "eng": "I, me, we, us", "rus": "я, меня, мы, нас", "zh": "我，我们" }, "maps": "mi" },
+        { "term": "nǐ", "pos": { "eng": "pronoun", "rus": "местоимение", "zh": "代词" }, "definition": { "eng": "you", "rus": "ты, вы", "zh": "你，你们" }, "maps": "sina" },
+        { "term": "tā", "pos": { "eng": "pronoun", "rus": "местоимение", "zh": "代词" }, "definition": { "eng": "he, she, it, they, them; syntactically genderless and number-fluid", "rus": "он, она, оно, они; синтаксически не различает род и число", "zh": "他，她，它，他们；在语法上不分性别、不分单复数" }, "maps": "ona" },
+        { "term": "nà", "pos": { "eng": "pronoun/adjective", "rus": "местоимение/прилагательное", "zh": "代词/形容词" }, "definition": { "eng": "that, those; syntactically binds as na-ge", "rus": "тот, те; синтаксически связывается как na-ge", "zh": "那，那些；在语法上以 na-ge 形式连接" }, "maps": "ni" },
+        { "term": "zhè", "pos": { "eng": "pronoun/adjective", "rus": "местоимение/прилагательное", "zh": "代词/形容词" }, "definition": { "eng": "this, these; syntactically binds as zhe-ge", "rus": "этот, эти; синтаксически связывается как zhe-ge", "zh": "这，这些；在语法上以 zhe-ge 形式连接" }, "maps": "ni" },
+        { "term": "shénme", "pos": { "eng": "pronoun/particle", "rus": "местоимение/частица", "zh": "代词/助词" }, "definition": { "eng": "what? which?; retains position without altering Chinese SVO statement geometry", "rus": "что? какой?; остаётся на своём месте, не нарушая порядок слов SVO", "zh": "什么？哪个？；保留原位，不改变中文 SVO 语序结构" }, "maps": "seme" },
+        { "term": "wèishénme", "pos": { "eng": "pronoun", "rus": "местоимение", "zh": "代词" }, "definition": { "eng": "why", "rus": "почему", "zh": "为什么" }, "maps": "" },
+        { "term": "zěnme", "pos": { "eng": "pronoun", "rus": "местоимение", "zh": "代词" }, "definition": { "eng": "how", "rus": "как", "zh": "怎么" }, "maps": "" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Copula and Auxiliary Verbs",
+        "rus": "Связка и вспомогательные глаголы",
+        "zh": "系动词与助动词"
+      },
+      "words": [
+        { "term": "shì", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to be, copula link between subjects and identity predicates", "rus": "быть, связка между подлежащим и именным сказуемым", "zh": "是，连接主语与判断谓语的系动词" }, "maps": "" },
+        { "term": "kěyǐ", "pos": { "eng": "auxiliary", "rus": "вспомогательный глагол", "zh": "助动词" }, "definition": { "eng": "to be able to, be allowed to, can, may, possible", "rus": "мочь, иметь право, можно, возможно", "zh": "能，可以，被允许，也许" }, "maps": "ken" },
+        { "term": "yào", "pos": { "eng": "auxiliary/verb", "rus": "вспомогательный глагол/глагол", "zh": "助动词/动词" }, "definition": { "eng": "to want, need, require, must, should", "rus": "хотеть, нуждаться, требовать, должен, следует", "zh": "想要，需要，必须，应该" }, "maps": "wile" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Quantity and Number",
+        "rus": "Количество и числительные",
+        "zh": "数量与数词"
+      },
+      "words": [
+        { "term": "yī", "pos": { "eng": "number", "rus": "числительное", "zh": "数词" }, "definition": { "eng": "one, unique, united", "rus": "один, единственный, единый", "zh": "一，唯一，统一" }, "maps": "wan" },
+        { "term": "liǎng", "pos": { "eng": "number", "rus": "числительное", "zh": "数词" }, "definition": { "eng": "two; quantifies dual entities when coupled to the measure word (liang-ge)", "rus": "два; используется для пары предметов вместе со счётным словом (liang-ge)", "zh": "二，两；与量词搭配（liang-ge）表示两个" }, "maps": "tu" },
+        { "term": "duō", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "many, a lot, much, several, very, abundant; used contextually to signify quantities greater than two", "rus": "много, многочисленный, весьма, обильный; в зависимости от контекста обозначает количество больше двух", "zh": "多，许多，非常，丰富；依语境表示多于两个的数量" }, "maps": "mute" },
+        { "term": "quánbù", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "all", "rus": "весь, все, целиком", "zh": "全部，所有" }, "maps": "" },
+        { "term": "hào", "pos": { "eng": "particle", "rus": "частица", "zh": "助词" }, "definition": { "eng": "sequence marker, number identity, ordinal number prefix", "rus": "показатель порядка, числовой идентификатор, префикс порядкового числительного", "zh": "序号标记，数字身份，序数前缀" }, "maps": "nanpa" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Quality, Property, and Colour",
+        "rus": "Качества, свойства и цвета",
+        "zh": "性质、特征与颜色"
+      },
+      "words": [
+        { "term": "báisè", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "white, pale, light-colored", "rus": "белый, бледный, светлого цвета", "zh": "白色，苍白，浅色" }, "maps": "walo" },
+        { "term": "hēisè", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "black, dark, unlit, obscure", "rus": "чёрный, тёмный, неосвещённый, неясный", "zh": "黑色，黑暗，未点亮，模糊" }, "maps": "pimeja" },
+        { "term": "hóngsè", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "red, reddish", "rus": "красный, красноватый", "zh": "红色，偏红" }, "maps": "loje" },
+        { "term": "huángsè", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "yellow, yellowish", "rus": "жёлтый, желтоватый", "zh": "黄色，偏黄" }, "maps": "jelo" },
+        { "term": "lánsè", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "blue, green, aqua, shifting spectrum colors", "rus": "синий, зелёный, бирюзовый, переходные цвета спектра", "zh": "蓝色，绿色，青色，光谱中过渡性的颜色" }, "maps": "laso" },
+        { "term": "hǎo", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "good, positive, useful, friendly, peaceful, simple", "rus": "хороший, положительный, полезный, дружелюбный, мирный, простой", "zh": "好的，积极的，有用的，友好的，平和的，简单的" }, "maps": "pona" },
+        { "term": "huài", "pos": { "eng": "adjective/verb", "rus": "прилагательное/глагол", "zh": "形容词/动词" }, "definition": { "eng": "bad, negative, broken, damaged, non-essential", "rus": "плохой, отрицательный, сломанный, повреждённый, второстепенный", "zh": "坏的，负面的，坏掉的，受损的，非必要的" }, "maps": "ike, pakala" },
+        { "term": "qíguài", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "strange, unusual, foolish, crazy, intoxicated", "rus": "странный, необычный, глупый, безумный, опьянённый", "zh": "奇怪的，不寻常的，愚蠢的，疯狂的，醉的" }, "maps": "nasa" },
+        { "term": "rè", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "hot, warm, cooked, chemically energetic", "rus": "горячий, тёплый, приготовленный, химически активный", "zh": "热的，温暖的，煮熟的，化学上活跃的" }, "maps": "seli" },
+        { "term": "lěng", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "cold, cool, uncooked, raw", "rus": "холодный, прохладный, сырой, необработанный", "zh": "冷的，凉的，生的，未加工的" }, "maps": "lete" },
+        { "term": "tián", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "sweet, fragrant, cute, innocent, adorable", "rus": "сладкий, ароматный, милый, невинный, очаровательный", "zh": "甜的，香的，可爱的，天真的，讨人喜欢的" }, "maps": "suwi" },
+        { "term": "yìng", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "hard, stone-like; rock, stone, metal", "rus": "твёрдый, каменистый; камень, скала, металл", "zh": "硬的，石头般的；岩石，石头，金属" }, "maps": "kiwen" },
+        { "term": "yuán", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "round, circular, spherical; ball, circle, wheel, cycle", "rus": "круглый, кольцевидный, шарообразный; шар, круг, колесо, цикл", "zh": "圆的，环形的，球形的；球，圆圈，轮子，循环" }, "maps": "sike" },
+        { "term": "xiǎo", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "little, small, short, few, young, a bit", "rus": "маленький, небольшой, короткий, немногочисленный, молодой, чуть-чуть", "zh": "小的，短的，少的，年幼的，一点儿" }, "maps": "lili" },
+        { "term": "dà", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "big, heavy, large, long, tall, important, adult", "rus": "большой, тяжёлый, крупный, длинный, высокий, важный, взрослый", "zh": "大的，重的，长的，高的，重要的，成年的" }, "maps": "suli" },
+        { "term": "xīn", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "new, fresh, additional, another, extra", "rus": "новый, свежий, дополнительный, другой, лишний", "zh": "新的，新鲜的，额外的，另一个的" }, "maps": "sin" },
+        { "term": "bùtóng", "pos": { "eng": "adjective/noun", "rus": "прилагательное/существительное", "zh": "形容词/名词" }, "definition": { "eng": "different, altered, changed, other", "rus": "другой, изменённый, отличающийся, иной", "zh": "不同的，改变了的，其他的" }, "maps": "ante" },
+        { "term": "yīyàng", "pos": { "eng": "adjective", "rus": "прилагательное", "zh": "形容词" }, "definition": { "eng": "same, similar, peer, fellow, each other", "rus": "одинаковый, похожий, равный, товарищеский, друг друга", "zh": "相同的，相似的，同伴，彼此" }, "maps": "sama" },
+        { "term": "hěn", "pos": { "eng": "adverb", "rus": "наречие", "zh": "副词" }, "definition": { "eng": "very, highly, intensely; syntactic structural anchor required before isolated adjectives in predicates", "rus": "очень, весьма, сильно; обязательный синтаксический якорь перед одиночным прилагательным в сказуемом", "zh": "很，非常，强烈地；谓语中单独出现的形容词前必需的语法支点" }, "maps": "mute" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Space, Place, and Location",
+        "rus": "Пространство, место и расположение",
+        "zh": "空间、地点与位置"
+      },
+      "words": [
+        { "term": "dìfāng", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "a place (both in space or metaphorical to mean part of something)", "rus": "место (как в пространстве, так и в переносном смысле — часть чего-либо)", "zh": "地方（既指空间位置，也可比喻指某事物的一部分）" }, "maps": "" },
+        { "term": "dìbǎn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "floor, horizontal surface, platform, couch, flat resting area", "rus": "пол, горизонтальная поверхность, платформа, диван, плоское место для отдыха", "zh": "地板，水平表面，平台，沙发，平坦的休息面" }, "maps": "supa" },
+        { "term": "hòumiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "back, behind, area rearward", "rus": "зад, позади, задняя область", "zh": "后面，背后，后方区域" }, "maps": "monsi" },
+        { "term": "lǐmiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "inside, center, content, between, internal organ", "rus": "внутри, центр, содержимое, между, внутренний орган", "zh": "里面，中心，内容，之间，内脏" }, "maps": "insa" },
+        { "term": "pángbiān", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "side, vicinity, area beside, hip", "rus": "сторона, окрестность, область сбоку, бедро", "zh": "旁边，附近，侧面区域，髋部" }, "maps": "poka" },
+        { "term": "qiánmiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "front, face, foremost area, chest", "rus": "перед, лицо, передняя область, грудь", "zh": "前面，脸，最前方区域，胸部" }, "maps": "sinpin" },
+        { "term": "shàngmiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "above, highest part, sky, elevated location, supernatural area", "rus": "сверху, самая высокая часть, небо, возвышенное место, сверхъестественная область", "zh": "上面，最高处，天空，高处，超自然的领域" }, "maps": "sewi" },
+        { "term": "xiàmiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "below, underneath, under, lower part", "rus": "снизу, под, ниже, нижняя часть", "zh": "下面，底下，下方，下部" }, "maps": "noka, anpa" },
+        { "term": "shìchǎng", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "market, shop, fair, business location, transaction hub", "rus": "рынок, магазин, ярмарка, торговое место, центр сделок", "zh": "市场，商店，集市，营业场所，交易中心" }, "maps": "esun" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Time, Duration, and Aspect",
+        "rus": "Время, длительность и вид",
+        "zh": "时间、时长与体"
+      },
+      "words": [
+        { "term": "shíjiān", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "time, duration, moment, occasion, period, situation", "rus": "время, длительность, момент, случай, период, ситуация", "zh": "时间，时长，时刻，场合，时期，情况" }, "maps": "tenpo" },
+        { "term": "kāishǐ", "pos": { "eng": "verb/auxiliary", "rus": "глагол/вспомогательный глагол", "zh": "动词/助动词" }, "definition": { "eng": "to begin, start, open; turn on; manage to", "rus": "начинать, стартовать, открывать; включать; суметь", "zh": "开始，启动，打开；打开（设备）；设法做到" }, "maps": "open, kama" },
+        { "term": "wánchéng", "pos": { "eng": "verb complement", "rus": "глагольный комплемент", "zh": "动词补语" }, "definition": { "eng": "finish, end, achieve completion; syntactically binds behind action verbs to express resultative closure", "rus": "закончить, завершить, довести до конца; синтаксически присоединяется после глаголов действия для выражения результативного завершения", "zh": "完成，结束，达成；在语法上附着于动作动词之后，表示动作的结果性完成" }, "maps": "pini" },
+        { "term": "shuìjiào", "pos": { "eng": "verb/adjective", "rus": "глагол/прилагательное", "zh": "动词/形容词" }, "definition": { "eng": "to sleep, rest, be inactive; sleeping, asleep", "rus": "спать, отдыхать, бездействовать; спящий", "zh": "睡觉，休息，不活动；睡着的" }, "maps": "lape" },
+        { "term": "děng", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to wait", "rus": "ждать", "zh": "等待" }, "maps": "" },
+        { "term": "lái", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to come, arrive, happen", "rus": "приходить, прибывать, происходить", "zh": "来，到达，发生" }, "maps": "kama" },
+        { "term": "líkāi", "pos": { "eng": "verb/adjective", "rus": "глагол/прилагательное", "zh": "动词/形容词" }, "definition": { "eng": "to leave, go away, depart; absent, ignored", "rus": "уходить, уезжать, покидать; отсутствующий, игнорируемый", "zh": "离开，离去；缺席的，被忽视的" }, "maps": "weka" },
+        { "term": "liú", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to stay, remain, keep, endure, protect", "rus": "оставаться, пребывать, хранить, выдерживать, защищать", "zh": "留下，保持，保留，忍受，保护" }, "maps": "awen" },
+        { "term": "rì", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "sun, radiant light source, brightness, glow", "rus": "солнце, источник яркого света, яркость, сияние", "zh": "太阳，发光光源，明亮，光辉" }, "maps": "suno" },
+        { "term": "yuèliang", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "moon, night sky object, star", "rus": "луна, ночное небесное тело, звезда", "zh": "月亮，夜空天体，星星" }, "maps": "mun" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "The Human Body and Physical Form",
+        "rus": "Человеческое тело и физическая форма",
+        "zh": "人体与身体形态"
+      },
+      "words": [
+        { "term": "bízi", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "nose, snout, protuberance", "rus": "нос, морда, выступ", "zh": "鼻子，口鼻部，凸起物" }, "maps": "nena" },
+        { "term": "jiǎo", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "foot, leg, organ of locomotion, bottom part", "rus": "нога, стопа, орган передвижения, нижняя часть", "zh": "脚，腿，行走器官，底部" }, "maps": "noka" },
+        { "term": "kǒu", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "hole, opening, door, window, orifice", "rus": "отверстие, проём, дверь, окно, дыра", "zh": "洞，开口，门，窗，孔" }, "maps": "lupa" },
+        { "term": "pífū", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "skin, outer layer, bark, peel, shell, boundary", "rus": "кожа, внешний слой, кора, кожура, скорлупа, граница", "zh": "皮肤，外层，树皮，果皮，壳，边界" }, "maps": "selo" },
+        { "term": "shēntǐ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "body, physical torso, physical state", "rus": "тело, физический торс, физическое состояние", "zh": "身体，躯干，身体状态" }, "maps": "sijelo" },
+        { "term": "shǒu", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "hand, arm, tactile organ", "rus": "рука, кисть, орган осязания", "zh": "手，手臂，触觉器官" }, "maps": "luka" },
+        { "term": "tóu", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "head, mind, internal regulatory director", "rus": "голова, разум, внутренний управляющий орган", "zh": "头，头脑，内部主管器官" }, "maps": "lawa" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "People, Kinship, and Social Groups",
+        "rus": "Люди, родство и социальные группы",
+        "zh": "人、亲属与社会群体"
+      },
+      "words": [
+        { "term": "rén", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "human being, person, somebody", "rus": "человек, личность, кто-то", "zh": "人，人类，某人" }, "maps": "jan" },
+        { "term": "fùmǔ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "parent, ancestor, creator, caretaker", "rus": "родитель, предок, создатель, опекун", "zh": "父母，祖先，创造者，照料者" }, "maps": "mama" },
+        { "term": "nánrén", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "man, male, masculine human, husband", "rus": "мужчина, лицо мужского пола, муж", "zh": "男人，男性，丈夫" }, "maps": "mije" },
+        { "term": "nǚrén", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "woman, female, feminine human, wife", "rus": "женщина, лицо женского пола, жена", "zh": "女人，女性，妻子" }, "maps": "meli" },
+        { "term": "qún", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "group, community, company, nation, society, tribe", "rus": "группа, сообщество, компания, нация, общество, племя", "zh": "群体，社区，公司，国家，社会，部落" }, "maps": "kulupu" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Food, Drink, and Edible Substances",
+        "rus": "Еда, питьё и съедобные вещества",
+        "zh": "食物、饮品与可食用物质"
+      },
+      "words": [
+        { "term": "chī", "pos": { "eng": "verb/noun", "rus": "глагол/существительное", "zh": "动词/名词" }, "definition": { "eng": "to eat, drink, consume, ingest; food, meal, edible substance", "rus": "есть, пить, потреблять, принимать пищу; еда, приём пищи, съедобное вещество", "zh": "吃，喝，消耗，摄入；食物，一餐，可食用之物" }, "maps": "moku" },
+        { "term": "mǐfàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "grain, rice, cereal, bread, pasta, staple food", "rus": "зерно, рис, крупа, хлеб, паста, основная пища", "zh": "谷物，米饭，谷类，面包，面食，主食" }, "maps": "pan" },
+        { "term": "shuǐguǒ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "fruit, vegetable, mushroom, plant food crop", "rus": "фрукт, овощ, гриб, растительная пищевая культура", "zh": "水果，蔬菜，蘑菇，植物性食物作物" }, "maps": "kili" },
+        { "term": "yán", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "salt, spice, flavor enhancer, extra context", "rus": "соль, специя, усилитель вкуса, дополнительный оттенок", "zh": "盐，香料，增味剂，额外的语境" }, "maps": "namako" },
+        { "term": "shuǐ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "water, liquid, fluid, wet substance, beverage", "rus": "вода, жидкость, влажное вещество, напиток", "zh": "水，液体，流体，湿润物质，饮品" }, "maps": "telo" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Animals, Plants, and Natural Elements",
+        "rus": "Животные, растения и природные стихии",
+        "zh": "动物、植物与自然元素"
+      },
+      "words": [
+        { "term": "dòngwù", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "animal, land mammal, beast", "rus": "животное, наземное млекопитающее, зверь", "zh": "动物，陆地哺乳动物，野兽" }, "maps": "soweli" },
+        { "term": "chóngzi", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "insect, bug, beetle, spider", "rus": "насекомое, жук, паук", "zh": "昆虫，虫子，甲虫，蜘蛛" }, "maps": "pipi" },
+        { "term": "niǎo", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "bird, flying creature, winged animal", "rus": "птица, летающее существо, крылатое животное", "zh": "鸟，飞行生物，有翼动物" }, "maps": "waso" },
+        { "term": "páxíngdòngwù", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "reptile, amphibian, non-cute crawling animal", "rus": "рептилия, земноводное, неприятное на вид ползающее животное", "zh": "爬行动物，两栖动物，不可爱的爬行生物" }, "maps": "akesi" },
+        { "term": "yú", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "fish, marine animal, sea creature", "rus": "рыба, морское животное, морское существо", "zh": "鱼，海洋动物，海洋生物" }, "maps": "kala" },
+        { "term": "zhíwù", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "plant, vegetation, herb, leaf", "rus": "растение, растительность, трава, лист", "zh": "植物，草木，草本，叶子" }, "maps": "kasi" },
+        { "term": "huǒ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "fire, cooking element, chemical heat source", "rus": "огонь, средство для готовки, химический источник тепла", "zh": "火，烹饪元素，化学热源" }, "maps": "seli" },
+        { "term": "kōngqì", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "air, wind, breath, spirit, hidden reality", "rus": "воздух, ветер, дыхание, дух, скрытая сущность", "zh": "空气，风，呼吸，精神，隐藏的实质" }, "maps": "kon" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Tools, Objects, Containers, and Substances",
+        "rus": "Инструменты, предметы, ёмкости и вещества",
+        "zh": "工具、物品、容器与物质"
+      },
+      "words": [
+        { "term": "dōngxi", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "thing, phenomenon, object, physical being, matter", "rus": "вещь, явление, объект, физическое существо, материя", "zh": "东西，现象，物体，实体存在，物质" }, "maps": "ijo" },
+        { "term": "gōngjù", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "tool, implement, machine, device", "rus": "инструмент, приспособление, машина, устройство", "zh": "工具，器具，机器，装置" }, "maps": "ilo" },
+        { "term": "gùnzi", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "stick, rod, branch, long hard thing", "rus": "палка, прут, ветка, длинный твёрдый предмет", "zh": "棍子，杆，树枝，长而硬的东西" }, "maps": "palisa" },
+        { "term": "hézi", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "container, bag, bowl, box, cup, vessel", "rus": "контейнер, сумка, миска, коробка, чашка, сосуд", "zh": "容器，袋子，碗，盒子，杯子，器皿" }, "maps": "poki" },
+        { "term": "ní", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "paste, mud, dough, clay, semi-solid substance, powder", "rus": "паста, грязь, тесто, глина, полутвёрдое вещество, порошок", "zh": "糊状物，泥，面团，粘土，半固态物质，粉末" }, "maps": "ko" },
+        { "term": "qián", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "money, cash, savings, wealth", "rus": "деньги, наличные, сбережения, богатство", "zh": "钱，现金，储蓄，财富" }, "maps": "mani" },
+        { "term": "xiàn", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "line, rope, hair, thread, cord, flexible long thing", "rus": "линия, верёвка, волос, нить, шнур, длинный гибкий предмет", "zh": "线，绳子，头发，线绳，长而柔软的东西" }, "maps": "linja" },
+        { "term": "yīfu", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "clothing, cloth, fabric, textile, privacy layer", "rus": "одежда, ткань, материя, текстиль, покров, скрывающий тело", "zh": "衣服，布，织物，纺织品，遮蔽身体的层" }, "maps": "len" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Abstract Concepts, Mind, Language, and Energy",
+        "rus": "Абстрактные понятия, разум, язык и энергия",
+        "zh": "抽象概念、心智、语言与能量"
+      },
+      "words": [
+        { "term": "ài", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to love, have compassion for, show deep affection to", "rus": "любить, испытывать сострадание, проявлять глубокую привязанность", "zh": "爱，怜悯，表达深厚的感情" }, "maps": "olin" },
+        { "term": "cí", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "word", "rus": "слово", "zh": "词" }, "maps": "" },
+        { "term": "fāngfǎ", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "way, custom, path, road, method, doctrine", "rus": "способ, обычай, путь, дорога, метод, учение", "zh": "方式，习俗，道路，方法，学说" }, "maps": "nasin" },
+        { "term": "juéde", "pos": { "eng": "noun/adjective/verb", "rus": "существительное/прилагательное/глагол", "zh": "名词/形容词/动词" }, "definition": { "eng": "feeling, emotion, direct experience; to feel, think", "rus": "чувство, эмоция, непосредственное переживание; чувствовать, думать", "zh": "感觉，情绪，直接体验；感觉，认为" }, "maps": "pilin" },
+        { "term": "lìliàng", "pos": { "eng": "noun/adjective", "rus": "существительное/прилагательное", "zh": "名词/形容词" }, "definition": { "eng": "energy, power, intensity, physical strength; confident, sure, intense", "rus": "энергия, сила, интенсивность, физическая мощь; уверенный, надёжный, сильный", "zh": "能量，力量，强度，体力；自信的，可靠的，强烈的" }, "maps": "wawa" },
+        { "term": "shuō", "pos": { "eng": "verb/noun", "rus": "глагол/существительное", "zh": "动词/名词" }, "definition": { "eng": "to communicate, say, speak, talk, use language; language, speech", "rus": "сообщать, говорить, разговаривать, пользоваться языком; язык, речь", "zh": "交流，说，讲话，使用语言；语言，言语" }, "maps": "toki" },
+        { "term": "kàn", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to look at, see, examine, observe, read, watch", "rus": "смотреть, видеть, рассматривать, наблюдать, читать, следить", "zh": "看，看见，查看，观察，阅读，观看" }, "maps": "lukin" },
+        { "term": "tīng", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to hear, listen, pay attention to, obey", "rus": "слышать, слушать, обращать внимание, слушаться", "zh": "听，倾听，注意，听从" }, "maps": "kute" },
+        { "term": "zhīdào", "pos": { "eng": "verb/auxiliary", "rus": "глагол/вспомогательный глагол", "zh": "动词/助动词" }, "definition": { "eng": "to know, be wise about, possess information; know how to", "rus": "знать, разбираться в чём-то, обладать сведениями; уметь", "zh": "知道，通晓，掌握信息；懂得怎么做" }, "maps": "sona" },
+        { "term": "xìng", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "sex, sexuality, marital relations", "rus": "пол, сексуальность, супружеские отношения", "zh": "性别，性，婚姻关系" }, "maps": "unpa" },
+        { "term": "sǐ", "pos": { "eng": "verb/adjective", "rus": "глагол/прилагательное", "zh": "动词/形容词" }, "definition": { "eng": "to die; dead, dying", "rus": "умирать; мёртвый, умирающий", "zh": "死，去世；死的，垂死的" }, "maps": "moli" },
+        { "term": "xiě", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to write, draw, represent with marks", "rus": "писать, рисовать, изображать знаками", "zh": "写，画，用符号表示" }, "maps": "sitelen" },
+        { "term": "yánsè", "pos": { "eng": "noun", "rus": "существительное", "zh": "名词" }, "definition": { "eng": "color, pigment, tint frame", "rus": "цвет, пигмент, цветовой оттенок", "zh": "颜色，色素，色调范围" }, "maps": "kule" }
+      ]
+    },
+    {
+      "title": {
+        "eng": "Action, Motion, and State-Change Verbs",
+        "rus": "Глаголы действия, движения и изменения состояния",
+        "zh": "动作、运动与状态变化动词"
+      },
+      "words": [
+        { "term": "biàn", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to become, change into, transform; combined with ba to act as a causative verbal engine", "rus": "становиться, превращаться, преобразовываться; в сочетании с ba выступает как каузативный глагольный механизм", "zh": "变成，转变，转化；与 ba 搭配作为致使性动词机制" }, "maps": "kama" },
+        { "term": "dǎ", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to hit, fight, battle, challenge, compete against", "rus": "бить, драться, сражаться, бросать вызов, соревноваться", "zh": "打，打架，战斗，挑战，竞争" }, "maps": "utala" },
+        { "term": "gěi", "pos": { "eng": "verb/coverb", "rus": "глагол/коверб", "zh": "动词/动介词" }, "definition": { "eng": "to give, send, emit, provide; to, for, from the perspective of", "rus": "давать, посылать, испускать, предоставлять; кому, для, с точки зрения", "zh": "给，送，发出，提供；给，为了，从……的角度" }, "maps": "pana, tawa" },
+        { "term": "jiào", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to call, be named; to produce an animal vocalization under the Quote Partition", "rus": "звать, называться; издавать звук животного (в рамках правила о кавычках)", "zh": "叫，被称为；在\"引号隔离规则\"下发出动物叫声" }, "maps": "nimi, mu" },
+        { "term": "mō", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to touch, feel, pet, perceive by contact", "rus": "трогать, ощупывать, гладить, воспринимать на ощупь", "zh": "摸，触摸，抚摸，通过接触感知" }, "maps": "pilin" },
+        { "term": "ná", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "take", "rus": "брать", "zh": "拿" }, "maps": "" },
+        { "term": "wán", "pos": { "eng": "verb/adjective", "rus": "глагол/прилагательное", "zh": "动词/形容词" }, "definition": { "eng": "to play, have fun, engage in recreation; playful, artistic, frivolous", "rus": "играть, веселиться, отдыхать; игривый, творческий, легкомысленный", "zh": "玩，玩乐，娱乐；爱玩的，艺术性的，轻浮的" }, "maps": "musi" },
+        { "term": "zhǎo", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to hunt, forage, search for, look for", "rus": "охотиться, добывать, искать, разыскивать", "zh": "打猎，觅食，寻找，搜寻" }, "maps": "alasa" },
+        { "term": "zǒu", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to go, move toward, travel away", "rus": "идти, двигаться к, уходить", "zh": "走，朝……移动，离开前往" }, "maps": "tawa" },
+        { "term": "zuò", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to do, take action on, work on, build, make, prepare", "rus": "делать, предпринимать действие, работать над, строить, изготавливать, готовить", "zh": "做，采取行动，从事，建造，制作，准备" }, "maps": "pali" },
+        { "term": "yǒu", "pos": { "eng": "verb", "rus": "глагол", "zh": "动词" }, "definition": { "eng": "to have, contain, carry, hold, exist, there is; must be negated with mei, never bu", "rus": "иметь, содержать, нести, удерживать, существовать, имеется; отрицается только через mei, никогда через bu", "zh": "有，包含，携带，持有，存在；只能用 mei 否定，绝不用 bu" }, "maps": "jo, lon" }
+      ]
+    }
+  ]
+}

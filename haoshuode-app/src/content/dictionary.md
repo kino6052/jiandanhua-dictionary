@@ -3,12 +3,13 @@ id: dictionary
 title: "The Official Hao-shuo-de Dictionary"
 type: dictionary
 order: 1
+language: eng
 ---
 
 This section presents the complete core vocabulary of Hao-shuo-de sorted alphabetically. Every definition contains part-of-speech designations, semantic boundaries, and compositional mappings matching the minimalist baseline established by Toki Pona.
 
 ```dict
-āi | verb | to love, have compassion for, show deep affection to | olin
+ài | verb | to love, have compassion for, show deep affection to | olin
 bǎ | particle | grammatical object-introducing particle; used to implement the transitive state-change framework |
 báisè | adjective/noun | white, pale, light-colored | walo
 biàn | verb | to become, change into, transform; combined with ba to act as a causative verbal engine | kama
@@ -17,19 +18,19 @@ bù | particle | not, no; used for standard negation of verbs and adjectives, ex
 bùtóng | adjective/noun | different, altered, changed, other | ante
 chī | verb/noun | to eat, drink, consume, ingest; food, meal, edible substance | moku
 chóngzi | noun | insect, bug, beetle, spider | pipi
-cóng | preposition | from |
 cí | noun | word |
-dǎ | verb | to hit, fight, battle, challenge, compete against | utala
+cóng | preposition | from |
 dà | adjective | big, heavy, large, long, tall, important, adult | suli
+dǎ | verb | to hit, fight, battle, challenge, compete against | utala
 dànshì | conjunction | but, however, only | taso
 de | particle | possessive marker, structural adjectival particle; used to bind modifiers and multi-word description structures onto target nouns | pi
 děng | verb | to wait |
 dìbǎn | noun | floor, horizontal surface, platform, couch, flat resting area | supa
-dìfang | noun | a place (both in space or metaphorical to mean part of something) |
+dìfāng | noun | a place (both in space or metaphorical to mean part of something) |
 dòngwù | noun | animal, land mammal, beast | soweli
 dōngxi | noun | thing, phenomenon, object, physical being, matter | ijo
-duō | adjective | many, a lot, much, several, very, abundant; used contextually to signify quantities greater than two | mute
 duì | preposition/coverb | facing, towards, regarding, beneficial to; correct | tawa
+duō | adjective | many, a lot, much, several, very, abundant; used contextually to signify quantities greater than two | mute
 fāngfǎ | noun | way, custom, path, road, method, doctrine | nasin
 fùmǔ | noun | parent, ancestor, creator, caretaker | mama
 gè | measure word | universal classifier; mandatory interface between numbers/demonstratives and nouns |
@@ -42,12 +43,12 @@ hé | conjunction | and; used strictly to join multiple nouns or subjects | en
 hēisè | adjective/noun | black, dark, unlit, obscure | pimeja
 hěn | adverb | very, highly, intensely; syntactic structural anchor required before isolated adjectives in predicates | mute
 hézi | noun | container, bag, bowl, box, cup, vessel | poki
-hòumiàn | noun | back, behind, area rearward | monsi
 hóngsè | adjective/noun | red, reddish | loje
+hòumiàn | noun | back, behind, area rearward | monsi
 huài | adjective/verb | bad, negative, broken, damaged, non-essential | ike, pakala
 huángsè | adjective/noun | yellow, yellowish | jelo
-huòzhě | conjunction | or; links choices or alternative clauses | anu
 huǒ | noun | fire, cooking element, chemical heat source | seli
+huòzhě | conjunction | or; links choices or alternative clauses | anu
 jiǎo | noun | foot, leg, organ of locomotion, bottom part | noka
 jiào | verb | to call, be named; to produce an animal vocalization under the Quote Partition | nimi, mu
 juéde | noun/adjective/verb | feeling, emotion, direct experience; to feel, think | pilin
@@ -60,11 +61,11 @@ lái | verb | to come, arrive, happen | kama
 lánsè | adjective/noun | blue, green, aqua, shifting spectrum colors | laso
 le | particle | perfective aspect marker, completed change of state | pini
 lěng | adjective | cold, cool, uncooked, raw | lete
-lǐmiàn | noun | inside, center, content, between, internal organ | insa
-lìliàng | noun/adjective | energy, power, intensity, physical strength; confident, sure, intense | wawa
-liú | verb | to stay, remain, keep, endure, protect | awen
 liǎng | number | two; quantifies dual entities when coupled to the measure word (liang-ge) | tu
 líkāi | verb/adjective | to leave, go away, depart; absent, ignored | weka
+lìliàng | noun/adjective | energy, power, intensity, physical strength; confident, sure, intense | wawa
+lǐmiàn | noun | inside, center, content, between, internal organ | insa
+liú | verb | to stay, remain, keep, endure, protect | awen
 ma | particle | final interrogative yes-or-no question marker |
 méi | particle | negative particle used exclusively to negate the verb you (to form meiyou) |
 mǐfàn | noun | grain, rice, cereal, bread, pasta, staple food | pan
@@ -86,6 +87,7 @@ quánbù | adjective | all |
 qún | noun | group, community, company, nation, society, tribe | kulupu
 rè | adjective | hot, warm, cooked, chemically energetic | seli
 rén | noun | human being, person, somebody | jan
+rì | noun | sun, radiant light source, brightness, glow | suno
 shàngmiàn | noun | above, highest part, sky, elevated location, supernatural area | sewi
 shénme | pronoun/particle | what? which?; retains position without altering Chinese SVO statement geometry | seme
 shēntǐ | noun | body, physical torso, physical state | sijelo
@@ -93,18 +95,17 @@ shì | verb | to be, copula link between subjects and identity predicates |
 shìchǎng | noun | market, shop, fair, business location, transaction hub | esun
 shíjiān | noun | time, duration, moment, occasion, period, situation | tenpo
 shǒu | noun | hand, arm, tactile organ | luka
-shuō | verb/noun | to communicate, say, speak, talk, use language; language, speech | toki
 shuǐ | noun | water, liquid, fluid, wet substance, beverage | telo
 shuǐguǒ | noun | fruit, vegetable, mushroom, plant food crop | kili
 shuìjiào | verb/adjective | to sleep, rest, be inactive; sleeping, asleep | lape
+shuō | verb/noun | to communicate, say, speak, talk, use language; language, speech | toki
 sǐ | verb/adjective | to die; dead, dying | moli
 tā | pronoun | he, she, it, they, them; syntactically genderless and number-fluid | ona
-rì | noun | sun, radiant light source, brightness, glow | suno
 tián | adjective | sweet, fragrant, cute, innocent, adorable | suwi
 tīng | verb | to hear, listen, pay attention to, obey | kute
 tóu | noun | head, mind, internal regulatory director | lawa
-wánchéng | verb complement | finish, end, achieve completion; syntactically binds behind action verbs to express resultative closure | pini
 wán | verb/adjective | to play, have fun, engage in recreation; playful, artistic, frivolous | musi
+wánchéng | verb complement | finish, end, achieve completion; syntactically binds behind action verbs to express resultative closure | pini
 wèishénme | pronoun | why |
 wǒ | pronoun | I, me, we, us | mi
 xiàmiàn | noun | below, underneath, under, lower part | noka, anpa
@@ -119,17 +120,17 @@ yào | auxiliary/verb | to want, need, require, must, should | wile
 yě | adverb | also, too, additionally; placed directly before verbs to structure compound actions |
 yī | number | one, unique, united | wan
 yīfu | noun | clothing, cloth, fabric, textile, privacy layer | len
+yìng | adjective/noun | hard, stone-like; rock, stone, metal | kiwen
 yīnwèi | conjunction/coverb | because, because of |
 yīyàng | adjective | same, similar, peer, fellow, each other | sama
-yìng | adjective/noun | hard, stone-like; rock, stone, metal | kiwen
 yòng | verb/coverb | to use, utilize; with, by means of | kepeken
 yǒu | verb | to have, contain, carry, hold, exist, there is; must be negated with mei, never bu | jo, lon
 yú | noun | fish, marine animal, sea creature | kala
 yuán | adjective/noun | round, circular, spherical; ball, circle, wheel, cycle | sike
-yuèliàng | noun | moon, night sky object, star | mun
+yuèliang | noun | moon, night sky object, star | mun
 zài | verb/coverb | to exist at, be located at, present in a room | lon
-zhǎo | verb | to hunt, forage, search for, look for | alasa
 zěnme | pronoun | how |
+zhǎo | verb | to hunt, forage, search for, look for | alasa
 zhè | pronoun/adjective | this, these; syntactically binds as zhe-ge | ni
 zhīdào | verb/auxiliary | to know, be wise about, possess information; know how to | sona
 zhíwù | noun | plant, vegetation, herb, leaf | kasi
