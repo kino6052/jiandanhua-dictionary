@@ -10,7 +10,14 @@ const DIST_DIR = resolve(ROOT, 'dist');
 
 const LANG_MAP = { eng: 'en', rus: 'ru', zh: 'zh' };
 
-const indexHtml = readFileSync(join(DIST_DIR, 'index.html'), 'utf-8');
+// vite.config.js builds with base: './', so dist/index.html references its
+// assets as "./assets/...". Each generated route page lives one or more
+// directories deeper than dist/, so its copy of that markup needs the same
+// references rewritten to climb back up to dist/ ("../assets/...",
+// "../../assets/...", etc.) -- never an absolute "/assets/..." path, so the
+// same dist/ output works unmodified from a domain root, a GitHub Pages
+// project subpath, or a custom domain.
+const rootHtml = readFileSync(join(DIST_DIR, 'index.html'), 'utf-8');
 
 const routes = new Set();
 const files = readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'));
@@ -23,12 +30,19 @@ for (const file of files) {
   if (data.id) routes.add(`${lang}/${data.id}`);
 }
 
-for (const route of routes) {
-  const dir = join(DIST_DIR, route);
-  mkdirSync(dir, { recursive: true });
-  writeFileSync(join(dir, 'index.html'), indexHtml);
+function htmlForDepth(depth) {
+  if (depth === 0) return rootHtml;
+  const prefix = '../'.repeat(depth);
+  return rootHtml.replace(/(["'])\.\//g, `$1${prefix}`);
 }
 
-writeFileSync(join(DIST_DIR, '404.html'), indexHtml);
+for (const route of routes) {
+  const depth = route.split('/').length;
+  const dir = join(DIST_DIR, route);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, 'index.html'), htmlForDepth(depth));
+}
+
+writeFileSync(join(DIST_DIR, '404.html'), rootHtml);
 
 console.log(`Generated ${routes.size} route pages + 404.html`);

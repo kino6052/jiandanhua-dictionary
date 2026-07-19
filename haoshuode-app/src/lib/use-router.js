@@ -18,13 +18,14 @@ function saveSet(key, set) {
 }
 
 export function useAppRouter() {
+  // The deployment root never changes during a session, so it's captured
+  // once from the initial URL and reused for every subsequent navigation.
+  const [root] = useState(() => parseUrl(window.location.pathname).root);
+
   const [state, setState] = useState(() => {
     const parsed = parseUrl(window.location.pathname);
-    if (!window.location.pathname.match(/\/(en|ru|zh)(\/|$)/)) {
-      const savedLang = localStorage.getItem(LANG_KEY) || 'eng';
-      return { lang: savedLang, pageId: parsed.pageId };
-    }
-    return parsed;
+    const lang = parsed.lang || localStorage.getItem(LANG_KEY) || 'eng';
+    return { lang, pageId: parsed.pageId };
   });
 
   const [completed, setCompleted] = useState(() => loadSet(PROGRESS_KEY));
@@ -40,7 +41,7 @@ export function useAppRouter() {
   }, [state.pageId, sectionIds]);
 
   const navigate = useCallback((lang, pageId, replace = false) => {
-    const url = buildUrl(lang, pageId);
+    const url = buildUrl(root, lang, pageId);
     if (replace) {
       window.history.replaceState(null, '', url);
     } else {
@@ -50,7 +51,7 @@ export function useAppRouter() {
     localStorage.setItem(LANG_KEY, lang);
     const config = LANG_CONFIG[lang];
     if (config) document.documentElement.lang = config.htmlLang;
-  }, []);
+  }, [root]);
 
   const goTo = useCallback((idx) => {
     const clamped = Math.max(0, Math.min(sectionIds.length - 1, idx));
@@ -85,8 +86,8 @@ export function useAppRouter() {
 
   // Set initial URL if at root or invalid page
   useEffect(() => {
-    const { pageId } = parseUrl(window.location.pathname);
-    if (sectionIds.length > 0 && (!pageId || !sectionIds.includes(pageId))) {
+    const parsed = parseUrl(window.location.pathname);
+    if (sectionIds.length > 0 && (!parsed.pageId || !sectionIds.includes(parsed.pageId))) {
       navigate(state.lang, sectionIds[0], true);
     }
   }, []);
@@ -94,7 +95,11 @@ export function useAppRouter() {
   // Handle browser back/forward
   useEffect(() => {
     function onPopState() {
-      setState(parseUrl(window.location.pathname));
+      const parsed = parseUrl(window.location.pathname);
+      setState(prev => ({
+        lang: parsed.lang || prev.lang,
+        pageId: parsed.pageId,
+      }));
     }
     window.addEventListener('popstate', onPopState);
     return () => window.removeEventListener('popstate', onPopState);

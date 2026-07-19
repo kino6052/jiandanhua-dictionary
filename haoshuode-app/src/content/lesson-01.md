@@ -20,7 +20,17 @@ One thing pinyin can't hide, though, is tone -- and tone is not a decoration, it
 - **ǎ** -- Third tone. Dips down, then curls back up -- the sound of a skeptical "hmm..."
 - **à** -- Fourth tone. Sharp and falling, like a flat, final "No."
 
-This book always writes a word's baseline tone -- the tone it carries in the dictionary -- even in places where fast, natural speech would blur or shift it slightly. That keeps every written form consistent and lookup-able, at the small cost of not capturing every detail of how a sentence actually sounds out loud.
+There is also a neutral tone. It is written without a tone mark—just a plain letter: **a**. The neutral syllable is shorter and receives no emphasis.
+
+In `Hǎo-shuō-de`, the `-de` is neutral.
+
+Reading Chinese syllable by syllable is the rule. The neutral tone is the single exception. When a neutral tone appears, the syllable before it takes the stress. The neutral syllable itself is just a short, attached sound. `Hǎo-shuō-de` is not three equal beats. It is pronounced _how-show-duh_ — the final syllable trails off.
+
+Without this exception, spoken Chinese would become a mechanical sequence of separate blocks—correct, but unnatural. The neutral tone is what keeps the rhythm from breaking apart.
+
+- **a** – Neutral tone. Short, unstressed, no pitch direction.
+
+This book always writes a word's dictionary tone -- the tone it carries in the dictionary -- even in places where fast, natural speech would blur or shift it slightly. That keeps every written form consistent and lookup-able, at the small cost of not capturing every detail of how a sentence actually sounds out loud.
 
 Because tone marks are awkward to type on an ordinary keyboard, there's a standard shorthand you'll meet in apps, dictionaries, and casual typing: write the tone as a digit right after the syllable instead of as a mark above the vowel. `Nǐ hǎo` becomes `ni3 hao3`. This book always uses proper tone marks, but recognizing the number system will save you confusion the first time you run into it elsewhere.
 
