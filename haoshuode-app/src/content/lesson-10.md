@@ -1,42 +1,45 @@
 ---
 id: lesson-10
-title: "Greetings and Feelings"
+title: "Proper Names & Geography"
 lessonNumber: 10
 type: lesson
 order: 10
 ---
 
 ```vocab
-juede | to feel, think
-shengyin | sound, noise
-jiao | to call, make an animal sound (used alongside the Quote Partition)
+fangfa | way, street, method, path
+ni-jiao-de ci | name
+da | to fight, battle, compete against
 ```
 
-Greetings and emotional imperatives in Hao-shuo-de rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
+Unique external identities, such as specific regional locations or personal human titles, follow standard Mandarin phonetic spelling and capitalization rules.
 
-- **Greetings:** Expressed using foundational semantic combinations like `Ni hao ma?` or descriptive movements.
-- **Imperatives:** Commands or requests are formed simply by utilizing a bare verb statement at the start of a clause.
-- **Animal Sounds:** Handled via the core verb `jiao` paired with the Quote Partition, which isolates onomatopoeia inside quotation marks rather than treating them as new lexicon words.
+Proper names are always enclosed within quotation marks.
+
+In line with standard Chinese modifier syntax, proper names always behave as adjectives. This means they are placed directly **before** the generic baseline noun that identifies what kind of thing they are:
+
+- `"Name"` + `ren` (The person named...)
+- `"Name"` + `fangfa` (The street/way of...)
+- `"Name"` + `difang` (The place/country of...)
 
 ```examples
-Ni hao ma? | Hello! / Are you well?
-Zou-dao ni-de difang! | Go to your room!
-Bu shuo. Zuo dongxi. | Don't speak. Take action.
-Wo zou le. | I am going. / Goodbye.
-Na-ge dongwu jiao "wang-wang". | That animal goes "woof woof".
-Weishenme ni juede huai? | Why are you sad / feeling bad?
-Ni hen da! | You're so tall!
-Hao! | Thank you! / Good!
+Wo-de ni-jiao-de ci shi "Apu". | My name is Apu.
+"Afeililiya" difang you hen-duo ren. | Africa has many people.
+"Zhongguo" nuren zou-dao na-ge fangfa. | The Chinese lady is going to that street/way.
+"Belin" difang zai "Deguo" difang. | Berlin is in Germany.
+Ni zhidao-bu-zhidao "Yingyu"? | Do you know English?
+"Sulu" nanren da huai-ren. | Mr. Sulu fights a bad guy.
+Zhe-ge hen-duo-ren-de-difang hen da. | This country is very large.
 ```
 
 ```exercise
-Give the tool to me.
-Lisa is happy.
-Meow!
+Are you from Germany?
+What is your name?
+I am going to England.
 ```
 
 ```answers
-Gei wo gongju.
-Lisa juede hao.
-Jiao "miao-miao"!
+Ni shi-bu-shi "Deguo" difang-de ren?
+Ni-de ni-jiao-de ci shi shenme?
+Wo zou-dao "Yingguo" difang.
 ```

@@ -1,3 +1,4 @@
+import { AudioButton } from './AudioButton.jsx';
 import styles from './ExampleList.module.css';
 
 export function ExampleList({ items }) {
@@ -8,7 +9,10 @@ export function ExampleList({ items }) {
       <div class={styles.list}>
         {items.map((ex, i) => (
           <div key={i} class={styles.card}>
-            <span class={styles.pinyin}>{ex.pinyin}</span>
+            <span class={styles.pinyin}>
+              {ex.pinyin}
+              <AudioButton pinyin={ex.pinyin} audioFile={ex.audioFile} ttsText={ex.ttsText} />
+            </span>
             <span class={styles.translation}> — {ex.translation}</span>
           </div>
         ))}

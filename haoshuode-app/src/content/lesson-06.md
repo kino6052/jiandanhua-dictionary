@@ -1,44 +1,42 @@
 ---
 id: lesson-06
-title: "More Adjectives & State Changes"
+title: "Dongzuo (Verbs)"
 lessonNumber: 6
 type: lesson
 order: 6
 ---
 
 ```vocab
-bu | not, no
-huai | bad, negative, broken
-duo | many, a lot, very
-fumu | parent, ancestor
-yi | one, united
+you | to have, contain, carry
+ting | to listen to, hear, obey
+chi | to eat, drink, consume; food
+zuo | to make, do, work on
+zhidao | to know
+shuo | to talk, speak, communicate
 ```
 
-Adjectives can modify other adjectives or verbs by preceding them directly as adverbs (e.g., `hen duo` for "very many").
+Hao-shuo-de eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
 
-> ### The Causative Rule
->
-> To turn an adjective into a transitive action (such as transforming "good" into "to fix/improve" or "bad" into "to break"), you must use the standard Mandarin ba construction paired with bian (to become/change):
->
-> `Subject + ba + Object + bian + Adjective`
+Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `le` can be appended to show completed actions. Words fluidly shift roles depending on context -- for instance, `chi` represents the action "to eat" or the noun "food," while `zhidao-de ren` acts as "a knowledgeable person".
 
 ```examples
-Ni-de zuo-de hen hao. | Your work is very good.
-Shui gei wo liliang. | Water strengthens me / gives me energy.
-Zhidao-de ren kan xie-de dongxi. | The scholars read the document / look at the paper.
-Xiao-de nuren meiyou hao-de ting fumu. | The girls misheard / didn't listen well to the parent.
-Meiyou ren shi huai-de. | Nobody is bad.
-Nanren-de fumu duo-de kan xie-de dongxi. | Fathers use/read the book a lot.
+Wo zhidao hao shuo-de. | I know a simple language / good speech.
+Na-ge nanren shi shuo-de ren. | That man is a messenger / speaking person.
+Da-de dongwu zai chi ni. | A large animal is eating you.
+Qun-de xie-de dongxi hen hao. | The community's book is reliable.
+Ni zuo le xin-de chi. | You made new food.
+Zhidao-de ren ting. | A person of knowledge listens.
+Zhidao-de difang you xie-de dongxi. | The school / house of knowledge has books.
 ```
 
 ```exercise
-The man doesn't eat bad fruit.
-Eating makes me tall.
-I know Hao-shuo-de a bit.
+I will listen to you.
+The woman obeyed the man.
+The friends ate meat.
 ```
 
 ```answers
-Nanren bu chi huai-de shuiguo.
-Chi ba wo bian da.
-hao-shuo-de, wo zhidao-de bu duo.
+Wo ting ni.
+Nuren ting le nanren.
+Hao-de ren chi le dongwu.
 ```

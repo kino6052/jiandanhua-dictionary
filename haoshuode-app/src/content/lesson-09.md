@@ -1,45 +1,42 @@
 ---
 id: lesson-09
-title: "Proper Names & Geography"
+title: "Prepositions & Coverbs"
 lessonNumber: 9
 type: lesson
 order: 9
 ---
 
 ```vocab
-fangfa | way, street, method, path
-ni-jiao-de ci | name
-da | to fight, battle, compete against
+gei | to, for, give
+zai | at, in, present, existing
+yong | using, with, by means of
+yinwei | from, because of
 ```
 
-Unique external identities, such as specific regional locations or personal human titles, follow standard Mandarin phonetic spelling and capitalization rules.
+In Hao-shuo-de, prepositions function exactly like standard Mandarin coverbs. They typically introduce a noun phrase and sit right before the main action of the sentence:
 
-Proper names are always enclosed within quotation marks.
+`Subject + Coverb Phrase + Main Verb + Object`
 
-In line with standard Chinese modifier syntax, proper names always behave as adjectives. This means they are placed directly **before** the generic baseline noun that identifies what kind of thing they are:
-
-- `"Name"` + `ren` (The person named...)
-- `"Name"` + `fangfa` (The street/way of...)
-- `"Name"` + `difang` (The place/country of...)
+If no other action verb is present in the clause, the coverb itself steps up to serve as the main predicate of the sentence (e.g., `Wo zai difang` -- I am in the house).
 
 ```examples
-Wo-de ni-jiao-de ci shi "Apu". | My name is Apu.
-"Afeililiya" difang you hen-duo ren. | Africa has many people.
-"Zhongguo" nuren zou-dao na-ge fangfa. | The Chinese lady is going to that street/way.
-"Belin" difang zai "Deguo" difang. | Berlin is in Germany.
-Ni zhidao-bu-zhidao "Yingyu"? | Do you know English?
-"Sulu" nanren da huai-ren. | Mr. Sulu fights a bad guy.
-Zhe-ge hen-duo-ren-de-difang hen da. | This country is very large.
+Wo gei ta yu. | I give fish to her.
+Wo zai difang gei ta yu. | I give fish to her in the house.
+Wo zai difang. | I am in the house.
+Wo zou ni-de pangbian. | I am moving towards you / going to your side.
+Wo-de fumu zou-dao hen-da-de shui. | My parent is going to the sea / big water.
+Yinwei zhe-ge, wo zuo le hen duo. | Because of this, I worked a lot.
+Wo yong Hao-shuo-de shuo. | I speak in Hao-shuo-de / use Hao-shuo-de to speak.
 ```
 
 ```exercise
-Are you from Germany?
-What is your name?
-I am going to England.
+The worker uses tools.
+He gives things from his house.
+Why did you do it?
 ```
 
 ```answers
-Ni shi-bu-shi "Deguo" difang-de ren?
-Ni-de ni-jiao-de ci shi shenme?
-Wo zou-dao "Yingguo" difang.
+Zhe-ge gongju-de ren yong gongju. (or Jie-ge ren yong gongju.)
+ta gei lai-ta-de-difang-de dongxi.
+Weishenme ni zuo le zhe-ge?
 ```

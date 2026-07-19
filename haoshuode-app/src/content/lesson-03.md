@@ -1,28 +1,33 @@
 ---
 id: lesson-03
-title: "Nouns and Adjectives"
+title: "Sentences"
 lessonNumber: 3
 type: lesson
 order: 3
 language: eng
 ---
 
-```vocab
-shuǐ | water, liquid
-dìfāng | a place (both in space or metaphorical to mean part of something)
-xiǎo | little, small
-hǎo | good, simple, friendly
-dà | big, important, tall
-```
+To build a basic descriptive sentence in Hao-shuo-de, use the standard Mandarin **is/am/are** structure. You do not need to change the verb based on who is speaking:
 
-An adjective can modify a noun directly by following standard predicate structure:
-
-`Subject + hěn + Adjective`
-
-When an adjective phrase directly modifies a noun as a single unit, it uses the structural particle `-de`.
+Subject + <audio-example zh="是">shì</audio-example> + Noun
 
 ```examples
-Shuǐ hěn hǎo. | Water is good.
-Zhè-ge shì hěn-xiǎo-de dìfāng. | This is a small room.
-Wǒ kàn yī-ge hěn-dà-de dòngwù. | I see a very big animal.
+Zhè-ge shì rén. | This is a person.
+Zhè-ge shì shuǐguǒ. | This is a fruit.
+Yī-ge xiě-de dōngxi shì dōngxi. | A written thing (book/document) is a thing.
+Rén shì nǚrén. | The person is a woman.
+Dòngwù shì dōngxi. | Animals are things.
+Nǚrén shì rén. | Women are people.
+```
+
+```exercise
+This is a document.
+A woman is a human.
+Animals are beings.
+```
+
+```answers
+Zhè-ge shì xiě-de dōngxi.
+Nǚrén shì rén.
+Dòngwù shì dōngxi.
 ```

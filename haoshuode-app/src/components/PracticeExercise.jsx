@@ -1,5 +1,6 @@
 import { useState } from 'preact/hooks';
 import { t } from '../lib/i18n.js';
+import { AudioButton } from './AudioButton.jsx';
 import styles from './PracticeExercise.module.css';
 
 export function PracticeExercise({ questions, answers, lang }) {
@@ -20,7 +21,10 @@ export function PracticeExercise({ questions, answers, lang }) {
         <div key={i} class={styles.item}>
           <div class={styles.question}><b>{i + 1}.</b> {q}</div>
           {showAnswers && answers && answers[i] && (
-            <div class={styles.answer}>→ {answers[i]}</div>
+            <div class={styles.answer}>
+              → {answers[i]}
+              <AudioButton pinyin={answers[i]} />
+            </div>
           )}
         </div>
       ))}

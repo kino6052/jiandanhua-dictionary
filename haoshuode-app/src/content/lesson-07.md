@@ -1,52 +1,44 @@
 ---
 id: lesson-07
-title: "Questions and Answers"
+title: "More Adjectives & State Changes"
 lessonNumber: 7
 type: lesson
 order: 7
 ---
 
 ```vocab
-gongju | tool, machine, device
-yu | fish, sea creature
-ta | he, she, it, they
-huozhe | or
-shenme | what, which
-weishenme | why
-zenme | how
+bu | not, no
+huai | bad, negative, broken
+duo | many, a lot, very
+fumu | parent, ancestor
+yi | one, united
 ```
 
-To ask a "what" or "which" question in Hao-shuo-de, you do not alter the sentence structure. Simply place the question word `shenme` directly into the syntactic position of the information you want to discover.
+Adjectives can modify other adjectives or verbs by preceding them directly as adverbs (e.g., `hen duo` for "very many").
 
-For yes-or-no questions, Hao-shuo-de completely bypasses Toki Pona's particle rules by adopting standard Mandarin grammatical structures:
-
-1. **The ma Construction:** Append the question marker `ma` to the very end of a standard statement.
-
-2. **The A-bu-A / A-mei-A Construction:** Reduplicate the main verb or adjective with the negative particle `bu` (or `mei` if using the verb `you`).
-
-To answer "yes," simply repeat the main verb. To answer "no," repeat the verb alongside its negative particle, or use `bu` / `meiyou` on its own.
+> ### The Causative Rule
+>
+> To turn an adjective into a transitive action (such as transforming "good" into "to fix/improve" or "bad" into "to break"), you must use the standard Mandarin ba construction paired with bian (to become/change):
+>
+> `Subject + ba + Object + bian + Adjective`
 
 ```examples
-Shenme shi xin-de? | What is new?
-Shenme ren zai shuo? | Which person is speaking?
-Ta you-mei-you hen-duo-de shuiguo? | Does he have many vegetables/fruits?
-You. | Yes. / He has.
-Ni ting-bu-ting fumu? | Do you obey your parents?
-Bu ting. | No. / I don't obey.
-Ta zai chi shenme? | What is it eating?
-Ni gei ta yu ma? | Are you giving her a fish?
-Weishenme ni gei ta yu? | Why you are giving her a fish?
-Ni zenme ba Hao-shuo-de bian zhidao? | How do you learn Hao-shuo-de?
+Ni-de zuo-de hen hao. | Your work is very good.
+Shui gei wo liliang. | Water strengthens me / gives me energy.
+Zhidao-de ren kan xie-de dongxi. | The scholars read the document / look at the paper.
+Xiao-de nuren meiyou hao-de ting fumu. | The girls misheard / didn't listen well to the parent.
+Meiyou ren shi huai-de. | Nobody is bad.
+Nanren-de fumu duo-de kan xie-de dongxi. | Fathers use/read the book a lot.
 ```
 
 ```exercise
-What tools do you have?
-Does he listen?
-Is the tool small?
+The man doesn't eat bad fruit.
+Eating makes me tall.
+I know Hao-shuo-de a bit.
 ```
 
 ```answers
-Ni you shenme gongju?
-Ta ting-bu-ting? (or Ta ting ma?)
-Gongju xiao-bu-xiao? (or Gongju xiao ma?)
+Nanren bu chi huai-de shuiguo.
+Chi ba wo bian da.
+hao-shuo-de, wo zhidao-de bu duo.
 ```

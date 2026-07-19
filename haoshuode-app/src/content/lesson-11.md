@@ -1,39 +1,42 @@
 ---
 id: lesson-11
-title: "Modification Stacking"
+title: "Greetings and Feelings"
 lessonNumber: 11
 type: lesson
 order: 11
 ---
 
 ```vocab
-zhiwu | plant, vegetation
-shenti | body, physical state
-ri | sun, light
-shijian | time, duration
-deng | to wait
+juede | to feel, think
+shengyin | sound, noise
+jiao | to call, make an animal sound (used alongside the Quote Partition)
 ```
 
-In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. Hao-shuo-de bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
+Greetings and emotional imperatives in Hao-shuo-de rely on standard Mandarin structural patterns rather than abstract grammatical particles like Toki Pona's _o_ or _a_.
 
-When a descriptive phrase modifies a target noun, the entire qualifying concept precedes the noun block, bound securely by `-de`. Complex modifier groupings are read from left to right as a unified block before resolving onto the primary head noun.
+- **Greetings:** Expressed using foundational semantic combinations like `Ni hao ma?` or descriptive movements.
+- **Imperatives:** Commands or requests are formed simply by utilizing a bare verb statement at the start of a clause.
+- **Animal Sounds:** Handled via the core verb `jiao` paired with the Quote Partition, which isolates onomatopoeia inside quotation marks rather than treating them as new lexicon words.
 
 ```examples
-Zhe-ge ri hen hao. | Today is good.
-Hen-hao-de nuren gei zhiwu shui. | The healthy woman waters the plants.
-Hao-shuo-de-de qun gei hen-duo-de dongxi. | The Hao-shuo-de community gives many things.
-Deng hen-chang-de shijian. | Wait a very long time.
-Bu yong huai-de gongju. | Don't use bad tools.
+Ni hao ma? | Hello! / Are you well?
+Zou-dao ni-de difang! | Go to your room!
+Bu shuo. Zuo dongxi. | Don't speak. Take action.
+Wo zou le. | I am going. / Goodbye.
+Na-ge dongwu jiao "wang-wang". | That animal goes "woof woof".
+Weishenme ni juede huai? | Why are you sad / feeling bad?
+Ni hen da! | You're so tall!
+Hao! | Thank you! / Good!
 ```
 
 ```exercise
-This battlefield is small.
-Men with strong bodies were waiting.
-The sun gives benefit to the plants.
+Give the tool to me.
+Lisa is happy.
+Meow!
 ```
 
 ```answers
-Zhe-ge da-de difang hen xiao.
-You-liliang-de shenti-de nanren zai deng.
-ri ba zhiwu bian hao.
+Gei wo gongju.
+Lisa juede hao.
+Jiao "miao-miao"!
 ```

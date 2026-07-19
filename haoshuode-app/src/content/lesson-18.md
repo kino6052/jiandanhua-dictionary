@@ -1,30 +1,32 @@
 ---
 id: lesson-18
-title: "Cooking Adventure"
+title: "Hunting Adventure"
 lessonNumber: 18
 type: lesson
 order: 18
 ---
 
 ```vocab
-shuijiao | to sleep, nap
-ai | to love
-mifan | cereal, grain, rice
-wan | finished, past, end
-huo | fire, heat source, cooking heat
-diban | horizontal surface, floor, sofa
-kou | mouth, lips, door, opening
+zhao | to search, look for, hunt
+tou | head, mind, antlers/horns
+yifu | clothing, cloth, protective vest
+xian | long flexible thing, string, rope, bowstring
+huai | broken, botched, bad, to break/fail
+gunzi | long hard thing, stick, rod
+chongzi | insect, bug, worm
+niao | bird, flying creature
+likai | away, absent, to leave, run away
 ```
 
 ```story
-"Maweijiu" nanren you yi-ge ta ai-de nuren. | Mawijo has a beloved woman/wife.
-Ta-de ni-jiao-de ci shi "Sili". | Her name/the word you call her is Sili.
-"Sili" zai diban-shang shuijiao. | Sili is sleeping on the sofa.
-Wan-shijian, "Sili" ba difang bian hao-le, ye yong shui ba yifu bian xin-le. | In the past-time/yesterday, Sili tidied up the place and washed the clothing.
-"Maweijiu" zai shenme shijian dao? | At what time will Mawijo arrive?
-You shengyin! | There is a noise!
-Zhe shijian, "Maweijiu" dao-le kou-de pangbian, ta na-le liang-ge xiao dongwu. | At this time, Mawijo arrives next to the door, carrying two small animals.
-"Sili" juede hen hao, yong kou mo "Maweijiu"-de tou. | Sili feels very good and touches Mawijo's head using her mouth/kisses him.
-Ta yong huo ba dongwu he mifan bian re-le. | She uses fire to make the animals and rice hot/cooks them.
-Chi-de dongxi hen hao! | The food is wonderful! / Bon appetit!
+"Maweijiu" nanren zai hen-duo-de zhiwu-de difang you yi-ge xiao difang. | Uncle Mawijo has a small house in the forest.
+Ta yao zhao dongwu, na-le zhao-de gongju he hongse-de yifu. | He wants to go hunting and gets a bow and orange vest.
+Yi shijian, ta zhi kan-jian lanse-de niao, meiyou kan-jian butong-de dongxi. | On the first day, he only sees a blue bird and nothing else.
+Niao zai chi xiao-de chongzi. | The bird is eating little insects.
+Er shijian, ta ting-jian hen-da-de dongwu-de shengyin. | On the second day, he hears the loud call of an animal.
+"Maweijiu" liu-zai difang. | Mawijo waits in place.
+Ta kan-jian hen-da-de dongwu. | He sees a large moose.
+Dongwu-de tou-shang you gunzi dongxi. | The moose's head has antler-sticks.
+"Maweijiu" yong zhao-de gongju, danshi xian huai-le. | Mawijo uses the bow, but the string breaks.
+Hen-da-de dongwu likai-le. | The moose runs away.
 ```

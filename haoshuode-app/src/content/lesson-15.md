@@ -1,49 +1,44 @@
 ---
 id: lesson-15
-title: "Spatial Nouns"
+title: "Colors and la"
 lessonNumber: 15
 type: lesson
 order: 15
 ---
 
 ```vocab
-limian | inside, between, internal organ
-houmian | area behind, back
-xiamian | area below, under, lower part, leg
-pangbian | side, area beside, vicinity
-shangmian | area above, highest part, sky
-qianmian | area in front, face, chest
-dao | to go to, arrive at, move towards
-zou | to walk, move, travel
+huangse | yellow
+lanse | blue, green
+hongse | red
+heise | black, dark
+baise | white, pale
 ```
 
-Hao-shuo-de builds locational settings by treating spatial concepts as absolute noun destinations rather than abstract markers. To express static location, use the coverb **zai**. To express movement or direction toward a destination, use the universal movement root **dao**.
+In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. Hao-shuo-de replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
 
-Both roots follow standard Mandarin spatial syntax:
+To set a temporal, situational, or environmental background, place the context block at the absolute start of the sentence, immediately followed by a pause or a comma:
 
-`Subject + zai / dao + Target Object + Spatial Noun`
+`[Context / Condition Phrase] , [Main Statement]`
 
-To explicitly express movement currently in progress toward a location (active traveling), combine the progressive aspect marker **zai-** with the kinetic verb **zou** and the destination marker **dao** to form the compound unit **zai-zou-dao**.
-
-When a spatial noun stands alone without a target object modifying it, it functions as a regular baseline noun block.
+Colors function as two-syllable adjectives in Hao-shuo-de. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-de` via a hyphen.
 
 ```examples
-wo zai ni-de pangbian. | I am at your side.
-xiamian-de difang hen you liliang. | The foundation / lower part of the place is strong.
-da-de gongju zai-zou-dao shangmian-de difang. | A large machine is moving in progress toward the sky.
-xie-de dongxi zai dongwu-de xiamian. | The document / word-thing is under the animal.
-wo kan-jian heise-de nuren zai difang-de qianmian. | I see a dark lady in front of the place.
-yan-se dongxi zai heise-de pangbian. | Color-things are next to the darkness.
+Zhe-ge heise-de shijian, ta lai. | Tonight / during this dark time, he is coming.
+Ni kan-jian huangse-de shui, bu chi ta. | If you see yellow water, don't drink it.
+lanse-de gongju zai baise-de difang. | The blue/green tool is in the white place.
+Shenme shijian ni fumu lai? | What time are your parents coming?
+Wo-de shenti bian lanse, zhe-ge hen huai. | If my body turns blue, this is very bad.
+hen-duo-ren-de difang, wo he ni he ta hen you liliang. | In a group, we are strong.
 ```
 
 ```exercise
-Water is coming from the sky.
-Protect your back.
-What did you put the red clock next to?
+When the sun is red, it is the right time.
+If we don't have any meat, we will eat fruit.
+I feel bad because of the large battle.
 ```
 
 ```answers
-shui cong shangmian-de difang lai.
-ba ni-de houmian bian hao.
-ni ba hongse-de shijian gongju dao shenme dongxi-de pangbian?
+shangmian-de-ri hongse-de shijian, shi hao-de shijian.
+wo he ni he ta mei-you dongwu dongxi, wo he ni he ta chi shuiguo.
+You da-de da, wo juede huai.
 ```

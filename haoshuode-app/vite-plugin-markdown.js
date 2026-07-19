@@ -6,14 +6,20 @@ const FENCE_RE = /```(vocab|examples|exercise|answers|story|dict)\n([\s\S]*?)```
 function parseVocab(raw) {
   return raw.trim().split('\n').filter(Boolean).map(line => {
     const parts = line.split('|').map(s => s.trim());
-    return { pinyin: parts[0] || '', definition: parts[1] || '' };
+    const item = { pinyin: parts[0] || '', definition: parts[1] || '' };
+    if (parts[2]) item.audioFile = parts[2];
+    if (parts[3]) item.ttsText = parts[3];
+    return item;
   });
 }
 
 function parseExamples(raw) {
   return raw.trim().split('\n').filter(Boolean).map(line => {
     const parts = line.split('|').map(s => s.trim());
-    return { pinyin: parts[0] || '', translation: parts[1] || '' };
+    const item = { pinyin: parts[0] || '', translation: parts[1] || '' };
+    if (parts[2]) item.audioFile = parts[2];
+    if (parts[3]) item.ttsText = parts[3];
+    return item;
   });
 }
 

@@ -1,42 +1,56 @@
 ---
 id: lesson-13
-title: "Pre-Verbs & Auxiliaries"
+title: "Shùzì (Numbers and Order)"
 lessonNumber: 13
 type: lesson
 order: 13
 ---
 
 ```vocab
-yao | to want, need, must, should
-keyi | can, may, be able to
-zhidao | to know, know how to
-kaishi | to begin to, start to, manage to
-bian | to become, change into
+di | sequence marker
+yi | one
+liang | two (used exclusively before measure words for counting objects/quantities)
+er | two (used exclusively for mathematics, digit lists, serial numbers, and ordinal rankings)
+san | three
+si | four
+wu | five
+liu | six
+qi | seven
+ba | eight
+jiu | nine
+shi | ten
+bai | hundred
+qian | thousand
+di | ordinal marker prefix (placed before a number to turn it into "first, second, third...")
+hao | number identity, name of a number, day of the month
+quanbu | all, completely, everything
 ```
 
-Hao-shuo-de maps Toki Pona's pre-verb structures directly onto standard Mandarin auxiliary verbs. These words express intent, ability, or an unfolding state change. In native Chinese sentence patterns, auxiliary verbs sit naturally right before the main action or description predicate:
+Hao-shuo-de simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
 
-`Subject + Auxiliary Verb + Main Predicate`
+- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `ge` via a syntactic hyphen:
+  - Use `yi-ge` for "one thing."
+  - Use `liang-ge` for "two things." _Never use er when counting physical objects._
 
-When expressing transitions of state (such as "becoming big" or "turning bad"), Hao-shuo-de applies the core verb `bian` (to become/change) directly into the main verb slot. To express a gradual change or the start of an action, use `kaishi` right before the modifier or main verb.
+- **Indefinite Plurals:** For numbers beyond two, Hao-shuo-de implements the core root `duo` (many / a lot) to convey generalized abundance.
+- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `di-` directly before the number root (`di-yi`, `di-er`).
 
 ```examples
-difang bian da. | The city / room is becoming big.
-Wo kaishi zhidao Hao-shuo-de. | I am learning Hao-shuo-de / beginning to know Hao-shuo-de.
-Ni keyi-bu-keyi lai? | Are you able to come?
-Shuiguo bian huai le. | The fruit became bad.
-Wo yao liu zai wo fumu-de difang. | I want to stay in my parents' place.
-Zhiwu kaishi you shui. | The plants started to have water.
+Ni shi di-yi-hao! | You are number one!
+Zhe-ge shi di-er-ge shijian. | This is the second time / the second day.
+Liang-ge xiao nanren liu-le hen-duo zhiwu. | The two boys kept many plants.
+Wo zhidao hen-duo shuo. | I know many languages.
+Quanbu ren ting ta. | Everybody listens to her.
 ```
 
 ```exercise
-You may keep your name.
-The path becomes narrow.
-Do you want to eat some fish?
+What is the third thing?
+I know two languages.
+This is the first day.
 ```
 
 ```answers
-Ni keyi liu ni-de ni-jiao-de ci.
-Fangfa bian xiao.
-Ni yao-bu-yao chi yu?
+di-sang-ge dongxi shi shenme?
+Wo zhidao liang-ge shuo.
+Zhe-ge ri shi di-yi-ge.
 ```

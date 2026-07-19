@@ -1,56 +1,39 @@
 ---
 id: lesson-12
-title: "Shùzì (Numbers and Order)"
+title: "Modification Stacking"
 lessonNumber: 12
 type: lesson
 order: 12
 ---
 
 ```vocab
-di | sequence marker
-yi | one
-liang | two (used exclusively before measure words for counting objects/quantities)
-er | two (used exclusively for mathematics, digit lists, serial numbers, and ordinal rankings)
-san | three
-si | four
-wu | five
-liu | six
-qi | seven
-ba | eight
-jiu | nine
-shi | ten
-bai | hundred
-qian | thousand
-di | ordinal marker prefix (placed before a number to turn it into "first, second, third...")
-hao | number identity, name of a number, day of the month
-quanbu | all, completely, everything
+zhiwu | plant, vegetation
+shenti | body, physical state
+ri | sun, light
+shijian | time, duration
+deng | to wait
 ```
 
-Hao-shuo-de simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
+In Toki Pona, the specialized particle _pi_ is mandatory whenever you need to re-group a chain of multiple modifiers. Hao-shuo-de bypasses this structural requirement entirely because standard Mandarin grammar naturally stacks modifier phrases using the possessive/adjectival particle `de`.
 
-- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `ge` via a syntactic hyphen:
-  - Use `yi-ge` for "one thing."
-  - Use `liang-ge` for "two things." _Never use er when counting physical objects._
-
-- **Indefinite Plurals:** For numbers beyond two, Hao-shuo-de implements the core root `duo` (many / a lot) to convey generalized abundance.
-- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `di-` directly before the number root (`di-yi`, `di-er`).
+When a descriptive phrase modifies a target noun, the entire qualifying concept precedes the noun block, bound securely by `-de`. Complex modifier groupings are read from left to right as a unified block before resolving onto the primary head noun.
 
 ```examples
-Ni shi di-yi-hao! | You are number one!
-Zhe-ge shi di-er-ge shijian. | This is the second time / the second day.
-Liang-ge xiao nanren liu-le hen-duo zhiwu. | The two boys kept many plants.
-Wo zhidao hen-duo shuo. | I know many languages.
-Quanbu ren ting ta. | Everybody listens to her.
+Zhe-ge ri hen hao. | Today is good.
+Hen-hao-de nuren gei zhiwu shui. | The healthy woman waters the plants.
+Hao-shuo-de-de qun gei hen-duo-de dongxi. | The Hao-shuo-de community gives many things.
+Deng hen-chang-de shijian. | Wait a very long time.
+Bu yong huai-de gongju. | Don't use bad tools.
 ```
 
 ```exercise
-What is the third thing?
-I know two languages.
-This is the first day.
+This battlefield is small.
+Men with strong bodies were waiting.
+The sun gives benefit to the plants.
 ```
 
 ```answers
-di-sang-ge dongxi shi shenme?
-Wo zhidao liang-ge shuo.
-Zhe-ge ri shi di-yi-ge.
+Zhe-ge da-de difang hen xiao.
+You-liliang-de shenti-de nanren zai deng.
+ri ba zhiwu bian hao.
 ```

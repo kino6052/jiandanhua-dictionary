@@ -1,42 +1,41 @@
 ---
 id: lesson-05
-title: "Dongzuo (Verbs)"
+title: "You and I"
 lessonNumber: 5
 type: lesson
 order: 5
 ---
 
 ```vocab
-you | to have, contain, carry
-ting | to listen to, hear, obey
-chi | to eat, drink, consume; food
-zuo | to make, do, work on
-zhidao | to know
-shuo | to talk, speak, communicate
+wo | I, me, we
+nanren | man, male
+ni | you
+qun | community, group
+xin | new, another, fresh
+liliang | power, energy (used alongside you to mean strong, confident, or dependable)
 ```
 
-Hao-shuo-de eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order.
+Unlike Toki Pona, where pronouns drop specific structural elements, Hao-shuo-de functions completely within standard Mandarin grammar. Pronouns act as standard subjects and form possessive modifiers naturally by binding to the syntactic particle `-de` via a hyphen (e.g., `wo-de`, `ni-de`).
 
-Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `le` can be appended to show completed actions. Words fluidly shift roles depending on context -- for instance, `chi` represents the action "to eat" or the noun "food," while `zhidao-de ren` acts as "a knowledgeable person".
+To express the adjective "strong," Hao-shuo-de leverages the native construction `you liliang` (to have power or strength).
 
 ```examples
-Wo zhidao hao shuo-de. | I know a simple language / good speech.
-Na-ge nanren shi shuo-de ren. | That man is a messenger / speaking person.
-Da-de dongwu zai chi ni. | A large animal is eating you.
-Qun-de xie-de dongxi hen hao. | The community's book is reliable.
-Ni zuo le xin-de chi. | You made new food.
-Zhidao-de ren ting. | A person of knowledge listens.
-Zhidao-de difang you xie-de dongxi. | The school / house of knowledge has books.
+Ni-de difang hen xin. | Your home is new.
+Nanren shi hao-de ren. | The man is a friend / a good person.
+Dongwu-de difang hen xiao. | The doghouse / animal's house is small.
+Ni shi you-liliang-de nanren. | You're a confident/strong man.
+Xin-de qun hen you liliang. | The new community is strong.
+Zhe-ge shi ni-de zhi. | This is your book / document.
 ```
 
 ```exercise
-I will listen to you.
-The woman obeyed the man.
-The friends ate meat.
+You are strong.
+My community is large.
+Fresh water is a good thing.
 ```
 
 ```answers
-Wo ting ni.
-Nuren ting le nanren.
-Hao-de ren chi le dongwu.
+Ni hen you liliang.
+Wo-de qun hen da.
+Xin-de shui shi hao-de dongxi.
 ```

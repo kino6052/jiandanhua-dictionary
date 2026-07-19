@@ -1,17 +1,30 @@
 ---
 id: lesson-19
-title: "The Frontier"
+title: "Cooking Adventure"
 lessonNumber: 19
 type: lesson
 order: 19
 ---
 
+```vocab
+shuijiao | to sleep, nap
+ai | to love
+mifan | cereal, grain, rice
+wan | finished, past, end
+huo | fire, heat source, cooking heat
+diban | horizontal surface, floor, sofa
+kou | mouth, lips, door, opening
+```
+
 ```story
-Zhe-ge hen-duo-de ke-cheng gei ni xiao-de fangfa zhidao zhe-ge shuo. | These lessons have equipped you with basic guidance of how the language works.
-Houmian-de xie-de dongxi gei ni geng-duo-de fangfa. | The texts in Part 2 of this book provide more examples / further guidance.
-Duo-ci-de xie-de dongxi zai houmian. | The official dictionary / written thing of called-words can be found at the back.
-Ta limian you-le ni-jiao-de ci he fangfa. | It contains all the words and their structures/meanings.
-Zhe shijian, dongxi quanbu kan ni-de. | Now, everything depends completely on you.
-Zou zou, wan wan. | Go out toward good play-time / go enjoy yourself!
-Zuo dongxi, wan, ye ba ni bian hao! | Create things, play, and make yourself become good!
+"Maweijiu" nanren you yi-ge ta ai-de nuren. | Mawijo has a beloved woman/wife.
+Ta-de ni-jiao-de ci shi "Sili". | Her name/the word you call her is Sili.
+"Sili" zai diban-shang shuijiao. | Sili is sleeping on the sofa.
+Wan-shijian, "Sili" ba difang bian hao-le, ye yong shui ba yifu bian xin-le. | In the past-time/yesterday, Sili tidied up the place and washed the clothing.
+"Maweijiu" zai shenme shijian dao? | At what time will Mawijo arrive?
+You shengyin! | There is a noise!
+Zhe shijian, "Maweijiu" dao-le kou-de pangbian, ta na-le liang-ge xiao dongwu. | At this time, Mawijo arrives next to the door, carrying two small animals.
+"Sili" juede hen hao, yong kou mo "Maweijiu"-de tou. | Sili feels very good and touches Mawijo's head using her mouth/kisses him.
+Ta yong huo ba dongwu he mifan bian re-le. | She uses fire to make the animals and rice hot/cooks them.
+Chi-de dongxi hen hao! | The food is wonderful! / Bon appetit!
 ```
