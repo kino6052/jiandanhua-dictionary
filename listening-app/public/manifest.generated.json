@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-07-22T02:53:42.215Z",
+  "samples": [
+    {
+      "file": "audio/ban-xi-jian-zun.001.m4a",
+      "transcript": "ban-xi-jian-zun",
+      "syllables": [
+        "ban",
+        "xi",
+        "jian",
+        "zun"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/qing-leng-wan-yun.001.m4a",
+      "transcript": "qing-leng-wan-yun",
+      "syllables": [
+        "qing",
+        "leng",
+        "wan",
+        "yun"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/quan-qiu-kong-ken.001.m4a",
+      "transcript": "quan-qiu-kong-ken",
+      "syllables": [
+        "quan",
+        "qiu",
+        "kong",
+        "ken"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    }
+  ]
+}

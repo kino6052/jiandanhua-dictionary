@@ -8,6 +8,14 @@
       "port": 5173,
       "cwd": "haoshuode-app",
       "url": "http://127.0.0.1:5173"
+    },
+    {
+      "name": "listening-app",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5174,
+      "cwd": "listening-app",
+      "url": "http://127.0.0.1:5174"
     }
   ]
 }

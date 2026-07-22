@@ -5,7 +5,11 @@
       "Bash(bun run *)",
       "Bash(node -e ' *)",
       "Bash(mkdir -p \"C:/Repos/listening-practice-generator\")",
-      "Bash(bun generate.ts)"
+      "Bash(bun generate.ts)",
+      "Bash(bun --version)",
+      "Bash(bun install *)",
+      "Bash(bun test *)",
+      "Bash(powershell -Command \"Get-Process -Id \\(Get-NetTCPConnection -LocalPort 5174 -ErrorAction SilentlyContinue\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\")"
     ]
   }
 }

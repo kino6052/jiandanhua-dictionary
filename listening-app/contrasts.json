@@ -1,0 +1,26 @@
+{
+  "n_final": {
+    "description": "Syllables ending in a plain -n final (contrast vs ng_final).",
+    "match": { "endsWith": ["n"], "notEndsWith": ["ng"] }
+  },
+  "ng_final": {
+    "description": "Syllables ending in -ng.",
+    "match": { "endsWith": ["ng"] }
+  },
+  "u_no_n": {
+    "description": "Syllables with a ü/v sound and no nasal final (contrast vs u_n).",
+    "match": { "endsWith": ["v"], "notEndsWith": ["vn"] }
+  },
+  "u_n": {
+    "description": "Syllables ending in -vn (ün).",
+    "match": { "endsWith": ["vn"] }
+  },
+  "q_initial": {
+    "description": "q- initials (contrast vs x_initial).",
+    "match": { "startsWith": ["q"] }
+  },
+  "x_initial": {
+    "description": "x- initials (contrast vs q_initial).",
+    "match": { "startsWith": ["x"] }
+  }
+}
