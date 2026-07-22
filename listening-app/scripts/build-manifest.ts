@@ -20,6 +20,7 @@ const OUTPUT_FILE = join(
   "public",
   "manifest.generated.json",
 );
+const AUDIO_EXTENSIONS = [".m4a", ".mp3"];
 
 async function main() {
   const contrasts: ContrastsFile = JSON.parse(
@@ -35,7 +36,8 @@ async function main() {
 
   const samples: Sample[] = [];
   for (const filename of filenames.sort()) {
-    if (!filename.toLowerCase().endsWith(".m4a")) continue;
+    const lower = filename.toLowerCase();
+    if (!AUDIO_EXTENSIONS.some((ext) => lower.endsWith(ext))) continue;
 
     const parsed = parseFilename(filename);
     if (!parsed) {
