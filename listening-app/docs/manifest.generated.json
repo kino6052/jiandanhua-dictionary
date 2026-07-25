@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T03:26:34.651Z",
+  "generatedAt": "2026-07-25T10:33:42.420Z",
   "samples": [
     {
       "file": "audio/ban-xi-jian-zun.001.m4a",
@@ -16,6 +16,136 @@
       "contrasts": [
         "n_final",
         "x_initial"
+      ]
+    },
+    {
+      "file": "audio/dou-xv-yao-dao-hang-ji-shu.001.mp3",
+      "transcript": "dou-xv-yao-dao-hang-ji-shu",
+      "syllables": [
+        "dou",
+        "xv",
+        "yao",
+        "dao",
+        "hang",
+        "ji",
+        "shu"
+      ],
+      "syllableCount": 7,
+      "difficulty": "L3",
+      "hasTones": false,
+      "contrasts": [
+        "ng_final",
+        "u_no_n",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/gu-shi-xi-lie.001.mp3",
+      "transcript": "gu-shi-xi-lie",
+      "syllables": [
+        "gu",
+        "shi",
+        "xi",
+        "lie"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/hua-min-zu-de-we-da-fa-ming.001.mp3",
+      "transcript": "hua-min-zu-de-we-da-fa-ming",
+      "syllables": [
+        "hua",
+        "min",
+        "zu",
+        "de",
+        "we",
+        "da",
+        "fa",
+        "ming"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/ji-yi-yi-dian.001.mp3",
+      "transcript": "ji-yi-yi-dian",
+      "syllables": [
+        "ji",
+        "yi",
+        "yi",
+        "dian"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/jian-chi-he-xin-ji-shu-guan-jian.001.mp3",
+      "transcript": "jian-chi-he-xin-ji-shu-guan-jian",
+      "syllables": [
+        "jian",
+        "chi",
+        "he",
+        "xin",
+        "ji",
+        "shu",
+        "guan",
+        "jian"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/jin-tian-de-bei-dou.001.mp3",
+      "transcript": "jin-tian-de-bei-dou",
+      "syllables": [
+        "jin",
+        "tian",
+        "de",
+        "bei",
+        "dou"
+      ],
+      "syllableCount": 5,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/kong-you-zou-dao-tai-kong.001.mp3",
+      "transcript": "kong-you-zou-dao-tai-kong",
+      "syllables": [
+        "kong",
+        "you",
+        "zou",
+        "dao",
+        "tai",
+        "kong"
+      ],
+      "syllableCount": 6,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "ng_final"
       ]
     },
     {
@@ -37,6 +167,22 @@
       ]
     },
     {
+      "file": "audio/qu-you-bei-shuo.001.mp3",
+      "transcript": "qu-you-bei-shuo",
+      "syllables": [
+        "qu",
+        "you",
+        "bei",
+        "shuo"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "q_initial"
+      ]
+    },
+    {
       "file": "audio/quan-qiu-kong-ken.001.m4a",
       "transcript": "quan-qiu-kong-ken",
       "syllables": [
@@ -52,6 +198,157 @@
         "n_final",
         "ng_final",
         "q_initial"
+      ]
+    },
+    {
+      "file": "audio/ren-lei-cong-lu-di.mp3",
+      "transcript": "ren-lei-cong-lu-di",
+      "syllables": [
+        "ren",
+        "lei",
+        "cong",
+        "lu",
+        "di"
+      ],
+      "syllableCount": 5,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/ru-guo-yao-xuan-chu-yi-wei.001.mp3",
+      "transcript": "ru-guo-yao-xuan-chu-yi-wei",
+      "syllables": [
+        "ru",
+        "guo",
+        "yao",
+        "xuan",
+        "chu",
+        "yi",
+        "wei"
+      ],
+      "syllableCount": 7,
+      "difficulty": "L3",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/si-nan-zhi.001.mp3",
+      "transcript": "si-nan-zhi",
+      "syllables": [
+        "si",
+        "nan",
+        "zhi"
+      ],
+      "syllableCount": 3,
+      "difficulty": "L1",
+      "hasTones": false,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/suo-you-de-zhe-xue-jia-li.001.mp3",
+      "transcript": "suo-you-de-zhe-xue-jia-li",
+      "syllables": [
+        "suo",
+        "you",
+        "de",
+        "zhe",
+        "xue",
+        "jia",
+        "li"
+      ],
+      "syllableCount": 7,
+      "difficulty": "L3",
+      "hasTones": false,
+      "contrasts": [
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/yang-you-zou-dao-tian.001.mp3",
+      "transcript": "yang-you-zou-dao-tian",
+      "syllables": [
+        "yang",
+        "you",
+        "zou",
+        "dao",
+        "tian"
+      ],
+      "syllableCount": 5,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/ying-gai-shuo-wo-men-hong-yang-le-zhe-zhong.001.mp3",
+      "transcript": "ying-gai-shuo-wo-men-hong-yang-le-zhe-zhong",
+      "syllables": [
+        "ying",
+        "gai",
+        "shuo",
+        "wo",
+        "men",
+        "hong",
+        "yang",
+        "le",
+        "zhe",
+        "zhong"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/zou-dao-hai-yan-cong-hai.001.mp3",
+      "transcript": "zou-dao-hai-yan-cong-hai",
+      "syllables": [
+        "zou",
+        "dao",
+        "hai",
+        "yan",
+        "cong",
+        "hai"
+      ],
+      "syllableCount": 6,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/zui-rang-ren-yi-yan-nan.001.mp3",
+      "transcript": "zui-rang-ren-yi-yan-nan",
+      "syllables": [
+        "zui",
+        "rang",
+        "ren",
+        "yi",
+        "yan",
+        "nan"
+      ],
+      "syllableCount": 6,
+      "difficulty": "L2",
+      "hasTones": false,
+      "contrasts": [
+        "n_final",
+        "ng_final"
       ]
     }
   ]
