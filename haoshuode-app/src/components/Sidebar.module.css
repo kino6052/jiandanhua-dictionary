@@ -168,6 +168,13 @@
   border-color: var(--accent);
 }
 
+@media print {
+  .sidebar,
+  .hamburger {
+    display: none !important;
+  }
+}
+
 .hamburger {
   display: none;
   position: fixed;

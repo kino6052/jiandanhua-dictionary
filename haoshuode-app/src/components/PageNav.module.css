@@ -7,6 +7,10 @@
   border-top: 2px dashed var(--border-sidebar);
 }
 
+@media print {
+  .nav { display: none !important; }
+}
+
 .btn {
   display: flex;
   align-items: center;

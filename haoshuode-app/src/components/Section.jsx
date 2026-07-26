@@ -19,6 +19,15 @@ export function Section({ data, children }) {
         <div class={styles.lessonHeader}>
           <div class={styles.lessonNum}>{meta.lessonNumber}</div>
           <h2 class={styles.lessonTitle}>{meta.title}</h2>
+          <button
+            type="button"
+            class={styles.printBtn}
+            onClick={() => window.print()}
+            aria-label="Print this chapter"
+            title="Print this chapter"
+          >
+            🖨
+          </button>
         </div>
       ) : (
         <>
@@ -29,6 +38,15 @@ export function Section({ data, children }) {
             <div class={styles.badgeLabel} style={{ color: theme.color }}>
               {meta.type === 'intro' ? 'Introduction' : meta.title}
             </div>
+            <button
+              type="button"
+              class={styles.printBtn}
+              onClick={() => window.print()}
+              aria-label="Print this page"
+              title="Print this page"
+            >
+              🖨
+            </button>
           </div>
           <h2 class={styles.heading}>{meta.title}</h2>
         </>

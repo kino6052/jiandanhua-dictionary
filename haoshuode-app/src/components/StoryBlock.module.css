@@ -12,6 +12,10 @@
   margin-bottom: 20px;
 }
 
+@media print {
+  .line { break-inside: avoid; }
+}
+
 .pinyin {
   font-weight: 700;
   font-size: 16.5px;

@@ -41,3 +41,8 @@
   color: var(--accent-text);
 }
 .prose blockquote p { margin: 0; }
+
+@media print {
+  .prose p { orphans: 3; widows: 3; }
+  .prose blockquote { break-inside: avoid; }
+}

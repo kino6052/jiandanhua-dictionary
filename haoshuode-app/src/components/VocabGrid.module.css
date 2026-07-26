@@ -24,6 +24,11 @@
   border-color: var(--accent);
 }
 
+@media print {
+  .grid { display: block; }
+  .card { break-inside: avoid; margin-bottom: 8px; }
+}
+
 .pinyin {
   font-weight: 700;
   font-size: 17px;

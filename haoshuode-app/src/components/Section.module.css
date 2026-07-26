@@ -3,6 +3,21 @@
   scroll-margin-top: 24px;
 }
 
+@media print {
+  .section {
+    break-before: page;
+    margin-bottom: 0;
+  }
+  .section:first-of-type {
+    break-before: avoid;
+  }
+  .lessonHeader,
+  .badgeRow,
+  .heading {
+    break-after: avoid;
+  }
+}
+
 .badgeRow {
   display: flex;
   align-items: center;
@@ -56,4 +71,27 @@
   font-family: var(--font-heading);
   font-size: 26px;
   margin: 0;
+}
+
+.printBtn {
+  margin-left: auto;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 2px solid var(--border-card);
+  background: var(--bg-card);
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s;
+}
+.printBtn:hover {
+  border-color: var(--accent);
+}
+
+@media print {
+  .printBtn { display: none !important; }
 }

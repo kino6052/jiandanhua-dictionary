@@ -16,3 +16,7 @@
   color: var(--accent);
   background: var(--bg-accent-light);
 }
+
+@media print {
+  .btn { display: none !important; }
+}

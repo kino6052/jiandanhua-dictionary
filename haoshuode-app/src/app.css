@@ -81,6 +81,52 @@ html.font-classic { --font-body: 'Source Serif 4', Georgia, serif; }
 
 a { color: inherit; }
 
+@media print {
+  :root,
+  :root[data-theme="dark"] {
+    --bg-page: #ffffff;
+    --bg-card: #ffffff;
+    --bg-practice: #ffffff;
+    --bg-callout: #ffffff;
+    --bg-accent-light: #ffffff;
+    --border-card: #999999;
+    --border-sidebar: #999999;
+    --border-callout: #999999;
+    --border-progress: #999999;
+    --text-primary: #000000;
+    --text-body: #111111;
+    --text-tertiary: #222222;
+    --text-muted: #444444;
+    --text-label: #444444;
+    --accent-text: #000000;
+    --green: #000000;
+    --green-bg: #ffffff;
+  }
+
+  body {
+    overflow: visible !important;
+    height: auto !important;
+  }
+  #app { height: auto !important; }
+
+  .app-shell {
+    display: block !important;
+    height: auto !important;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .page-inner {
+    min-height: 0 !important;
+    display: block !important;
+    padding: 0 !important;
+  }
+}
+
 .app-shell {
   display: flex;
   height: 100vh;

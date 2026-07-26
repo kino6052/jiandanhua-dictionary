@@ -85,3 +85,20 @@
 .necessityLabel {
   font-weight: 700;
 }
+
+.printOnly {
+  display: none;
+}
+
+@media print {
+  .wrap {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+  .screenOnly {
+    display: none;
+  }
+  .printOnly {
+    display: block;
+  }
+}
