@@ -22,9 +22,9 @@ Greetings and emotional imperatives in Hao-shuo-de rely on standard Mandarin str
 
 ```examples
 Ni hao ma? | Hello! / Are you well?
-Zou ni-de difang! | Go to your room!
+qù ni-de difang! | Go to your room!
 Bu shuo. Zuo dongxi. | Don't speak. Take action.
-Wo zou le. | I am going. / Goodbye.
+Wo qù le. | I am going. / Goodbye.
 Na-ge dongwu jiao "wang-wang". | That animal goes "woof woof".
 Weishenme ni juede huai? | Why are you sad / feeling bad?
 Ni hen da! | You're so big!

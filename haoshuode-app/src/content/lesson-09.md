@@ -23,8 +23,8 @@ If no other action verb is present in the clause, the coverb itself steps up to 
 Wo gei ta yu. | I give fish to her.
 Wo zai difang gei ta yu. | I give fish to her in the house.
 Wo zai difang. | I am in the house.
-Wo zou ni-de pangbian. | I am moving towards you / going to your side.
-Wo-de fumu zou-dao hen-da-de shui. | My parent is going to the sea / big water.
+Wo qù ni-de pangbian. | I am moving towards you / going to your side.
+Wo-de fumu qù kan hen-da-de shui. | My parent is going to the sea / big water.
 Yinwei zhe-ge, wo zuo le hen duo. | Because of this, I worked a lot.
 Wo yong Hao-shuo-de shuo. | I speak in Hao-shuo-de / use Hao-shuo-de to speak.
 ```

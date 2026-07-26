@@ -9,7 +9,14 @@
       "Bash(bun --version)",
       "Bash(bun install *)",
       "Bash(bun test *)",
-      "Bash(powershell -Command \"Get-Process -Id \\(Get-NetTCPConnection -LocalPort 5174 -ErrorAction SilentlyContinue\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\")"
+      "Bash(powershell -Command \"Get-Process -Id \\(Get-NetTCPConnection -LocalPort 5174 -ErrorAction SilentlyContinue\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(node -e \"const d=require\\('./src/data/dictionary.json'\\); let n=0; for\\(const c of d.categories\\) n+=c.words.length; console.log\\(n, 'words in', d.categories.length, 'categories'\\)\")",
+      "Bash(node -e \"const d=require\\('./src/data/dictionary.json'\\); d.categories.forEach\\(\\(c,i\\)=>console.log\\(i, c.title.eng, '-', c.words.length\\)\\)\")",
+      "Bash(node scripts/assign-word-ids.js)",
+      "Bash(powershell -Command \"Get-Process -Id \\(Get-NetTCPConnection -LocalPort 5173 -ErrorAction SilentlyContinue\\).OwningProcess -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5173/)",
+      "Bash(netstat -ano)"
     ]
   }
 }

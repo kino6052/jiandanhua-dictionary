@@ -1,5 +1,6 @@
 import matter from 'gray-matter';
 import { marked } from 'marked';
+import { loadWordIndex, resolveWordRefs } from './scripts/word-refs.js';
 
 const FENCE_TYPES = 'vocab|examples|exercise|answers|story|dict';
 const HEADING_RE = /^##\s+(.+)$/gm;
@@ -50,12 +51,15 @@ function parseDict(raw, category) {
 }
 
 export default function markdownPlugin() {
+  const wordIndex = loadWordIndex();
+
   return {
     name: 'vite-plugin-markdown',
     transform(src, id) {
       if (!id.endsWith('.md')) return null;
 
-      const { data: meta, content: rawContent } = matter(src);
+      const resolvedSrc = resolveWordRefs(src, wordIndex);
+      const { data: meta, content: rawContent } = matter(resolvedSrc);
       const content = rawContent.replace(/\r\n/g, '\n');
 
       const structured = { vocab: [], examples: [], exercise: [], answers: [], story: [], dict: [] };

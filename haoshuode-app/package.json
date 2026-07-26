@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/generate-pages.js",
-    "preview": "vite preview"
+    "build": "node scripts/assign-word-ids.js && vite build && node scripts/generate-pages.js",
+    "preview": "vite preview",
+    "assign-word-ids": "node scripts/assign-word-ids.js"
   },
   "dependencies": {
     "preact": "^10.25.0"

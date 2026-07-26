@@ -32,6 +32,8 @@ public/
 scripts/
   generate-pages.js       # static route generation (part of `bun run build`)
   generate-dictionary.js  # regenerates dictionary Markdown from data/dictionary.json
+  assign-word-ids.js      # backfills a stable `id` onto new dictionary words (part of `bun run build`)
+  word-refs.js            # resolves {{word:ID}} refs in chapter content to the live term
 ```
 
 ## Contributing content
@@ -39,6 +41,7 @@ scripts/
 - **Lessons/intro/appendix pages** live in `src/content/*.md`, one file per language variant sharing the same `id`: the base filename (e.g. `lesson-05.md`) is English, `lesson-05.rus.md` is Russian, `lesson-05.zh.md` is Chinese. Each file needs YAML frontmatter (`id`, `title`, `type`, `order`, `language`, etc. — copy an existing lesson's frontmatter as a template).
 - Use ` ```exercise ``` ` / ` ```answers``` ` fenced blocks for practice questions, and `<audio-example zh="汉字">pinyin</audio-example>` inline wherever a word should be clickable-to-hear.
 - **Audio clips** go in `public/audio/`, named to match what `<audio-example>` tags in the content expect.
+- **Reference a dictionary word by id, not by spelling.** Every word in `dictionary.json` has a stable `id` (e.g. `good`, `communicate`, `possessive-marker`), independent of its current pinyin term. Write `{{word:ID}}` in chapter content instead of hardcoding the pinyin, and it resolves to the word's current term at build/dev time — so renaming a word in the dictionary (see the earlier discussion on `zou` vs `qu` vs `lù`) updates every chapter that references it, with no manual find-and-replace. Example: `` <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> `` in `lesson-01.md`. New dictionary entries get their `id` auto-assigned by `bun run assign-word-ids` (also runs automatically as the first step of `bun run build`) — it only fills in missing ids, so existing ones are never changed once set. Referencing an id that doesn't exist fails the build with a clear error.
 - **The dictionary is generated, not hand-written.** Edit `src/data/dictionary.json`, then run:
   ```
   bun scripts/generate-dictionary.js

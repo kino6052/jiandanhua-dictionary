@@ -25,7 +25,7 @@ In line with standard Chinese modifier syntax, proper names always behave as adj
 ```examples
 Wo-de ni-jiao-de ci shi "Apu". | My name is Apu.
 "Afeililiya" difang you hen-duo ren. | Africa has many people.
-"Zhongguo" nuren zou-dao na-ge fangfa. | The Chinese lady is going to that street/way.
+"Zhongguo" nuren qù na-ge difang. | The Chinese lady is going to that street/way.
 "Belin" difang zai "Deguo" difang. | Berlin is in Germany.
 Ni zhidao-bu-zhidao "Yingyu"? | Do you know English?
 "Sulu" nanren da huai-ren. | Mr. Sulu fights a bad guy.
@@ -41,5 +41,5 @@ I am going to England.
 ```answers
 Ni shi-bu-shi "Deguo" difang-de ren?
 Ni-de ni-jiao-de ci shi shenme?
-Wo zou-dao "Yingguo" difang.
+Wo qù "Yingguo" difang.
 ```

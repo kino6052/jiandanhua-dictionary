@@ -22,9 +22,9 @@ One thing pinyin can't hide, though, is tone — and tone is not a decoration, i
 
 There is also a neutral tone. It is written without a tone mark — just a plain letter: **a**. The neutral syllable is shorter and receives no emphasis.
 
-In <audio-example zh="好说的">Hǎo-shuō-de</audio-example>, the `-de` is neutral.
+In <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example>, the `-de` is neutral.
 
-Reading Chinese syllable by syllable is the rule. The neutral tone is the single exception. When a neutral tone appears, the syllable before it takes the stress. The neutral syllable itself is just a short, attached sound. <audio-example zh="好说的">Hǎo-shuō-de</audio-example> is not three equal beats. It is pronounced _how-show-duh_ — the final syllable trails off.
+Reading Chinese syllable by syllable is the rule. The neutral tone is the single exception. When a neutral tone appears, the syllable before it takes the stress. The neutral syllable itself is just a short, attached sound. <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> is not three equal beats. It is pronounced _how-show-duh_ — the final syllable trails off.
 
 Without this exception, spoken Chinese would become a mechanical sequence of separate blocks — correct, but unnatural. The neutral tone is what keeps the rhythm from breaking apart.
 
