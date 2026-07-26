@@ -21,6 +21,10 @@ const UI = {
     grammar: "Grammar",
     practice: "Practice Exercise",
     logoSub: "the minimal book",
+    tldrTitle: "TL;DR",
+    tldrWhy: "Why this matters:",
+    tldrOverview: "Chapter overview",
+    missingContent: "Some content isn't translated yet for section(s):",
   },
   rus: {
     introduction: "Введение",
@@ -38,6 +42,10 @@ const UI = {
     grammar: "Грамматика",
     practice: "Практическое задание",
     logoSub: "минимизированная книга",
+    tldrTitle: "Кратко",
+    tldrWhy: "Почему это важно:",
+    tldrOverview: "Обзор главы",
+    missingContent: "Часть содержимого пока не переведена в разделе(ах):",
   },
   zh: {
     introduction: "导言",
@@ -55,6 +63,10 @@ const UI = {
     grammar: "语法",
     practice: "练习",
     logoSub: "最小化教材",
+    tldrTitle: "摘要",
+    tldrWhy: "为什么重要：",
+    tldrOverview: "本章概览",
+    missingContent: "以下章节的内容尚未翻译：",
   },
 };
 

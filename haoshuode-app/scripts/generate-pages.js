@@ -2,6 +2,7 @@ import { readFileSync, readdirSync, mkdirSync, writeFileSync } from 'fs';
 import { resolve, join } from 'path';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import { parse as parseYaml } from 'yaml';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -20,14 +21,25 @@ const LANG_MAP = { eng: 'en', rus: 'ru', zh: 'zh' };
 const rootHtml = readFileSync(join(DIST_DIR, 'index.html'), 'utf-8');
 
 const routes = new Set();
-const files = readdirSync(CONTENT_DIR).filter(f => f.endsWith('.md'));
+const allFiles = readdirSync(CONTENT_DIR);
 
-for (const file of files) {
+// Markdown: one file per language, language given in frontmatter.
+for (const file of allFiles.filter(f => f.endsWith('.md'))) {
   const raw = readFileSync(join(CONTENT_DIR, file), 'utf-8');
   const { data } = matter(raw);
   const lang = LANG_MAP[data.language] || 'en';
   routes.add(lang);
   if (data.id) routes.add(`${lang}/${data.id}`);
+}
+
+// Chapter YAML: one file covers all languages.
+for (const file of allFiles.filter(f => f.endsWith('.yaml') || f.endsWith('.yml'))) {
+  const raw = readFileSync(join(CONTENT_DIR, file), 'utf-8');
+  const chapter = parseYaml(raw);
+  for (const lang of Object.values(LANG_MAP)) {
+    routes.add(lang);
+    if (chapter.id) routes.add(`${lang}/${chapter.id}`);
+  }
 }
 
 function htmlForDepth(depth) {

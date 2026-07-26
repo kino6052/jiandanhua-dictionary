@@ -10,6 +10,8 @@ import { StoryBlock } from './components/StoryBlock.jsx';
 import { DictionarySection } from './components/DictionarySection.jsx';
 import { ProverbList } from './components/ProverbList.jsx';
 import { PageNav } from './components/PageNav.jsx';
+import { TldrSummary } from './components/TldrSummary.jsx';
+import { MissingTranslationBanner } from './components/MissingTranslationBanner.jsx';
 import { useAppRouter } from './lib/use-router.js';
 import { useTheme } from './lib/use-theme.js';
 
@@ -39,6 +41,8 @@ function renderContent(s, lang) {
   }
   return (
     <>
+      {s.missingBlocks && <MissingTranslationBanner blocks={s.missingBlocks} lang={lang} />}
+      {s.tldrSummary && <TldrSummary key={s.meta.id} items={s.tldrSummary} lang={lang} />}
       <VocabGrid items={s.vocab} />
       <GrammarBlock html={s.bodyHtml} lang={lang} />
       {s.story.length > 0 && <StoryBlock items={s.story} />}

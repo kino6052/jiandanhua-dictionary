@@ -1,0 +1,178 @@
+id: lesson-02
+type: lesson
+lessonNumber: 2
+order: 2
+title:
+  eng: "Words"
+  rus: "Слова"
+  zh: "词语"
+
+summary:
+  eng: "Hao-shuo-de words are memorized whole, never invented on the fly; nouns have no plural, \"this/that\" hyphenates to the one universal measure word gè, and adding -de to a verb turns it into a noun."
+  rus: "Слова Hao-shuo-de заучиваются целиком и никогда не изобретаются на ходу; у существительных нет множественного числа, «это/то» присоединяется дефисом к единственному универсальному счётному слову gè, а частица -de превращает глагол в существительное."
+  zh: "Hao-shuo-de 的词都是整体记住的，从不临时造词；名词没有复数，\"这个/那个\"通过连字符接到唯一的通用量词 gè 上，动词加上 -de 就变成名词。"
+
+blocks:
+  - type: vocab
+    items:
+      - term: "dōngxi"
+        ttsText: "东西"
+        definition:
+          eng: "thing, something, being"
+          rus: "вещь, нечто, существо"
+          zh: "东西，事物，存在物"
+      - term: "rén"
+        ttsText: "人"
+        definition:
+          eng: "person, human"
+          rus: "человек, человеческое существо"
+          zh: "人，人类"
+      - term: "shuǐguǒ"
+        ttsText: "水果"
+        definition:
+          eng: "fruit, vegetable"
+          rus: "фрукт, овощ"
+          zh: "水果，蔬菜"
+      - term: "xiě"
+        ttsText: "写"
+        definition:
+          eng: "write"
+          rus: "писать"
+          zh: "写"
+      - term: "nǚrén"
+        ttsText: "女人"
+        definition:
+          eng: "woman, female"
+          rus: "женщина, женского пола"
+          zh: "女人，女性"
+      - term: "zhè"
+        ttsText: "这"
+        definition:
+          eng: "this"
+          rus: "этот"
+          zh: "这"
+      - term: "dòngwù"
+        ttsText: "动物"
+        definition:
+          eng: "animal, land mammal"
+          rus: "животное, наземное млекопитающее"
+          zh: "动物，陆地哺乳动物"
+
+  - type: prose
+    text:
+      eng: |-
+        Look again at <audio-example zh="东西">dōngxi</audio-example> and <audio-example zh="女人">nǚrén</audio-example> above. <audio-example zh="东西">dōngxi</audio-example> is built from <audio-example zh="东">dōng</audio-example> (east) and <audio-example zh="西">xi</audio-example> (west) — yet it means "thing," with no geography left in it. <audio-example zh="女人">nǚrén</audio-example> is more transparent: <audio-example zh="女">nǚ</audio-example> (female) plus <audio-example zh="人">rén</audio-example> (person) gives you "woman" plainly. Chinese words are built from roots the same way English words are — `understand` is `under` plus `stand`, `telephone` is `far` plus `sound` — but a fluent speaker doesn't reassemble the parts to get the meaning. A word is learned whole; its roots are history, not a formula you run each time you use it.
+      rus: |-
+        Посмотрите ещё раз на <audio-example zh="东西">dōngxi</audio-example> и <audio-example zh="女人">nǚrén</audio-example> выше. <audio-example zh="东西">dōngxi</audio-example> составлено из <audio-example zh="东">dōng</audio-example> (восток) и <audio-example zh="西">xi</audio-example> (запад) — но означает «вещь», без единого следа географии. <audio-example zh="女人">nǚrén</audio-example> прозрачнее: <audio-example zh="女">nǚ</audio-example> (женский) плюс <audio-example zh="人">rén</audio-example> (человек) прямо дают «женщину». Китайские слова строятся из корней точно так же, как английские или русские — «пароход» это «пар» плюс «ход», «самолёт» это «сам» плюс «лёт» — но носитель языка не собирает слово из частей заново каждый раз, чтобы понять его смысл. Слово выучивается целиком; его корни — это история, а не формула, которую вы применяете каждый раз, когда его используете.
+      zh: |-
+        再看看上面的 <audio-example zh="东西">dōngxi</audio-example> 和 <audio-example zh="女人">nǚrén</audio-example>。<audio-example zh="东西">dōngxi</audio-example> 由 <audio-example zh="东">dōng</audio-example>（东）和 <audio-example zh="西">xi</audio-example>（西）组成——但它的意思是"东西/事物"，跟方位毫无关系了。<audio-example zh="女人">nǚrén</audio-example> 就透明得多：<audio-example zh="女">nǚ</audio-example>（女性）加上 <audio-example zh="人">rén</audio-example>（人）直接就是"女人"。中文的词跟英语、俄语的词一样，都是由字根拼出来的——英语的 `understand`（理解）是 `under`（下面）加 `stand`（站立），`telephone`（电话）是 `tele`（远）加 `phone`（声音）——但一个母语者不会每次用词的时候都把部件重新拼一遍来理解意思。词是整体记下来的；字根是它的来历，不是你每次使用时都要运行一遍的公式。
+    tldr:
+      eng: "Compound words are learned whole; their roots are history, not a formula."
+      rus: "Составные слова заучиваются целиком; их корни — история, а не формула."
+      zh: "复合词是整体记住的；字根是它的来历，不是公式。"
+    necessity:
+      eng: "Sets expectations for how to treat multi-syllable dictionary words."
+      rus: "Задаёт, как относиться к многослоговым словарным словам."
+      zh: "确定该如何对待多音节的词典词。"
+
+  - type: prose
+    text:
+      eng: |-
+        Hao-shuo-de treats its dictionary the same way: every word on the list is memorized whole, roots and all. What Hao-shuo-de won't do is let you mint new words that way. If you need a meaning the dictionary doesn't have, you won't fuse two roots into something that reads like a new solid word — you'll say it explicitly, with a hyphen.
+      rus: |-
+        <audio-example zh="好说的">Hǎo-shuō-de</audio-example> обращается со своим словарём точно так же: каждое слово из списка запоминается целиком, вместе со всеми корнями. Чего <audio-example zh="好说的">Hǎo-shuō-de</audio-example> не позволяет — так это создавать новые слова таким способом самому. Если вам нужно значение, которого нет в словаре, вы не будете сплавлять два корня в нечто похожее на новое цельное слово — вы скажете это явно, через дефис.
+      zh: |-
+        <audio-example zh="好说的">Hǎo-shuō-de</audio-example> 对待自己的词典也是一样：列表里的每一个词都是连字根一起整体记住的。<audio-example zh="好说的">Hǎo-shuō-de</audio-example> 不允许的，是让你自己用这种方式去造新词。如果你需要一个词典里没有的意思，你不会把两个字根粘成一个看起来像新词典词的东西——你会用连字符明确地把它说出来。
+    tldr:
+      eng: "Hao-shuo-de's dictionary is fixed — missing meanings are said explicitly with a hyphen, not fused into new words."
+      rus: "Словарь Hao-shuo-de фиксирован — недостающие значения выражаются явно через дефис, а не сплавляются в новые слова."
+      zh: "Hao-shuo-de 的词典是固定的——缺失的意思用连字符明确说出来，而不是拼成新词。"
+    necessity:
+      eng: "States the rule that keeps the vocabulary from silently growing on its own."
+      rus: "Формулирует правило, которое не даёт словарю незаметно разрастаться самому по себе."
+      zh: "确立防止词汇表自行悄悄膨胀的规则。"
+
+  - type: prose
+    text:
+      eng: |-
+        **No Plurals:** By themselves, Hao-shuo-de nouns are completely number-neutral. Context dictates the volume. For example, the word <audio-example zh="女人">nǚrén</audio-example> can mean either "woman" or "women" depending on the situation. If you ever need to make "many" explicit, that job belongs to a separate word placed elsewhere in the sentence — never to the noun itself. The noun's shape never changes no matter how many you mean; only the sentence around it can say so. More on this in the next chapter.
+      rus: |-
+        **Отсутствие множественного числа:** Сами по себе существительные <audio-example zh="好说的">Hǎo-shuō-de</audio-example> полностью нейтральны к числу. Контекст определяет количество. Например, слово <audio-example zh="女人">nǚrén</audio-example> может означать и «женщина», и «женщины» в зависимости от ситуации. Если вам когда-нибудь понадобится явно сказать «много», эту работу берёт на себя отдельное слово, стоящее в другом месте предложения, — но никогда не само существительное. Форма существительного не меняется, сколько бы вы ни имели в виду; сказать об этом может только предложение вокруг него. Подробнее — в следующей главе.
+      zh: |-
+        **没有复数：** <audio-example zh="好说的">Hǎo-shuō-de</audio-example> 的名词本身完全不区分数量。上下文决定数量。例如，<audio-example zh="女人">nǚrén</audio-example> 这个词根据情况可以表示"女人"或"女人们"。如果你确实需要把"多"说清楚，这个任务交给句子里另一个独立的词来完成——绝不会落在名词本身上。不管你指的是多少，名词的样子都不会变；能说清楚的，只有名词周围的那句话。下一章会更详细地展开这一点。
+    tldr:
+      eng: "Nouns are number-neutral; context (not the noun) shows singular vs. plural."
+      rus: "Существительные нейтральны к числу; число показывает контекст, а не само существительное."
+      zh: "名词不分单复数；由上下文而非名词本身表示数量。"
+    necessity:
+      eng: "Removes a whole grammar category (plural marking) the reader would otherwise expect."
+      rus: "Убирает целую грамматическую категорию (маркировку множественного числа), которую иначе читатель бы ожидал."
+      zh: "去掉了读者本来会预期存在的整整一个语法范畴（复数标记）。"
+
+  - type: prose
+    text:
+      eng: |-
+        **Pointing to Things:** To say "this" or "that," Hao-shuo-de links the demonstrative pointers (<audio-example zh="这">zhè</audio-example> or <audio-example zh="那">nà</audio-example>) directly to the universal measure word <audio-example zh="个">gè</audio-example> using a hyphen (<audio-example zh="这个">zhè-ge</audio-example> / <audio-example zh="那个">nà-ge</audio-example>).
+      rus: |-
+        **Указание на предметы:** Чтобы сказать «это» или «то», <audio-example zh="好说的">Hǎo-shuō-de</audio-example> связывает указательные местоимения (<audio-example zh="这">zhè</audio-example> или <audio-example zh="那">nà</audio-example>) с универсальным счётным словом <audio-example zh="个">gè</audio-example> через дефис (<audio-example zh="这个">zhè-ge</audio-example> / <audio-example zh="那个">nà-ge</audio-example>).
+      zh: |-
+        **指示事物：** 要说"这个"或"那个"，<audio-example zh="好说的">Hǎo-shuō-de</audio-example> 把指示词（<audio-example zh="这">zhè</audio-example> 或 <audio-example zh="那">nà</audio-example>）用连字符直接连到通用量词 <audio-example zh="个">gè</audio-example> 上（<audio-example zh="这个">zhè-ge</audio-example> / <audio-example zh="那个">nà-ge</audio-example>）。
+    tldr:
+      eng: "\"This\"/\"that\" are formed by hyphenating zhè/nà to the measure word gè."
+      rus: "«Этот»/«тот» образуются присоединением zhè/nà через дефис к счётному слову gè."
+      zh: "\"这个\"/\"那个\" 是把 zhè/nà 用连字符接到量词 gè 上构成的。"
+    necessity:
+      eng: "Teaches the actual construction needed to point at something, used constantly."
+      rus: "Учит реальной конструкции, необходимой для указания на предмет, — она используется постоянно."
+      zh: "教会指示事物时实际会一直用到的构造方法。"
+
+  - type: prose
+    text:
+      eng: |-
+        **Why the Extra Word?** <audio-example zh="人">rén</audio-example> by itself names the idea of "person" — not one particular person you could point at. To point at one, Chinese needs a small word that turns the idea into something countable, the same way English says "a **sheet** of paper" instead of just "a paper." Chinese does this for every noun, not only special cases, so the piece can't be skipped — <audio-example zh="这人">zhè rén</audio-example> reaches for something that isn't there yet; <audio-example zh="这个人">zhè-ge rén</audio-example> finishes the thought. Real Mandarin actually has dozens of these counting words, each tied to a noun's shape — flat things, long things, animals, bound books, and so on — and picking the right one is one of the genuinely hard parts of learning Chinese. Hao-shuo-de skips that: <audio-example zh="个">gè</audio-example> counts everything, every time. You'll never have to guess which one a noun takes, because there's only ever one.
+      rus: |-
+        **Зачем нужно лишнее слово?** <audio-example zh="人">rén</audio-example> само по себе называет идею «человека» — не одного конкретного человека, на которого можно было бы указать. Чтобы указать на одного, китайскому нужно небольшое слово, которое превращает идею в нечто исчисляемое — точно так же, как по-русски говорят «**лист** бумаги», а не просто «бумага». Китайский делает так с каждым существительным, а не только в особых случаях, поэтому этот кусочек нельзя пропустить — <audio-example zh="这人">zhè rén</audio-example> тянется к тому, чего там ещё нет; <audio-example zh="这个人">zhè-ge rén</audio-example> завершает мысль. В настоящем мандаринском на самом деле есть десятки таких счётных слов, и каждое привязано к форме существительного — плоские предметы, длинные предметы, животные, переплетённые книги и так далее, — а подобрать правильное слово — одна из по-настоящему сложных частей изучения китайского. <audio-example zh="好说的">Hǎo-shuō-de</audio-example> пропускает всё это: <audio-example zh="个">gè</audio-example> считает всё подряд, каждый раз. Вам никогда не придётся гадать, какое слово подходит существительному, — оно всегда одно и то же.
+      zh: |-
+        **为什么少不了这个字？** <audio-example zh="人">rén</audio-example> 单独出现时，指的是"人"这个概念，不是你能用手指着的某一个人。要指某一个人，得有个小词把这个概念变成可以数的一个单位——这就是为什么 <audio-example zh="这人">zhè rén</audio-example> 读起来总觉得少了点什么，而 <audio-example zh="这个人">zhè-ge rén</audio-example> 才是完整的一句话。真正的普通话里，这样的量词有几十个，各自配不同形状的名词——扁的用"张"，长条的用"条"，动物用"只"，装订成册的用"本"……对母语者来说这是本能，可对学习者来说，记住哪个名词配哪个量词，是中文里公认最费工夫的部分之一。<audio-example zh="好说的">Hǎo-shuō-de</audio-example> 把这些全部收进一个词里：<audio-example zh="个">gè</audio-example> 什么都能数，从头到尾都是它。学习者永远不用猜该配哪个量词，因为答案永远一样。
+    tldr:
+      eng: "Chinese nouns need a measure word to become countable; Hao-shuo-de uses one, gè, for everything."
+      rus: "Китайским существительным нужно счётное слово, чтобы стать исчисляемыми; Hao-shuo-de использует одно, gè, для всего."
+      zh: "中文名词需要量词才能被计数；Hao-shuo-de 用一个 gè 涵盖所有情况。"
+    necessity:
+      eng: "Explains why gè exists at all, rather than presenting it as an arbitrary rule."
+      rus: "Объясняет, зачем вообще нужно gè, а не просто преподносит его как произвольное правило."
+      zh: "解释 gè 为什么存在，而不只是把它当作任意规定。"
+
+  - type: prose
+    text:
+      eng: |-
+        **Action-to-Noun Building:** In Mandarin, you can easily build nouns out of verbs by adding the particle <audio-example zh="的">de</audio-example>. Because Hao-shuo-de avoids cluttering your brain with separate specialized words for "book," "paper," or "document," these concepts are elegantly expressed as a compound unit meaning **"a written thing"** (<audio-example zh="写的东西">xiě-de dōngxi</audio-example>).
+      rus: |-
+        **Превращение действия в существительное:** В мандаринском языке можно легко образовать существительные из глаголов, добавив частицу <audio-example zh="的">de</audio-example>. Поскольку <audio-example zh="好说的">Hǎo-shuō-de</audio-example> избегает загромождать ваш мозг отдельными специальными словами для «книги», «бумаги» или «документа», эти понятия элегантно выражаются как составная единица, означающая «написанная вещь» (<audio-example zh="写的东西">xiě-de dōngxi</audio-example>).
+      zh: |-
+        **动词变名词：** 在普通话中，你可以通过在动词后加助词 <audio-example zh="的">de</audio-example> 轻松地把动词变成名词。因为 <audio-example zh="好说的">Hǎo-shuō-de</audio-example> 避免用"书""纸""文件"等单独的专业词汇来增加你的记忆负担，这些概念被优雅地表达为一个复合单位，意为"写的东西"（<audio-example zh="写的东西">xiě-de dōngxi</audio-example>）。
+    tldr:
+      eng: "Adding -de to a verb turns it into a noun, e.g. xiě-de dōngxi, \"a written thing.\""
+      rus: "Добавление -de к глаголу превращает его в существительное, например xiě-de dōngxi, «написанная вещь»."
+      zh: "在动词后加 -de 可以把它变成名词，例如 xiě-de dōngxi，\"写的东西\"。"
+    necessity:
+      eng: "Shows how one rule replaces a whole set of separate nouns like book/paper/document."
+      rus: "Показывает, как одно правило заменяет целый набор отдельных существительных вроде книга/бумага/документ."
+      zh: "展示一条规则如何取代书、纸、文件等一整套独立名词。"
+
+  - type: prose
+    text:
+      eng: |-
+        **Particles That Bind, Particles That Don't:** Every hyphen in this book marks the same thing: a grammar piece fused onto a word — <audio-example zh="个">-ge</audio-example>, <audio-example zh="的">-de</audio-example>, and others still to come. Say the block out loud and it moves as one unit, the way <audio-example zh="这个">zhè-ge</audio-example> or <audio-example zh="写的">xiě-de</audio-example> does. Other grammar words — like the one marking a finished action, or the one marking a question — stand on their own instead, with a space on both sides, because they belong to the whole sentence, not to any single word beside them. You'll meet those one at a time, lesson by lesson. For now: **if a hyphen glues it to a word, it's shaping that word; if it stands free, it's shaping the sentence.**
+      rus: |-
+        **Частицы, которые связывают, и частицы, которые нет:** Каждый дефис в этой книге означает одно и то же: грамматический элемент, прикреплённый к слову — <audio-example zh="个">-ge</audio-example>, <audio-example zh="的">-de</audio-example> и другие, с которыми вы ещё встретитесь. Произнесите такой блок вслух — и он движется как единое целое, как <audio-example zh="这个">zhè-ge</audio-example> или <audio-example zh="写的">xiě-de</audio-example>. Другие грамматические слова — например, то, что отмечает завершённое действие, или то, что отмечает вопрос, — стоят отдельно, с пробелом с обеих сторон, потому что они относятся ко всему предложению, а не к одному конкретному слову рядом с собой. Вы познакомитесь с ними по одному, урок за уроком. Пока что правило простое: **если дефис приклеивает частицу к слову — она формирует это слово; если частица стоит свободно — она формирует предложение.**
+      zh: |-
+        **绑定的助词与自由的助词：** 这本书里每一个连字符都表示同一件事：一个语法成分被粘在了一个词上——<audio-example zh="个">-ge</audio-example>、<audio-example zh="的">-de</audio-example>，以及你以后会遇到的其他成分。把这样一个连写块大声读出来，它会像一个整体一样移动，就像 <audio-example zh="这个">zhè-ge</audio-example> 或 <audio-example zh="写的">xiě-de</audio-example> 那样。而另一些语法词——比如标记动作已完成的那个，或者标记疑问的那个——则是独立站立的，两边都有空格，因为它们属于整个句子，而不属于旁边某一个具体的词。你会在以后的课程里一课一个地遇到它们。现在，规则很简单：**如果连字符把它粘在了一个词上，它就是在塑造那个词；如果它自由独立，它就是在塑造整个句子。**
+    tldr:
+      eng: "A hyphen glues a particle to one word; a free-standing particle shapes the whole sentence."
+      rus: "Дефис приклеивает частицу к одному слову; свободная частица формирует всё предложение."
+      zh: "连字符把助词粘在一个词上；独立的助词则塑造整个句子。"
+    necessity:
+      eng: "Gives the general rule for telling bound vs. free grammar particles apart, used all book long."
+      rus: "Даёт общее правило различения связанных и свободных грамматических частиц, действующее во всей книге."
+      zh: "给出区分绑定助词与自由助词的通用规则，全书都会用到。"
