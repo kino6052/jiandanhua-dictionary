@@ -42,27 +42,35 @@ function main() {
   const usedIds = new Set();
   let assigned = 0;
 
+  function assignIds(word) {
+    if (word.id) {
+      usedIds.add(word.id);
+      return word;
+    }
+
+    const base = idFromDefinition(word.definition.eng) || idFromTerm(word.term) || 'word';
+    let candidate = base;
+    let n = 2;
+    while (usedIds.has(candidate)) {
+      candidate = `${base}-${n}`;
+      n += 1;
+    }
+    usedIds.add(candidate);
+    assigned += 1;
+
+    // Reinsert id right after term, for a readable, consistent key order.
+    const { term, pos, definition, maps, ...rest } = word;
+    return { term, id: candidate, pos, definition, maps, ...rest };
+  }
+
   for (const category of dictionary.categories) {
-    category.words = category.words.map((word) => {
-      if (word.id) {
-        usedIds.add(word.id);
-        return word;
+    if (category.subcategories) {
+      for (const sub of category.subcategories) {
+        sub.words = sub.words.map(assignIds);
       }
-
-      const base = idFromDefinition(word.definition.eng) || idFromTerm(word.term) || 'word';
-      let candidate = base;
-      let n = 2;
-      while (usedIds.has(candidate)) {
-        candidate = `${base}-${n}`;
-        n += 1;
-      }
-      usedIds.add(candidate);
-      assigned += 1;
-
-      // Reinsert id right after term, for a readable, consistent key order.
-      const { term, pos, definition, maps, ...rest } = word;
-      return { term, id: candidate, pos, definition, maps, ...rest };
-    });
+    } else {
+      category.words = category.words.map(assignIds);
+    }
   }
 
   writeFileSync(DATA_PATH, JSON.stringify(dictionary, null, 2) + '\n', 'utf-8');

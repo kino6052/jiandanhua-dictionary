@@ -36,9 +36,6 @@ function renderContent(s, lang) {
   if (type === 'dictionary') {
     return <DictionarySection items={s.dict} />;
   }
-  if (type === 'appendix') {
-    return <div class="prose-body" dangerouslySetInnerHTML={{ __html: s.bodyHtml }} />;
-  }
   return (
     <>
       {s.missingBlocks && <MissingTranslationBanner blocks={s.missingBlocks} lang={lang} />}

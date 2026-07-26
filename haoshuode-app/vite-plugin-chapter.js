@@ -30,7 +30,7 @@
 
 import { parse as parseYaml } from 'yaml';
 import { marked } from 'marked';
-import { loadWordIndex, resolveWordRefs } from './scripts/word-refs.js';
+import { loadWordIndex, loadDictionaryWordCount, resolveWordRefs } from './scripts/word-refs.js';
 
 const LANGS = ['eng', 'rus', 'zh'];
 
@@ -145,13 +145,14 @@ function buildForLang(chapter, lang) {
 
 export default function chapterYamlPlugin() {
   const wordIndex = loadWordIndex();
+  const wordCount = loadDictionaryWordCount();
 
   return {
     name: 'vite-plugin-chapter-yaml',
     transform(src, id) {
       if (!id.endsWith('.yaml') && !id.endsWith('.yml')) return null;
 
-      const resolvedSrc = resolveWordRefs(src, wordIndex);
+      const resolvedSrc = resolveWordRefs(src, wordIndex, wordCount);
       const chapter = parseYaml(resolvedSrc);
 
       const byLang = {};

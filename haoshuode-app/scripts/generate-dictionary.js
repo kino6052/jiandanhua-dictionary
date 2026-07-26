@@ -49,11 +49,15 @@ function frontmatter({ id, title, order, lang }) {
   return `---\nid: ${id}\ntitle: "${title}"\ntype: dictionary\norder: ${order}\nlanguage: ${lang}\n---\n`;
 }
 
+function categoryWords(category) {
+  return category.words || category.subcategories.flatMap((s) => s.words);
+}
+
 const data = JSON.parse(readFileSync(DATA_PATH, 'utf-8'));
 
 for (const lang of LANGS) {
   const allWords = data.categories
-    .flatMap(c => c.words)
+    .flatMap(categoryWords)
     .slice()
     .sort((a, b) => stripTones(a.term).localeCompare(stripTones(b.term)));
 
@@ -67,10 +71,23 @@ for (const lang of LANGS) {
   let catBody = frontmatter({ id: 'categorical-dictionary', title: TITLES.categorical[lang], order: 2, lang });
   catBody += `\n${INTRO.categorical[lang]}\n\n`;
   data.categories.forEach((cat, i) => {
-    catBody += `## ${i + 1}. ${cat.title[lang]}\n\n`;
-    catBody += '```dict\n';
-    for (const w of cat.words) catBody += dictLine(w, lang) + '\n';
-    catBody += '```\n\n---\n\n';
+    if (cat.subcategories) {
+      cat.subcategories.forEach((sub, j) => {
+        const label = sub.title
+          ? `${i + 1}.${j + 1} ${cat.title[lang]} -- ${sub.title[lang]}`
+          : `${i + 1}. ${cat.title[lang]}`;
+        catBody += `## ${label}\n\n`;
+        catBody += '```dict\n';
+        for (const w of sub.words) catBody += dictLine(w, lang) + '\n';
+        catBody += '```\n\n';
+      });
+      catBody += '---\n\n';
+    } else {
+      catBody += `## ${i + 1}. ${cat.title[lang]}\n\n`;
+      catBody += '```dict\n';
+      for (const w of cat.words) catBody += dictLine(w, lang) + '\n';
+      catBody += '```\n\n---\n\n';
+    }
   });
   writeFileSync(resolve(CONTENT_DIR, `dictionary-categorical${LANG_SUFFIX[lang]}.md`), catBody, 'utf-8');
 }

@@ -1,0 +1,155 @@
+id: appendix-minimality
+type: appendix
+order: 2
+title:
+  eng: "Why Minimality Works"
+  rus: "Почему минимализм работает"
+  zh: "为什么极简是可行的"
+
+summary:
+  eng: "Aristotle's ten categories close the logical space of anything sayable; NSM's cross-linguistic research empirically fills that space with about 65 universal words. Together they guarantee every word has some category to belong to, splitting necessity into true primitives and practically-lexicalized composites -- and real Mandarin grammar, unlike Toki Pona's invented grammar, narrows which composites are actually available."
+  rus: "Десять категорий Аристотеля замыкают логическое пространство всего, что можно сказать; межъязыковые исследования NSM эмпирически заполняют это пространство примерно шестьюдесятью пятью универсальными словами. Вместе они гарантируют, что у каждого слова есть своя категория, разделяя необходимость на настоящие примитивы и практически лексикализованные составные слова — а реальная мандаринская грамматика, в отличие от изобретённой грамматики Токипоны, сужает то, какие составные слова вообще доступны."
+  zh: "亚里士多德的十个范畴封闭了一切可言说之事的逻辑空间；NSM 的跨语言研究用大约65个普遍存在的词，在经验上填满了这个空间。二者共同保证了每个词都归属于某个类别，并把必要性分为真正的基元和出于实际而词化的复合词——而真实的普通话语法，不同于道本语发明出来的语法，限制了实际可用的复合方式。"
+
+blocks:
+  - type: prose
+    text:
+      eng: |-
+        Toki Pona already answers the practical question: yes, a language can work with only about 120-140 root words. Thousands of people speak it, write poetry in it, argue in it, raise children learning it. The existence proof is done. What remains is the harder, more interesting question: why is this possible at all? Not just that it happens to work for one particular invented language, but what has to be true about meaning itself for any minimal vocabulary to be able to cover the whole of human experience.
+      rus: |-
+        Токипона уже отвечает на практический вопрос: да, язык может работать всего с примерно 120-140 корневыми словами. Тысячи людей говорят на нём, пишут на нём стихи, спорят на нём, растят на нём детей. Доказательство существования уже есть. Остаётся более сложный и интересный вопрос: почему это вообще возможно? Не просто то, что это случайно сработало для одного конкретного придуманного языка, а что должно быть верно относительно самого смысла, чтобы минимальный словарь мог охватить весь человеческий опыт.
+      zh: |-
+        道本语（Toki Pona）已经回答了那个实际问题：是的，一种语言仅凭约120到140个词根就能运转。数千人用它交谈，用它写诗，用它争论，用它抚养正在学习它的孩子。存在性的证明已经完成。剩下的是更难、也更有趣的问题：这为什么可能？不只是说它碰巧对某一种人造语言有效，而是关于意义本身，必须具备怎样的性质，才能让如此精简的词汇覆盖人类全部的经验。
+    tldr:
+      eng: "Toki Pona already proves minimal vocabulary works in practice -- the real question is why."
+      rus: "Токипона уже доказывает, что минимальный словарь работает на практике — настоящий вопрос в том, почему."
+      zh: "道本语已经在实践中证明了精简词汇是可行的——真正的问题是为什么。"
+    necessity:
+      eng: "Separates the empirical fact (it works) from the theoretical question (why it must work), which is what this appendix actually answers."
+      rus: "Отделяет эмпирический факт (это работает) от теоретического вопроса (почему это должно работать) — именно на него отвечает это приложение."
+      zh: "把经验事实（它行得通）和理论问题（它为何必然行得通）分开——这正是本附录要回答的问题。"
+
+  - type: prose
+    text:
+      eng: |-
+        Start with a much older answer, from Aristotle. In the Categories, he argued that everything you could ever say about anything falls into one of ten fixed kinds: what a thing is (substance), how much of it there is (quantity), what it's like (quality), how it relates to other things (relation), where it is (place), when it is (time), how it's arranged (position), what it has (state), what it does (action), and what's done to it (passion, being-affected). This isn't a claim about any particular language. It's a claim about the shape of predication itself -- about what kinds of things can be true of a subject, in any language, in any era. If Aristotle is right, there is no eleventh kind of thing waiting to be discovered that would require some entirely new, uncategorizable class of word.
+      rus: |-
+        Начнём с гораздо более старого ответа — от Аристотеля. В «Категориях» он утверждал, что всё, что вообще можно сказать о чём-либо, относится к одному из десяти неизменных родов: что вещь есть (сущность), сколько её (количество), какая она (качество), как она относится к другим вещам (отношение), где она (место), когда она (время), как она расположена (положение), что она имеет (обладание), что она делает (действие) и что с ней делают (претерпевание). Это утверждение не о каком-то конкретном языке. Это утверждение о самой форме высказывания — о том, какого рода вещи вообще могут быть истинны о предмете, на любом языке, в любую эпоху. Если Аристотель прав, не существует одиннадцатого рода вещей, ожидающего открытия, который потребовал бы совершенно нового, некатегоризируемого класса слов.
+      zh: |-
+        先从一个古老得多的答案说起——亚里士多德的答案。在《范畴篇》中，他论证说，凡是能就任何事物说出的话，都归属于十个固定的种类之一：这东西是什么（实体），有多少（数量），是什么样（性质），与其他事物有何关系（关系），在哪里（位置），在何时（时间），如何摆放（姿态），拥有什么（状态），做了什么（动作），以及被施加了什么（承受）。这不是关于某一种具体语言的论断，而是关于"可断言之事"本身的形态——关于在任何语言、任何时代，能对一个主语成立的到底有哪些种类的命题。如果亚里士多德是对的，就不存在等待被发现的第十一种事物，需要一整类全新的、无法归类的词。
+    tldr:
+      eng: "Aristotle: everything sayable about anything falls into one of ten fixed categories."
+      rus: "Аристотель: всё, что можно сказать о чём-либо, относится к одной из десяти неизменных категорий."
+      zh: "亚里士多德：凡是能就任何事物说出的话，都归入十个固定范畴之一。"
+    necessity:
+      eng: "Gives the logical (not empirical) half of the completeness argument -- that the space of possible predicates is closed and finite by nature, before any language even exists."
+      rus: "Даёт логическую (не эмпирическую) половину аргумента о полноте — что пространство возможных предикатов замкнуто и конечно по своей природе, ещё до существования какого-либо языка."
+      zh: "为“完备性论证”提供了逻辑（而非经验）的那一半——在任何语言存在之前，可能谓词的空间在本质上就是封闭且有限的。"
+
+  - type: prose
+    text:
+      eng: |-
+        Aristotle's categories tell you the shape of the space. They don't tell you which specific words a real language needs to cover it. That's the empirical question, and it took twentieth-century linguistics -- decades of fieldwork across dozens of unrelated languages, led by Anna Wierzbicka and Cliff Goddard -- to answer it. Their research identified around sixty-five words that appear, in some form, in every language ever carefully checked: words for I, YOU, SOMEONE, THING, KNOW, WANT, GOOD, BAD, BEFORE, AFTER, INSIDE, and so on. These are the Natural Semantic Metalanguage primes. They cluster into categories -- substantives, quantifiers, mental predicates, time, space, logical concepts -- that map onto, and sharpen, Aristotle's original ten. Aristotle tells you the space is closed. NSM tells you, empirically, which specific words already fill it in every human language we've checked.
+      rus: |-
+        Категории Аристотеля задают форму этого пространства. Они не говорят, какие именно слова нужны конкретному языку, чтобы его заполнить. Это эмпирический вопрос, и ответ на него дала лингвистика XX века — десятилетия полевых исследований десятков неродственных языков, проведённых Анной Вежбицкой и Клиффом Годдардом. Их исследования выявили около шестидесяти пяти слов, которые в том или ином виде встречаются в каждом тщательно изученном языке: слова для Я, ТЫ, КТО-ТО, ВЕЩЬ, ЗНАТЬ, ХОТЕТЬ, ХОРОШИЙ, ПЛОХОЙ, ДО, ПОСЛЕ, ВНУТРИ и так далее. Это примитивы Естественного семантического метаязыка (NSM). Они группируются в категории — субстантивы, квантификаторы, ментальные предикаты, время, пространство, логические понятия, — которые соответствуют исходным десяти категориям Аристотеля и уточняют их. Аристотель говорит, что пространство замкнуто. NSM эмпирически показывает, какие именно слова уже заполняют его в каждом проверенном человеческом языке.
+      zh: |-
+        亚里士多德的范畴给出了这个空间的形状，却没有告诉你某一种具体语言需要哪些词才能填满它。这是一个经验问题，而回答它的是二十世纪的语言学——由安娜·维尔兹比卡（Anna Wierzbicka）和克利夫·戈达德（Cliff Goddard）主持的、跨越几十种互不相关语言、历时数十年的田野调查。他们的研究识别出约六十五个词，以某种形式出现在每一种被仔细考察过的语言中：表示"我""你""某人""东西""知道""想要""好""坏""之前""之后""里面"等等的词。这些就是自然语义元语言（NSM）的语义基元。它们聚合成若干类别——实体词、量词、心理谓词、时间、空间、逻辑概念——这些类别恰好对应并细化了亚里士多德最初的十个范畴。亚里士多德告诉你这个空间是封闭的；NSM 则用经验证据告诉你，在我们考察过的每一种人类语言中，究竟是哪些具体的词已经把它填满了。
+    tldr:
+      eng: "NSM: cross-linguistic fieldwork found ~65 words present in every language, filling Aristotle's categories."
+      rus: "NSM: межъязыковые полевые исследования нашли ~65 слов, присутствующих в каждом языке и заполняющих категории Аристотеля."
+      zh: "NSM：跨语言田野调查发现约65个词存在于每种语言中，填满了亚里士多德的范畴。"
+    necessity:
+      eng: "Adds the empirical half of the argument -- without this, Aristotle's categories would be an untested philosophical claim rather than a linguistically verified one."
+      rus: "Добавляет эмпирическую половину аргумента — без неё категории Аристотеля оставались бы непроверенным философским утверждением, а не лингвистически подтверждённым."
+      zh: "补上了论证中经验的那一半——没有它，亚里士多德的范畴就只是一个未经检验的哲学主张，而不是经过语言学验证的事实。"
+
+  - type: prose
+    text:
+      eng: |-
+        Put these two together and something falls out for free: no word can lack a category. Take any word in any language, however specific -- dòngwù (animal), gōngjù (tool), shìchǎng (market). Each one can be restated as a kind of thing, narrowed by a predicate: an animal is a kind of thing that lives and moves on its own; a tool is a kind of thing people use to act on other things; a market is a kind of place where things change owners. Follow this upward far enough, and every word bottoms out at one of the primes -- THING, DO, PLACE, HAVE. There is no word that fails to reduce to some combination of these, because if there were, it would name a kind of predicate Aristotle's ten categories don't cover -- and none has ever been found. This is the actual mechanism behind minimality: a small vocabulary isn't a compression trick bolted onto meaning from outside. It's what the structure of meaning already looks like, once you stop assuming every distinct word needs its own irreducible atom.
+      rus: |-
+        Соедините эти две вещи, и кое-что получается само собой: ни одно слово не может остаться без категории. Возьмите любое слово в любом языке, сколь угодно конкретное — dòngwù (животное), gōngjù (инструмент), shìchǎng (рынок). Каждое можно переформулировать как разновидность вещи, сужаемую предикатом: животное — это разновидность вещи, которая живёт и движется самостоятельно; инструмент — разновидность вещи, которую люди используют, чтобы воздействовать на другие вещи; рынок — разновидность места, где вещи меняют владельца. Поднимайтесь по этой лестнице достаточно далеко, и любое слово в итоге сводится к одному из примитивов — ВЕЩЬ, ДЕЛАТЬ, МЕСТО, ИМЕТЬ. Нет слова, которое не сводилось бы к какой-то комбинации этих примитивов, потому что если бы такое существовало, оно называло бы разновидность предиката, не охваченную десятью категориями Аристотеля, — а такого пока не нашли. Это и есть настоящий механизм минимальности: маленький словарь — не трюк сжатия, привинченный к смыслу извне. Это то, как структура смысла выглядит сама по себе, стоит только перестать считать, будто каждому отдельному слову нужен собственный несводимый атом.
+      zh: |-
+        把这两者放在一起，就会自然得出一个结论：没有一个词能够没有类别。任取任何语言中任意具体的词——dòngwù（动物）、gōngjù（工具）、shìchǎng（市场）。每一个都可以被重述为"某种东西"被一个谓词收窄的结果：动物是一种能自行生存和活动的东西；工具是一种人们用来对其他东西施加作用的东西；市场是一种东西会在其中换主人的地方。沿着这条路径往上追溯得足够远，任何词最终都会归结到某个语义基元——"东西""做""地方""拥有"。没有哪个词无法归约为这些基元的某种组合，因为如果真有这样的词，它命名的将是亚里士多德十个范畴都未覆盖的某种谓词——而这样的词至今从未被发现过。这才是精简得以成立的真正机制：小词汇量不是从外部强加在意义之上的压缩技巧，而是一旦你不再假定每个独立的词都需要自己专属的、不可再分的原子，意义的结构本来就呈现出的样子。
+    tldr:
+      eng: "Every word reduces to a general category narrowed by a predicate -- nothing falls outside the tree."
+      rus: "Каждое слово сводится к общей категории, суженной предикатом, — ничто не выпадает из дерева."
+      zh: "每个词都能归约为一个被谓词收窄的一般类别——没有什么会落在这棵树之外。"
+    necessity:
+      eng: "States the actual completeness mechanism the whole appendix is building toward -- this is the load-bearing claim."
+      rus: "Формулирует сам механизм полноты, к которому подводит всё приложение, — это несущее утверждение."
+      zh: "陈述了整篇附录所指向的那个真正的完备性机制——这是全篇论证的承重命题。"
+
+  - type: prose
+    text:
+      eng: |-
+        This gives us a precise way to separate essence from accident in a word. A word's essence is its place in this structure: which category it belongs to, and what it narrows from. A word's accident is everything else -- which sounds a particular language happens to assign to that slot, whether it's one syllable or three, whether it gets its own dedicated root or has to be built on the spot from other words. Toki Pona and Hao-shuo-de need to fill exactly the same essential slots -- both need something for THING, something for KNOW, something for GOOD -- because the slots aren't invented by either language, they're a fact about meaning itself. What differs between them is pure accident: Toki Pona fills the GOOD slot with pona; Hao-shuo-de fills it with hǎo. Different sound, same essence.
+      rus: |-
+        Это даёт точный способ отделить сущность слова от акциденции. Сущность слова — это его место в этой структуре: к какой категории оно принадлежит и от чего сужается. Акциденция слова — всё остальное: какие звуки конкретный язык присвоил этому месту, один это слог или три, получает ли оно собственный выделенный корень или должно строиться на ходу из других слов. Токипоне и Hao-shuo-de нужно заполнить ровно одни и те же сущностные места — обоим нужно что-то для ВЕЩИ, что-то для ЗНАТЬ, что-то для ХОРОШИЙ, — потому что эти места не изобретены ни тем, ни другим языком, это факт о самом смысле. Различается между ними чистая акциденция: Токипона заполняет место ХОРОШИЙ словом pona; Hao-shuo-de заполняет его словом hǎo. Разный звук, одна и та же сущность.
+      zh: |-
+        这给了我们一种精确的方式，来区分一个词的本质与偶性。一个词的本质，是它在这个结构中的位置：它属于哪个类别，又是从什么被收窄而来的。一个词的偶性，则是其余的一切：某种具体语言恰好给这个位置分配了什么读音，是一个音节还是三个音节，它是拥有自己专属的词根，还是必须临时用其他词现造出来。道本语和 Hao-shuo-de 需要填满的，是完全相同的本质位置——两者都需要某个词表示"东西"，某个词表示"知道"，某个词表示"好"——因为这些位置并非由任何一方语言发明出来，而是关于意义本身的事实。二者之间不同的，纯粹是偶性：道本语用 pona 填上"好"这个位置；Hao-shuo-de 用 hǎo 填上它。读音不同，本质相同。
+    tldr:
+      eng: "A word's essence is its category slot; its accident is the sound a language assigns to that slot."
+      rus: "Сущность слова — его место в категории; акциденция — звук, которым язык это место заполняет."
+      zh: "一个词的本质是它的类别位置；它的偶性是某种语言分配给该位置的读音。"
+    necessity:
+      eng: "Applies the substance/accident distinction directly to vocabulary, which is the conceptual bridge the rest of the dictionary's per-word justifications depend on."
+      rus: "Напрямую применяет различие субстанции и акциденции к словарю — именно на этом мостике держатся обоснования необходимости для каждого слова."
+      zh: "把本质/偶性的区分直接应用到词汇上——词典中每个词的必要性论证，正是建立在这座桥梁之上。"
+
+  - type: prose
+    text:
+      eng: |-
+        Not every word in this dictionary is a prime, though. Only a handful -- hǎo (good), yǒu (have), zhè (this) -- correspond directly to an NSM primitive. Everything else -- dòngwù, gōngjù, jiā -- is what NSM calls molecular: reducible, in principle, to a long paraphrase built entirely from primes, the way you might explain "dog" as "a kind of animal that people often keep near where they live." No real language actually talks that way, though. Every language lexicalizes hundreds of molecular concepts as single words anyway, because saying the long paraphrase every time would be unbearable. So this dictionary distinguishes two different kinds of necessity. A primitive word is necessary because no language functions without some way to express it -- this is the strong, universal claim. A composite word is necessary in a weaker, practical sense: it could be built from more primitive pieces, but real Mandarin -- the substance this whole project is built on top of -- already lexicalizes it as one word, and a compositional workaround every time it comes up would fail the test of sounding like something an actual speaker would say.
+      rus: |-
+        Впрочем, не каждое слово в этом словаре — примитив. Лишь горстка — hǎo (хороший), yǒu (иметь), zhè (этот) — напрямую соответствует примитиву NSM. Всё остальное — dòngwù, gōngjù, jiā — это то, что NSM называет молекулярным: в принципе сводимое к развёрнутому пересказу, целиком построенному из примитивов, — так можно было бы объяснить «собаку» как «разновидность животного, которое люди часто держат рядом с местом, где живут». Но ни один реальный язык так на самом деле не говорит. Любой язык всё равно лексикализует сотни молекулярных понятий в отдельные слова, потому что произносить развёрнутый пересказ каждый раз было бы невыносимо. Поэтому этот словарь различает два разных вида необходимости. Примитивное слово необходимо потому, что ни один язык не работает без какого-то способа его выразить, — это сильное, универсальное утверждение. Составное слово необходимо в более слабом, практическом смысле: его можно построить из более примитивных частей, но реальный мандаринский — субстанция, на которой построен весь этот проект, — уже лексикализует его как одно слово, и составной обходной вариант каждый раз, когда оно понадобится, не прошёл бы проверку на то, звучит ли это так, как сказал бы настоящий носитель языка.
+      zh: |-
+        不过，这本词典里并非每个词都是基元。只有极少数——hǎo（好）、yǒu（有）、zhè（这）——直接对应 NSM 的某个基元。其余的——dòngwù、gōngjù、jiā——都是 NSM 所说的"分子级"概念：原则上可以归约为一整段完全由基元构成的释义，就像可以把"狗"解释成"一种动物，人们常常养在自己居住的地方附近"。但没有哪种真实语言真的这样说话。每种语言其实都会把成百上千个分子级概念直接词化成单个词，因为每次都说出那一长串释义会让人难以忍受。因此，本词典区分两种不同的必要性。基元词是必要的，因为没有任何语言能在缺少某种表达它的方式下运作——这是一个强的、普遍性的主张。复合词的必要性则是一种较弱、更实际意义上的：它原则上可以由更基本的部件构造出来，但真实的普通话——整个项目所依托的实体（substance）——早已把它词化成了一个词，如果每次都要用组合式的变通说法，就无法通过"这听起来像真正说话者会说的话"这个检验。
+    tldr:
+      eng: "Only a few words are true primes; most are composite -- lexicalized for practical, not logical, necessity."
+      rus: "Лишь немногие слова — настоящие примитивы; большинство составные — лексикализованы по практической, а не логической необходимости."
+      zh: "只有极少数词是真正的基元；大多数是复合词——出于实际而非逻辑上的必要性被词化。"
+    necessity:
+      eng: "Sets up the tier system (primitive vs composite) that every dictionary entry's necessity field will now use -- without this the two-tier schema would look arbitrary."
+      rus: "Задаёт систему уровней (примитив/составное), которую теперь будет использовать поле необходимости каждой словарной статьи, — без этого двухуровневая схема выглядела бы произвольной."
+      zh: "确立了此后每个词条的必要性字段都会用到的分级体系（基元/复合）——没有这一步，这套两级方案就会显得随意。"
+
+  - type: prose
+    text:
+      eng: |-
+        Here is where Hao-shuo-de's problem gets harder than Toki Pona's. Toki Pona is free to invent whatever grammar best serves its small vocabulary -- its own word order, its own way of combining roots, answerable to nothing but internal consistency. Hao-shuo-de doesn't have that freedom. Real Mandarin grammar is part of its substance, not an accident it's free to swap out -- the whole project is only worth building if speaking it also teaches you to speak real Mandarin. That constraint shrinks the design space considerably. Toki Pona can mint a single word, kama, that means both "come" and "become," and use it everywhere it's needed, because nothing outside Toki Pona has to agree. Hao-shuo-de can't do that: biàn really does mean "become" in Mandarin, but it only combines naturally with adjectives, not with verbs like zhīdào ("know") -- so "come to know" can't just be biàn zhīdào, even though the Toki-Pona-style logic says it should work. The fix wasn't a new invented word; it was finding dé ("to get"), a real, independently attested Mandarin root, and building "learn" compositionally as dé zhīdào-de -- "obtain the known-thing" -- using grammar (the -de nominalizer) the dictionary already needed for other reasons. This is the recurring shape of the hard cases in this project: not "invent a word," but "find the real Mandarin piece that was already sitting there, and check that composing it doesn't break how a native speaker would actually parse it."
+      rus: |-
+        Именно здесь задача Hao-shuo-de становится сложнее, чем у Токипоны. Токипона вольна изобретать любую грамматику, которая лучше всего служит её маленькому словарю, — собственный порядок слов, собственный способ соединения корней, не отвечая ни перед чем, кроме внутренней согласованности. У Hao-shuo-de такой свободы нет. Реальная мандаринская грамматика — часть его субстанции, а не акциденция, которую можно свободно заменить: весь этот проект имеет смысл, только если, говоря на нём, вы заодно учитесь говорить на настоящем мандаринском. Это ограничение заметно сужает пространство решений. Токипона может отчеканить одно слово, kama, которое значит и «прийти», и «стать», и использовать его везде, где нужно, потому что ничто вне Токипоны не обязано с этим соглашаться. Hao-shuo-de так поступить не может: biàn действительно значит «становиться» в мандаринском, но естественно сочетается только с прилагательными, а не с глаголами вроде zhīdào («знать»), — поэтому «прийти к знанию» не может быть просто biàn zhīdào, даже если логика в духе Токипоны подсказывает, что должно бы работать. Решением стало не изобретение нового слова, а нахождение dé («получить») — реального, независимо засвидетельствованного мандаринского корня, — и построение слова «учиться» композиционно, как dé zhīdào-de — «получить познанное», — с помощью грамматики (номинализатора -de), которая словарю и так была нужна по другим причинам. Такова повторяющаяся форма трудных случаев в этом проекте: не «придумать слово», а «найти реальный мандаринский элемент, который уже был под рукой, и проверить, что его сочетание не ломает то, как это разобрал бы настоящий носитель языка».
+      zh: |-
+        正是在这里，Hao-shuo-de 面对的问题比道本语更难。道本语可以自由发明最适合其小词汇量的任何语法——自己的语序，自己组合词根的方式——除了内部自洽之外，不必对任何东西负责。Hao-shuo-de 没有这种自由。真实的普通话语法是它实体（substance）的一部分，而不是可以随意替换的偶性——整个项目只有在"说这门语言同时也在教你说真正的普通话"这个前提下才值得去做。这个约束大大压缩了设计空间。道本语可以铸造出一个词 kama，既表示"来"又表示"变成"，并在任何需要的地方使用它，因为道本语之外没有任何东西必须与之保持一致。Hao-shuo-de 做不到这一点：biàn 在普通话里确实表示"变成"，但它自然搭配的是形容词，而不是像 zhīdào（"知道"）这样的动词——所以"来到知道的状态"不能简单地说成 biàn zhīdào，即便按照道本语式的逻辑，这本该行得通。最终的解决办法不是发明新词，而是找到 dé（"得到"）——一个真实的、独立存在的普通话词根——并用组合的方式构造出"学习"：dé zhīdào-de，字面意思是"得到已知之物"，用的是词典出于其他原因本就需要的语法（-de 名词化后缀）。这正是本项目中疑难案例反复出现的模式：不是"发明一个词"，而是"找到那个本已存在的真正的普通话部件，并检验把它们组合起来，是否符合母语者实际会怎样理解这句话"。
+    tldr:
+      eng: "Real Mandarin grammar constrains word choice far more than an invented grammar would -- hard cases get solved by finding, not inventing."
+      rus: "Реальная мандаринская грамматика ограничивает выбор слов гораздо сильнее, чем изобретённая грамматика, — трудные случаи решаются нахождением, а не изобретением."
+      zh: "真实的普通话语法对词的选择的约束，远比发明出来的语法更强——疑难案例靠寻找而非发明来解决。"
+    necessity:
+      eng: "Explains why some 'necessary' concepts don't get a dedicated word even when they'd deserve one in an unconstrained language -- directly justifies the composite tier and the dé zhīdào-de example."
+      rus: "Объясняет, почему некоторые «необходимые» понятия не получают отдельного слова, даже когда заслуживали бы его в неограниченном языке, — напрямую обосновывает составной уровень и пример dé zhīdào-de."
+      zh: "解释了为什么有些“必要”的概念，即使在不受约束的语言里理应拥有专属词，却依然没有——直接为复合层级和 dé zhīdào-de 这个例子提供了依据。"
+
+  - type: prose
+    text:
+      eng: |-
+        None of this is worth much unless it can be shown wrong. So: state the claim plainly, and state what would falsify it. Claim -- completeness: every concrete, everyday concept expressible in English (or Mandarin) can be expressed in Hao-shuo-de, either by an existing word or by composing existing words and grammar, without inventing a new uncomposable root. Falsification: produce a real sentence, from ordinary usage, that fluent users agree cannot be built this way -- one that genuinely requires a new atomic word unrelated to anything already in the dictionary. Claim -- tier accuracy: every word marked "composite" really is decomposable into its listed composedFrom pieces without loss of meaning a fluent speaker would notice. Falsification: show that the compositional paraphrase is understood differently, or not understood at all, by someone who knows the composedFrom words but not the dedicated word. Claim -- Putonghua-fit: every composite construction (like dé zhīdào-de) is at minimum parseable, if not idiomatic, to an actual Mandarin speaker. Falsification: a native speaker reports the construction as un-parseable nonsense, not just unusual phrasing. Each of these is a real test, not a rhetorical flourish -- and each one, if it fails, means revising a specific entry, not abandoning the whole project.
+      rus: |-
+        Всё это чего-то стоит, только если это можно показать ложным. Поэтому: сформулируем утверждение прямо и укажем, что его опровергло бы. Утверждение о полноте: любое конкретное, повседневное понятие, выразимое по-английски (или по-китайски), можно выразить на Hao-shuo-de — либо существующим словом, либо составлением существующих слов и грамматики, без изобретения нового несоставного корня. Опровержение: привести реальное предложение из обычного употребления, которое, по общему мнению носителей языка, нельзя построить таким способом, — такое, что действительно требует нового атомарного слова, не связанного ни с чем уже имеющимся в словаре. Утверждение о точности уровней: каждое слово, помеченное как «составное», действительно разложимо на перечисленные в composedFrom части без потери смысла, которую заметил бы свободно говорящий человек. Опровержение: показать, что композиционный пересказ понимается иначе или вовсе не понимается тем, кто знает слова из composedFrom, но не знает выделенное слово. Утверждение о соответствии путунхуа: каждая составная конструкция (как dé zhīdào-de) как минимум разбираема, пусть не идиоматична, для настоящего носителя мандаринского. Опровержение: носитель языка сообщает, что конструкция — неразбираемая бессмыслица, а не просто необычная фраза. Каждое из этих утверждений — реальная проверка, а не риторический приём, и если какое-то из них не выдержит проверки, это означает пересмотр конкретной статьи, а не отказ от всего проекта.
+      zh: |-
+        这一切只有在能够被证明为错的情况下才有价值。所以：把主张说清楚，并说明什么能推翻它。完备性主张：任何用英语（或普通话）可以表达的具体、日常概念，都能用 Hao-shuo-de 表达出来——要么用现有的词，要么用现有的词和语法组合而成，而无需发明一个新的、不可再分的词根。反驳方式：举出一个来自日常使用的真实句子，熟练使用者一致认为无法这样构造出来——一个确实需要一个与词典中已有内容都无关的全新原子词的句子。分级准确性主张：每个被标记为"复合"的词，确实可以分解为其列出的 composedFrom 部件，且不会造成熟练使用者能察觉到的意义损失。反驳方式：证明懂得 composedFrom 中那些词、但不认识这个专属词的人，会以不同的方式理解这个组合式说法，甚至根本无法理解。普通话契合度主张：每一个复合结构（如 dé zhīdào-de）对真正的普通话使用者来说，至少是可以解析的，即便算不上地道。反驳方式：某位母语者反映这个结构是无法解析的胡言乱语，而不仅仅是不常见的说法。以上每一条都是真实的检验，而不是修辞上的点缀——其中任何一条一旦失败，意味着需要修订某个具体词条，而不是放弃整个项目。
+    tldr:
+      eng: "Three concrete, checkable claims -- completeness, tier accuracy, Putonghua-fit -- each with a stated way to prove it wrong."
+      rus: "Три конкретных, проверяемых утверждения — полнота, точность уровней, соответствие путунхуа — каждое с указанным способом его опровергнуть."
+      zh: "三条具体、可检验的主张——完备性、分级准确性、普通话契合度——每一条都附有明确的证伪方式。"
+    necessity:
+      eng: "Makes the whole appendix falsifiable rather than a closed philosophical assertion, matching the project's own stated design standard."
+      rus: "Делает всё приложение опровержимым, а не закрытым философским утверждением, — в соответствии с собственным заявленным стандартом проекта."
+      zh: "让整篇附录变得可证伪，而不是一个封闭的哲学断言，这与本项目自己设定的标准是一致的。"
+
+  - type: exercise
+    items:
+      - eng: "Think of an everyday sentence you believe Hao-shuo-de cannot express. Try to build it by composing existing words and grammar. If it works, what did that teach you about the category system? If it genuinely doesn't, what new root would it need, and which category would that root belong to?"
+        rus: "Придумайте повседневное предложение, которое, как вам кажется, Hao-shuo-de не может выразить. Попробуйте построить его, составляя существующие слова и грамматику. Если получилось — чему это вас научило о системе категорий? Если действительно не получилось — какой новый корень для этого понадобился бы и к какой категории он принадлежал бы?"
+        zh: "想一个你认为 Hao-shuo-de 无法表达的日常句子。尝试用现有的词和语法把它组合出来。如果成功了，这教会了你关于类别系统的什么？如果真的做不到，需要一个怎样的新词根，它又该属于哪个类别？"
