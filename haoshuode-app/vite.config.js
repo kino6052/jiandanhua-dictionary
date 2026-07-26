@@ -1,19 +1,19 @@
-import { defineConfig } from 'vite';
-import preact from '@preact/preset-vite';
-import markdownPlugin from './vite-plugin-markdown.js';
-import chapterYamlPlugin from './vite-plugin-chapter.js';
+import { defineConfig } from "vite";
+import preact from "@preact/preset-vite";
+import markdownPlugin from "./vite-plugin-markdown.js";
+import chapterYamlPlugin from "./vite-plugin-chapter.js";
 
 export default defineConfig({
-  base: './',
+  base: "./",
   server: {
-    host: '127.0.0.1',
+    host: "127.0.0.1",
   },
   preview: {
-    host: '127.0.0.1',
+    host: "127.0.0.1",
   },
-  plugins: [
-    markdownPlugin(),
-    chapterYamlPlugin(),
-    preact(),
-  ],
+  plugins: [markdownPlugin(), chapterYamlPlugin(), preact()],
+  build: {
+    outDir: "docs",
+    emptyOutDir: true,
+  },
 });
