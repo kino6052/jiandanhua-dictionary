@@ -1,0 +1,126 @@
+id: lesson-04
+type: lesson
+lessonNumber: 4
+order: 4
+title:
+  eng: "Nouns and Adjectives"
+  rus: "Существительные и прилагательные"
+  zh: "名词与形容词"
+
+summary:
+  eng: 'Adjectives connect to a subject with {{word:hen3}} instead of {{word:shi4}} ({{Word:shui3}} {{word:hen3}} {{word:hao3}} — "Water is good"), and bind onto a noun with -{{word:de}} instead when describing it as a unit ({{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}} — "a small place").'
+  rus: "Прилагательные соединяются с подлежащим через {{word:hen3}}, а не через {{word:shi4}} ({{Word:shui3}} {{word:hen3}} {{word:hao3}} — «Вода хорошая»), а когда описывают существительное как единое целое, присоединяются к нему через -{{word:de}} ({{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}} — «маленькое место»)."
+  zh: '形容词用 {{word:hen3}} 而不是 {{word:shi4}} 来连接主语（{{Word:shui3}} {{word:hen3}} {{word:hao3}}——"水很好"），而当把名词描述成一个整体时，则用 -{{word:de}} 连接到名词上（{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}——"一个小地方"）。'
+
+blocks:
+  - type: vocab
+    items:
+      - term: "{{word:shui3}}"
+        ttsText: "水"
+        definition:
+          eng: "water, liquid"
+          rus: "вода, жидкость"
+          zh: "水，液体"
+      - term: "{{word:di4fang1}}"
+        ttsText: "地方"
+        definition:
+          eng: "a place (both in space or metaphorical to mean part of something)"
+          rus: "место (как в пространстве, так и в переносном смысле — часть чего-либо)"
+          zh: "地方，场所（也指某事物的部分）"
+      - term: "{{word:xiao3}}"
+        ttsText: "小"
+        definition:
+          eng: "little, small"
+          rus: "маленький, небольшой"
+          zh: "小的，少量的"
+      - term: "{{word:hao3}}"
+        ttsText: "好"
+        definition:
+          eng: "good, simple, friendly"
+          rus: "хороший, простой, дружелюбный"
+          zh: "好的，简单的，友好的"
+      - term: "{{word:da4}}"
+        ttsText: "大"
+        definition:
+          eng: "big, important, tall"
+          rus: "большой, важный, высокий (о росте)"
+          zh: "大的，重要的，高大的"
+
+  - type: prose
+    text:
+      eng: "Lesson 3 gave you <audio-example zh=\"是\">{{word:shi4}}</audio-example>, the word that connects a subject to a noun (<audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example> — \"the person is a woman\"). Adjectives need a connector too, but Mandarin doesn't reuse <audio-example zh=\"是\">{{word:shi4}}</audio-example> for the job — it uses a different word instead: <audio-example zh=\"很\">{{word:hen3}}</audio-example>.\n\nSubject + <audio-example zh=\"很\">{{word:hen3}}</audio-example> + Adjective\n\nA bare adjective predicate like <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> or <audio-example zh=\"我好\">{{word:wo3}} {{word:hao3}}</audio-example> isn't a neutral statement. In natural Mandarin, it sounds like a contrast (\"Water is good, but…\" or \"I am good, [unlike someone else]\") or a subordinate clause (\"When I am good…\" or \"If I am good…\"). To make a plain, complete statement, you need a degree adverb to fill the predicate slot. That's where <audio-example zh=\"很\">{{word:hen3}}</audio-example> comes in: it's the default, neutral degree adverb. Its literal translation is \"very,\" but in this position it's semantically bleached — it doesn't add emphasis. So <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> is simply \"Water is good,\" not \"Water is very good.\"\n\nTo hear the difference, compare these pairs (listen to how a native would interpret them):\n\n1. <audio-example zh=\"水好\">{{Word:shui3}} {{word:hao3}}</audio-example> — without 很 → sounds like a contrast or condition: \"Water is good (but something else isn't)\" or \"If/When the water is good…\" It begs for a follow-up.\n   <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> — with 很 → a complete, neutral statement: \"Water is good.\"\n\n2. <audio-example zh=\"我好\">{{Word:wo3}} {{word:hao3}}</audio-example> — without 很 → sounds like \"I'm fine (in contrast to someone who isn't)\" or \"If I'm fine…\" — it leaves the listener waiting.\n   <audio-example zh=\"我很好\">{{Word:wo3}} {{word:hen3}} {{word:hao3}}</audio-example> — with 很 → a natural reply to \"How are you?\" — \"I'm fine.\"\n\n3. <audio-example zh=\"地方小\">{{Word:di4fang1}} {{word:xiao3}}</audio-example> — without 很 → sounds like \"The place is small (but maybe convenient)\" — the but is implied; it's a comparative or concessive setup.\n   <audio-example zh=\"地方很小\">{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}</audio-example> — with 很 → a plain observation: \"The place is small.\"\n\nSo omitting 很 doesn't create ambiguity in the sense of multiple meanings — it creates a different grammatical function: a contrastive/conditional clause rather than a main declarative sentence. A native hears <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> and immediately expects a second half, like <audio-example zh=\"水好，但人不好\">{{word:shui3}} {{word:hao3}}, dàn {{word:ren2}} {{word:bu4}} {{word:hao3}}</audio-example> (\"The water is good, but the people are not\"). With <audio-example zh=\"很\">{{word:hen3}}</audio-example>, the sentence stands on its own."
+      rus: "Урок 3 дал вам <audio-example zh=\"是\">{{word:shi4}}</audio-example> — слово, которое связывает подлежащее с существительным (<audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example> — «человек — женщина»). Прилагательным тоже нужен связующий элемент, но мандаринский не использует для этого <audio-example zh=\"是\">{{word:shi4}}</audio-example> повторно — вместо этого используется другое слово: <audio-example zh=\"很\">{{word:hen3}}</audio-example>.\n\nПодлежащее + <audio-example zh=\"很\">{{word:hen3}}</audio-example> + Прилагательное\n\nГолое прилагательное в роли сказуемого, например <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> или <audio-example zh=\"我好\">{{word:wo3}} {{word:hao3}}</audio-example>, не является нейтральным утверждением. В естественном мандаринском это звучит как противопоставление («Вода хорошая, но…» или «Я хороший, [в отличие от кого-то другого]») или как придаточное предложение («Когда я хороший…» или «Если я хороший…»). Чтобы сделать простое, законченное утверждение, нужно заполнить позицию сказуемого наречием степени. Именно здесь и появляется <audio-example zh=\"很\">{{word:hen3}}</audio-example>: это стандартное, нейтральное наречие степени. Буквально оно переводится как «очень», но в этой позиции его смысл ослаблен — оно не добавляет усиления. Так что <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> — это просто «Вода хорошая», а не «Вода очень хорошая».\n\nЧтобы услышать разницу, сравните эти пары (обратите внимание, как носитель их поймёт):\n\n1. <audio-example zh=\"水好\">{{Word:shui3}} {{word:hao3}}</audio-example> — без 很 → звучит как противопоставление или условие: «Вода хорошая (но что-то другое — нет)» или «Если/когда вода хорошая…» — просит продолжения.\n   <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> — с 很 → законченное, нейтральное утверждение: «Вода хорошая».\n\n2. <audio-example zh=\"我好\">{{Word:wo3}} {{word:hao3}}</audio-example> — без 很 → звучит как «Я в порядке (в отличие от кого-то, кто не в порядке)» или «Если я в порядке…» — оставляет слушателя в ожидании.\n   <audio-example zh=\"我很好\">{{Word:wo3}} {{word:hen3}} {{word:hao3}}</audio-example> — с 很 → естественный ответ на «Как дела?» — «Я в порядке».\n\n3. <audio-example zh=\"地方小\">{{Word:di4fang1}} {{word:xiao3}}</audio-example> — без 很 → звучит как «Место маленькое (но, возможно, удобное)» — подразумевается «но»; это установка на сравнение или уступку.\n   <audio-example zh=\"地方很小\">{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}</audio-example> — с 很 → простое наблюдение: «Место маленькое».\n\nТаким образом, пропуск 很 не создаёт неоднозначности в смысле множества значений — он создаёт другую грамматическую функцию: противопоставительное/условное придаточное вместо главного повествовательного предложения. Носитель слышит <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> и сразу ожидает вторую половину, например <audio-example zh=\"水好，但人不好\">{{word:shui3}} {{word:hao3}}, dàn {{word:ren2}} {{word:bu4}} {{word:hao3}}</audio-example> («Вода хорошая, но люди — нет»). С <audio-example zh=\"很\">{{word:hen3}}</audio-example> предложение самодостаточно."
+      zh: "第三课教了你 <audio-example zh=\"是\">{{word:shi4}}</audio-example>，它是把主语和名词连接起来的词（<audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example>——\"那个人是女人\"）。形容词也需要一个连接词，但普通话不会再用 <audio-example zh=\"是\">{{word:shi4}}</audio-example> 来干这个活——它用的是另一个词：<audio-example zh=\"很\">{{word:hen3}}</audio-example>。\n\n主语 + <audio-example zh=\"很\">{{word:hen3}}</audio-example> + 形容词\n\n光秃秃的形容词谓语，比如 <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> 或 <audio-example zh=\"我好\">{{word:wo3}} {{word:hao3}}</audio-example>，并不是一个中性的陈述。在自然的普通话里，它听起来像是对比（\"水好，但是……\"或\"我好，[跟别人不一样]\"）或者是从句（\"当我好的时候……\"或\"如果我好……\"）。要做一个平淡、完整的陈述句，需要在谓语的位置上补上一个程度副词。这就是 <audio-example zh=\"很\">{{word:hen3}}</audio-example> 的作用：它是默认的、中性的程度副词。它字面上翻译是\"很\"，但在这个位置上它的语义已经被淡化——它并不表示强调。所以 <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> 就只是\"水很好\"，而不是\"水非常好\"。\n\n听听区别，比较下面几对（注意母语者会怎么理解）：\n\n1. <audio-example zh=\"水好\">{{Word:shui3}} {{word:hao3}}</audio-example> —— 没有 很 → 听起来像对比或条件：\"水好（但别的东西不好）\"或\"如果/当水好的时候……\"——等着下半句。\n   <audio-example zh=\"水很好\">{{Word:shui3}} {{word:hen3}} {{word:hao3}}</audio-example> —— 有 很 → 完整、中性的陈述：\"水很好。\"\n\n2. <audio-example zh=\"我好\">{{Word:wo3}} {{word:hao3}}</audio-example> —— 没有 很 → 听起来像\"我挺好（跟别人不一样）\"或\"如果我好的话……\"——让听者等着下文。\n   <audio-example zh=\"我很好\">{{Word:wo3}} {{word:hen3}} {{word:hao3}}</audio-example> —— 有 很 → 回答\"你好吗？\"时的自然说法：\"我很好。\"\n\n3. <audio-example zh=\"地方小\">{{Word:di4fang1}} {{word:xiao3}}</audio-example> —— 没有 很 → 听起来像\"地方小（但可能方便）\"——隐含一个\"但是\"，是对比或让步的铺垫。\n   <audio-example zh=\"地方很小\">{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}</audio-example> —— 有 很 → 平实的观察：\"地方很小。\"\n\n所以省略 很 并不是造成多种意思的歧义——它造成了不同的语法功能：对比/条件从句，而不是独立的陈述句。母语者听到 <audio-example zh=\"水好\">{{word:shui3}} {{word:hao3}}</audio-example> 就会等着后半句，比如 <audio-example zh=\"水好，但人不好\">{{word:shui3}} {{word:hao3}}, dàn {{word:ren2}} {{word:bu4}} {{word:hao3}}</audio-example>（\"水好，但人不好\"）。有 <audio-example zh=\"很\">{{word:hen3}}</audio-example> 的句子则能独立成句。"
+    tldr:
+      eng: "Adjectives use {{word:hen3}} as a neutral predicate connector to avoid sounding like a contrast or condition; in this role {{word:hen3}} is required and not emphatic."
+      rus: "Прилагательные используют {{word:hen3}} как нейтральную связку в сказуемом, чтобы не звучать как противопоставление или условие; в этой роли {{word:hen3}} обязателен и не является усилительным."
+      zh: "形容词用 {{word:hen3}} 作为中性谓语连接词，以避免听起来像对比或条件；在这个位置上 {{word:hen3}} 是必需的，并不表示强调。"
+    necessity:
+      eng: "Explains that {{word:hen3}} is a neutral predicate filler, not an intensifier, and that omitting it creates a contrastive or conditional reading rather than a plain statement, with three minimal pairs to illustrate."
+      rus: "Объясняет, что {{word:hen3}} — это нейтральный заполнитель сказуемого, а не усилитель, и что его пропуск создаёт значение противопоставления или условия, а не простое утверждение, с тремя минимальными парами для иллюстрации."
+      zh: "说明 {{word:hen3}} 是中性谓语填充词，而不是加强语气的词；省略它会带来对比或条件的理解，而不是简单的陈述，并用三组最小对比例子来说明。"
+
+  - type: prose
+    text:
+      eng: "When an adjective sits right next to a noun instead of making its own statement — describing it as a single unit, the way <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example> describes \"a small place\" — it binds on with <code>-{{word:de}}</code>, the same connecting particle from Lesson 2.\n\nBut why is <code>-{{word:de}}</code> required here? For a bare adjective like <audio-example zh=\"大\">{{word:da4}}</audio-example> or <audio-example zh=\"小\">{{word:xiao3}}</audio-example>, you can sometimes drop <code>-{{word:de}}</code> and form a close compound: <audio-example zh=\"大地方\">{{word:da4}}-{{word:di4fang1}}</audio-example> (\"big place\") is acceptable. However, once the adjective is modified by a degree word like <audio-example zh=\"很\">{{word:hen3}}</audio-example>, or once it's a multi-character adjective, you can't attach it directly. <audio-example zh=\"很小地方\">{{word:hen3}}-{{word:xiao3}} {{word:di4fang1}}</audio-example> is ungrammatical — you need <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example>. Moreover, even with bare adjectives, <code>-{{word:de}}</code> can signal a descriptive, non‑inherent property: <audio-example zh=\"好动物\">{{word:hao3}}-{{word:dong4wu4}}</audio-example> can mean a \"good animal\" in the sense of a beneficial species or a moral animal (a fixed category), whereas <audio-example zh=\"好的动物\">{{word:hao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> simply describes an animal that happens to be good (a specific modification).\n\nTo hear the difference, compare these pairs (listen to how a native would interpret them):\n\n1. <audio-example zh=\"大地方\">{{Word:da4}} {{word:di4fang1}}</audio-example> — without 的 → tends to be heard as a compound noun: \"a big place\" as a category (e.g., a major city, a large venue as a type).\n   <audio-example zh=\"大的地方\">{{Word:da4}}-{{word:de}} {{word:di4fang1}}</audio-example> — with 的 → a descriptive phrase: \"a place which is big\" — the bigness is a contingent property, not the name of the place.\n\n2. <audio-example zh=\"小动物\">{{Word:xiao3}} {{word:dong4wu4}}</audio-example> — without 的 → often means \"small animal\" as a biological class or common term (like a kitten, a mouse — it's almost a compound word).\n   <audio-example zh=\"小的动物\">{{Word:xiao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> — with 的 → means \"an animal that is small\" — you're picking out an animal by its size right now.\n\n3. <audio-example zh=\"好水\">{{Word:hao3}} {{word:shui3}}</audio-example> — without 的 → could mean \"good water\" as a known brand, a type, or \"plain water\" (as opposed to tea) in some dialects — it's a fixed category.\n   <audio-example zh=\"好的水\">{{Word:hao3}}-{{word:de}} {{word:shui3}}</audio-example> — with 的 → means \"water that is good\" — a specific instance, not a category label.\n\nSo omitting <code>-{{word:de}}</code> doesn't make the phrase ungrammatical for all adjectives — but it shifts the meaning toward a fixed compound or a category label. Adding <code>-{{word:de}}</code> keeps it a descriptive modification. When the adjective has its own modifier (like <audio-example zh=\"很\">{{word:hen3}}</audio-example>), <code>-{{word:de}}</code> is mandatory, otherwise the phrase is simply ungrammatical and a native won't understand it as a noun phrase at all."
+      rus: "Когда прилагательное стоит прямо рядом с существительным, а не образует отдельное высказывание, — описывая его как единое целое, так же как <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example> описывает «маленькое место», — оно присоединяется через <code>-{{word:de}}</code>, ту же связующую частицу из Урока 2.\n\nНо почему здесь требуется <code>-{{word:de}}</code>? Для голого прилагательного, например <audio-example zh=\"大\">{{word:da4}}</audio-example> или <audio-example zh=\"小\">{{word:xiao3}}</audio-example>, иногда можно опустить <code>-{{word:de}}</code> и образовать тесное сложное слово: <audio-example zh=\"大地方\">{{word:da4}}-{{word:di4fang1}}</audio-example> («большое место») допустимо. Однако как только прилагательное сопровождается словом степени, например <audio-example zh=\"很\">{{word:hen3}}</audio-example>, или когда оно состоит из нескольких слогов, прикреплять его напрямую уже нельзя. <audio-example zh=\"很小地方\">{{word:hen3}}-{{word:xiao3}} {{word:di4fang1}}</audio-example> — грамматически неверно; нужно <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example>. Кроме того, даже с голыми прилагательными <code>-{{word:de}}</code> может указывать на описательное, непостоянное свойство: <audio-example zh=\"好动物\">{{word:hao3}}-{{word:dong4wu4}}</audio-example> может означать «хорошее животное» в смысле полезного вида или нравственного животного (устойчивая категория), тогда как <audio-example zh=\"好的动物\">{{word:hao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> просто описывает животное, которое оказалось хорошим (конкретное уточнение).\n\nЧтобы услышать разницу, сравните эти пары (обратите внимание, как носитель их поймёт):\n\n1. <audio-example zh=\"大地方\">{{Word:da4}} {{word:di4fang1}}</audio-example> — без 的 → скорее воспринимается как сложное существительное: «большое место» как категория (например, крупный город, большой зал как тип).\n   <audio-example zh=\"大的地方\">{{Word:da4}}-{{word:de}} {{word:di4fang1}}</audio-example> — с 的 → описательное словосочетание: «место, которое большое» — большой размер — это случайное свойство, а не название места.\n\n2. <audio-example zh=\"小动物\">{{Word:xiao3}} {{word:dong4wu4}}</audio-example> — без 的 → часто означает «маленькое животное» как биологический класс или обиходный термин (котёнок, мышь — почти сложное слово).\n   <audio-example zh=\"小的动物\">{{Word:xiao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> — с 的 → означает «животное, которое маленькое» — вы выделяете животное по его размеру в данный момент.\n\n3. <audio-example zh=\"好水\">{{Word:hao3}} {{word:shui3}}</audio-example> — без 的 → может означать «хорошая вода» как известный бренд, тип или просто «вода» (в отличие от чая) в некоторых диалектах — это устойчивая категория.\n   <audio-example zh=\"好的水\">{{Word:hao3}}-{{word:de}} {{word:shui3}}</audio-example> — с 的 → означает «вода, которая хорошая» — конкретный экземпляр, а не ярлык категории.\n\nТаким образом, пропуск <code>-{{word:de}}</code> не делает фразу неграмматичной для всех прилагательных — но смещает значение в сторону устойчивого сложного слова или категории. Добавление <code>-{{word:de}}</code> сохраняет описательное значение. Когда у прилагательного есть собственное определение (например, <audio-example zh=\"很\">{{word:hen3}}</audio-example>), <code>-{{word:de}}</code> обязательно, иначе фраза становится просто неграмматичной, и носитель вообще не поймёт её как именную группу."
+      zh: "当一个形容词直接贴在名词旁边，而不是单独成句——把名词描述成一个整体，就像 <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example> 描述\"一个小地方\"那样——它就要靠 <code>-{{word:de}}</code> 连接上去，也就是第二课里那个连接用的助词。\n\n但为什么这里需要 <code>-{{word:de}}</code> 呢？对于光杆形容词，比如 <audio-example zh=\"大\">{{word:da4}}</audio-example> 或 <audio-example zh=\"小\">{{word:xiao3}}</audio-example>，有时候可以省略 <code>-{{word:de}}</code>，形成一个紧密的复合词：<audio-example zh=\"大地方\">{{word:da4}}-{{word:di4fang1}}</audio-example>（\"大地方\"）是可以接受的。但是，一旦形容词被 <audio-example zh=\"很\">{{word:hen3}}</audio-example> 这样的程度词修饰，或者是多音节形容词，就不能直接贴上去了。<audio-example zh=\"很小地方\">{{word:hen3}}-{{word:xiao3}} {{word:di4fang1}}</audio-example> 是不合语法的——必须是 <audio-example zh=\"很小的地方\">{{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}</audio-example>。此外，即使是光杆形容词，<code>-{{word:de}}</code> 也能区分描述性的、非固有的属性：<audio-example zh=\"好动物\">{{word:hao3}}-{{word:dong4wu4}}</audio-example> 可以指\"好的动物\"，意思是有益的物种或有道德的动物（固定的类别），而 <audio-example zh=\"好的动物\">{{word:hao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> 只是描述一个碰巧是好的动物（具体修饰）。\n\n听听区别，比较下面几对（注意母语者会怎么理解）：\n\n1. <audio-example zh=\"大地方\">{{Word:da4}} {{word:di4fang1}}</audio-example> —— 没有 的 → 倾向于被理解为复合名词：\"大地方\"作为一个类别（比如大城市、大型场所作为一种类型）。\n   <audio-example zh=\"大的地方\">{{Word:da4}}-{{word:de}} {{word:di4fang1}}</audio-example> —— 有 的 → 描述性短语：\"一个大的地方\"——大是附带属性，而不是地名的组成部分。\n\n2. <audio-example zh=\"小动物\">{{Word:xiao3}} {{word:dong4wu4}}</audio-example> —— 没有 的 → 通常指\"小动物\"作为生物类或常用词（小猫、老鼠——几乎成了一个复合词）。\n   <audio-example zh=\"小的动物\">{{Word:xiao3}}-{{word:de}} {{word:dong4wu4}}</audio-example> —— 有 的 → 指\"一个小的动物\"——根据当前大小来挑选这个动物。\n\n3. <audio-example zh=\"好水\">{{Word:hao3}} {{word:shui3}}</audio-example> —— 没有 的 → 可能指\"好水\"作为品牌、类型，或在某些方言中指\"白水\"（区别于茶）——是一个固定类别。\n   <audio-example zh=\"好的水\">{{Word:hao3}}-{{word:de}} {{word:shui3}}</audio-example> —— 有 的 → 指\"好的水\"——具体某一份水，不是类别标签。\n\n所以省略 <code>-{{word:de}}</code> 并不是对所有形容词都不合语法——但它会把意思偏向固定的复合词或类别标签。加上 <code>-{{word:de}}</code> 则保持描述性修饰。当形容词本身带修饰语（如 <audio-example zh=\"很\">{{word:hen3}}</audio-example>）时，<code>-{{word:de}}</code> 是强制性的，否则整个短语都不合语法，母语者根本不会把它当名词短语来理解。"
+    tldr:
+      eng: "-{{word:de}} is required when the adjective has modifiers like {{word:hen3}}, or to distinguish a descriptive phrase from a fixed compound; without it, phrases like 很小地方 are ungrammatical, and bare adjectives can shift to compound-noun readings — three pairs show the contrast."
+      rus: "-{{word:de}} требуется, когда прилагательное имеет при себе определения, такие как {{word:hen3}}, или чтобы отличить описательное словосочетание от устойчивого сложного слова; без него фразы вроде 很小地方 грамматически неверны, а голые прилагательные могут восприниматься как часть сложного существительного — три пары показывают контраст."
+      zh: "当形容词带有像 {{word:hen3}} 这样的修饰语时，-{{word:de}} 是必需的；它也可以把描述性短语和固定复合词区分开来；没有它，像 很小地方 这样的短语不合语法，而光杆形容词可能会被理解成复合名词——三对例子展示了这种对比。"
+    necessity:
+      eng: "Clarifies that -{{word:de}} is grammatically required when an adjective is modified (e.g., by {{word:hen3}}) and that its presence or absence can shift meaning between a fixed compound and a descriptive phrase, with three minimal pairs illustrating the native perception."
+      rus: "Разъясняет, что -{{word:de}} грамматически обязательно, когда прилагательное имеет определение (например, {{word:hen3}}), и что его наличие или отсутствие может менять значение между устойчивым сложным словом и описательным словосочетанием, с тремя минимальными парами, иллюстрирующими восприятие носителя."
+      zh: "说明 -{{word:de}} 在形容词带有修饰语（如 {{word:hen3}}）时是语法上必需的；它的存在与否会在固定复合词和描述性短语之间产生语义差异，并用三组最小对比例子说明母语者的理解。"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:shui3}} {{word:hen3}} {{word:hao3}}."
+        ttsText: "水很好。"
+        translation:
+          eng: "Water is good."
+          rus: "Вода хорошая."
+          zh: "水很好。"
+      - pinyin: "{{Word:zhe4}}-ge {{word:shi4}} {{word:hen3}}-{{word:xiao3}}-{{word:de}} {{word:di4fang1}}."
+        ttsText: "这个是很小的地方。"
+        translation:
+          eng: "This is a small place."
+          rus: "Это маленькое место."
+          zh: "这是一个小地方。"
+      - pinyin: "{{Word:zhe4}}-ge {{word:shi4}} {{word:yi1}}-ge {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:dong4wu4}}."
+        ttsText: "这个是一个很大的动物。"
+        translation:
+          eng: "This is a very big animal."
+          rus: "Это очень большое животное."
+          zh: "这是一个很大的动物。"
+
+  - type: exercise
+    items:
+      - eng: "The place is small."
+        rus: "Место маленькое."
+        zh: "这个地方很小。"
+      - eng: "This is a good animal."
+        rus: "Это хорошее животное."
+        zh: "这是一个好动物。"
+      - eng: "This is a big fruit."
+        rus: "Это большой фрукт."
+        zh: "这是一个大水果。"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}."
+          rus: "{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}."
+          zh: "{{Word:di4fang1}} {{word:hen3}} {{word:xiao3}}."
+        ttsText: "地方很小。"
+      - text:
+          eng: "{{Word:zhe4}}-ge {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:dong4wu4}}."
+          rus: "{{Word:zhe4}}-ge {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:dong4wu4}}."
+          zh: "{{Word:zhe4}}-ge {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:dong4wu4}}."
+        ttsText: "这个是好的动物。"
+      - text:
+          eng: "{{Word:zhe4}}-ge {{word:shi4}} {{word:yi1}}-ge {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:shui3guo3}}."
+          rus: "{{Word:zhe4}}-ge {{word:shi4}} {{word:yi1}}-ge {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:shui3guo3}}."
+          zh: "{{Word:zhe4}}-ge {{word:shi4}} {{word:yi1}}-ge {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:shui3guo3}}."
+        ttsText: "这个是一个很大的水果。"

@@ -4,7 +4,12 @@
 //                        change in src/data/dictionary.json and have every
 //                        chapter that references it by id pick up the new
 //                        term automatically, instead of requiring a manual
-//                        find-and-replace across lesson files.
+//                        find-and-replace across lesson files. dictionary.json
+//                        is the single source of truth for every word's
+//                        spelling; lesson content should reference words by
+//                        id via this mechanism rather than hardcoding pinyin.
+//   {{Word:ID}}       -- same, but capitalizes the term's first letter, for
+//                        sentence-initial use (e.g. {{Word:hao3}} -> "Hǎo").
 //   {{dictionaryCount}} -- the CURRENT total word count of the dictionary,
 //                        so prose stating "N words" never drifts out of
 //                        sync as words are added or removed.
@@ -21,8 +26,12 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const ROOT = resolve(__dirname, '..');
 const DEFAULT_DATA_PATH = resolve(ROOT, 'src/data/dictionary.json');
 
-const WORD_REF_RE = /\{\{word:([a-z0-9-]+)\}\}/g;
+const WORD_REF_RE = /\{\{(word|Word):([a-z0-9-]+)\}\}/g;
 const COUNT_REF_RE = /\{\{dictionaryCount\}\}/g;
+
+function capitalize(s) {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
 
 function loadDictionary(dataPath = DEFAULT_DATA_PATH) {
   return JSON.parse(readFileSync(dataPath, 'utf-8'));
@@ -31,13 +40,8 @@ function loadDictionary(dataPath = DEFAULT_DATA_PATH) {
 export function loadWordIndex(dataPath = DEFAULT_DATA_PATH) {
   const dictionary = loadDictionary(dataPath);
   const index = new Map();
-  for (const category of dictionary.categories) {
-    const words = category.subcategories
-      ? category.subcategories.flatMap((s) => s.words)
-      : category.words;
-    for (const word of words) {
-      if (word.id) index.set(word.id, word.term);
-    }
+  for (const [id, word] of Object.entries(dictionary.words)) {
+    index.set(id, word.term);
   }
   return index;
 }
@@ -48,13 +52,14 @@ export function loadDictionaryWordCount(dataPath = DEFAULT_DATA_PATH) {
 
 export function resolveWordRefs(text, index, wordCount) {
   return text
-    .replace(WORD_REF_RE, (full, id) => {
+    .replace(WORD_REF_RE, (full, kind, id) => {
       if (!index.has(id)) {
         throw new Error(
-          `Unknown word id "${id}" referenced as ${full}. Check src/data/dictionary.json (run scripts/assign-word-ids.js if it's a newly added word).`,
+          `Unknown word id "${id}" referenced as ${full}. Check src/data/dictionary.json -- it must have a "${id}" key under "words".`,
         );
       }
-      return index.get(id);
+      const term = index.get(id);
+      return kind === 'Word' ? capitalize(term) : term;
     })
     .replace(COUNT_REF_RE, () => {
       if (wordCount === undefined) {

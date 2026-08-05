@@ -7,11 +7,11 @@ order: 15
 ---
 
 ```vocab
-huangse | yellow
-lanse | blue, green
-hongse | red
-heise | black, dark
-baise | white, pale
+{{word:huang2se4}} | yellow
+{{word:lan2se4}} | blue, green
+{{word:hong2se4}} | red
+{{word:hei1se4}} | black, dark
+{{word:bai2se4}} | white, pale
 ```
 
 In Toki Pona, the contextual particle _la_ establishes a frame of reference or an "if/when" conditional premise for the main clause. Hao-shuo-de replaces this abstract rule entirely by utilizing standard Mandarin topic-comment structures and fronted adverbial clauses.
@@ -20,15 +20,15 @@ To set a temporal, situational, or environmental background, place the context b
 
 `[Context / Condition Phrase] , [Main Statement]`
 
-Colors function as two-syllable adjectives in Hao-shuo-de. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-de` via a hyphen.
+Colors function as two-syllable adjectives in Hao-shuo-de. When they modify a target noun, they follow standard syntax by binding to the modifier particle `-{{word:de}}` via a hyphen.
 
 ```examples
-Zhe-ge heise-de shijian, ta lai. | Tonight / during this dark time, he is coming.
-Ni kan-jian huangse-de shui, bu chi ta. | If you see yellow water, don't drink it.
-lanse-de gongju zai baise-de difang. | The blue/green tool is in the white place.
-Shenme shijian ni fumu lai? | What time are your parents coming?
-Wo-de shenti bian lanse, zhe-ge hen huai. | If my body turns blue, this is very bad.
-hen-duo-ren-de difang, wo he ni he ta hen you liliang. | In a group, we are strong.
+{{Word:zhe4}}-ge {{word:hei1se4}}-{{word:de}} {{word:shi2jian1}}, {{word:ta1}} {{word:lai2}}. | Tonight / during this dark time, he is coming.
+{{Word:ni3}} {{word:kan4}}-jiàn {{word:huang2se4}}-{{word:de}} {{word:shui3}}, {{word:bu4}} {{word:chi1}} {{word:ta1}}. | If you see yellow water, don't drink it.
+{{Word:lan2se4}}-{{word:de}} {{word:gong1ju4}} {{word:zai4}} {{word:bai2se4}}-{{word:de}} {{word:di4fang1}}. | The blue/green tool is in the white place.
+{{Word:shen2me}} {{word:shi2jian1}} {{word:ni3}} {{word:fu4mu3}} {{word:lai2}}? | What time are your parents coming?
+{{Word:wo3}}-{{word:de}} {{word:shen1ti3}} {{word:bian4}} {{word:lan2se4}}, {{word:zhe4}}-ge {{word:hen3}} {{word:huai4}}. | If my body turns blue, this is very bad.
+{{Word:hen3}}-{{word:duo1}}-{{word:ren2}}-{{word:de}} {{word:di4fang1}}, {{word:wo3}} {{word:he2}} {{word:ni3}} {{word:he2}} {{word:ta1}} {{word:hen3}} {{word:you3}} {{word:li4liang4}}. | In a group, we are strong.
 ```
 
 ```exercise
@@ -38,7 +38,7 @@ I feel bad because of the large battle.
 ```
 
 ```answers
-shangmian-de-ri hongse-de shijian, shi hao-de shijian.
-wo he ni he ta mei-you dongwu dongxi, wo he ni he ta chi shuiguo.
-You da-de da, wo juede huai.
+{{Word:shang4mian4}}-{{word:de}}-{{word:ri4}} {{word:hong2se4}}-{{word:de}} {{word:shi2jian1}}, {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:shi2jian1}}.
+{{Word:wo3}} {{word:he2}} {{word:ni3}} {{word:he2}} {{word:ta1}} {{word:mei2}}-{{word:you3}} {{word:dong4wu4}} {{word:dong1xi}}, {{word:wo3}} {{word:he2}} {{word:ni3}} {{word:he2}} {{word:ta1}} {{word:chi1}} {{word:shui3guo3}}.
+{{Word:you3}} {{word:da4}}-{{word:de}} {{word:da3}}, {{word:wo3}} {{word:jue2de}} {{word:huai4}}.
 ```

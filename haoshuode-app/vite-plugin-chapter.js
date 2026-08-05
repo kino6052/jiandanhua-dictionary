@@ -17,11 +17,19 @@
 //     { type: 'examples' | 'story', items: [{ pinyin, translation: {..}, audioFile?, ttsText? }] }
 //     { type: 'exercise', items: [{eng, rus, zh}] }
 //     { type: 'answers', items: [{ text: {..}, audioFile?, ttsText? }] }
+//     { type: 'info' | 'warning', title?: {..}, ordered?: bool, items: [infoItem] }
 //   ]
 //
+//   An infoItem is `{ text: {eng, rus, zh}, ordered?: bool, items?: [infoItem] }`
+//   -- items nest recursively, so an info/warning block renders as a single
+//   boxed unit (icon + optional title + a possibly nested list) instead of
+//   the old markdown convention of ad-hoc nested `>>` blockquotes. `ordered`
+//   switches that item's own nested list from a bullet list to a numbered
+//   one; it has no effect without a nested `items` array.
+//
 // Only `prose` blocks carry `tldr`/`necessity` -- per the project's own rule,
-// vocab/examples/exercise/answers/story are reserved, self-justifying block
-// types that don't need a rationale.
+// vocab/examples/exercise/answers/story/info/warning are reserved,
+// self-justifying block types that don't need a rationale.
 //
 // Any i18n field missing a given language is simply omitted when rendering
 // in that language (no fallback, no error) -- but the block's index is
@@ -34,11 +42,60 @@ import { loadWordIndex, loadDictionaryWordCount, resolveWordRefs } from './scrip
 
 const LANGS = ['eng', 'rus', 'zh'];
 
+const INFO_BLOCK_ICONS = {
+  info: 'ℹ️',
+  warning: '⚠️',
+};
+
 function pick(i18n, lang) {
   return i18n && i18n[lang] !== undefined ? i18n[lang] : undefined;
 }
 
-function buildForLang(chapter, lang) {
+// Renders one level of an info/warning block's nested items, recursing into
+// child `items` arrays. Returns '' if every item at this level is missing
+// the requested language. Reports incompleteness (rather than throwing or
+// silently passing) via `onMissing`, mirroring how vocab/examples/etc. skip
+// missing entries but still flag the block.
+function renderInfoItems(items, lang, ordered, onMissing) {
+  const rendered = [];
+  for (const item of items) {
+    const text = pick(item.text, lang);
+    if (text === undefined) {
+      onMissing();
+      continue;
+    }
+    const childHtml = item.items && item.items.length
+      ? renderInfoItems(item.items, lang, Boolean(item.ordered), onMissing)
+      : '';
+    rendered.push(`<li>${marked.parseInline(text)}${childHtml}</li>`);
+  }
+  if (rendered.length === 0) return '';
+  const tag = ordered ? 'ol' : 'ul';
+  return `<${tag}>${rendered.join('')}</${tag}>`;
+}
+
+function renderInfoBlock(block, lang, onMissing) {
+  const hasTitle = block.title !== undefined;
+  const title = hasTitle ? pick(block.title, lang) : undefined;
+  if (hasTitle && title === undefined) onMissing();
+
+  const listHtml = renderInfoItems(block.items ?? [], lang, Boolean(block.ordered), onMissing);
+  if (title === undefined && !listHtml) return '';
+
+  const kind = block.type;
+  const icon = INFO_BLOCK_ICONS[kind];
+  const titleHtml = title !== undefined
+    ? `<div class="${kind}-block-title">${marked.parseInline(title)}</div>`
+    : '';
+  return (
+    `<div class="${kind}-block">` +
+      `<span class="${kind}-block-icon" aria-hidden="true">${icon}</span>` +
+      `<div class="${kind}-block-content">${titleHtml}${listHtml}</div>` +
+    `</div>`
+  );
+}
+
+export function buildForLang(chapter, lang) {
   const vocab = [];
   const story = [];
   const examples = [];
@@ -116,6 +173,14 @@ function buildForLang(chapter, lang) {
         if (!complete) missingBlocks.push(index);
         break;
       }
+      case 'info':
+      case 'warning': {
+        let complete = true;
+        const html = renderInfoBlock(block, lang, () => { complete = false; });
+        if (!complete) missingBlocks.push(index);
+        if (html) proseHtmlParts.push(html);
+        break;
+      }
       default:
         throw new Error(`Unknown chapter block type "${block.type}" in ${chapter.id}`);
     }
@@ -143,25 +208,37 @@ function buildForLang(chapter, lang) {
   };
 }
 
-export default function chapterYamlPlugin() {
-  const wordIndex = loadWordIndex();
-  const wordCount = loadDictionaryWordCount();
+// Pure core of the transform: YAML string in, plain JS view object out. No
+// filesystem or Vite access, so it can be unit-tested directly with plain
+// input -> output assertions. `wordIndex`/`wordCount` are the only external
+// inputs the transform needs, and are injected rather than loaded here.
+export function transformChapterSource(src, { wordIndex = new Map(), wordCount } = {}) {
+  const resolvedSrc = resolveWordRefs(src, wordIndex, wordCount);
+  const chapter = parseYaml(resolvedSrc);
 
+  const byLang = {};
+  for (const lang of LANGS) byLang[lang] = buildForLang(chapter, lang);
+
+  return { byLang };
+}
+
+export function chapterYamlPlugin({
+  wordIndex = loadWordIndex(),
+  wordCount = loadDictionaryWordCount(),
+} = {}) {
   return {
     name: 'vite-plugin-chapter-yaml',
     transform(src, id) {
       if (!id.endsWith('.yaml') && !id.endsWith('.yml')) return null;
 
-      const resolvedSrc = resolveWordRefs(src, wordIndex, wordCount);
-      const chapter = parseYaml(resolvedSrc);
-
-      const byLang = {};
-      for (const lang of LANGS) byLang[lang] = buildForLang(chapter, lang);
+      const result = transformChapterSource(src, { wordIndex, wordCount });
 
       return {
-        code: `export default ${JSON.stringify({ byLang })};`,
+        code: `export default ${JSON.stringify(result)};`,
         map: null,
       };
     },
   };
 }
+
+export default chapterYamlPlugin;

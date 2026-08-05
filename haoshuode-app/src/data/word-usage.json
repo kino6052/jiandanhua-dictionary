@@ -1,0 +1,923 @@
+{
+  "chapters": {
+    "appendix-minimality": {
+      "label": "Why Minimality Works",
+      "order": 2
+    },
+    "appendix-pinyin": {
+      "label": "The Pinyin System",
+      "order": 1
+    },
+    "lesson-01": {
+      "label": "Lesson 1 · Sounds and Symbols",
+      "order": 1
+    },
+    "lesson-02": {
+      "label": "Lesson 2 · Words",
+      "order": 2
+    },
+    "lesson-03": {
+      "label": "Lesson 3 · Sentences",
+      "order": 3
+    },
+    "lesson-04": {
+      "label": "Lesson 4 · Nouns and Adjectives",
+      "order": 4
+    },
+    "lesson-05": {
+      "label": "Lesson 5 · You and I",
+      "order": 5
+    },
+    "lesson-06": {
+      "label": "Lesson 6 · Dongzuo (Verbs)",
+      "order": 6
+    },
+    "lesson-07": {
+      "label": "Lesson 7 · More Adjectives & State Changes",
+      "order": 7
+    },
+    "lesson-08": {
+      "label": "Lesson 8 · Questions and Answers",
+      "order": 8
+    },
+    "lesson-09": {
+      "label": "Lesson 9 · Prepositions & Coverbs",
+      "order": 9
+    },
+    "lesson-10": {
+      "label": "Lesson 10 · Proper Names & Geography",
+      "order": 10
+    },
+    "lesson-11": {
+      "label": "Lesson 11 · Greetings and Feelings",
+      "order": 11
+    },
+    "lesson-12": {
+      "label": "Lesson 12 · Modification Stacking",
+      "order": 12
+    },
+    "lesson-13": {
+      "label": "Lesson 13 · Shùzì (Numbers and Order)",
+      "order": 13
+    },
+    "lesson-14": {
+      "label": "Lesson 14 · Pre-Verbs & Auxiliaries",
+      "order": 14
+    },
+    "lesson-15": {
+      "label": "Lesson 15 · Colors and la",
+      "order": 15
+    },
+    "lesson-16": {
+      "label": "Lesson 16 · Spatial Nouns",
+      "order": 16
+    },
+    "lesson-17": {
+      "label": "Lesson 17 · Particles and Perspective",
+      "order": 17
+    },
+    "lesson-18": {
+      "label": "Lesson 18 · Hunting Adventure",
+      "order": 18
+    },
+    "lesson-19": {
+      "label": "Lesson 19 · Cooking Adventure",
+      "order": 19
+    },
+    "lesson-20": {
+      "label": "Lesson 20 · The Frontier",
+      "order": 20
+    },
+    "proverbs": {
+      "label": "Hao-shuo-de Proverbs",
+      "order": 1
+    }
+  },
+  "words": {
+    "wo3": [
+      "lesson-01",
+      "proverbs",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-13",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17"
+    ],
+    "ni3": [
+      "proverbs",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-13",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "ta1": [
+      "lesson-05",
+      "lesson-08",
+      "lesson-09",
+      "lesson-13",
+      "lesson-15",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "shen2me": [
+      "lesson-08",
+      "lesson-10",
+      "lesson-13",
+      "lesson-15",
+      "lesson-16",
+      "lesson-19"
+    ],
+    "shi4chang3": [
+      "appendix-minimality"
+    ],
+    "jia1": [
+      "appendix-minimality"
+    ],
+    "ri4": [
+      "lesson-11",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15"
+    ],
+    "yue4": [],
+    "zhi2wu4": [
+      "lesson-12",
+      "lesson-13",
+      "lesson-14",
+      "lesson-18"
+    ],
+    "huo3": [
+      "lesson-19"
+    ],
+    "kong1qi4": [],
+    "bi2zi": [],
+    "jiao3": [],
+    "kou3": [
+      "lesson-19"
+    ],
+    "pi2fu1": [],
+    "shen1ti3": [
+      "proverbs",
+      "lesson-12",
+      "lesson-15"
+    ],
+    "shou3": [],
+    "tou2": [
+      "lesson-18",
+      "lesson-19"
+    ],
+    "ren2": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-13",
+      "lesson-15"
+    ],
+    "fu4mu3": [
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-14",
+      "lesson-15",
+      "lesson-17"
+    ],
+    "nan2ren2": [
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-10",
+      "lesson-12",
+      "lesson-13",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "nv3ren2": [
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-06",
+      "lesson-07",
+      "lesson-10",
+      "lesson-12",
+      "lesson-16",
+      "lesson-17",
+      "lesson-19"
+    ],
+    "qun2": [
+      "lesson-05",
+      "lesson-06",
+      "lesson-12"
+    ],
+    "mi3fan4": [
+      "lesson-19"
+    ],
+    "shui3guo3": [
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-07",
+      "lesson-08",
+      "lesson-14",
+      "lesson-15"
+    ],
+    "yan2": [
+      "lesson-16"
+    ],
+    "shui3": [
+      "proverbs",
+      "lesson-04",
+      "lesson-07",
+      "lesson-09",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-19"
+    ],
+    "dong4wu4": [
+      "lesson-01",
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-11",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "chong2zi": [
+      "lesson-18"
+    ],
+    "niao3": [
+      "lesson-18"
+    ],
+    "pa2xing2dong4wu4": [],
+    "yu2": [
+      "lesson-08",
+      "lesson-09",
+      "lesson-14"
+    ],
+    "dong1xi": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-09",
+      "lesson-11",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "gong1ju4": [
+      "appendix-minimality",
+      "lesson-08",
+      "lesson-09",
+      "lesson-11",
+      "lesson-12",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18"
+    ],
+    "gun4zi": [
+      "lesson-18"
+    ],
+    "he2zi": [],
+    "ni2": [],
+    "qian2": [
+      "proverbs"
+    ],
+    "xian4": [
+      "lesson-18"
+    ],
+    "yi1fu": [
+      "lesson-18",
+      "lesson-19"
+    ],
+    "ci2": [
+      "lesson-10",
+      "lesson-14",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "li4liang4": [
+      "proverbs",
+      "lesson-07",
+      "lesson-12",
+      "lesson-15",
+      "lesson-16"
+    ],
+    "xing4": [],
+    "na4": [
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-06",
+      "lesson-10",
+      "lesson-11"
+    ],
+    "zhe4": [
+      "lesson-01",
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-09",
+      "lesson-10",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "bu4tong2": [
+      "lesson-17",
+      "lesson-18"
+    ],
+    "yi1yang4": [
+      "lesson-17"
+    ],
+    "ge4": [
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-13"
+    ],
+    "yi1": [
+      "lesson-01",
+      "lesson-03",
+      "lesson-04",
+      "lesson-07",
+      "lesson-13",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "liang3": [
+      "lesson-13",
+      "lesson-17",
+      "lesson-19"
+    ],
+    "hao4": [
+      "lesson-13",
+      "lesson-17"
+    ],
+    "duo1": [
+      "proverbs",
+      "lesson-03",
+      "lesson-05",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15",
+      "lesson-18",
+      "lesson-20"
+    ],
+    "quan2bu4": [
+      "proverbs",
+      "lesson-13",
+      "lesson-17",
+      "lesson-20"
+    ],
+    "hao3": [
+      "lesson-01",
+      "proverbs",
+      "appendix-minimality",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-11",
+      "lesson-12",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "huai4": [
+      "proverbs",
+      "lesson-07",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-18"
+    ],
+    "bai2se4": [
+      "lesson-15"
+    ],
+    "hei1se4": [
+      "lesson-15",
+      "lesson-16",
+      "lesson-17"
+    ],
+    "hong2se4": [
+      "lesson-15",
+      "lesson-16",
+      "lesson-18"
+    ],
+    "huang2se4": [
+      "lesson-15"
+    ],
+    "lan2se4": [
+      "lesson-15",
+      "lesson-18"
+    ],
+    "yan2se4": [],
+    "qi2guai4": [
+      "proverbs"
+    ],
+    "xin1": [
+      "lesson-05",
+      "lesson-06",
+      "lesson-08",
+      "lesson-19"
+    ],
+    "re4": [
+      "lesson-19"
+    ],
+    "leng3": [
+      "lesson-17"
+    ],
+    "tian2": [
+      "lesson-17"
+    ],
+    "ying4": [],
+    "yuan2": [],
+    "xiao3": [
+      "proverbs",
+      "lesson-04",
+      "lesson-05",
+      "lesson-07",
+      "lesson-08",
+      "lesson-12",
+      "lesson-13",
+      "lesson-14",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "da4": [
+      "lesson-01",
+      "proverbs",
+      "appendix-minimality",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18"
+    ],
+    "yao4": [
+      "proverbs",
+      "lesson-14",
+      "lesson-18"
+    ],
+    "ai4": [
+      "proverbs",
+      "lesson-17",
+      "lesson-19"
+    ],
+    "jue2de": [
+      "proverbs",
+      "lesson-11",
+      "lesson-15",
+      "lesson-17",
+      "lesson-19"
+    ],
+    "zhi1dao4": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-10",
+      "lesson-13",
+      "lesson-14",
+      "lesson-20"
+    ],
+    "kan4": [
+      "lesson-07",
+      "lesson-09",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18",
+      "lesson-20"
+    ],
+    "ting1": [
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-13",
+      "lesson-18"
+    ],
+    "shuo1": [
+      "proverbs",
+      "lesson-06",
+      "lesson-08",
+      "lesson-09",
+      "lesson-11",
+      "lesson-13",
+      "lesson-17",
+      "lesson-20"
+    ],
+    "xie3": [
+      "lesson-02",
+      "lesson-03",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-16",
+      "lesson-20"
+    ],
+    "yong4": [
+      "appendix-minimality",
+      "lesson-09",
+      "lesson-12",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "jiao4": [
+      "lesson-01",
+      "lesson-10",
+      "lesson-11",
+      "lesson-14",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "kai1shi3": [
+      "lesson-14",
+      "lesson-17"
+    ],
+    "wan2cheng2": [],
+    "shui4jiao4": [
+      "lesson-01",
+      "proverbs",
+      "lesson-19"
+    ],
+    "deng3": [
+      "lesson-12"
+    ],
+    "chi1": [
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-14",
+      "lesson-15",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "wan2": [
+      "lesson-19",
+      "lesson-20"
+    ],
+    "lai2": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-09",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17"
+    ],
+    "qu4": [
+      "appendix-minimality",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-16",
+      "lesson-20"
+    ],
+    "bian4": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-07",
+      "lesson-08",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "zuo4": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-06",
+      "lesson-07",
+      "lesson-09",
+      "lesson-11",
+      "lesson-17",
+      "lesson-20"
+    ],
+    "da3": [
+      "proverbs",
+      "lesson-10",
+      "lesson-15"
+    ],
+    "gei3": [
+      "proverbs",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-11",
+      "lesson-12",
+      "lesson-17",
+      "lesson-20"
+    ],
+    "mo1": [
+      "lesson-19"
+    ],
+    "zhao3": [
+      "lesson-18"
+    ],
+    "zai4": [
+      "proverbs",
+      "lesson-06",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "shi4": [
+      "proverbs",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-10",
+      "lesson-13",
+      "lesson-15",
+      "lesson-17",
+      "lesson-19"
+    ],
+    "liu2": [
+      "proverbs",
+      "lesson-13",
+      "lesson-14",
+      "lesson-18"
+    ],
+    "de2": [
+      "appendix-minimality"
+    ],
+    "you3": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-10",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "si3": [],
+    "shi2jian1": [
+      "proverbs",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15",
+      "lesson-16",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "cong2": [
+      "lesson-16"
+    ],
+    "dui4": [
+      "lesson-17"
+    ],
+    "di4fang1": [
+      "proverbs",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19"
+    ],
+    "di4ban3": [
+      "lesson-19"
+    ],
+    "hou4mian4": [
+      "lesson-16",
+      "lesson-20"
+    ],
+    "li3mian4": [
+      "proverbs",
+      "lesson-16",
+      "lesson-20"
+    ],
+    "pang2bian1": [
+      "proverbs",
+      "lesson-09",
+      "lesson-16",
+      "lesson-19"
+    ],
+    "qian2mian4": [
+      "lesson-16"
+    ],
+    "shang4mian4": [
+      "lesson-15",
+      "lesson-16",
+      "lesson-17"
+    ],
+    "xia4mian4": [
+      "lesson-16",
+      "lesson-17"
+    ],
+    "wai4": [],
+    "ba3": [
+      "proverbs",
+      "lesson-07",
+      "lesson-08",
+      "lesson-12",
+      "lesson-16",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "de": [
+      "proverbs",
+      "appendix-minimality",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "le": [
+      "lesson-06",
+      "lesson-09",
+      "lesson-11",
+      "lesson-13",
+      "lesson-14",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "ma": [
+      "lesson-08",
+      "lesson-11"
+    ],
+    "bu4": [
+      "lesson-04",
+      "lesson-07",
+      "lesson-08",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-14",
+      "lesson-15",
+      "lesson-17"
+    ],
+    "mei2": [
+      "lesson-08",
+      "lesson-15"
+    ],
+    "dan4shi4": [
+      "lesson-01",
+      "lesson-17",
+      "lesson-18"
+    ],
+    "he2": [
+      "proverbs",
+      "lesson-05",
+      "lesson-15",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "huo4zhe3": [
+      "lesson-08"
+    ],
+    "ye3": [
+      "lesson-17",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "yin1wei4": [
+      "lesson-09"
+    ],
+    "wei4shen2me": [
+      "lesson-08",
+      "lesson-09",
+      "lesson-11"
+    ],
+    "zen3me": [
+      "lesson-08"
+    ],
+    "neng2": [],
+    "hen3": [
+      "lesson-01",
+      "proverbs",
+      "appendix-minimality",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "lesson-08",
+      "lesson-09",
+      "lesson-10",
+      "lesson-11",
+      "lesson-12",
+      "lesson-13",
+      "lesson-15",
+      "lesson-16",
+      "lesson-17",
+      "lesson-18",
+      "lesson-19",
+      "lesson-20"
+    ],
+    "fang1fa3": [
+      "proverbs",
+      "lesson-10",
+      "lesson-14",
+      "lesson-20"
+    ]
+  }
+}

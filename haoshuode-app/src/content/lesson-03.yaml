@@ -1,0 +1,162 @@
+# Converted from the old lesson-03.md/.rus.md/.zh.md frontmatter+fenced-markdown
+# format to the YAML block schema. Addresses CONTENT_CHECKLIST.md §5.3 item
+# "Migrate lessons 3-20 to the YAML schema" (marked off for this lesson only --
+# lessons 7-20 are still on the old markdown format).
+id: lesson-03
+type: lesson
+lessonNumber: 3
+order: 3
+title:
+  eng: "Sentences"
+  rus: "Предложения"
+  zh: "句子"
+
+summary:
+  eng: "Hao-shuo-de sentences follow a fixed Subject-Verb-Object order with no case marking; the copula {{word:shi4}} links a subject to a classifying noun, and quantity (like {{word:duo1}}) is expressed by a separate word, never by the noun itself."
+  rus: "Предложения Hao-shuo-de строятся по неизменному порядку Подлежащее-Глагол-Дополнение без падежных окончаний; связка {{word:shi4}} соединяет подлежащее с классифицирующим существительным, а количество (например {{word:duo1}}) выражается отдельным словом, а не самим существительным."
+  zh: "Hao-shuo-de 的句子遵循固定的主谓宾语序，没有格变化；系词 {{word:shi4}} 把主语和用来归类的名词连接起来，数量（如 {{word:duo1}}）由独立的词表达，而不是由名词本身表达。"
+
+blocks:
+  - type: prose
+    text:
+      eng: |-
+        Hao-shuo-de has no case endings — no special ending on a noun to mark "the one doing this" versus "the one this is being done to." All of that information lives in exactly one place: word order. Every Hao-shuo-de sentence follows the same fixed shape:
+
+        Subject + Verb + Object
+
+        Swap the order and you don't get emphasis or a different flavor of the same sentence — you get a different sentence, possibly a wrong one. Position isn't a stylistic choice; it's the grammar.
+
+        The simplest sentence you can build has no object at all — just a subject, the verb <audio-example zh="是">{{word:shi4}}</audio-example> ("is/am/are"), and a noun that describes or classifies it:
+
+        Subject + <audio-example zh="是">{{word:shi4}}</audio-example> + Noun
+
+        This "verb" never changes shape. Whoever is speaking, whatever is being described, <audio-example zh="是">{{word:shi4}}</audio-example> stays <audio-example zh="是">{{word:shi4}}</audio-example>.
+      rus: |-
+        В Hǎo-shuō-de нет падежных окончаний — никакого специального окончания на существительном, которое бы отмечало «тот, кто делает это» в отличие от «тот, с кем это делают». Вся эта информация живёт ровно в одном месте: в порядке слов. Каждое предложение Hǎo-shuō-de следует одной и той же неизменной форме:
+
+        Подлежащее + Глагол + Дополнение
+
+        Поменяйте порядок — и вы не получите другой оттенок того же предложения, вы получите другое предложение, возможно, неверное. Порядок слов — это не стилистический выбор, это грамматика.
+
+        Самое простое предложение, которое можно построить, вообще обходится без дополнения — только подлежащее, глагол <audio-example zh="是">{{word:shi4}}</audio-example> («являться/быть») и существительное, которое описывает или классифицирует подлежащее:
+
+        Подлежащее + <audio-example zh="是">{{word:shi4}}</audio-example> + Именное сказуемое
+
+        Этот «глагол» никогда не меняет форму. Кто бы ни говорил, о ком бы ни шла речь, <audio-example zh="是">{{word:shi4}}</audio-example> остаётся <audio-example zh="是">{{word:shi4}}</audio-example>.
+      zh: |-
+        Hǎo-shuō-de 没有格变化——名词不会因为"是动作的发出者"还是"是动作的承受者"而变换词尾。这类信息只住在一个地方：词序。Hǎo-shuō-de 的每一句话都遵循同一个固定形状：
+
+        主语 + 动词 + 宾语
+
+        换一下顺序，你得到的不是同一句话的另一种语气，而是另一句话——很可能是错的一句。词序不是文体上的选择，它就是语法本身。
+
+        你能造出的最简单的句子完全没有宾语——只有主语、动词 <audio-example zh="是">{{word:shi4}}</audio-example>（"是"），以及一个用来描述或归类主语的名词：
+
+        主语 + <audio-example zh="是">{{word:shi4}}</audio-example> + 名词
+
+        这个"动词"从不变形。不管是谁在说话，不管在描述什么，<audio-example zh="是">{{word:shi4}}</audio-example> 永远是 <audio-example zh="是">{{word:shi4}}</audio-example>。
+    tldr:
+      eng: "Sentences follow a fixed Subject-Verb-Object order; the simplest sentence uses {{word:shi4}} to link a subject to a classifying noun."
+      rus: "Предложения строятся в неизменном порядке Подлежащее-Глагол-Дополнение; самое простое предложение использует {{word:shi4}}, чтобы связать подлежащее с классифицирующим существительным."
+      zh: "句子遵循固定的主谓宾语序；最简单的句子用 {{word:shi4}} 把主语和用来归类的名词连接起来。"
+    necessity:
+      eng: "Establishes word order as the only signal for grammatical role, since Hao-shuo-de has no case endings to mark it instead."
+      rus: "Устанавливает порядок слов как единственный сигнал грамматической роли, поскольку в Hao-shuo-de нет падежных окончаний, которые могли бы её отметить."
+      zh: "确立词序作为标示语法角色的唯一信号，因为 Hao-shuo-de 没有格变化来标记它。"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:zhe4}}-ge {{word:shi4}} {{word:ren2}}."
+        ttsText: "这个是人。"
+        translation:
+          eng: "This is a person."
+          rus: "Это человек."
+          zh: "这是一个人。"
+      - pinyin: "{{Word:zhe4}}-ge {{word:shi4}} {{word:shui3guo3}}."
+        ttsText: "这个是水果。"
+        translation:
+          eng: "This is a fruit."
+          rus: "Это фрукт."
+          zh: "这是一个水果。"
+      - pinyin: "{{Word:yi1}}-ge {{word:xie3}}-{{word:de}} {{word:dong1xi}} {{word:shi4}} {{word:dong1xi}}."
+        ttsText: "一个写的东西是东西。"
+        translation:
+          eng: "A written thing (book/document) is a thing."
+          rus: "Написанная вещь (книга/документ) является вещью."
+          zh: "写的东西（书/文件）是一个东西。"
+      - pinyin: "{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}."
+        ttsText: "人是女人。"
+        translation:
+          eng: "The person is a woman."
+          rus: "Человек — женщина."
+          zh: "那个人是女人。"
+      - pinyin: "{{Word:dong4wu4}} {{word:shi4}} {{word:dong1xi}}."
+        ttsText: "动物是东西。"
+        translation:
+          eng: "Animals are things."
+          rus: "Животные — это вещи."
+          zh: "动物是东西。"
+      - pinyin: "{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}."
+        ttsText: "女人是人。"
+        translation:
+          eng: "Women are people."
+          rus: "Женщины — это люди."
+          zh: "女人是人。"
+
+  - type: prose
+    text:
+      eng: "Look closely at two of the examples above: <audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example> (\"the person is a woman\") and <audio-example zh=\"女人是人\">{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}</audio-example> (\"women are people\"). Same three words, same pattern, opposite scope — one is about a single, specific person; the other is a general statement about the whole category. Nothing in the sentence marks the difference; nothing needs to. Hao-shuo-de nouns already carry no number and no article — recall Lesson 2, context decides how many. The same discipline applies here: context decides whether you mean one particular thing or the whole class of things. The words don't change; only what you already know about the situation does."
+      rus: "Присмотритесь к двум примерам выше: <audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example> («человек — женщина») и <audio-example zh=\"女人是人\">{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}</audio-example> («женщины — это люди»). Те же три слова, тот же порядок, но противоположный охват — одно предложение о конкретном, отдельном человеке; другое — общее утверждение о целой категории. Ничто в самом предложении не отмечает эту разницу; в этом и нет нужды. Существительные Hǎo-shuō-de и так не несут ни числа, ни артикля — вспомните Урок 2: количество определяет контекст. Здесь действует та же дисциплина: контекст решает, идёт ли речь об одной конкретной вещи или о целом классе вещей. Слова не меняются — меняется только то, что вы уже знаете о ситуации."
+      zh: "仔细看上面两个例句：<audio-example zh=\"人是女人\">{{Word:ren2}} {{word:shi4}} {{word:nv3ren2}}</audio-example>（\"那个人是女人\"）和 <audio-example zh=\"女人是人\">{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}</audio-example>（\"女人是人\"）。同样三个词，同样的结构，范围却正好相反——一句说的是某一个具体的人，另一句是关于整个类别的通泛判断。句子本身没有任何标记来区分这两种读法，也不需要。Hǎo-shuō-de 的名词本来就不分单复数、不带冠词——回想第二课，数量由上下文决定。这里也是同样的原则：是指某一个具体的东西，还是指整个类别，同样由上下文决定。词本身不变，变的只是你已经知道的情境。"
+    tldr:
+      eng: "The same words can express a claim about one specific thing or about a whole category — context decides which, not the words."
+      rus: "Одни и те же слова могут выражать утверждение об одном конкретном предмете или обо всей категории — какой смысл имеется в виду, решает контекст, а не сами слова."
+      zh: "同样的词既可以表达对某一个具体事物的判断，也可以表达对整个类别的判断——由语境而非词语本身决定。"
+    necessity:
+      eng: "Shows that the number/specificity ambiguity already established for nouns in Lesson 2 carries through into full sentences too."
+      rus: "Показывает, что неоднозначность числа/конкретности, уже установленная для существительных в Уроке 2, распространяется и на целые предложения."
+      zh: "说明第二课里已经建立的名词数量/具体性的歧义性，同样延续到完整句子中。"
+
+  - type: prose
+    text:
+      eng: "And when you do need to make quantity explicit, the job still doesn't fall on the noun — it falls on a separate word in the sentence. <audio-example zh=\"这多的东西是写的东西\">{{Word:zhe4}} {{word:duo1}}-{{word:de}} {{word:dong1xi}} {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}.</audio-example> (\"These [many] things are written things,\" i.e. \"These are the books\") uses <audio-example zh=\"多\">{{word:duo1}}</audio-example> (\"many\"), bound with `-{{word:de}}` the same way an adjective would be. Notice what's missing: <audio-example zh=\"个\">-ge</audio-example>. Its whole job, from Lesson 2, is to individuate one countable unit — <audio-example zh=\"这个\">{{word:zhe4}}-ge</audio-example> points at exactly one thing. <audio-example zh=\"多\">{{word:duo1}}</audio-example> isn't pointing at one of anything; it names a bulk quantity instead, so there's nothing left for <audio-example zh=\"个\">-ge</audio-example> to individuate, and it simply drops out. Number, in other words, is never a property the noun itself carries — it's a decision made elsewhere in the sentence, one word at a time, depending on what job that word is doing."
+      rus: "А когда количество всё же нужно сделать явным, эта работа по-прежнему не ложится на существительное — она ложится на отдельное слово в предложении. <audio-example zh=\"这多的东西是写的东西\">{{Word:zhe4}} {{word:duo1}}-{{word:de}} {{word:dong1xi}} {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}.</audio-example> («Эти [многие] вещи являются написанными вещами», то есть «Это книги») использует <audio-example zh=\"多\">{{word:duo1}}</audio-example> («много»), присоединённое через `-{{word:de}}` точно так же, как присоединяется прилагательное. Обратите внимание, чего здесь не хватает: <audio-example zh=\"个\">-ge</audio-example>. Его единственная задача, как мы помним из Урока 2, — выделить одну исчисляемую единицу: <audio-example zh=\"这个\">{{word:zhe4}}-ge</audio-example> указывает ровно на одну вещь. <audio-example zh=\"多\">{{word:duo1}}</audio-example> не указывает ни на одну конкретную вещь — оно называет объёмное количество, и выделять здесь попросту нечего, поэтому <audio-example zh=\"个\">-ge</audio-example> исчезает сам собой. Число, другими словами, никогда не является свойством самого существительного — это решение, которое принимается в другом месте предложения, слово за словом, в зависимости от того, какую работу это слово выполняет."
+      zh: "而当你确实需要把数量说清楚时，这个任务依然不会落在名词身上——它落在句子里另一个独立的词上。<audio-example zh=\"这多的东西是写的东西\">{{Word:zhe4}} {{word:duo1}}-{{word:de}} {{word:dong1xi}} {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}.</audio-example>（\"这些[很多]东西是写的东西\"，也就是\"这些是书\"）用了 <audio-example zh=\"多\">{{word:duo1}}</audio-example>(\"多\")，通过 `-{{word:de}}` 连接，用法跟形容词一模一样。注意这里少了什么：<audio-example zh=\"个\">-ge</audio-example>。回想第二课，量词的全部职责就是圈定一个可数的单位——<audio-example zh=\"这个\">{{word:zhe4}}-ge</audio-example> 精确指向一个东西。而 <audio-example zh=\"多\">{{word:duo1}}</audio-example> 根本不是在指向某一个东西，它说的是一整片数量，没有什么可供量词去圈定的了，于是 <audio-example zh=\"个\">-ge</audio-example> 就自然消失了。换句话说，数量从来都不是名词本身携带的属性——它是句子里别的词做出的决定，一个词一个词地决定，取决于那个词在句子里干的是什么活。"
+    tldr:
+      eng: "To make quantity explicit, add a separate word like {{word:duo1}} — and once {{word:duo1}} names a bulk amount, the individuating measure word -ge drops out."
+      rus: "Чтобы явно указать количество, добавляется отдельное слово вроде {{word:duo1}} — а когда {{word:duo1}} называет объёмное количество, выделяющее счётное слово -ge исчезает."
+      zh: "要明确数量，需加上像 {{word:duo1}} 这样的独立词——而一旦 {{word:duo1}} 表示的是整片数量，用来圈定个体的量词 -ge 就会消失。"
+    necessity:
+      eng: "Extends Lesson 2's {{word:ge4}} rule: -ge only individuates single countable units, so it has nothing to do once {{word:duo1}} names a bulk amount instead."
+      rus: "Расширяет правило {{word:ge4}} из Урока 2: -ge выделяет только одну исчисляемую единицу, поэтому ему нечего делать, когда {{word:duo1}} обозначает объёмное количество."
+      zh: "扩展第二课的 {{word:ge4}} 规则：-ge 只圈定一个可数单位，所以当 {{word:duo1}} 表示的是整片数量时，-ge 就没有什么可圈定的了。"
+
+  - type: exercise
+    items:
+      - eng: "This is a document."
+        rus: "Это документ."
+        zh: "这是一份文件。"
+      - eng: "A woman is a human."
+        rus: "Женщина — человек."
+        zh: "女人是人。"
+      - eng: "Animals are beings."
+        rus: "Животные — существа."
+        zh: "动物是存在物。"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+          rus: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+          zh: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        ttsText: "这个是写的东西。"
+      - text:
+          eng: "{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}."
+          rus: "{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}."
+          zh: "{{Word:nv3ren2}} {{word:shi4}} {{word:ren2}}."
+        ttsText: "女人是人。"
+      - text:
+          eng: "{{Word:dong4wu4}} {{word:shi4}} {{word:dong1xi}}."
+          rus: "{{Word:dong4wu4}} {{word:shi4}} {{word:dong1xi}}."
+          zh: "{{Word:dong4wu4}} {{word:shi4}} {{word:dong1xi}}."
+        ttsText: "动物是东西。"

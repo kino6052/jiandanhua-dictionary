@@ -7,24 +7,24 @@ order: 19
 ---
 
 ```vocab
-shuijiao | to sleep, nap
-ai | to love
-mifan | cereal, grain, rice
-wan | finished, past, end
-huo | fire, heat source, cooking heat
-diban | horizontal surface, floor, sofa
-kou | mouth, lips, door, opening
+{{word:shui4jiao4}} | to sleep, nap
+{{word:ai4}} | to love
+{{word:mi3fan4}} | cereal, grain, rice
+{{word:wan2}} | finished, past, end
+{{word:huo3}} | fire, heat source, cooking heat
+{{word:di4ban3}} | horizontal surface, floor, sofa
+{{word:kou3}} | mouth, lips, door, opening
 ```
 
 ```story
-"Maweijiu" nanren you yi-ge ta ai-de nuren. | Mawijo has a beloved woman/wife.
-Ta-de ni-jiao-de ci shi "Sili". | Her name/the word you call her is Sili.
-"Sili" zai diban-shang shuijiao. | Sili is sleeping on the sofa.
-Wan-shijian, "Sili" ba difang bian hao-le, ye yong shui ba yifu bian xin-le. | In the past-time/yesterday, Sili tidied up the place and washed the clothing.
-"Maweijiu" zai shenme shijian dao? | At what time will Mawijo arrive?
-You shengyin! | There is a noise!
-Zhe shijian, "Maweijiu" dao-le kou-de pangbian, ta na-le liang-ge xiao dongwu. | At this time, Mawijo arrives next to the door, carrying two small animals.
-"Sili" juede hen hao, yong kou mo "Maweijiu"-de tou. | Sili feels very good and touches Mawijo's head using her mouth/kisses him.
-Ta yong huo ba dongwu he mifan bian re-le. | She uses fire to make the animals and rice hot/cooks them.
-Chi-de dongxi hen hao! | The food is wonderful! / Bon appetit!
+"Maweijiu" {{word:nan2ren2}} {{word:you3}} {{word:yi1}}-ge {{word:ta1}} {{word:ai4}}-{{word:de}} {{word:nv3ren2}}. | Mawijo has a beloved woman/wife.
+{{Word:ta1}}-{{word:de}} {{word:ni3}}-{{word:jiao4}}-{{word:de}} {{word:ci2}} {{word:shi4}} "Sili". | Her name/the word you call her is Sili.
+"Sili" {{word:zai4}} {{word:di4ban3}}-shàng {{word:shui4jiao4}}. | Sili is sleeping on the sofa.
+{{Word:wan2}}-{{word:shi2jian1}}, "Sili" {{word:ba3}} {{word:di4fang1}} {{word:bian4}} {{word:hao3}}-{{word:le}}, {{word:ye3}} {{word:yong4}} {{word:shui3}} {{word:ba3}} {{word:yi1fu}} {{word:bian4}} {{word:xin1}}-{{word:le}}. | In the past-time/yesterday, Sili tidied up the place and washed the clothing.
+"Maweijiu" {{word:zai4}} {{word:shen2me}} {{word:shi2jian1}} dào? | At what time will Mawijo arrive?
+{{Word:you3}} shēngyīn! | There is a noise!
+{{Word:zhe4}} {{word:shi2jian1}}, "Maweijiu" dào-{{word:le}} {{word:kou3}}-{{word:de}} {{word:pang2bian1}}, {{word:ta1}} ná-{{word:le}} {{word:liang3}}-ge {{word:xiao3}} {{word:dong4wu4}}. | At this time, Mawijo arrives next to the door, carrying two small animals.
+"Sili" {{word:jue2de}} {{word:hen3}} {{word:hao3}}, {{word:yong4}} {{word:kou3}} {{word:mo1}} "Maweijiu"-{{word:de}} {{word:tou2}}. | Sili feels very good and touches Mawijo's head using her mouth/kisses him.
+{{Word:ta1}} {{word:yong4}} {{word:huo3}} {{word:ba3}} {{word:dong4wu4}} {{word:he2}} {{word:mi3fan4}} {{word:bian4}} {{word:re4}}-{{word:le}}. | She uses fire to make the animals and rice hot/cooks them.
+{{Word:chi1}}-{{word:de}} {{word:dong1xi}} {{word:hen3}} {{word:hao3}}! | The food is wonderful! / Bon appetit!
 ```

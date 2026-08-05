@@ -1,0 +1,140 @@
+id: lesson-06
+type: lesson
+lessonNumber: 6
+order: 6
+title:
+  eng: "Dongzuo (Verbs)"
+  ru: "Дунцзо (Глаголы)"
+  zh: "动作（动词）"
+
+summary:
+  eng: 'Verbs carry no tense; the particle {{word:le}} marks a completed action, and words shift category by context alone ({{word:chi1}} as verb "eat" vs. noun "food").'
+  ru: 'Глаголы не имеют временных форм; частица {{word:le}} отмечает завершённое действие, а слова меняют категорию исключительно по контексту ({{word:chi1}} как глагол "есть" против существительного "еда").'
+  zh: "动词没有时态变化；助词“了”表示动作完成，词语仅凭上下文就能转换词类（“吃”作为动词“吃” vs. 名词“食物”）。"
+
+blocks:
+  - type: vocab
+    items:
+      - term: "{{word:you3}}"
+        definition:
+          eng: "to have, contain, carry"
+          ru: "иметь, содержать, носить"
+          zh: "有，包含，携带"
+      - term: "{{word:ting1}}"
+        definition:
+          eng: "to listen to, hear, obey"
+          ru: "слушать, слышать, повиноваться"
+          zh: "听，听见，服从"
+      - term: "{{word:chi1}}"
+        definition:
+          eng: "to eat, drink, consume; food"
+          ru: "есть, пить, потреблять; еда"
+          zh: "吃，喝，消耗；食物"
+      - term: "{{word:zuo4}}"
+        definition:
+          eng: "to make, do, work on"
+          ru: "делать, работать над"
+          zh: "做，从事"
+      - term: "{{word:zhi1dao4}}"
+        definition:
+          eng: "to know"
+          ru: "знать"
+          zh: "知道"
+      - term: "{{word:shuo1}}"
+        definition:
+          eng: "to talk, speak, communicate"
+          ru: "говорить, разговаривать, общаться"
+          zh: "说，讲，交流"
+
+  - type: prose
+    text:
+      eng: "Hao-shuo-de eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order."
+      ru: '"Хао-шуо-дэ" полностью устраняет необходимость в маркере прямого дополнения _e_ из токи-поны, полагаясь исключительно на стандартный порядок слов "подлежащее-сказуемое-дополнение" (SVO) в мандарине.'
+      zh: "“好说”消除了道本语中直接宾语标记“e”的需要，完全依靠标准汉语的主谓宾(SVO)语序。"
+    tldr:
+      eng: "No direct-object marker is needed; SVO word order alone shows what the object is."
+      ru: "Маркер прямого дополнения не нужен; один только порядок слов SVO показывает, что является объектом."
+      zh: "不需要直接宾语标记；主谓宾语序本身就表明宾语是什么。"
+    necessity:
+      eng: "Confirms Lesson 3's SVO order is doing double duty here, replacing a marker particle other minimal languages (like Toki Pona) rely on."
+      ru: "Подтверждает, что порядок SVO из Урока 3 выполняет двойную функцию здесь, заменяя маркерную частицу, на которую полагаются другие минимальные языки (например, токи-пона)."
+      zh: "确认了第3课的主谓宾语序在这里承担双重任务，取代了其他最小语言（如道本语）依赖的标记助词。"
+
+  - type: prose
+    text:
+      eng: 'Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `{{word:le}}` can be appended to show completed actions. Words fluidly shift roles depending on context -- for instance, `{{word:chi1}}` represents the action "to eat" or the noun "food," while `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` acts as "a knowledgeable person".'
+      ru: 'Глаголы не изменяют свою форму для обозначения прошедшего, настоящего или будущего времени. Вместо этого, аспектуальные маркеры, такие как перфективная частица `{{word:le}}`, могут добавляться для обозначения завершённых действий. Слова свободно меняют свою роль в зависимости от контекста — например, `{{word:chi1}}` обозначает действие "есть" или существительное "еда", тогда как `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` означает "знающий человек".'
+      zh: "动词不改变形式来表示过去、现在或将来时态。相反，像完成体助词“了”这样的体标记可以附加在动词后表示动作已完成。词语根据上下文灵活转换角色——例如，“吃”代表动作“吃”或名词“食物”，而“知道的人”则意为“有知识的人”。"
+    tldr:
+      eng: "Verbs carry no tense; `{{word:le}}` marks a completed action, and a word's category (verb vs. noun) shifts with context alone."
+      ru: "Глаголы не имеют временных форм; `{{word:le}}` отмечает завершённое действие, а категория слова (глагол против существительного) меняется исключительно по контексту."
+      zh: "动词没有时态；“了”表示动作完成，词语的词类（动词 vs. 名词）仅凭上下文就能转换。"
+    necessity:
+      eng: "Introduces the two mechanisms that stand in for tense and for separate word classes elsewhere in the grammar."
+      ru: "Представляет два механизма, которые заменяют время и отдельные классы слов, существующие в других грамматиках."
+      zh: "介绍了两种机制，它们在本语法中替代了其他语言中的时态和独立词类。"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:wo3}} {{word:zhi1dao4}} {{word:hao3}} {{word:shuo1}}-{{word:de}}."
+        translation:
+          eng: "I know a simple language / good speech."
+          ru: "Я знаю простой язык / хорошую речь."
+          zh: "我知道好说的。/ 我知道一种简单的语言/好的言语。"
+      - pinyin: "{{Word:na4}}-ge {{word:nan2ren2}} {{word:shi4}} {{word:shuo1}}-{{word:de}} {{word:ren2}}."
+        translation:
+          eng: "That man is a messenger / speaking person."
+          ru: "Тот человек — посланник / говорящий человек."
+          zh: "那个男人是说的的人。/ 那个男人是信使/说话的人。"
+      - pinyin: "{{Word:da4}}-{{word:de}} {{word:dong4wu4}} {{word:zai4}} {{word:chi1}} {{word:ni3}}."
+        translation:
+          eng: "A large animal is eating you."
+          ru: "Большое животное ест вас."
+          zh: "大的动物在吃你。"
+      - pinyin: "{{Word:qun2}}-{{word:de}} {{word:xie3}}-{{word:de}} {{word:dong1xi}} {{word:hen3}} {{word:hao3}}."
+        translation:
+          eng: "The community's book is reliable."
+          ru: "Книга сообщества надёжна."
+          zh: "群的写的东西很好。"
+      - pinyin: "{{Word:ni3}} {{word:zuo4}} {{word:le}} {{word:xin1}}-{{word:de}} {{word:chi1}}."
+        translation:
+          eng: "You made new food."
+          ru: "Вы приготовили новую еду."
+          zh: "你做了新的吃。"
+      - pinyin: "{{Word:zhi1dao4}}-{{word:de}} {{word:ren2}} {{word:ting1}}."
+        translation:
+          eng: "A person of knowledge listens."
+          ru: "Знающий человек слушает."
+          zh: "知道的人听。"
+      - pinyin: "{{Word:zhi1dao4}}-{{word:de}} {{word:di4fang1}} {{word:you3}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        translation:
+          eng: "The school / house of knowledge has books."
+          ru: "Школа / дом знаний имеет книги."
+          zh: "知道的地方有写的东西。"
+
+  - type: exercise
+    items:
+      - eng: "I will listen to you."
+        ru: "Я буду слушать вас."
+        zh: "我会听你。"
+      - eng: "The woman obeyed the man."
+        ru: "Женщина послушалась мужчину."
+        zh: "女人听了男人。"
+      - eng: "The friends ate meat."
+        ru: "Друзья съели мясо."
+        zh: "好的朋友吃了动物。"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:wo3}} {{word:ting1}} {{word:ni3}}."
+          ru: "Я слушаю тебя."
+          zh: "我听你。"
+      - text:
+          eng: "{{Word:nv3ren2}} {{word:ting1}} {{word:le}} {{word:nan2ren2}}."
+          ru: "Женщина послушалась мужчину."
+          zh: "女人听了男人。"
+      - text:
+          eng: "{{Word:hao3}}-{{word:de}} {{word:ren2}} {{word:chi1}} {{word:le}} {{word:dong4wu4}}."
+          ru: "Хороший человек съел животное."
+          zh: "好的人吃了动物。"

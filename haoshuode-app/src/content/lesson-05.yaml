@@ -1,0 +1,150 @@
+id: lesson-05
+type: lesson
+lessonNumber: 5
+order: 5
+title:
+  eng: "You and I"
+  rus: "Ты и я"
+  zh: "你和我"
+
+summary:
+  eng: 'Pronouns like {{word:wo3}} ("I") and {{word:ni3}} ("you") behave exactly like ordinary number-neutral nouns and take the Subject spot; {{word:wo3}} is strictly singular, and plural forms like "we" are built by adding other nouns (e.g., {{word:wo3}} {{word:he2}} {{word:ta1}}). Possession is shown by binding a pronoun to a noun with -{{word:de}}, the same particle from Lessons 2 and 4.'
+  rus: "Местоимения вроде {{word:wo3}} («я») и {{word:ni3}} («ты») ведут себя точно как обычные, нейтральные к числу существительные, и занимают место Подлежащего; {{word:wo3}} всегда единственное число, а множественные формы вроде «мы» строятся добавлением других существительных (например, {{word:wo3}} {{word:he2}} {{word:ta1}}). Принадлежность показывается присоединением местоимения к существительному через -{{word:de}} — ту же частицу из Уроков 2 и 4."
+  zh: '像 {{word:wo3}}（"我"）和 {{word:ni3}}（"你"）这样的代词，表现得跟普通的、不分单复数的名词完全一样，占据主语的位置；{{word:wo3}} 只是单数，复数形式如"我们"通过添加其他名词构成（如 {{word:wo3}} {{word:he2}} {{word:ta1}}）。所属关系通过把代词用 -{{word:de}} 连接到名词上来表示，这是第二课和第四课里同一个助词。'
+
+blocks:
+  - type: vocab
+    items:
+      - term: "{{word:wo3}}"
+        ttsText: "我"
+        definition:
+          eng: "I, me"
+          rus: "я, меня"
+          zh: "我"
+      - term: "{{word:nan2ren2}}"
+        ttsText: "男人"
+        definition:
+          eng: "man, male"
+          rus: "мужчина, мужского пола"
+          zh: "男人，男性"
+      - term: "{{word:ni3}}"
+        ttsText: "你"
+        definition:
+          eng: "you"
+          rus: "ты, вы"
+          zh: "你，你们"
+      - term: "{{word:qun2}}"
+        ttsText: "群"
+        definition:
+          eng: "community, group"
+          rus: "сообщество, группа"
+          zh: "群体，社区"
+      - term: "{{word:xin1}}"
+        ttsText: "新"
+        definition:
+          eng: "new, another, fresh"
+          rus: "новый, другой, свежий"
+          zh: "新的，另一，新鲜的"
+
+  - type: prose
+    text:
+      eng: "Hao-shuo-de pronouns behave like any other noun you've already met — <audio-example zh=\"我\">{{word:wo3}}</audio-example> (\"I\") and <audio-example zh=\"你\">{{word:ni3}}</audio-example> (\"you\") simply take the Subject spot from Lesson 3, no special treatment required.\n\nLike every Hao-shuo-de noun, they carry no number of their own, but unlike English, <audio-example zh=\"我\">{{word:wo3}}</audio-example> does not double as \"we\" — it always means \"I\" (singular). To say \"we,\" you combine it with other words: <audio-example zh=\"我和他\">{{word:wo3}} {{word:he2}} {{word:ta1}}</audio-example> (\"I and him/her\") or <audio-example zh=\"我和多人\">{{word:wo3}} {{word:he2}} {{word:duo1}} {{word:ren2}}</audio-example> (\"I and many people\"). The same goes for <audio-example zh=\"你\">{{word:ni3}}</audio-example>: it's \"you\" (singular) by default; for \"you all,\" you'd say something like <audio-example zh=\"你和他们\">{{word:ni3}} {{word:he2}} tāmen</audio-example> (\"you and them\") or add a number. Context and added nouns do the work that English does with separate plural pronoun forms."
+      rus: "Местоимения хао-шуо-дэ ведут себя как любые другие существительные, с которыми вы уже встречались — <audio-example zh=\"我\">{{word:wo3}}</audio-example> («я») и <audio-example zh=\"你\">{{word:ni3}}</audio-example> («ты») просто занимают место Подлежащего из Урока 3, без специальных правил.\n\nКак и любое существительное хао-шуо-дэ, они не имеют собственного числа, но в отличие от английского, <audio-example zh=\"我\">{{word:wo3}}</audio-example> не означает одновременно «мы» — оно всегда «я» (единственное число). Чтобы сказать «мы», нужно соединить его с другими словами: <audio-example zh=\"我和他\">{{word:wo3}} {{word:he2}} {{word:ta1}}</audio-example> («я и он/она») или <audio-example zh=\"我和多人\">{{word:wo3}} {{word:he2}} {{word:duo1}} {{word:ren2}}</audio-example> («я и много людей»). То же самое с <audio-example zh=\"你\">{{word:ni3}}</audio-example>: по умолчанию это «ты» (единственное число); для «вы» (множественное) нужно сказать что-то вроде <audio-example zh=\"你和他们\">{{word:ni3}} {{word:he2}} tāmen</audio-example> («ты и они») или добавить число. Контекст и добавленные существительные делают ту работу, которую в английском выполняют отдельные формы множественного числа местоимений."
+      zh: "好说得的代词跟你已经见过的任何名词一样——<audio-example zh=\"我\">{{word:wo3}}</audio-example>（\"我\"）和 <audio-example zh=\"你\">{{word:ni3}}</audio-example>（\"你\"）只是填进第三课的主语位置，不需要特殊处理。\n\n像每一个好说得的名词一样，它们本身不区分单复数，但跟英语不同的是，<audio-example zh=\"我\">{{word:wo3}}</audio-example> 并不兼作\"我们\"——它永远只是\"我\"（单数）。要说\"我们\"，需要把它跟其他词组合起来：<audio-example zh=\"我和他\">{{word:wo3}} {{word:he2}} {{word:ta1}}</audio-example>（\"我和他/她\"）或 <audio-example zh=\"我和多人\">{{word:wo3}} {{word:he2}} {{word:duo1}} {{word:ren2}}</audio-example>（\"我和许多人\"）。<audio-example zh=\"你\">{{word:ni3}}</audio-example> 也一样：默认是\"你\"（单数）；要说\"你们\"，可以说 <audio-example zh=\"你和他们\">{{word:ni3}} {{word:he2}} tāmen</audio-example>（\"你和他们\"）或加上数量。语境和添加的名词承担了英语里用独立复数代词形式所做的工作。"
+    tldr:
+      eng: 'Pronouns are ordinary nouns that fill the Subject spot; {{word:wo3}} means "I" only, and plural forms like "we" are built with additional nouns.'
+      rus: "Местоимения — это обычные существительные, занимающие место Подлежащего; {{word:wo3}} означает только «я», а множественные формы вроде «мы» строятся с помощью дополнительных существительных."
+      zh: '代词是普通名词，填入主语位置；{{word:wo3}} 只表示"我"，复数如"我们"需要通过添加其他名词来表达。'
+    necessity:
+      eng: 'Clarifies that {{word:wo3}} is strictly singular, unlike English "I/we," and shows how plural pronouns are formed compositionally rather than with a separate set of words.'
+      rus: "Уточняет, что {{word:wo3}} всегда единственное число, в отличие от английского «I/we», и показывает, как множественные местоимения образуются составным способом, а не с помощью отдельного набора слов."
+      zh: "说明 {{word:wo3}} 严格是单数，不像英语的 I/we 兼作复数，并展示了复数代词如何通过组合方式构成，而不是用另一套独立的词。"
+
+  - type: prose
+    text:
+      eng: 'To show possession, bind the pronoun to a noun with <code>-{{word:de}}</code>, the same connecting particle from Lessons 2 and 4: <audio-example zh="我的">{{word:wo3}}-{{word:de}}</audio-example> ("my"), <audio-example zh="你的">{{word:ni3}}-{{word:de}}</audio-example> ("your"). Same hyphen, same job — gluing one word onto another to form a single descriptive unit — whether what''s doing the describing is an adjective, a verb turned into a noun, or now, a pronoun.'
+      rus: 'Чтобы показать принадлежность, присоедините местоимение к существительному через <code>-{{word:de}}</code> — ту же связующую частицу из Уроков 2 и 4: <audio-example zh="我的">{{word:wo3}}-{{word:de}}</audio-example> («мой»), <audio-example zh="你的">{{word:ni3}}-{{word:de}}</audio-example> («твой»). Тот же дефис, та же работа — склеить одно слово с другим в единую описательную единицу — независимо от того, что именно описывает: прилагательное, превращённый в существительное глагол или, как теперь, местоимение.'
+      zh: '要表示所属关系，把代词用 <code>-{{word:de}}</code> 连接到一个名词上——也就是第二课和第四课里那个连接用的助词：<audio-example zh="我的">{{word:wo3}}-{{word:de}}</audio-example>（"我的"）、<audio-example zh="你的">{{word:ni3}}-{{word:de}}</audio-example>（"你的"）。同一个连字符，同一种工作——把一个词粘到另一个词上，组成一个单一的描述单位——不管在描述的是形容词、由动词变来的名词，还是现在的代词。'
+    tldr:
+      eng: 'Possession is shown by binding a pronoun to a noun with -{{word:de}}: {{word:wo3}}-{{word:de}} ("my"), {{word:ni3}}-{{word:de}} ("your").'
+      rus: "Принадлежность показывается присоединением местоимения к существительному через -{{word:de}}: {{word:wo3}}-{{word:de}} («мой»), {{word:ni3}}-{{word:de}} («твой»)."
+      zh: '所属关系通过把代词用 -{{word:de}} 连接到名词上来表示：{{word:wo3}}-{{word:de}}（"我的"）、{{word:ni3}}-{{word:de}}（"你的"）。'
+    necessity:
+      eng: "Shows -{{word:de}} doing the same job a third time (after adjectives and verb-to-noun), confirming it's one general binding rule, not three separate ones."
+      rus: "Показывает, что -{{word:de}} выполняет ту же работу уже в третий раз (после прилагательных и превращения глагола в существительное), подтверждая, что это одно общее правило связывания, а не три разных."
+      zh: "展示 -{{word:de}} 第三次执行同样的工作（继形容词和动词变名词之后），确认这是一条通用的连接规则，而不是三条各自独立的规则。"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:wo3}} {{word:shi4}} {{word:ren2}}."
+        ttsText: "我是人。"
+        translation:
+          eng: "I am a person."
+          rus: "Я человек."
+          zh: "我是人。"
+      - pinyin: "{{Word:wo3}} {{word:shi4}} {{word:nan2ren2}}."
+        ttsText: "我是男人。"
+        translation:
+          eng: "I am a man."
+          rus: "Я мужчина."
+          zh: "我是男人。"
+      - pinyin: "{{Word:ni3}} {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:ren2}}."
+        ttsText: "你是好的人。"
+        translation:
+          eng: "You are a good person."
+          rus: "Ты хороший человек."
+          zh: "你是好人。"
+      - pinyin: "{{Word:zhe4}}-ge {{word:shi4}} {{word:wo3}}-{{word:de}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        ttsText: "这个是我的写的东西。"
+        translation:
+          eng: "This is my document."
+          rus: "Это мой документ."
+          zh: "这是我的文件。"
+      - pinyin: "{{Word:ni3}}-{{word:de}} {{word:di4fang1}} {{word:hen3}} {{word:xin1}}."
+        ttsText: "你的地方很新。"
+        translation:
+          eng: "Your place is new."
+          rus: "Твоё место новое."
+          zh: "你的地方很新。"
+      - pinyin: "{{Word:wo3}}-{{word:de}} {{word:qun2}} {{word:hen3}} {{word:da4}}."
+        ttsText: "我的群很大。"
+        translation:
+          eng: "My community is large."
+          rus: "Моё сообщество большое."
+          zh: "我的群体很大。"
+      - pinyin: "{{Word:nan2ren2}}-{{word:de}} {{word:dong4wu4}} {{word:hen3}} {{word:xiao3}}."
+        ttsText: "男人的动物很小。"
+        translation:
+          eng: "The man's animal is small."
+          rus: "Животное этого мужчины маленькое."
+          zh: "那个男人的动物很小。"
+
+  - type: exercise
+    items:
+      - eng: "Your fruit is good."
+        rus: "Твой фрукт хороший."
+        zh: "你的水果很好。"
+      - eng: "This is a new community."
+        rus: "Это новое сообщество."
+        zh: "这是一个新的群体。"
+      - eng: "I am a good person."
+        rus: "Я хороший человек."
+        zh: "我是一个好人。"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:ni3}}-{{word:de}} {{word:shui3guo3}} {{word:hen3}} {{word:hao3}}."
+          rus: "{{Word:ni3}}-{{word:de}} {{word:shui3guo3}} {{word:hen3}} {{word:hao3}}."
+          zh: "{{Word:ni3}}-{{word:de}} {{word:shui3guo3}} {{word:hen3}} {{word:hao3}}."
+        ttsText: "你的水果很好。"
+      - text:
+          eng: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xin1}}-{{word:de}} {{word:qun2}}."
+          rus: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xin1}}-{{word:de}} {{word:qun2}}."
+          zh: "{{Word:zhe4}}-ge {{word:shi4}} {{word:xin1}}-{{word:de}} {{word:qun2}}."
+        ttsText: "这个是新的群。"
+      - text:
+          eng: "{{Word:wo3}} {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:ren2}}."
+          rus: "{{Word:wo3}} {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:ren2}}."
+          zh: "{{Word:wo3}} {{word:shi4}} {{word:hao3}}-{{word:de}} {{word:ren2}}."
+        ttsText: "我是好的人。"

@@ -7,40 +7,40 @@ order: 13
 ---
 
 ```vocab
-di | sequence marker
-yi | one
-liang | two (used exclusively before measure words for counting objects/quantities)
-er | two (used exclusively for mathematics, digit lists, serial numbers, and ordinal rankings)
-san | three
-si | four
-wu | five
-liu | six
-qi | seven
-ba | eight
-jiu | nine
-shi | ten
-bai | hundred
-qian | thousand
-di | ordinal marker prefix (placed before a number to turn it into "first, second, third...")
-hao | number identity, name of a number, day of the month
-quanbu | all, completely, everything
+dì | sequence marker
+{{word:yi1}} | one
+{{word:liang3}} | two (used exclusively before measure words for counting objects/quantities)
+èr | two (used exclusively for mathematics, digit lists, serial numbers, and ordinal rankings)
+sān | three
+sì | four
+wǔ | five
+liù | six
+qī | seven
+bā | eight
+jiǔ | nine
+shí | ten
+bǎi | hundred
+qiān | thousand
+dì | ordinal marker prefix (placed before a number to turn it into "first, second, third...")
+{{word:hao4}} | number identity, name of a number, day of the month
+{{word:quan2bu4}} | all, completely, everything
 ```
 
 Hao-shuo-de simplifies counting by mapping directly onto native Mandarin number rules, capping precise numbers at two.
 
-- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `ge` via a syntactic hyphen:
-  - Use `yi-ge` for "one thing."
-  - Use `liang-ge` for "two things." _Never use er when counting physical objects._
+- **Quantities of One or Two:** Formed by binding the number root directly to the universal measure word `{{word:ge4}}` via a syntactic hyphen:
+  - Use `{{word:yi1}}-ge` for "one thing."
+  - Use `{{word:liang3}}-ge` for "two things." _Never use èr when counting physical objects._
 
-- **Indefinite Plurals:** For numbers beyond two, Hao-shuo-de implements the core root `duo` (many / a lot) to convey generalized abundance.
-- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `di-` directly before the number root (`di-yi`, `di-er`).
+- **Indefinite Plurals:** For numbers beyond two, Hao-shuo-de implements the core root `{{word:duo1}}` (many / a lot) to convey generalized abundance.
+- **Ordinal Numbers:** To mark strict sequencing (such as "first" or "second"), place the ordinal prefix `dì-` directly before the number root (`dì-{{word:yi1}}`, `dì-èr`).
 
 ```examples
-Ni shi di-yi-hao! | You are number one!
-Zhe-ge shi di-er-ge shijian. | This is the second time / the second day.
-Liang-ge xiao nanren liu-le hen-duo zhiwu. | The two boys kept many plants.
-Wo zhidao hen-duo shuo. | I know many languages.
-Quanbu ren ting ta. | Everybody listens to her.
+{{Word:ni3}} {{word:shi4}} dì-{{word:yi1}}-{{word:hao4}}! | You are number one!
+{{Word:zhe4}}-ge {{word:shi4}} dì-èr-ge {{word:shi2jian1}}. | This is the second time / the second day.
+{{Word:liang3}}-ge {{word:xiao3}} {{word:nan2ren2}} {{word:liu2}}-{{word:le}} {{word:hen3}}-{{word:duo1}} {{word:zhi2wu4}}. | The two boys kept many plants.
+{{Word:wo3}} {{word:zhi1dao4}} {{word:hen3}}-{{word:duo1}} {{word:shuo1}}. | I know many languages.
+{{Word:quan2bu4}} {{word:ren2}} {{word:ting1}} {{word:ta1}}. | Everybody listens to her.
 ```
 
 ```exercise
@@ -50,7 +50,7 @@ This is the first day.
 ```
 
 ```answers
-di-sang-ge dongxi shi shenme?
-Wo zhidao liang-ge shuo.
-Zhe-ge ri shi di-yi-ge.
+Dì-sān-ge {{word:dong1xi}} {{word:shi4}} {{word:shen2me}}?
+{{Word:wo3}} {{word:zhi1dao4}} {{word:liang3}}-ge {{word:shuo1}}.
+{{Word:zhe4}}-ge {{word:ri4}} {{word:shi4}} dì-{{word:yi1}}-ge.
 ```

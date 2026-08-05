@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/assign-word-ids.js && vite build && node scripts/generate-pages.js && vite build && node scripts/generate-dictionary.js",
+    "build": "node scripts/generate-word-usage.js && vite build && node scripts/generate-pages.js && vite build && node scripts/generate-dictionary.js",
     "preview": "vite preview",
-    "assign-word-ids": "node scripts/assign-word-ids.js"
+    "test": "bun test",
+    "word-usage": "node scripts/generate-word-usage.js"
   },
   "dependencies": {
     "preact": "^10.25.0"

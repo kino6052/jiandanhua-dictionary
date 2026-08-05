@@ -33,3 +33,15 @@
   color: var(--text-muted);
   font-size: 13px;
 }
+
+.usage {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.usageEmpty {
+  color: var(--accent);
+  font-size: 12px;
+  margin-top: 2px;
+}

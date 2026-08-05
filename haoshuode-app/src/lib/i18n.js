@@ -30,6 +30,8 @@ const UI = {
     tldrWhy: "Why this matters:",
     tldrOverview: "Chapter overview",
     missingContent: "Some content isn't translated yet for section(s):",
+    usedIn: "Used in:",
+    notUsedYet: "Not used in any chapter yet",
   },
   rus: {
     introduction: "Введение",
@@ -51,6 +53,8 @@ const UI = {
     tldrWhy: "Почему это важно:",
     tldrOverview: "Обзор главы",
     missingContent: "Часть содержимого пока не переведена в разделе(ах):",
+    usedIn: "Используется в:",
+    notUsedYet: "Пока не используется ни в одной главе",
   },
   zh: {
     introduction: "导言",
@@ -72,6 +76,8 @@ const UI = {
     tldrWhy: "为什么重要：",
     tldrOverview: "本章概览",
     missingContent: "以下章节的内容尚未翻译：",
+    usedIn: "使用于：",
+    notUsedYet: "尚未在任何章节中使用",
   },
 };
 

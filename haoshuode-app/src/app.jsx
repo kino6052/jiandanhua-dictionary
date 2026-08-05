@@ -8,6 +8,7 @@ import { ExampleList } from './components/ExampleList.jsx';
 import { PracticeExercise } from './components/PracticeExercise.jsx';
 import { StoryBlock } from './components/StoryBlock.jsx';
 import { DictionarySection } from './components/DictionarySection.jsx';
+import { CategoricalDictionarySection } from './components/CategoricalDictionarySection.jsx';
 import { ProverbList } from './components/ProverbList.jsx';
 import { PageNav } from './components/PageNav.jsx';
 import { TldrSummary } from './components/TldrSummary.jsx';
@@ -34,7 +35,15 @@ function renderContent(s, lang) {
     );
   }
   if (type === 'dictionary') {
-    return <DictionarySection items={s.dict} />;
+    if (s.meta.layout === 'categorical') {
+      return (
+        <>
+          {s.bodyHtml && <div class="prose-body" dangerouslySetInnerHTML={{ __html: s.bodyHtml }} />}
+          <CategoricalDictionarySection lang={lang} />
+        </>
+      );
+    }
+    return <DictionarySection items={s.dict} lang={lang} />;
   }
   return (
     <>

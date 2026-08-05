@@ -15,251 +15,239 @@ summary:
 blocks:
   - type: prose
     text:
-      eng: |-
-        Chinese doesn't write itself out letter by letter, in one continuous stream of sound the way English words like "understand" do. It's built in blocks — one block per syllable, and (mostly) one syllable per idea. Pinyin keeps that structure visible: <audio-example zh="中国">Zhōngguó</audio-example>, the word for China, isn't read as one long fused sound; it's two syllables, <audio-example zh="中">Zhōng</audio-example> and <audio-example zh="国">guó</audio-example>, sitting side by side. Get in the habit of reading pinyin syllable by syllable, the way it's actually spoken, rather than stressing it the way you would an English word. This one habit will save you from a hundred small mispronunciations later.
+      eng: "Chinese is not written with sounds (through letters). It is built from meaning-blocks (through characters and pinyin). One block is one syllable.\n\nPinyin (the Latin-alphabet transcription of Chinese, marked with tones) makes this structure visible."
       rus: |-
-        Китайский язык не записывается буква за буквой, сплошным потоком звуков, как английские слова вроде «understand». Он строится из блоков — один блок на слог и (в основном) один слог на понятие. Пиньинь сохраняет эту структуру наглядной: <audio-example zh="中国">Zhōngguó</audio-example> — слово для Китая — читается не как одно длинное слитное звучание; это два слога, <audio-example zh="中">Zhōng</audio-example> и <audio-example zh="国">guó</audio-example>, стоящие рядом. Возьмите за привычку читать пиньинь по слогам, так, как оно произносится на самом деле, а не ударять его так, как вы ударили бы английское слово. Одна эта привычка избавит вас в дальнейшем от сотни мелких ошибок в произношении.
-      zh: |-
-        汉语不是像英语单词 "understand" 那样，一个字母接一个字母地写成一串连续的声音流。它是按音节块构建的——一个音节一块，并且（大多数情况下）一个概念对应一个音节。拼音使这种结构一目了然：<audio-example zh="中国">Zhōngguó</audio-example>（中国）不是读成一个长长的融合音；而是两个音节，<audio-example zh="中">Zhōng</audio-example> 和 <audio-example zh="国">guó</audio-example> 并排在一起。要养成逐音节读拼音的习惯，按照它实际发音的方式去读，而不是像读英语单词那样去重读。这一个习惯会让你以后免于成百上千个小错误。
+        Китайский язык пишется не звуками (через буквы). Он строится из смысловых блоков (через иероглифы и пиньинь). Один блок — это один слог.
+
+        Пиньинь (латинизированная запись китайского с обозначениями тонов) делает эту структуру наглядной.
+      zh: "汉字不是用声音（字母）书写的。它是由意义单位（汉字和拼音）构成的。一个单位就是一个音节。\n\n拼音（带声调标注的中文拉丁化转写）让这种结构变得直观可见。"
     tldr:
-      eng: "Read pinyin syllable-by-syllable, not stressed like an English word."
-      rus: "Читайте пиньинь по слогам, а не с ударением, как английское слово."
-      zh: "按音节逐个朗读拼音，不要像读英语单词那样重读。"
+      eng: "Chinese is written in syllable blocks"
+      rus: Китайский язык записывается слогами
+      zh: "汉语以音节为单位书写"
     necessity:
-      eng: "Sets the core reading habit before any vocabulary is introduced."
-      rus: "Задаёт основную привычку чтения ещё до знакомства с лексикой."
-      zh: "在学习任何词汇之前，先建立最基本的阅读习惯。"
+      eng: "Understanding this early makes pronunciation easier, since Western languages treat syllables more loosely."
+      rus: Важно рано понять отличие от западных языков где слоги более гибкие - таким образом будет легче разобраться с произношением
+      zh: "尽早理解这一点有助于更容易掌握发音，因为西方语言对音节的处理更为松散。"
+
+  - type: info
+    title:
+      eng: "Example"
+      rus: "Пример"
+      zh: "例子"
+    items:
+      - text:
+          eng: "<i>Zhōngguó -- China</i>"
+          rus: "<i>Zhōngguó  -- Китай</i>"
+          zh: "<i>Zhōngguó -- 中国</i>"
+        items:
+          - text:
+              eng: "Syllables: Zhōng and guó"
+              rus: "Слоги: Zhōng и guó"
+              zh: "音节：Zhōng 和 guó"
 
   - type: prose
     text:
-      eng: |-
-        Beyond that, most pinyin reads close to what you'd expect from Latin letters — but not identical, and a few spellings are outright misleading if you read them as English. `c` sounds like the "ts" in "cats," not like a "k" or an "s." `q` and `x` don't exist as English sounds at all; the closest approximations are a light "ch" and a light "sh." And some vowel combinations hide sounds that aren't obvious from the letters at all — <audio-example zh="云">yun</audio-example>, for instance, isn't pronounced "yoon"; it's closer to "yoo-in," built around a vowel English doesn't have. Rather than front-load every rule here, this book keeps a complete sound-by-sound reference — the full pinyin system, letter by letter, with every one of these traps flagged — in the **Pinyin Appendix** at the back. Whenever a word's spelling doesn't tell you how to say it, that's where to look.
+      eng: "Get in the habit of reading pinyin words syllable by syllable, not as one whole word (the way we do in our alphabetic languages).\n\nMost of pinyin is read roughly the way the Latin alphabet is."
       rus: |-
-        Кроме того, большая часть пиньиня читается примерно так, как можно ожидать от латинских букв, — но не полностью, и некоторые написания вводят в заблуждение, если читать их по-английски. `c` звучит как «ц» в слове «цапля», а не как «к» или «с». `q` и `x` как английские звуки вообще не существуют; ближайшие приближения — лёгкое «ч» и лёгкое «шь». А некоторые сочетания гласных скрывают звуки, которые по буквам совершенно не очевидны — например, <audio-example zh="云">yun</audio-example> произносится не как «юн»; оно ближе к «юйнь» и строится вокруг гласного, которого в английском нет. Вместо того чтобы перегружать здесь всеми правилами, эта книга содержит полный пофонемный справочник — всю систему пиньиня, буква за буквой, с пометками обо всех этих ловушках — в **Приложении по пиньиню** в конце. Всякий раз, когда написание слова не подсказывает, как его произносить, — обращайтесь туда.
-      zh: |-
-        除此之外，大多数拼音的读法与你对拉丁字母的预期相差不远——但并不完全相同，有些拼写如果按英语读法会完全误导你。`c` 听起来像 "cats" 中的 "ts"，不是 "k" 或 "s"。`q` 和 `x` 在英语中根本没有对应音；最接近的是轻 "ch" 和轻 "sh"。有些元音组合隐藏着从字母上完全看不出来的读音——例如 <audio-example zh="云">yun</audio-example> 不读作 "yoon"；它更接近 "ü + n" 的组合，围绕着一个英语中没有的元音。本书不在这里罗列所有规则，而是将完整的声母韵母对照表——整个拼音体系，逐个字母，标出每一个陷阱——放在书末的**拼音附录**中。每当一个词的拼写没有告诉你如何发音时，就请查阅那里。
-    tldr:
-      eng: "Some pinyin letters (c, q, x) and vowel combos (yun) don't sound like English."
-      rus: "Некоторые буквы пиньиня (c, q, x) и гласные сочетания (yun) звучат не так, как в английском."
-      zh: "有些拼音字母（c、q、x）和元音组合（yun）读法和英语不同。"
-    necessity:
-      eng: "Warns against silently mispronouncing common letters by English habit."
-      rus: "Предупреждает от молчаливого неправильного произношения по английской привычке."
-      zh: "提醒读者不要凭英语习惯默默读错这些常见字母。"
+        Возьмите в привычку читать слова на пиньинь по слогам, а не целиком (как мы делаем в наших языках с буквенной записью слов).
 
-  - type: heading
+        Большая часть пиньиня читается примерно как латиница.
+      zh: "养成逐音节朗读拼音词的习惯，而不是把它当作一个完整的单词来读（就像我们在字母文字的语言中所做的那样）。\n\n大部分拼音的读法与拉丁字母大致相同。"
+
+  - type: info
+    title:
+      eng: "Differences"
+      rus: "Отличия"
+      zh: "差异"
+    items:
+      - text:
+          eng: "Letters:"
+          rus: "Буквы:"
+          zh: "字母："
+        items:
+          - text:
+              eng: "**q** — a soft \"ch\" (almost like \"ty\")"
+              rus: "**q** — мягкое ч (почти как “ть“)"
+              zh: "**q** — 轻软的“ch”音（近似“ty”）"
+          - text:
+              eng: "**x** — a soft \"sh\" (almost like \"sy\")"
+              rus: "**x** — мягкое “шь“ (почти как “сь“)"
+              zh: "**x** — 轻软的“sh”音（近似“sy”）"
+      - text:
+          eng: "Syllables:"
+          rus: "Слоги:"
+          zh: "音节："
+        items:
+          - text:
+              eng: "**yun** — pronounced more like \"ywin\" (not \"yoon\")"
+              rus: "**yun** — читается скорее как “юйнь“ (а не как “юн“)"
+              zh: "**yun** — 读音更接近“ywin”（而非“yoon”）"
+
+  - type: prose
     text:
+      eng: "Don't worry about overloading yourself with all these rules right now. This book includes a full <a target=\"_blank\" href=\"./appendix-pinyin\">phoneme-by-phoneme reference</a> (the entire pinyin system, letter by letter, flagging all the commonly encountered \"traps\").\n\nYou can turn to this appendix any time, for example when a written word doesn't tell you how to pronounce it."
+      rus: |-
+        Не стоит перегружаться всеми этими правилами сейчас. Эта книга содержит полный <a target="_blank" href="./appendix-pinyin">пофеномный справочник</a> (всю систему пиньиня, буква за буквой, с указаниями всех часто встречаемых "ловушек").
+
+        Вы можете обратиться к этому дополнению в любое время, например когда написанное слово не подсказывает как его произносить.
+      zh: "现在不必被这些规则压得喘不过气。本书附有完整的<a target=\"_blank\" href=\"./appendix-pinyin\">逐音素参考手册</a>（完整的拼音体系，逐字母讲解，并标出所有常见的“陷阱”）。\n\n你可以随时查阅这份附录，比如当一个书面词无法提示你它该怎么读的时候。"
+
+  - type: prose
+    text:
+      eng: "<h2>Tones</h2>\n\nIn pinyin, tone isn't decoration — it's part of the word."
+      rus: |-
+        <h2>Тоны</h2>
+
+        В пиньинь, тон — не украшение, а часть слова
+      zh: "<h2>声调</h2>\n\n在拼音中，声调不是装饰，而是词的一部分。"
+    tldr:
+      eng: "Tone is part of the word, not decoration"
+      rus: "Тон — часть слова, а не украшение"
+      zh: "声调是词的一部分，而非装饰"
+    necessity:
+      eng: "Without grasping this, it's easy to confuse different words that differ only by tone."
+      rus: "Без этого понимания легко спутать разные слова, которые различаются только тоном"
+      zh: "如果不理解这一点，很容易混淆仅声调不同的不同词语。"
+
+  - type: info
+    title:
+      eng: "Example"
+      rus: "Пример"
+      zh: "例子"
+    items:
+      - text:
+          eng: "**mā** — mother"
+          rus: "**mā** — мама"
+          zh: "**mā** — 妈妈"
+      - text:
+          eng: "**má** — hemp"
+          rus: "**má** — конопля"
+          zh: "**má** — 麻"
+      - text:
+          eng: "**mǎ** — horse"
+          rus: "**mǎ** — лошадь"
+          zh: "**mǎ** — 马"
+      - text:
+          eng: "**mà** — to scold"
+          rus: "**mà** — ругать"
+          zh: "**mà** — 骂"
+
+  - type: prose
+    text:
+      eng: "All the words above are different, and are pronounced differently, because they use different tones.\n\nChinese has the following tones:"
+      rus: |-
+        Все приведенные выше слова -- разные, и произносятся они по разному, потому что используют разные тоны.
+
+        В китайском языке существуют следующие тоны:
+      zh: "以上的词都各不相同，读音也不同，因为它们使用了不同的声调。\n\n汉语共有以下几种声调："
+
+  - type: info
+    title:
       eng: "Tones"
       rus: "Тоны"
       zh: "声调"
+    items:
+      - text:
+          eng: "**ā** — First tone. Level and sustained, as if you're humming a single unchanging note (like \"om\")."
+          rus: "**ā** — Первый тон. Ровный и долгий, словно вы мычите одну ноту без изменений (например “ом“)."
+          zh: "**ā** — 一声。平稳而绵长，就像你哼着一个不变的音（比如“om”）。"
+      - text:
+          eng: "**á** — Second tone. Rising, like the \"huh?\" you say when you didn't quite hear something."
+          rus: "**á** — Второй тон. Восходящий, как «а?», которое вы говорите, когда не расслышали."
+          zh: "**á** — 二声。上扬，就像你没听清楚时说的“啊？”。"
+      - text:
+          eng: "**ǎ** — Third tone. Dips down first, then curls back up — the sound of a skeptical \"hmm...\""
+          rus: "**ǎ** — Третий тон. Сначала понижается, затем загибается вверх — звук скептического «хм...»"
+          zh: "**ǎ** — 三声。先降后升，像是怀疑时发出的“嗯……”声。"
+      - text:
+          eng: "**à** — Fourth tone. Sharp and falling, like a clipped, final \"No.\""
+          rus: "**à** — Четвёртый тон. Резкий и нисходящий, как отрывистое, окончательное «Нет»."
+          zh: "**à** — 四声。短促而下降，像是斩钉截铁的一声“不”。"
+      - text:
+          eng: "**a** — Neutral tone. It's written without a tone mark, just as a plain letter. The neutral tone is shorter and unstressed. In the word Hǎo-shuō-de, the final syllable de carries the neutral tone."
+          rus: "**a** — Нейтральный тон. Он пишется без знака тона, просто как слово или буква. Нейтральный тон короче и является безударным. В слове Hǎo-shuō-de последний слогde имеет нейтральный тон."
+          zh: "**a** — 轻声。书写时不带声调符号，只是普通字母。轻声更短，且不重读。在 Hǎo-shuō-de 一词中，最后一个音节 de 就是轻声。"
 
   - type: prose
     text:
-      eng: |-
-        One thing pinyin can't hide, though, is tone — and tone is not a decoration, it's part of the word. Say <audio-example zh="妈">mā</audio-example> (mother), <audio-example zh="麻">má</audio-example> (hemp), <audio-example zh="马">mǎ</audio-example> (horse), and <audio-example zh="骂">mà</audio-example> (to scold) with the wrong pitch, and you haven't mispronounced a word — you've said a different one.
+      eng: "All of Chinese is read in tones, syllable by syllable. The one exception is the neutral tone. When it appears in a word, the syllable before it gets the stress, and the neutral tone itself is just a short, unstressed sound.\n\nThe word Hǎo-shuō-de isn't three equal beats. It's pronounced hao-shuò-de — the final syllable \"de\" fades out.\n\nWithout the neutral tone, spoken Chinese would sound like a mechanical sequence of separate blocks. That's deeply unnatural. It's the neutral tone that keeps the rhythm from falling apart.\n\nIn this book, the tone of each syllable is its dictionary tone (i.e. taken straight from the dictionary). In natural Chinese speech there are rules for how certain tones shift when syllables sit next to each other — we won't be covering those rules here."
       rus: |-
-        Однако тоны пиньинь не может скрыть — и тон не украшение, а часть слова. Произнесите <audio-example zh="妈">mā</audio-example> (мама), <audio-example zh="麻">má</audio-example> (конопля), <audio-example zh="马">mǎ</audio-example> (лошадь) и <audio-example zh="骂">mà</audio-example> (ругать) с неправильной высотой тона — и вы не просто неправильно произнесёте слово, а скажете совсем другое.
-      zh: |-
-        不过，有一件事拼音无法隐藏——那就是声调。声调不是装饰，而是词的一部分。把 <audio-example zh="妈">mā</audio-example>（妈妈）、<audio-example zh="麻">má</audio-example>（麻）、<audio-example zh="马">mǎ</audio-example>（马）和 <audio-example zh="骂">mà</audio-example>（骂）用错音高说出来，你就不是发错了一个词——而是说出了另一个词。
-    tldr:
-      eng: "Wrong tone = wrong word, not just an accent."
-      rus: "Неправильный тон — это другое слово, а не просто акцент."
-      zh: "声调错了就是另一个词，不只是口音问题。"
-    necessity:
-      eng: "Establishes that tone is meaning-bearing, not optional inflection."
-      rus: "Устанавливает, что тон несёт смысл, а не является необязательной интонацией."
-      zh: "确立声调承载意义，而不是可有可无的语调。"
+        Весь китайский читается тонами по слогам. Единственное исключение составляет нейтральный тон. Когда он появляется в слове, ударение получает слог перед ним, а сам нейтральный тон — лишь короткий звук.
+
+        Слово Hǎo-shuō-de — это не три равных такта. Оно произносится хао-шуò-дэ — последний слог “дэ” затихает.
+
+        Без нейтрального тона разговорный китайский звучал бы как механическая последовательность отдельных блоков. Это крайне неестественно. Именно нейтральный тон не дает ритму распадаться.
+
+        В этой книге тон каждого слога — словарный (т.е. берется из словаря). Дело в том, что в естественной китайской речи существуют правила по изменению некоторых тонов в слогах стоящих рядом друг с другом. Здесь мы не будем учитывать эти правила.
+      zh: "整个汉语都是按音节带声调朗读的。唯一的例外是轻声。当它出现在词中时，重音落在它前面的音节上，而轻声本身只是一个短促、不重读的声音。\n\nHǎo-shuō-de 这个词并不是三个等长的节拍。它读作 hao-shuò-de——最后一个音节“de”会渐渐弱下去。\n\n如果没有轻声，说出来的中文听起来就会像一串机械的独立单位，非常不自然。正是轻声让节奏不至于散架。\n\n在本书中，每个音节的声调都是词典声调（即直接取自词典）。在自然的中文口语中，相邻音节的某些声调会发生变化，这里我们暂不涉及这些规则。"
 
   - type: prose
     text:
-      eng: |-
-        - **ā** — First tone. Flat and held, like humming a single note and not letting it move.
-        - **á** — Second tone. Rising, like the "huh?" you say when you mishear something.
-        - **ǎ** — Third tone. Dips down, then curls back up — the sound of a skeptical "hmm..."
-        - **à** — Fourth tone. Sharp and falling, like a flat, final "No."
+      eng: "<h2>Hao-shuo-de Grammar</h2>\n\nIn classical Chinese, sentences are built from syllables, with no punctuation marking the grammatical structures inside a sentence. Even individual words aren't set apart. To make the structure of Chinese clearer to us, Hao-shuo-de adds a few extra grammar rules on top."
       rus: |-
-        - **ā** — Первый тон. Ровный и долгий, словно вы гудите одну ноту и не даёте ей сдвигаться.
-        - **á** — Второй тон. Восходящий, как «а?», которое вы говорите, когда не расслышали.
-        - **ǎ** — Третий тон. Сначала понижается, затем загибается вверх — звук скептического «хм...».
-        - **à** — Четвёртый тон. Резкий и нисходящий, как отрывистое, окончательное «Нет».
-      zh: |-
-        - **ā** —— 一声。高平，保持平稳，像哼一个音高不变。
-        - **á** —— 二声。上升，像没听清时说的 "嗯？"。
-        - **ǎ** —— 三声。先降后升，像怀疑的 "嗯..."。
-        - **à** —— 四声。短促下降，像干脆利落的 "不！"。
-    tldr:
-      eng: "Four tones: flat, rising, dip-then-rise, sharp fall."
-      rus: "Четыре тона: ровный, восходящий, сначала вниз затем вверх, резко нисходящий."
-      zh: "四个声调：平、升、先降后升、陡降。"
-    necessity:
-      eng: "Gives a concrete, memorable shape to each of the four tones."
-      rus: "Даёт конкретный, запоминающийся образ для каждого из четырёх тонов."
-      zh: "为四个声调分别给出具体、易记的形象。"
+        <h2>Грамматика Hao-shuo-de</h2>
 
-  - type: prose
-    text:
-      eng: |-
-        There is also a neutral tone. It is written without a tone mark — just a plain letter: **a**. The neutral syllable is shorter and receives no emphasis.
-      rus: |-
-        Существует также нейтральный тон. Он пишется без знака тона — просто обычная буква: **a**. Нейтральный слог короче и не получает ударения.
-      zh: |-
-        还有一种轻声。它不加声调符号——只写普通字母：**a**。轻声音节较短，不重读。
+        В классическом китайском предложения строятся из слогов, и нет никакого разделенния знаками препинания между грамматическими структурами внутри предложения. Даже отдельные слова не обособлены. Чтобы структура китайского стала понятнее для нас, в Hao-shuo-de добавляются дополнительные правила грамматики.
+      zh: "<h2>Hao-shuo-de 语法</h2>\n\n在古典中文里，句子由音节构成，句内的语法结构之间没有任何标点来分隔。就连单个的词也不被分开标出。为了让中文的结构对我们更清晰，Hao-shuo-de 在此基础上加入了一些额外的语法规则。"
     tldr:
-      eng: "A fifth, unmarked tone exists: short and unstressed."
-      rus: "Существует пятый, немаркированный тон: короткий и безударный."
-      zh: "还存在第五种不标符号的声调：短促、不重读。"
+      eng: "Hao-shuo-de adds punctuation on top of syllabic writing"
+      rus: "Hao-shuo-de добавляет пунктуацию поверх слогового письма"
+      zh: "Hao-shuo-de 在音节文字之上加入了标点规则"
     necessity:
-      eng: "Introduces the neutral tone before it appears in the language's own name."
-      rus: "Знакомит с нейтральным тоном до того, как он появится в названии самого языка."
-      zh: "在轻声出现在语言自己的名字之前先介绍它。"
+      eng: "Without these rules, you can't see where words and grammar particles begin and end in Chinese text."
+      rus: "Без этих правил невозможно увидеть границы слов и грамматических частиц в китайском тексте"
+      zh: "没有这些规则，就无法在中文文本中看清词语和语法成分的边界。"
 
-  - type: prose
-    text:
-      eng: |-
-        In <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example>, the `-de` is neutral.
-      rus: |-
-        В <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> `-de` стоит в нейтральном тоне.
-      zh: |-
-        在 <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> 中，`-de` 是轻声。
-    tldr:
-      eng: "The -de in hǎo-shuō-de is neutral-toned."
-      rus: "«-de» в hǎo-shuō-de произносится нейтральным тоном."
-      zh: "hǎo-shuō-de 中的 `-de` 读轻声。"
-    necessity:
-      eng: "Anchors the abstract neutral-tone rule to a word the reader already knows."
-      rus: "Привязывает абстрактное правило нейтрального тона к уже знакомому читателю слову."
-      zh: "把抽象的轻声规则落实到读者已经认识的词上。"
-
-  - type: prose
-    text:
-      eng: |-
-        Reading Chinese syllable by syllable is the rule. The neutral tone is the single exception. When a neutral tone appears, the syllable before it takes the stress. The neutral syllable itself is just a short, attached sound. <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> is not three equal beats. It is pronounced _how-show-duh_ — the final syllable trails off.
-      rus: |-
-        Чтение китайского по слогам — это правило. Нейтральный тон — единственное исключение. Когда появляется нейтральный тон, ударение получает слог перед ним. Сам нейтральный слог — это лишь короткий прикреплённый звук. <audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> — это не три равных такта. Оно произносится _хао-шуо-дэ_ — последний слог затихает.
-      zh: |-
-        逐音节读汉语是规则。轻声是唯一的例外。当轻声出现时，它前面的音节承担重音。轻声本身只是一个短促的附缀音。<audio-example zh="好说的">{{word:good}}-{{word:communicate}}-{{word:possessive-marker}}</audio-example> 不是三个等长的节拍。它读作 _hǎo-shuō-de_ —— 最后一个音节轻轻地收尾。
-    tldr:
-      eng: "The syllable before a neutral tone gets the stress instead."
-      rus: "Слог перед нейтральным тоном получает ударение вместо него."
-      zh: "轻声前面的音节代替它承担重音。"
-    necessity:
-      eng: "States the one exception to reading every syllable with equal weight."
-      rus: "Формулирует единственное исключение из чтения каждого слога с равным весом."
-      zh: "说明每个音节等重朗读规则的唯一例外。"
-
-  - type: prose
-    text:
-      eng: |-
-        Without this exception, spoken Chinese would become a mechanical sequence of separate blocks — correct, but unnatural. The neutral tone is what keeps the rhythm from breaking apart.
-      rus: |-
-        Без этого исключения разговорный китайский стал бы механической последовательностью отдельных блоков — правильно, но неестественно. Именно нейтральный тон не даёт ритму распадаться.
-      zh: |-
-        没有这个例外，口语汉语就会变成一串机械的独立音节——正确，但不自然。正是轻声阻止了节奏的崩解。
-    tldr:
-      eng: "Without the neutral tone, speech would sound robotic."
-      rus: "Без нейтрального тона речь звучала бы механически."
-      zh: "没有轻声，说话会显得机械。"
-    necessity:
-      eng: "Explains why the exception exists, not just that it exists."
-      rus: "Объясняет, почему существует исключение, а не просто то, что оно существует."
-      zh: "解释这个例外为什么存在，而不只是说它存在。"
-
-  - type: prose
-    text:
-      eng: |-
-        - **a** — Neutral tone. Short, unstressed, no pitch direction.
-      rus: |-
-        - **a** — Нейтральный тон. Короткий, безударный, без направленного изменения высоты.
-      zh: |-
-        - **a** —— 轻声。短促、不重读、没有调值方向。
-    tldr:
-      eng: "Neutral tone: short, unstressed, no pitch direction."
-      rus: "Нейтральный тон: короткий, безударный, без направления высоты."
-      zh: "轻声：短促、不重读、没有调值方向。"
-    necessity:
-      eng: "Completes the five-tone reference list started above."
-      rus: "Завершает справочный список из пяти тонов, начатый выше."
-      zh: "补全上文开始的五声参考列表。"
-
-  - type: prose
-    text:
-      eng: |-
-        This book always writes a word's dictionary tone — the tone it carries in the dictionary — even in places where fast, natural speech would blur or shift it slightly. That keeps every written form consistent and lookup-able, at the small cost of not capturing every detail of how a sentence actually sounds out loud.
-      rus: |-
-        В этой книге всегда пишется словарный тон слова — тот тон, который оно несёт в словаре, — даже в тех местах, где в быстрой, естественной речи он может смазываться или слегка меняться. Это сохраняет единообразие написания и возможность поиска ценой того, что не передаются все детали того, как предложение на самом деле звучит в устной речи.
-      zh: |-
-        本书始终标注词的词典声调——即它在词典中的声调——即使在快速、自然的口语中可能会变调或轻微偏移的地方也是如此。这保持了书写形式的一致性和可查性，代价是无法捕捉句子实际口头发音的所有细节。
-    tldr:
-      eng: "This book always writes a word's dictionary tone, even where speech blurs it."
-      rus: "Эта книга всегда пишет словарный тон слова, даже там, где речь его смазывает."
-      zh: "本书始终标注词的词典声调，即使口语会把它模糊掉。"
-    necessity:
-      eng: "Sets reader expectations for why written tones may not match fast speech."
-      rus: "Задаёт ожидания читателя: почему письменные тоны могут не совпадать с быстрой речью."
-      zh: "设定读者预期：书面声调为何可能和快速口语不一致。"
-
-  - type: prose
-    text:
-      eng: |-
-        Because tone marks are awkward to type on an ordinary keyboard, there's a standard shorthand you'll meet in apps, dictionaries, and casual typing: write the tone as a digit right after the syllable instead of as a mark above the vowel. <audio-example zh="你好">Nǐ hǎo</audio-example> becomes `ni3 hao3`. This book always uses proper tone marks, but recognizing the number system will save you confusion the first time you run into it elsewhere.
-      rus: |-
-        Поскольку знаки тонов неудобно набирать на обычной клавиатуре, существует стандартное сокращение, с которым вы столкнётесь в приложениях, словарях и неформальном наборе: тон записывается цифрой сразу после слога вместо знака над гласной. <audio-example zh="你好">Nǐ hǎo</audio-example> превращается в `ni3 hao3`. В этой книге всегда используются полноценные знаки тонов, но умение распознавать цифровую систему избавит вас от путаницы, когда вы впервые встретите её в другом месте.
-      zh: |-
-        由于声调符号在普通键盘上不易输入，你会在应用程序、词典和非正式打字中遇到一种标准简写法：用数字标在音节后面，而不是标在元音上。<audio-example zh="你好">Nǐ hǎo</audio-example> 变成 `ni3 hao3`。本书始终使用标准的声调符号，但识别数字系统会让你第一次在其他地方碰到它时免于困惑。
-    tldr:
-      eng: "Tones can also be written as digits after the syllable, e.g. ni3 hao3."
-      rus: "Тоны можно также записывать цифрами после слога, например ni3 hao3."
-      zh: "声调也可以用音节后的数字表示，例如 ni3 hao3。"
-    necessity:
-      eng: "Prepares the reader to recognize tone numbers used elsewhere, outside this book."
-      rus: "Готовит читателя узнавать цифровую запись тонов, встречающуюся вне этой книги."
-      zh: "让读者能认出书外常见的数字声调标注法。"
-
-  - type: heading
-    text:
-      eng: "Writing Hao-shuo-de"
-      rus: "Запись Hao-shuo-de"
-      zh: "书写 Hao-shuo-de"
-
-  - type: prose
-    text:
-      eng: |-
-        Reading tones and syllables gets you through any pinyin text. But Hao-shuo-de adds a small layer of its own notation on top, to keep vocabulary and grammar visually distinct as you read:
-      rus: |-
-        Чтение тонов и слогов позволяет разобраться в любом тексте на пиньине. Но Hao-shuo-de добавляет поверх этого свой небольшой слой разметки, чтобы лексика и грамматика были зрительно различимы при чтении:
-      zh: |-
-        读声调和音节能让你读懂任何拼音文本。但 Hao-shuo-de 在其之上又加了一层小小的标注规则，以便你在阅读时从视觉上区分词汇和语法：
-    tldr:
-      eng: "Hao-shuo-de adds its own notation on top of pinyin."
-      rus: "Hao-shuo-de добавляет собственную разметку поверх пиньиня."
-      zh: "Hao-shuo-de 在拼音之上又加了一层自己的标注。"
-    necessity:
-      eng: "Frames the three punctuation rules that follow as one system."
-      rus: "Объединяет три следующих правила пунктуации в одну систему."
-      zh: "把接下来的三条标点规则整合成一个系统来介绍。"
-
-  - type: prose
-    text:
-      eng: |-
-        1. **Words stay solid.** When several syllables form one dictionary word, they're never split apart, no matter how long the word is — <audio-example zh="动物">dòngwù</audio-example>, <audio-example zh="睡觉">shuìjiào</audio-example>, <audio-example zh="但是">dànshì</audio-example>. Read a solid block as a single unit.
-        2. **Hyphens bind grammar.** A hyphen glues a grammar particle, measure word, or description directly onto the word it modifies — <audio-example zh="这个">zhè-ge</audio-example> (this one), <audio-example zh="一个">yī-ge</audio-example> (one thing), <audio-example zh="很大的">hěn-dà-de</audio-example> (very big). A hyphen always signals "these two pieces work as one" — never a word break.
-        3. **Quotes wall off the untranslatable.** Proper names and imitated sounds — things that aren't really Hao-shuo-de vocabulary at all — are kept inside quotation marks: `"Beijing"`, <audio-example zh="叫汪汪">jiào "wāng-wāng"</audio-example> (goes "woof woof"). If you see quotes, don't look for the word in the dictionary; it isn't one.
-      rus: |-
-        1. **Слова пишутся слитно.** Когда несколько слогов образуют одно словарное слово, они никогда не разделяются, какой бы длинной ни была лексема, — <audio-example zh="动物">dòngwù</audio-example>, <audio-example zh="睡觉">shuìjiào</audio-example>, <audio-example zh="但是">dànshì</audio-example>. Читайте слитный блок как единое целое.
-        2. **Дефис связывает грамматику.** Дефис прикрепляет грамматическую частицу, счётное слово или определение непосредственно к слову, которое оно определяет, — <audio-example zh="这个">zhè-ge</audio-example> (этот), <audio-example zh="一个">yī-ge</audio-example> (одна вещь), <audio-example zh="很大的">hěn-dà-de</audio-example> (очень большой). Дефис всегда сигнализирует: «эти две части работают как одно» — и никогда не обозначает разрыв слова.
-        3. **Кавычки отделяют непереводимое.** Имена собственные и звукоподражания — то, что по сути не является лексикой Hao-shuo-de, — заключаются в кавычки: `"Beijing"`, <audio-example zh="叫汪汪">jiào "wāng-wāng"</audio-example> (лает «гав-гав»). Если видите кавычки, не ищите это слово в словаре; оно не словарное.
-      zh: |-
-        1. **词语连写。** 当几个音节构成一个词典词时，无论这个词有多长，它们都不分开——<audio-example zh="动物">dòngwù</audio-example>、<audio-example zh="睡觉">shuìjiào</audio-example>、<audio-example zh="但是">dànshì</audio-example>。把连写块当作一个整体来读。
-        2. **连字符绑定语法。** 连字符把语法助词、量词或修饰语直接粘到它所修饰的词上——<audio-example zh="这个">zhè-ge</audio-example>（这个）、<audio-example zh="一个">yī-ge</audio-example>（一个）、<audio-example zh="很大的">hěn-dà-de</audio-example>（很大的）。连字符始终表示 "这两部分作为一个整体"——绝不是分词的标记。
-        3. **引号隔开不可译内容。** 专有名词和拟声词——那些本质上不属于 Hao-shuo-de 词汇的东西——放在引号里：`"Beijing"`、<audio-example zh="叫汪汪">jiào "wāng-wāng"</audio-example>（汪汪叫）。如果看到引号，不要到词典里去查这个词；它不是词。
-    tldr:
-      eng: "Words stay solid, hyphens bind grammar, quotes wall off untranslatable words."
-      rus: "Слова пишутся слитно, дефис связывает грамматику, кавычки отделяют непереводимое."
-      zh: "词语连写，连字符绑定语法，引号隔开不可译内容。"
-    necessity:
-      eng: "Defines the three punctuation conventions used throughout the whole book."
-      rus: "Определяет три пунктуационных соглашения, используемых во всей книге."
-      zh: "定义全书通用的三条标点约定。"
+  - type: info
+    title:
+      eng: "Hao-shuo-de Grammar"
+      rus: "Грамматика Hao-shuo-de"
+      zh: "Hao-shuo-de 语法"
+    ordered: true
+    items:
+      - text:
+          eng: "**Words are written solid**. When several syllables form one dictionary word, they are never split apart, no matter how long the word is — {{word:dong4wu4}}, {{word:shui4jiao4}}, {{word:dan4shi4}}. Read the whole solid block as a single unit."
+          rus: "**Слова пишутся слитно**. Когда несколько слогов образуют одно словарное слово, они никогда не разделяются, какой бы длинной ни была лексема, — {{word:dong4wu4}}, {{word:shui4jiao4}}, {{word:dan4shi4}}. Читайте весь слитный блок как единое целое."
+          zh: "**词连写**。当若干音节组成一个词典词时，无论这个词有多长，它们都绝不会被拆开——{{word:dong4wu4}}、{{word:shui4jiao4}}、{{word:dan4shi4}}。把整个连写的部分当作一个整体来读。"
+      - text:
+          eng: "**A hyphen transforms a word**. A hyphen attaches a grammar particle, a measure word, or a modifier to a word and turns it into a different part of speech (for example, from a noun into an adjective, or from a verb into an adjective)."
+          rus: "**Дефис трансформирует слово**. Дефис прикрепляет к слову грамматическую частицу, счетное слово или определение и трансформирует его в другую часть речи (к примеру, из существительного в прилагательное или из глагола в прилагательное)."
+          zh: "**连字符转换词性**。连字符把一个语法成分、量词或修饰语附加到词上，并把它转换成另一种词性（例如，从名词变成形容词，或从动词变成形容词）。"
+        items:
+          - text:
+              eng: "{{word:zhe4}}-**ge** — this"
+              rus: "{{word:zhe4}}-**ge** — этот"
+              zh: "{{word:zhe4}}-**ge** — 这个"
+          - text:
+              eng: "{{word:yi1}}-**ge** — one thing"
+              rus: "{{word:yi1}}-**ge** — одна вещь"
+              zh: "{{word:yi1}}-**ge** — 一个（东西）"
+          - text:
+              eng: "{{word:hen3}}-**{{word:da4}}-de** — very big"
+              rus: "{{word:hen3}}-**{{word:da4}}-de** — очень большой"
+              zh: "{{word:hen3}}-**{{word:da4}}-de** — 很大的"
+          - text:
+              eng: "A hyphen always shows that the parts it joins work together as a single word."
+              rus: "Дефис всегда указывает на то что связываемые им части работают как одно слово."
+              zh: "连字符总是表明它所连接的部分作为一个整体来运作。"
+      - text:
+          eng: "**Quotes set off the untranslatable**. Proper names and onomatopoeia — things that aren't really Hao-shuo-de vocabulary — are enclosed in quotes:"
+          rus: "**Кавычки отделяют непереводимое**. Имена собственные и звукоподражания — то, что по сути не является лексикой Hao-shuo-de, — заключаются в кавычки:"
+          zh: "**引号标出不可译内容**。专有名词和拟声词——这些本质上不属于 Hao-shuo-de 词汇的内容——用引号括起来："
+        items:
+          - text:
+              eng: "\"Beijing\" — Beijing"
+              rus: "“Beijing“ — Пекин"
+              zh: "“Beijing“ — 北京"
+          - text:
+              eng: '{{word:jiao4}} "wāng-wāng" — barks "woof-woof"'
+              rus: '{{word:jiao4}} "wāng-wāng" — лает «гав-гав»'
+              zh: '{{word:jiao4}} "wāng-wāng" — 叫“汪汪”'
+          - text:
+              eng: "If you see quotes, don't look the word up in the dictionary — it isn't a dictionary word."
+              rus: "Если видите кавычки, не ищите это слово в словаре; оно не словарное."
+              zh: "如果看到引号，就不要在词典里查这个词——它不是词典词。"
 
   - type: exercise
     items:
@@ -269,12 +257,12 @@ blocks:
       - eng: "Which tone is this: à (fourth tone mark)? Describe it in one word."
         rus: "Какой это тон: à (знак четвёртого тона)? Опишите его одним словом."
         zh: "这是什么声调：à（四声符号）？用一个词描述它。"
-      - eng: "Rewrite Wǒ hǎo using tone-number notation instead of tone marks."
-        rus: "Перепишите Wǒ hǎo в тоново-цифровой записи вместо знаков тонов."
-        zh: "把 Wǒ hǎo 用声调数字标注法改写（不用声调符号）。"
-      - eng: "Is hěn-dà-de one dictionary word, or a word plus a bound grammar piece? How do you know from the punctuation alone?"
-        rus: "Является ли hěn-dà-de одним словарным словом или словом плюс привязанной грамматической частью? Как вы это определяете только по знакам препинания?"
-        zh: "hěn-dà-de 是一个词典词，还是一个词加一个粘着的语法成分？仅凭标点你如何判断？"
+      - eng: "Rewrite {{Word:wo3}} {{word:hao3}} using tone-number notation instead of tone marks."
+        rus: "Перепишите {{Word:wo3}} {{word:hao3}} в тоново-цифровой записи вместо знаков тонов."
+        zh: "把 {{Word:wo3}} {{word:hao3}} 用声调数字标注法改写（不用声调符号）。"
+      - eng: "Is {{word:hen3}}-{{word:da4}}-de one dictionary word, or a word plus a bound grammar piece? How do you know from the punctuation alone?"
+        rus: "Является ли {{word:hen3}}-{{word:da4}}-de одним словарным словом или словом плюс привязанной грамматической частью? Как вы это определяете только по знакам препинания?"
+        zh: "{{word:hen3}}-{{word:da4}}-de 是一个词典词，还是一个词加一个粘着的语法成分？仅凭标点你如何判断？"
 
   - type: answers
     items:
@@ -291,6 +279,6 @@ blocks:
           rus: "Wo3 hao3."
           zh: "Wo3 hao3。"
       - text:
-          eng: "A word (dà, big) plus a bound grammar piece (-de) — the hyphen shows they're glued together, not a single solid dictionary word."
-          rus: "Слово (dà, большой) плюс привязанная грамматическая часть (-de) — дефис показывает, что они скреплены вместе, а не являются единым слитным словарным словом."
-          zh: "一个词（dà，大）加上一个粘着的语法成分（-de）—— 连字符表明它们是粘在一起的，而不是一个固实的词典词。"
+          eng: "A word ({{word:da4}}, big) plus a bound grammar piece (-de) — the hyphen shows they're glued together, not a single solid dictionary word."
+          rus: "Слово ({{word:da4}}, большой) плюс привязанная грамматическая часть (-de) — дефис показывает, что они скреплены вместе, а не являются единым слитным словарным словом."
+          zh: "一个词（{{word:da4}}，大）加上一个粘着的语法成分（-de）—— 连字符表明它们是粘在一起的，而不是一个固实的词典词。"
