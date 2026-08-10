@@ -2,9 +2,9 @@
 // shaped exactly like what vite-plugin-markdown.js produces (meta, vocab,
 // bodyHtml, story, examples, exercise, answers), so the existing Preact
 // components (Section, VocabGrid, GrammarBlock, ...) render either format
-// without modification. Two extra fields ride alongside for the new
-// TL;DR-summary and missing-translation-warning UI: `tldrSummary` and
-// `missingBlocks`.
+// without modification. Three extra fields ride alongside for the new
+// TL;DR-summary, missing-translation-warning, and grammar-index UI:
+// `tldrSummary`, `missingBlocks`, and `grammarRules`.
 //
 // Chapter schema (see src/content/lesson-01.yaml for a full example):
 //   id, type, lessonNumber, order, title: {eng, rus, zh}
@@ -17,7 +17,7 @@
 //     { type: 'examples' | 'story', items: [{ pinyin, translation: {..}, audioFile?, ttsText? }] }
 //     { type: 'exercise', items: [{eng, rus, zh}] }
 //     { type: 'answers', items: [{ text: {..}, audioFile?, ttsText? }] }
-//     { type: 'info' | 'warning', title?: {..}, ordered?: bool, items: [infoItem] }
+//     { type: 'info' | 'warning', subtype?: 'grammar', tag?: string, title?: {..}, ordered?: bool, items: [infoItem] }
 //   ]
 //
 //   An infoItem is `{ text: {eng, rus, zh}, ordered?: bool, items?: [infoItem] }`
@@ -26,6 +26,15 @@
 //   the old markdown convention of ad-hoc nested `>>` blockquotes. `ordered`
 //   switches that item's own nested list from a bullet list to a numbered
 //   one; it has no effect without a nested `items` array.
+//
+//   `subtype: 'grammar'` on an `info` block (never `warning` -- those stay
+//   for cautions/mistakes, not rules) marks it as a formal grammar rule
+//   rather than a plain illustrative callout, and `tag` gives it a single
+//   hierarchical string id (e.g. "adjectives/causative") so every tagged
+//   rule across every chapter can eventually be compiled into one grammar
+//   index programmatically. Tagged blocks are collected into the per-language
+//   `grammarRules` array (`{ tag, title, html }`) in addition to rendering
+//   inline in `bodyHtml` like any other info block.
 //
 // Only `prose` blocks carry `tldr`/`necessity` -- per the project's own rule,
 // vocab/examples/exercise/answers/story/info/warning are reserved,
@@ -80,19 +89,20 @@ function renderInfoBlock(block, lang, onMissing) {
   if (hasTitle && title === undefined) onMissing();
 
   const listHtml = renderInfoItems(block.items ?? [], lang, Boolean(block.ordered), onMissing);
-  if (title === undefined && !listHtml) return '';
+  if (title === undefined && !listHtml) return { html: '', title };
 
   const kind = block.type;
   const icon = INFO_BLOCK_ICONS[kind];
   const titleHtml = title !== undefined
     ? `<div class="${kind}-block-title">${marked.parseInline(title)}</div>`
     : '';
-  return (
+  const html = (
     `<div class="${kind}-block">` +
       `<span class="${kind}-block-icon" aria-hidden="true">${icon}</span>` +
       `<div class="${kind}-block-content">${titleHtml}${listHtml}</div>` +
     `</div>`
   );
+  return { html, title };
 }
 
 export function buildForLang(chapter, lang) {
@@ -104,6 +114,7 @@ export function buildForLang(chapter, lang) {
   const proseHtmlParts = [];
   const tldrSummary = [];
   const missingBlocks = [];
+  const grammarRules = [];
 
   const overallSummary = pick(chapter.summary, lang);
   if (overallSummary !== undefined) {
@@ -176,9 +187,12 @@ export function buildForLang(chapter, lang) {
       case 'info':
       case 'warning': {
         let complete = true;
-        const html = renderInfoBlock(block, lang, () => { complete = false; });
+        const { html, title } = renderInfoBlock(block, lang, () => { complete = false; });
         if (!complete) missingBlocks.push(index);
         if (html) proseHtmlParts.push(html);
+        if (block.type === 'info' && block.subtype === 'grammar' && html) {
+          grammarRules.push({ tag: block.tag, title, html });
+        }
         break;
       }
       default:
@@ -205,6 +219,7 @@ export function buildForLang(chapter, lang) {
     answers,
     tldrSummary,
     missingBlocks,
+    grammarRules,
   };
 }
 

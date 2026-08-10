@@ -5,8 +5,10 @@ import type { Sample } from "../src/model/types";
 function makeSample(overrides: Partial<Sample> = {}): Sample {
   return {
     file: "audio/ni-hao.001.mp3",
+    fileName: "ni-hao.001.mp3",
     transcript: "ni-hao",
     syllables: ["ni", "hao"],
+    words: ["ni", "hao"],
     syllableCount: 2,
     difficulty: "L1",
     hasTones: false,
@@ -97,5 +99,26 @@ describe("buildReport", () => {
     expect(report.accuracyPct).toBe(0);
     expect(report.finalPct).toBe(0);
     expect(report.band).toBe("red");
+  });
+});
+
+describe("scoreSample - granularity", () => {
+  test("defaults to syllable granularity when omitted", () => {
+    const sample = makeSample({ syllables: ["ni3", "hao3"], words: ["ni3 hao3"] });
+    const record = scoreSample(sample, "ni3 hao3", 1, "sounds_tones");
+    expect(record.possible).toBe(2); // scored per syllable, not per word
+  });
+
+  test("word granularity scores against sample.words instead of sample.syllables", () => {
+    const sample = makeSample({ syllables: ["ni3", "hao3"], words: ["ni3 hao3"] });
+    const record = scoreSample(sample, "ni3 hao3", 1, "sounds_tones", "word");
+    expect(record.possible).toBe(1); // one multi-syllable word, scored atomically
+    expect(record.earned).toBe(1);
+  });
+
+  test("word granularity: one wrong syllable inside the word zeroes that word's credit", () => {
+    const sample = makeSample({ syllables: ["ni3", "hao3"], words: ["ni3 hao3"] });
+    const record = scoreSample(sample, "ni3 how3", 1, "sounds_tones", "word");
+    expect(record.earned).toBe(0);
   });
 });

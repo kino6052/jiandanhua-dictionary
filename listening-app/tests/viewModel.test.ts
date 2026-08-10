@@ -5,8 +5,10 @@ import type { Sample } from "../src/model/types";
 function makeSample(transcript: string, syllables: string[]): Sample {
   return {
     file: `audio/${transcript}.001.mp3`,
+    fileName: `${transcript}.001.mp3`,
     transcript,
     syllables,
+    words: syllables,
     syllableCount: syllables.length,
     difficulty: "L1",
     hasTones: false,
@@ -204,5 +206,33 @@ describe("ViewModel session flow", () => {
     expect(vm.queue.value).toHaveLength(0);
     expect(vm.records.value).toHaveLength(0);
     expect(vm.index.value).toBe(0);
+  });
+});
+
+describe("ViewModel granularity", () => {
+  test("defaults to syllable granularity", () => {
+    const vm = new ViewModel(samples, { shuffle: identity });
+    expect(vm.granularity.value).toBe("syllable");
+  });
+
+  test("setGranularity only applies during setup", () => {
+    const vm = new ViewModel(samples, { shuffle: identity });
+    vm.startSession();
+    vm.setGranularity("word");
+    expect(vm.granularity.value).toBe("syllable");
+  });
+
+  test("verify() scores using the selected granularity", () => {
+    const wordSamples = [makeSample("ni-hao", ["ni3", "hao3"])];
+    wordSamples[0]!.words = ["ni3 hao3"];
+
+    const vm = new ViewModel(wordSamples, { shuffle: identity });
+    vm.setGranularity("word");
+    vm.startSession();
+    vm.updateInput("ni3 hao3");
+    vm.verify();
+
+    expect(vm.records.value[0]!.possible).toBe(1); // one word, not two syllables
+    expect(vm.records.value[0]!.earned).toBe(1);
   });
 });

@@ -18,7 +18,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5173/)",
       "Bash(netstat -ano)",
       "Bash(npm install *)",
-      "Bash(node scripts/retag-nsm-categories.js)"
+      "Bash(node scripts/retag-nsm-categories.js)",
+      "Bash(ffmpeg -version)"
     ]
   }
 }

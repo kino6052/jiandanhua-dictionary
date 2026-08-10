@@ -1,104 +1,35 @@
 {
-  "generatedAt": "2026-07-29T09:08:55.748Z",
+  "generatedAt": "2026-08-10T03:29:54.287Z",
   "samples": [
     {
-      "file": "audio/ban-xi-jian-zun.001.m4a",
-      "transcript": "ban-xi-jian-zun",
+      "file": "audio/001.001.mp3",
+      "fileName": "001.001.mp3",
+      "transcript": "Di4-li3-ya3-si1-te4-hao4-qu4-wang3-mu4-qian2-yi3-zhi1-de5",
       "syllables": [
-        "ban",
-        "xi",
-        "jian",
-        "zun"
+        "Di4",
+        "li3",
+        "ya3",
+        "si1",
+        "te4",
+        "hao4",
+        "qu4",
+        "wang3",
+        "mu4",
+        "qian2",
+        "yi3",
+        "zhi1",
+        "de5"
       ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/chang3-ye4-xing2-cheng2-yi4-wu1-fa1-zhan3.001.mp3",
-      "transcript": "chang3-ye4-xing2-cheng2-yi4-wu1-fa1-zhan3",
-      "syllables": [
-        "chang3",
-        "ye4",
-        "xing2",
-        "cheng2",
-        "yi4",
-        "wu1",
-        "fa1",
-        "zhan3"
+      "words": [
+        "Di4 li3 ya3 si1 te4 hao4",
+        "qu4 wang3",
+        "mu4 qian2",
+        "yi3 zhi1",
+        "de5"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/chuang3-chu1-da4-shi4-chang3-zuo4-cheng2-da4.001.mp3",
-      "transcript": "chuang3-chu1-da4-shi4-chang3-zuo4-cheng2-da4",
-      "syllables": [
-        "chuang3",
-        "chu1",
-        "da4",
-        "shi4",
-        "chang3",
-        "zuo4",
-        "cheng2",
-        "da4"
-      ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/de-ke-ji-yin-lu-jin-lai-gei-qi-ye.001.mp3",
-      "transcript": "de-ke-ji-yin-lu-jin-lai-gei-qi-ye",
-      "syllables": [
-        "de",
-        "ke",
-        "ji",
-        "yin",
-        "lu",
-        "jin",
-        "lai",
-        "gei",
-        "qi",
-        "ye"
-      ],
-      "syllableCount": 10,
+      "syllableCount": 13,
       "difficulty": "L4",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/dian-zhong-jiu-chu-men-qu-bai-tan.001.mp3",
-      "transcript": "dian-zhong-jiu-chu-men-qu-bai-tan",
-      "syllables": [
-        "dian",
-        "zhong",
-        "jiu",
-        "chu",
-        "men",
-        "qu",
-        "bai",
-        "tan"
-      ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": false,
+      "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final",
@@ -106,428 +37,402 @@
       ]
     },
     {
-      "file": "audio/dou-xu-yao-dao-hang-ji-shu.001.mp3",
-      "transcript": "dou-xu-yao-dao-hang-ji-shu",
+      "file": "audio/001.002.mp3",
+      "fileName": "001.002.mp3",
+      "transcript": "Ma3-li3-ya4-na4-Hai3-gou1-wo3-men5",
       "syllables": [
-        "dou",
-        "xu",
-        "yao",
-        "dao",
-        "hang",
-        "ji",
-        "shu"
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "wo3",
+        "men5"
       ],
-      "syllableCount": 7,
+      "words": [
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "wo3 men5"
+      ],
+      "syllableCount": 8,
       "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "ng_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/fa-zhan-jing-yan-de-guan-jian-mi-ma.001.mp3",
-      "transcript": "fa-zhan-jing-yan-de-guan-jian-mi-ma",
-      "syllables": [
-        "fa",
-        "zhan",
-        "jing",
-        "yan",
-        "de",
-        "guan",
-        "jian",
-        "mi",
-        "ma"
-      ],
-      "syllableCount": 9,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/fa1-zhan3-xian4-yu4-jing1-ji4-de-cheng2-gong1-shi2.001.mp3",
-      "transcript": "fa1-zhan3-xian4-yu4-jing1-ji4-de-cheng2-gong1-shi2",
-      "syllables": [
-        "fa1",
-        "zhan3",
-        "xian4",
-        "yu4",
-        "jing1",
-        "ji4",
-        "de",
-        "cheng2",
-        "gong1",
-        "shi2"
-      ],
-      "syllableCount": 10,
-      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
-        "n_final",
-        "ng_final",
-        "x_initial"
+        "n_final"
       ]
     },
     {
-      "file": "audio/fu2-he2-ge4-zi4-shi2-ji4-de-gao1.mp3",
-      "transcript": "fu2-he2-ge4-zi4-shi2-ji4-de-gao1",
+      "file": "audio/001.003.mp3",
+      "fileName": "001.003.mp3",
+      "transcript": "dou1-zhi1-dao4-zheng3-ge4-di4-qiu2-da4-bu4-fen4-dou1-bei4-hai3-yang2",
       "syllables": [
-        "fu2",
-        "he2",
+        "dou1",
+        "zhi1",
+        "dao4",
+        "zheng3",
         "ge4",
-        "zi4",
-        "shi2",
-        "ji4",
-        "de",
-        "gao1"
+        "di4",
+        "qiu2",
+        "da4",
+        "bu4",
+        "fen4",
+        "dou1",
+        "bei4",
+        "hai3",
+        "yang2"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": []
-    },
-    {
-      "file": "audio/gai3-ge2-chuang2-xin1-zhen1-zhua1-shi2-gan4.001.mp3",
-      "transcript": "gai3-ge2-chuang2-xin1-zhen1-zhua1-shi2-gan4",
-      "syllables": [
-        "gai3",
-        "ge2",
-        "chuang2",
-        "xin1",
-        "zhen1",
-        "zhua1",
-        "shi2",
-        "gan4"
+      "words": [
+        "dou1",
+        "zhi1 dao4",
+        "zheng3 ge4",
+        "di4 qiu2",
+        "da4 bu4 fen4",
+        "dou1",
+        "bei4",
+        "hai3 yang2"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
+      "syllableCount": 14,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final",
-        "x_initial"
+        "q_initial"
       ]
     },
     {
-      "file": "audio/gen-wo-wai-gong-liang-ge-ren-mei-tian-si-wu-dian.001.mp3",
-      "transcript": "gen-wo-wai-gong-liang-ge-ren-mei-tian-si-wu-dian",
+      "file": "audio/001.004.mp3",
+      "fileName": "001.004.mp3",
+      "transcript": "suo3-fu4-gai4-lu4-di4-de5-mian4-ji1-zhi3-zhan4-bu2-dao4",
       "syllables": [
-        "gen",
-        "wo",
-        "wai",
-        "gong",
-        "liang",
-        "ge",
-        "ren",
-        "mei",
-        "tian",
-        "si",
-        "wu",
-        "dian"
+        "suo3",
+        "fu4",
+        "gai4",
+        "lu4",
+        "di4",
+        "de5",
+        "mian4",
+        "ji1",
+        "zhi3",
+        "zhan4",
+        "bu2",
+        "dao4"
+      ],
+      "words": [
+        "suo3",
+        "fu4 gai4",
+        "lu4 di4",
+        "de5",
+        "mian4 ji1",
+        "zhi3",
+        "zhan4",
+        "bu2 dao4"
       ],
       "syllableCount": 12,
       "difficulty": "L4",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/gu-shi-xi-lie.001.mp3",
-      "transcript": "gu-shi-xi-lie",
-      "syllables": [
-        "gu",
-        "shi",
-        "xi",
-        "lie"
-      ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
-      "contrasts": [
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/hua-min-zu-de-wei-da-fa-ming.001.mp3",
-      "transcript": "hua-min-zu-de-wei-da-fa-ming",
-      "syllables": [
-        "hua",
-        "min",
-        "zu",
-        "de",
-        "wei",
-        "da",
-        "fa",
-        "ming"
-      ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/ji-yi-yi-dian.001.mp3",
-      "transcript": "ji-yi-yi-dian",
-      "syllables": [
-        "ji",
-        "yi",
-        "yi",
-        "dian"
-      ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
+      "hasTones": true,
       "contrasts": [
         "n_final"
       ]
     },
     {
-      "file": "audio/ji1-ceng2-he2-qun2-zhong4-shou3-chuang4-jing1-shen2.001.mp3",
-      "transcript": "ji1-ceng2-he2-qun2-zhong4-shou3-chuang4-jing1-shen2",
+      "file": "audio/001.005.mp3",
+      "fileName": "001.005.mp3",
+      "transcript": "suo3-yi3-ke3-neng2-hen3-duo1-ren2-hui4-jue2-de5-ren2-lei4-dui4-hai3-yang2",
       "syllables": [
-        "ji1",
-        "ceng2",
-        "he2",
-        "qun2",
-        "zhong4",
-        "shou3",
-        "chuang4",
+        "suo3",
+        "yi3",
+        "ke3",
+        "neng2",
+        "hen3",
+        "duo1",
+        "ren2",
+        "hui4",
+        "jue2",
+        "de5",
+        "ren2",
+        "lei4",
+        "dui4",
+        "hai3",
+        "yang2"
+      ],
+      "words": [
+        "suo3 yi3",
+        "ke3 neng2",
+        "hen3 duo1",
+        "ren2",
+        "hui4",
+        "jue2 de5",
+        "ren2 lei4",
+        "dui4",
+        "hai3 yang2"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.006.mp3",
+      "fileName": "001.006.mp3",
+      "transcript": "ying1-gai1-yi3-jing1-hen3-liao3-jie3-le5-ba5-dan4-shi2-ji4-shang4-ren2",
+      "syllables": [
+        "ying1",
+        "gai1",
+        "yi3",
         "jing1",
-        "shen2"
+        "hen3",
+        "liao3",
+        "jie3",
+        "le5",
+        "ba5",
+        "dan4",
+        "shi2",
+        "ji4",
+        "shang4",
+        "ren2"
       ],
-      "syllableCount": 9,
-      "difficulty": "L3",
+      "words": [
+        "ying1 gai1",
+        "yi3 jing1",
+        "hen3",
+        "liao3 jie3",
+        "le5",
+        "ba5",
+        "dan4",
+        "shi2 ji4 shang4",
+        "ren2"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final",
-        "ng_final",
-        "q_initial"
+        "ng_final"
       ]
     },
     {
-      "file": "audio/jian-chi-he-xin-ji-shu-guan-jian.001.mp3",
-      "transcript": "jian-chi-he-xin-ji-shu-guan-jian",
+      "file": "audio/001.007.mp3",
+      "fileName": "001.007.mp3",
+      "transcript": "lei4-dui4-hai3-yang2-de5-ren4-shi5-zhi3-you3-hai2-you3",
       "syllables": [
-        "jian",
-        "chi",
-        "he",
-        "xin",
-        "ji",
-        "shu",
-        "guan",
-        "jian"
+        "lei4",
+        "dui4",
+        "hai3",
+        "yang2",
+        "de5",
+        "ren4",
+        "shi5",
+        "zhi3",
+        "you3",
+        "hai2",
+        "you3"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/jian4-yao4-ba3-yi4-wu1-fa1-zhan3.001.mp3",
-      "transcript": "jian4-yao4-ba3-yi4-wu1-fa1-zhan3",
-      "syllables": [
-        "jian4",
-        "yao4",
-        "ba3",
-        "yi4",
-        "wu1",
-        "fa1",
-        "zhan3"
-      ],
-      "syllableCount": 7,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final"
-      ]
-    },
-    {
-      "file": "audio/jin-tian-de-bei-dou.001.mp3",
-      "transcript": "jin-tian-de-bei-dou",
-      "syllables": [
-        "jin",
-        "tian",
-        "de",
-        "bei",
-        "dou"
-      ],
-      "syllableCount": 5,
-      "difficulty": "L2",
-      "hasTones": false,
-      "contrasts": [
-        "n_final"
-      ]
-    },
-    {
-      "file": "audio/jin1-tian1-wo3-men-jiu4-qu4-yi4-wu1-kan4-yi-kan4.001.mp3",
-      "transcript": "jin1-tian1-wo3-men-jiu4-qu4-yi4-wu1-kan4-yi-kan4",
-      "syllables": [
-        "jin1",
-        "tian1",
-        "wo3",
-        "men",
-        "jiu4",
-        "qu4",
-        "yi4",
-        "wu1",
-        "kan4",
-        "yi",
-        "kan4"
+      "words": [
+        "lei4",
+        "dui4",
+        "hai3 yang2",
+        "de5",
+        "ren4 shi5",
+        "zhi3 you3",
+        "hai2 you3"
       ],
       "syllableCount": 11,
       "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/jing1-yan4-jin3-yi1-bu4-zong3-jie2-hao3.001.mp3",
-      "transcript": "jing1-yan4-jin3-yi1-bu4-zong3-jie2-hao3",
-      "syllables": [
-        "jing1",
-        "yan4",
-        "jin3",
-        "yi1",
-        "bu4",
-        "zong3",
-        "jie2",
-        "hao3"
-      ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
         "ng_final"
       ]
     },
     {
-      "file": "audio/jing1-yan4-zhe4-shi4-yin1-di4-zhi4-yi2.001.mp3",
-      "transcript": "jing1-yan4-zhe4-shi4-yin1-di4-zhi4-yi2",
+      "file": "audio/001.008.mp3",
+      "fileName": "001.008.mp3",
+      "transcript": "shi4-wo3-men5-bu4-liao3-jie3-de5-na4-zhe4-zhu3-yao4",
       "syllables": [
-        "jing1",
-        "yan4",
-        "zhe4",
         "shi4",
-        "yin1",
-        "di4",
-        "zhi4",
-        "yi2"
+        "wo3",
+        "men5",
+        "bu4",
+        "liao3",
+        "jie3",
+        "de5",
+        "na4",
+        "zhe4",
+        "zhu3",
+        "yao4"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/jiu2-dian3-fang3-tan2.001.mp3",
-      "transcript": "jiu2-dian3-fang3-tan2",
-      "syllables": [
-        "jiu2",
-        "dian3",
-        "fang3",
-        "tan2"
+      "words": [
+        "shi4",
+        "wo3 men5",
+        "bu4",
+        "liao3 jie3",
+        "de5",
+        "na4",
+        "zhe4",
+        "zhu3 yao4"
       ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/jiu3-jiu3-wei2-gong1-tan4-suo3-zou3-chu1.001.mp3",
-      "transcript": "jiu3-jiu3-wei2-gong1-tan4-suo3-zou3-chu1",
-      "syllables": [
-        "jiu3",
-        "jiu3",
-        "wei2",
-        "gong1",
-        "tan4",
-        "suo3",
-        "zou3",
-        "chu1"
-      ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/kong-you-zou-dao-tai-kong.001.mp3",
-      "transcript": "kong-you-zou-dao-tai-kong",
-      "syllables": [
-        "kong",
-        "you",
-        "zou",
-        "dao",
-        "tai",
-        "kong"
-      ],
-      "syllableCount": 6,
-      "difficulty": "L2",
-      "hasTones": false,
-      "contrasts": [
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/mei3-tian1-chao1-er4-shi2-san1-wan4-ren2-ci4.001.mp3",
-      "transcript": "mei3-tian1-chao1-er4-shi2-san1-wan4-ren2-ci4",
-      "syllables": [
-        "mei3",
-        "tian1",
-        "chao1",
-        "er4",
-        "shi2",
-        "san1",
-        "wan4",
-        "ren2",
-        "ci4"
-      ],
-      "syllableCount": 9,
-      "difficulty": "L3",
+      "syllableCount": 11,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final"
       ]
     },
     {
-      "file": "audio/mei3-xiao3-shi2-xin1-zheng1-er2-shi2-wu3-dian3-er.001.mp3",
-      "transcript": "mei3-xiao3-shi2-xin1-zheng1-er2-shi2-wu3-dian3-er",
+      "file": "audio/001.009.mp3",
+      "fileName": "001.009.mp3",
+      "transcript": "ji2-zhong1-zai4-shen2-me5-di4-fang5-ne5-qi2-shi2-zhu3-yao4-ji2-zhong1-zai4",
       "syllables": [
-        "mei3",
-        "xiao3",
+        "ji2",
+        "zhong1",
+        "zai4",
+        "shen2",
+        "me5",
+        "di4",
+        "fang5",
+        "ne5",
+        "qi2",
         "shi2",
-        "xin1",
-        "zheng1",
-        "er2",
-        "shi2",
-        "wu3",
-        "dian3",
-        "er"
+        "zhu3",
+        "yao4",
+        "ji2",
+        "zhong1",
+        "zai4"
       ],
-      "syllableCount": 10,
+      "words": [
+        "ji2 zhong1",
+        "zai4",
+        "shen2 me5",
+        "di4 fang5",
+        "ne5",
+        "qi2 shi2",
+        "zhu3 yao4",
+        "ji2 zhong1",
+        "zai4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.010.mp3",
+      "fileName": "001.010.mp3",
+      "transcript": "shen1-hai3-yi3-ren2-lei4-mu4-qian2-de5-ke1-ji4-lai2-shuo1-tan4",
+      "syllables": [
+        "shen1",
+        "hai3",
+        "yi3",
+        "ren2",
+        "lei4",
+        "mu4",
+        "qian2",
+        "de5",
+        "ke1",
+        "ji4",
+        "lai2",
+        "shuo1",
+        "tan4"
+      ],
+      "words": [
+        "shen1 hai3",
+        "yi3",
+        "ren2 lei4",
+        "mu4 qian2",
+        "de5",
+        "ke1 ji4",
+        "lai2 shuo1",
+        "tan4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.011.mp3",
+      "fileName": "001.011.mp3",
+      "transcript": "suo3-hai3-yang2-qian3-ceng2-di4-qu1-shi4-mei2-shen2-me5-wen4-ti2-de5",
+      "syllables": [
+        "suo3",
+        "hai3",
+        "yang2",
+        "qian3",
+        "ceng2",
+        "di4",
+        "qu1",
+        "shi4",
+        "mei2",
+        "shen2",
+        "me5",
+        "wen4",
+        "ti2",
+        "de5"
+      ],
+      "words": [
+        "suo3",
+        "hai3 yang2",
+        "qian3 ceng2",
+        "di4 qu1",
+        "shi4",
+        "mei2 shen2 me5",
+        "wen4 ti2",
+        "de5"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.012.mp3",
+      "fileName": "001.012.mp3",
+      "transcript": "dan4-shi4-ru2-guo3-xiang3-tan4-suo3-shen1-hai3-na4-jiu4-hen3-kun4-nan5-le5",
+      "syllables": [
+        "dan4",
+        "shi4",
+        "ru2",
+        "guo3",
+        "xiang3",
+        "tan4",
+        "suo3",
+        "shen1",
+        "hai3",
+        "na4",
+        "jiu4",
+        "hen3",
+        "kun4",
+        "nan5",
+        "le5"
+      ],
+      "words": [
+        "dan4 shi4",
+        "ru2 guo3",
+        "xiang3",
+        "tan4 suo3",
+        "shen1 hai3",
+        "na4",
+        "jiu4",
+        "hen3",
+        "kun4 nan5",
+        "le5"
+      ],
+      "syllableCount": 15,
       "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
@@ -537,171 +442,229 @@
       ]
     },
     {
-      "file": "audio/neng-bu-neng-gou-fan-rong.001.mp3",
-      "transcript": "neng-bu-neng-gou-fan-rong",
+      "file": "audio/001.013.mp3",
+      "fileName": "001.013.mp3",
+      "transcript": "bi3-ru2-wo3-men5-ke3-yi3-heng2-xiang4-dui4-bi3-yi2-xia4-tai4-kong1-tan4-suo3",
       "syllables": [
-        "neng",
-        "bu",
-        "neng",
-        "gou",
-        "fan",
-        "rong"
+        "bi3",
+        "ru2",
+        "wo3",
+        "men5",
+        "ke3",
+        "yi3",
+        "heng2",
+        "xiang4",
+        "dui4",
+        "bi3",
+        "yi2",
+        "xia4",
+        "tai4",
+        "kong1",
+        "tan4",
+        "suo3"
       ],
-      "syllableCount": 6,
-      "difficulty": "L2",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/qi1-hu4-shi4-chang3-jing1-ying2-zhu3-ti3.001.mp3",
-      "transcript": "qi1-hu4-shi4-chang3-jing1-ying2-zhu3-ti3",
-      "syllables": [
-        "qi1",
-        "hu4",
-        "shi4",
-        "chang3",
-        "jing1",
-        "ying2",
-        "zhu3",
-        "ti3"
+      "words": [
+        "bi3 ru2",
+        "wo3 men5",
+        "ke3 yi3",
+        "heng2 xiang4",
+        "dui4 bi3",
+        "yi2 xia4",
+        "tai4 kong1",
+        "tan4 suo3"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
+      "syllableCount": 16,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
-        "ng_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/qing-leng-wan-yun.001.m4a",
-      "transcript": "qing-leng-wan-yun",
-      "syllables": [
-        "qing",
-        "leng",
-        "wan",
-        "yun"
-      ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
-      "contrasts": [
         "n_final",
         "ng_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/qu-you-bei-shuo.001.mp3",
-      "transcript": "qu-you-bei-shuo",
-      "syllables": [
-        "qu",
-        "you",
-        "bei",
-        "shuo"
-      ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
-      "contrasts": [
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/quan-qiu-kong-ken.001.m4a",
-      "transcript": "quan-qiu-kong-ken",
-      "syllables": [
-        "quan",
-        "qiu",
-        "kong",
-        "ken"
-      ],
-      "syllableCount": 4,
-      "difficulty": "L1",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/ren-lei-cong-lu-di.mp3",
-      "transcript": "ren-lei-cong-lu-di",
-      "syllables": [
-        "ren",
-        "lei",
-        "cong",
-        "lu",
-        "di"
-      ],
-      "syllableCount": 5,
-      "difficulty": "L2",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/ru-guo-yao-xuan-chu-yi-wei.001.mp3",
-      "transcript": "ru-guo-yao-xuan-chu-yi-wei",
-      "syllables": [
-        "ru",
-        "guo",
-        "yao",
-        "xuan",
-        "chu",
-        "yi",
-        "wei"
-      ],
-      "syllableCount": 7,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
         "x_initial"
       ]
     },
     {
-      "file": "audio/shi-jie-chao-shi-de-jin-hua-zhi-lu.001.mp3",
-      "transcript": "shi-jie-chao-shi-de-jin-hua-zhi-lu",
+      "file": "audio/001.014.mp3",
+      "fileName": "001.014.mp3",
+      "transcript": "yi3-yue4-qiu2-wei2-li4-dao4-mu4-qian2-wei2-zhi3-ru2-guo3-suan4-shang4",
       "syllables": [
-        "shi",
-        "jie",
-        "chao",
-        "shi",
-        "de",
-        "jin",
-        "hua",
-        "zhi",
-        "lu"
+        "yi3",
+        "yue4",
+        "qiu2",
+        "wei2",
+        "li4",
+        "dao4",
+        "mu4",
+        "qian2",
+        "wei2",
+        "zhi3",
+        "ru2",
+        "guo3",
+        "suan4",
+        "shang4"
       ],
-      "syllableCount": 9,
-      "difficulty": "L3",
-      "hasTones": false,
+      "words": [
+        "yi3",
+        "yue4 qiu2",
+        "wei2 li4",
+        "dao4",
+        "mu4 qian2 wei2 zhi3",
+        "ru2 guo3",
+        "suan4 shang4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
       "contrasts": [
-        "n_final"
+        "n_final",
+        "ng_final",
+        "q_initial"
       ]
     },
     {
-      "file": "audio/shi4-qiang2-diao4-yi4-wu1-xiao3-shang1-pin3.001.mp3",
-      "transcript": "shi4-qiang2-diao4-yi4-wu1-xiao3-shang1-pin3",
+      "file": "audio/001.015.mp3",
+      "fileName": "001.015.mp3",
+      "transcript": "jin1-nian2-ri4-ben3-zhe4-ci4-deng1-yue4-de5-hua4-na4-jiu4-shi4-you3-ge4",
       "syllables": [
+        "jin1",
+        "nian2",
+        "ri4",
+        "ben3",
+        "zhe4",
+        "ci4",
+        "deng1",
+        "yue4",
+        "de5",
+        "hua4",
+        "na4",
+        "jiu4",
         "shi4",
-        "qiang2",
-        "diao4",
-        "yi4",
-        "wu1",
-        "xiao3",
-        "shang1",
-        "pin3"
+        "you3",
+        "ge4"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
+      "words": [
+        "jin1 nian2",
+        "ri4 ben3",
+        "zhe4 ci4",
+        "deng1 yue4",
+        "de5 hua4",
+        "na4",
+        "jiu4 shi4",
+        "you3",
+        "ge4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.016.mp3",
+      "fileName": "001.016.mp3",
+      "transcript": "guo2-jia1-cheng2-gong1-zai4-yue4-qiu2-ruan3-zhuo2-lu4-guo4-bing4",
+      "syllables": [
+        "guo2",
+        "jia1",
+        "cheng2",
+        "gong1",
+        "zai4",
+        "yue4",
+        "qiu2",
+        "ruan3",
+        "zhuo2",
+        "lu4",
+        "guo4",
+        "bing4"
+      ],
+      "words": [
+        "guo2 jia1",
+        "cheng2 gong1",
+        "zai4",
+        "yue4 qiu2",
+        "ruan3 zhuo2 lu4",
+        "guo4",
+        "bing4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.017.mp3",
+      "fileName": "001.017.mp3",
+      "transcript": "qie3-you3-ming2-yu3-hang2-yuan2-cheng2-gong1-deng1-shang4-guo4",
+      "syllables": [
+        "qie3",
+        "you3",
+        "ming2",
+        "yu3",
+        "hang2",
+        "yuan2",
+        "cheng2",
+        "gong1",
+        "deng1",
+        "shang4",
+        "guo4"
+      ],
+      "words": [
+        "qie3",
+        "you3",
+        "ming2",
+        "yu3 hang2 yuan2",
+        "cheng2 gong1",
+        "deng1 shang4",
+        "guo4"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.018.mp3",
+      "fileName": "001.018.mp3",
+      "transcript": "yue4-qiu2-dan4-shi4-zai4-kan4-yi2-xia4-hai3-yang2-tan4-suo3-zhe4-bian1-dao4",
+      "syllables": [
+        "yue4",
+        "qiu2",
+        "dan4",
+        "shi4",
+        "zai4",
+        "kan4",
+        "yi2",
+        "xia4",
+        "hai3",
+        "yang2",
+        "tan4",
+        "suo3",
+        "zhe4",
+        "bian1",
+        "dao4"
+      ],
+      "words": [
+        "yue4 qiu2",
+        "dan4 shi4",
+        "zai4",
+        "kan4",
+        "yi2 xia4",
+        "hai3 yang2",
+        "tan4 suo3",
+        "zhe4 bian1",
+        "dao4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final",
@@ -711,199 +674,141 @@
       ]
     },
     {
-      "file": "audio/shi4-shi2-shuo1-hua4.001.mp3",
-      "transcript": "shi4-shi2-shuo1-hua4",
+      "file": "audio/001.019.mp3",
+      "fileName": "001.019.mp3",
+      "transcript": "da2-guo4-Ma3-li3-ya4-na4-Hai3-gou1-zui4-shen1-chu4-de5-ren2",
       "syllables": [
-        "shi4",
-        "shi2",
-        "shuo1",
-        "hua4"
+        "da2",
+        "guo4",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "zui4",
+        "shen1",
+        "chu4",
+        "de5",
+        "ren2"
       ],
-      "syllableCount": 4,
-      "difficulty": "L1",
+      "words": [
+        "da2 guo4",
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "zui4 shen1 chu4",
+        "de5",
+        "ren2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
       "hasTones": true,
-      "contrasts": []
-    },
-    {
-      "file": "audio/si-nan-zhi.001.mp3",
-      "transcript": "si-nan-zhi",
-      "syllables": [
-        "si",
-        "nan",
-        "zhi"
-      ],
-      "syllableCount": 3,
-      "difficulty": "L1",
-      "hasTones": false,
       "contrasts": [
         "n_final"
       ]
     },
     {
-      "file": "audio/suo-you-de-zhe-xue-jia-li.001.mp3",
-      "transcript": "suo-you-de-zhe-xue-jia-li",
+      "file": "audio/001.020.mp3",
+      "fileName": "001.020.mp3",
+      "transcript": "zai4-ren2-qian2-shui3-qi4-dao4-mu4-qian2-wei2-zhi3-quan2-shi4-jie4-jiu4",
       "syllables": [
-        "suo",
-        "you",
-        "de",
-        "zhe",
-        "xue",
-        "jia",
-        "li"
+        "zai4",
+        "ren2",
+        "qian2",
+        "shui3",
+        "qi4",
+        "dao4",
+        "mu4",
+        "qian2",
+        "wei2",
+        "zhi3",
+        "quan2",
+        "shi4",
+        "jie4",
+        "jiu4"
       ],
-      "syllableCount": 7,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/wo-men-xu-yao-jie-jue-de-wen-ti.001.mp3",
-      "transcript": "wo-men-xu-yao-jie-jue-de-wen-ti",
-      "syllables": [
-        "wo",
-        "men",
-        "xu",
-        "yao",
-        "jie",
-        "jue",
-        "de",
-        "wen",
-        "ti"
+      "words": [
+        "zai4 ren2 qian2 shui3 qi4",
+        "dao4",
+        "mu4 qian2 wei2 zhi3",
+        "quan2 shi4 jie4",
+        "jiu4"
       ],
-      "syllableCount": 9,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/xi1-jing4-pin2-zong3-shu1-ji4-zuo4-chu1-zhong4-yao4.mp3",
-      "transcript": "xi1-jing4-pin2-zong3-shu1-ji4-zuo4-chu1-zhong4-yao4",
-      "syllables": [
-        "xi1",
-        "jing4",
-        "pin2",
-        "zong3",
-        "shu1",
-        "ji4",
-        "zuo4",
-        "chu1",
-        "zhong4",
-        "yao4"
-      ],
-      "syllableCount": 10,
+      "syllableCount": 14,
       "difficulty": "L4",
       "hasTones": true,
       "contrasts": [
         "n_final",
-        "ng_final",
-        "x_initial"
+        "q_initial"
       ]
     },
     {
-      "file": "audio/xi2-jin4-ping2-zong3-shu1-ji4-zuo4.001.mp3",
-      "transcript": "xi2-jin4-ping2-zong3-shu1-ji4-zuo4",
+      "file": "audio/001.021.mp3",
+      "fileName": "001.021.mp3",
+      "transcript": "zhi3-you3-ge4-suo3-yi3-dui4-yu2-ren2-lei4-lai2-shuo1-hai3-yang2",
       "syllables": [
-        "xi2",
-        "jin4",
-        "ping2",
-        "zong3",
-        "shu1",
-        "ji4",
-        "zuo4"
-      ],
-      "syllableCount": 7,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final",
-        "x_initial"
-      ]
-    },
-    {
-      "file": "audio/yang-you-zou-dao-tian.001.mp3",
-      "transcript": "yang-you-zou-dao-tian",
-      "syllables": [
-        "yang",
-        "you",
-        "zou",
-        "dao",
-        "tian"
-      ],
-      "syllableCount": 5,
-      "difficulty": "L2",
-      "hasTones": false,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/yin3-dao3-ge4-di4-qu1-li4-zu2.001.mp3",
-      "transcript": "yin3-dao3-ge4-di4-qu1-li4-zu2",
-      "syllables": [
-        "yin3",
-        "dao3",
+        "zhi3",
+        "you3",
         "ge4",
-        "di4",
-        "qu1",
-        "li4",
-        "zu2"
+        "suo3",
+        "yi3",
+        "dui4",
+        "yu2",
+        "ren2",
+        "lei4",
+        "lai2",
+        "shuo1",
+        "hai3",
+        "yang2"
       ],
-      "syllableCount": 7,
-      "difficulty": "L3",
-      "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "q_initial"
-      ]
-    },
-    {
-      "file": "audio/ying-gai-shuo-wo-men-hong-yang-le-zhe-zhong.001.mp3",
-      "transcript": "ying-gai-shuo-wo-men-hong-yang-le-zhe-zhong",
-      "syllables": [
-        "ying",
-        "gai",
-        "shuo",
-        "wo",
-        "men",
-        "hong",
-        "yang",
-        "le",
-        "zhe",
-        "zhong"
+      "words": [
+        "zhi3 you3",
+        "ge4",
+        "suo3 yi3",
+        "dui4 yu2",
+        "ren2 lei4",
+        "lai2 shuo1",
+        "hai3 yang2"
       ],
-      "syllableCount": 10,
+      "syllableCount": 13,
       "difficulty": "L4",
-      "hasTones": false,
+      "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final"
       ]
     },
     {
-      "file": "audio/zhe-ge-shi-dai-yao-you-geng-jia-qian-yan.mp3",
-      "transcript": "zhe-ge-shi-dai-yao-you-geng-jia-qian-yan",
+      "file": "audio/001.022.mp3",
+      "fileName": "001.022.mp3",
+      "transcript": "gen1-tai4-kong1-qi2-shi2-shi4-yi1-yang4-shen2-mi4-de5-ma3-li3",
       "syllables": [
-        "zhe",
-        "ge",
-        "shi",
-        "dai",
-        "yao",
-        "you",
-        "geng",
-        "jia",
-        "qian",
-        "yan"
+        "gen1",
+        "tai4",
+        "kong1",
+        "qi2",
+        "shi2",
+        "shi4",
+        "yi1",
+        "yang4",
+        "shen2",
+        "mi4",
+        "de5",
+        "ma3",
+        "li3"
       ],
-      "syllableCount": 10,
+      "words": [
+        "gen1",
+        "tai4 kong1",
+        "qi2 shi2",
+        "shi4",
+        "yi1 yang4",
+        "shen2 mi4",
+        "de5",
+        "ma3 li3"
+      ],
+      "syllableCount": 13,
       "difficulty": "L4",
-      "hasTones": false,
+      "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final",
@@ -911,96 +816,1874 @@
       ]
     },
     {
-      "file": "audio/zhe4-li3-shi4-yi4.001.mp3",
-      "transcript": "zhe4-li3-shi4-yi4",
+      "file": "audio/001.023.mp3",
+      "fileName": "001.023.mp3",
+      "transcript": "ya4-na4-hai3-gou1-wei4-yu2-xi1-tai4-ping2-yang2-zong3-chang2",
+      "syllables": [
+        "ya4",
+        "na4",
+        "hai3",
+        "gou1",
+        "wei4",
+        "yu2",
+        "xi1",
+        "tai4",
+        "ping2",
+        "yang2",
+        "zong3",
+        "chang2"
+      ],
+      "words": [
+        "ya4 na4",
+        "hai3 gou1",
+        "wei4 yu2",
+        "xi1 tai4 ping2 yang2",
+        "zong3 chang2"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.024.mp3",
+      "fileName": "001.024.mp3",
+      "transcript": "chang2-du4-qian1-mi3-ping2-jun1-kuan1-du4-qian1-mi3",
+      "syllables": [
+        "chang2",
+        "du4",
+        "qian1",
+        "mi3",
+        "ping2",
+        "jun1",
+        "kuan1",
+        "du4",
+        "qian1",
+        "mi3"
+      ],
+      "words": [
+        "chang2 du4",
+        "qian1 mi3",
+        "ping2 jun1",
+        "kuan1 du4",
+        "qian1 mi3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.025.mp3",
+      "fileName": "001.025.mp3",
+      "transcript": "zui4-shen1-de5-di4-fang5-zai4-ta1-de5-di3-bu4-yi2-ge4-jiao4-zuo4-tiao3",
+      "syllables": [
+        "zui4",
+        "shen1",
+        "de5",
+        "di4",
+        "fang5",
+        "zai4",
+        "ta1",
+        "de5",
+        "di3",
+        "bu4",
+        "yi2",
+        "ge4",
+        "jiao4",
+        "zuo4",
+        "tiao3"
+      ],
+      "words": [
+        "zui4 shen1",
+        "de5",
+        "di4 fang5",
+        "zai4",
+        "ta1",
+        "de5",
+        "di3 bu4",
+        "yi2 ge4",
+        "jiao4 zuo4",
+        "tiao3"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.026.mp3",
+      "fileName": "001.026.mp3",
+      "transcript": "zhan4-zhe3-shen1-yuan1-de5-gou1-cao2-shen1-du4-da4-yue1-shi4",
+      "syllables": [
+        "zhan4",
+        "zhe3",
+        "shen1",
+        "yuan1",
+        "de5",
+        "gou1",
+        "cao2",
+        "shen1",
+        "du4",
+        "da4",
+        "yue1",
+        "shi4"
+      ],
+      "words": [
+        "zhan4 zhe3",
+        "shen1 yuan1",
+        "de5",
+        "gou1 cao2",
+        "shen1 du4",
+        "da4 yue1",
+        "shi4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.027.mp3",
+      "fileName": "001.027.mp3",
+      "transcript": "hai3-ping2-mian4-yi3-xia4-mi3-ke3-yi3-zhuang1-xia4",
+      "syllables": [
+        "hai3",
+        "ping2",
+        "mian4",
+        "yi3",
+        "xia4",
+        "mi3",
+        "ke3",
+        "yi3",
+        "zhuang1",
+        "xia4"
+      ],
+      "words": [
+        "hai3 ping2 mian4",
+        "yi3 xia4",
+        "mi3",
+        "ke3 yi3",
+        "zhuang1",
+        "xia4"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.028.mp3",
+      "fileName": "001.028.mp3",
+      "transcript": "zheng3-ge4-Zhu1-mu4-lang3-ma3-Feng1-xiang1-dang1-shen1-le5-na4",
+      "syllables": [
+        "zheng3",
+        "ge4",
+        "Zhu1",
+        "mu4",
+        "lang3",
+        "ma3",
+        "Feng1",
+        "xiang1",
+        "dang1",
+        "shen1",
+        "le5",
+        "na4"
+      ],
+      "words": [
+        "zheng3 ge4",
+        "Zhu1 mu4 lang3 ma3 Feng1",
+        "xiang1 dang1",
+        "shen1",
+        "le5",
+        "na4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.029.mp3",
+      "fileName": "001.029.mp3",
+      "transcript": "zhe4-me5-shen1-de5-yi2-ge4-di4-fang5-ren2-lei4-shi4-zen3-me5-fa1-xian4-ta1-de5",
       "syllables": [
         "zhe4",
-        "li3",
+        "me5",
+        "shen1",
+        "de5",
+        "yi2",
+        "ge4",
+        "di4",
+        "fang5",
+        "ren2",
+        "lei4",
         "shi4",
-        "yi4"
+        "zen3",
+        "me5",
+        "fa1",
+        "xian4",
+        "ta1",
+        "de5"
       ],
-      "syllableCount": 4,
-      "difficulty": "L1",
+      "words": [
+        "zhe4 me5",
+        "shen1",
+        "de5",
+        "yi2 ge4",
+        "di4 fang5",
+        "ren2 lei4",
+        "shi4",
+        "zen3 me5",
+        "fa1 xian4",
+        "ta1",
+        "de5"
+      ],
+      "syllableCount": 17,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.030.mp3",
+      "fileName": "001.030.mp3",
+      "transcript": "ne5-shi4-nian2-de5-shi2-hou5-Ying1-guo2-Huang2-jia1-Hai3-jun1",
+      "syllables": [
+        "ne5",
+        "shi4",
+        "nian2",
+        "de5",
+        "shi2",
+        "hou5",
+        "Ying1",
+        "guo2",
+        "Huang2",
+        "jia1",
+        "Hai3",
+        "jun1"
+      ],
+      "words": [
+        "ne5",
+        "shi4",
+        "nian2",
+        "de5",
+        "shi2 hou5",
+        "Ying1 guo2 Huang2 jia1 Hai3 jun1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.031.mp3",
+      "fileName": "001.031.mp3",
+      "transcript": "de5-Tiao3-zhan4-zhe3-Hao4-jian4-chuan2-dang1-shi2-zheng4-zai4-jin4",
+      "syllables": [
+        "de5",
+        "Tiao3",
+        "zhan4",
+        "zhe3",
+        "Hao4",
+        "jian4",
+        "chuan2",
+        "dang1",
+        "shi2",
+        "zheng4",
+        "zai4",
+        "jin4"
+      ],
+      "words": [
+        "de5",
+        "Tiao3 zhan4 zhe3 Hao4",
+        "jian4 chuan2",
+        "dang1 shi2",
+        "zheng4 zai4",
+        "jin4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.032.mp3",
+      "fileName": "001.032.mp3",
+      "transcript": "hang2-yi2-ge4-san1-nian2-shi2-jian1-de5-ke1-xue2-kao3-cha2-ren4-wu4",
+      "syllables": [
+        "hang2",
+        "yi2",
+        "ge4",
+        "san1",
+        "nian2",
+        "shi2",
+        "jian1",
+        "de5",
+        "ke1",
+        "xue2",
+        "kao3",
+        "cha2",
+        "ren4",
+        "wu4"
+      ],
+      "words": [
+        "hang2",
+        "yi2 ge4",
+        "san1 nian2",
+        "shi2 jian1",
+        "de5",
+        "ke1 xue2 kao3 cha2",
+        "ren4 wu4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.033.mp3",
+      "fileName": "001.033.mp3",
+      "transcript": "chuan2-shang4-you3-duo1-ming2-chuan2-yuan2-hai2-you3-wei4",
+      "syllables": [
+        "chuan2",
+        "shang4",
+        "you3",
+        "duo1",
+        "ming2",
+        "chuan2",
+        "yuan2",
+        "hai2",
+        "you3",
+        "wei4"
+      ],
+      "words": [
+        "chuan2 shang4",
+        "you3",
+        "duo1 ming2",
+        "chuan2 yuan2",
+        "hai2 you3",
+        "wei4"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.034.mp3",
+      "fileName": "001.034.mp3",
+      "transcript": "ke1-xue2-jia1-ta1-men5-zhe4-ci4-ren4-wu4-de5-mu4-di4-ne5",
+      "syllables": [
+        "ke1",
+        "xue2",
+        "jia1",
+        "ta1",
+        "men5",
+        "zhe4",
+        "ci4",
+        "ren4",
+        "wu4",
+        "de5",
+        "mu4",
+        "di4",
+        "ne5"
+      ],
+      "words": [
+        "ke1 xue2 jia1",
+        "ta1 men5",
+        "zhe4 ci4",
+        "ren4 wu4",
+        "de5",
+        "mu4 di4",
+        "ne5"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.035.mp3",
+      "fileName": "001.035.mp3",
+      "transcript": "chu2-le5-shuo1-ren2-lei4-dui4-yu2-hai3-yang2-dui4-yu2-wei4",
+      "syllables": [
+        "chu2",
+        "le5",
+        "shuo1",
+        "ren2",
+        "lei4",
+        "dui4",
+        "yu2",
+        "hai3",
+        "yang2",
+        "dui4",
+        "yu2",
+        "wei4"
+      ],
+      "words": [
+        "chu2 le5",
+        "shuo1",
+        "ren2 lei4",
+        "dui4 yu2",
+        "hai3 yang2",
+        "dui4 yu2",
+        "wei4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.036.mp3",
+      "fileName": "001.036.mp3",
+      "transcript": "zhi1-shi4-jie4-de5-tan4-suo3-zhi1-wai4-ta1-men5-zhu3-yao4-hai2-xiang3",
+      "syllables": [
+        "zhi1",
+        "shi4",
+        "jie4",
+        "de5",
+        "tan4",
+        "suo3",
+        "zhi1",
+        "wai4",
+        "ta1",
+        "men5",
+        "zhu3",
+        "yao4",
+        "hai2",
+        "xiang3"
+      ],
+      "words": [
+        "zhi1",
+        "shi4 jie4",
+        "de5",
+        "tan4 suo3",
+        "zhi1 wai4",
+        "ta1 men5",
+        "zhu3 yao4",
+        "hai2",
+        "xiang3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.037.mp3",
+      "fileName": "001.037.mp3",
+      "transcript": "yan4-zheng4-yi2-ge4-shi4-r5-jiu4-shi4-dang1-shi2-hai3-yang2-ke1-xue2",
+      "syllables": [
+        "yan4",
+        "zheng4",
+        "yi2",
+        "ge4",
+        "shi4",
+        "r5",
+        "jiu4",
+        "shi4",
+        "dang1",
+        "shi2",
+        "hai3",
+        "yang2",
+        "ke1",
+        "xue2"
+      ],
+      "words": [
+        "yan4 zheng4",
+        "yi2 ge4",
+        "shi4 r5",
+        "jiu4 shi4",
+        "dang1 shi2",
+        "hai3 yang2",
+        "ke1 xue2"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.038.mp3",
+      "fileName": "001.038.mp3",
+      "transcript": "jie4-dou1-zai4-shuo1-de5-shen1-hai3-wu2-sheng1-wu4-lun4-jiu4",
+      "syllables": [
+        "jie4",
+        "dou1",
+        "zai4",
+        "shuo1",
+        "de5",
+        "shen1",
+        "hai3",
+        "wu2",
+        "sheng1",
+        "wu4",
+        "lun4",
+        "jiu4"
+      ],
+      "words": [
+        "jie4",
+        "dou1",
+        "zai4",
+        "shuo1",
+        "de5",
+        "shen1 hai3 wu2 sheng1 wu4 lun4",
+        "jiu4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.039.mp3",
+      "fileName": "001.039.mp3",
+      "transcript": "shuo1-hai3-ping2-mian4-mi3-yi3-xia4-jiu4-mei2-you3-sheng1",
+      "syllables": [
+        "shuo1",
+        "hai3",
+        "ping2",
+        "mian4",
+        "mi3",
+        "yi3",
+        "xia4",
+        "jiu4",
+        "mei2",
+        "you3",
+        "sheng1"
+      ],
+      "words": [
+        "shuo1",
+        "hai3 ping2 mian4",
+        "mi3",
+        "yi3 xia4",
+        "jiu4",
+        "mei2 you3",
+        "sheng1"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.040.mp3",
+      "fileName": "001.040.mp3",
+      "transcript": "wu4-le5-zhe4-ge5-guan1-dian3-wo3-men5-xian4-zai4-lai2-kan4-de5-hua4-zhi1-dao4-shi4",
+      "syllables": [
+        "wu4",
+        "le5",
+        "zhe4",
+        "ge5",
+        "guan1",
+        "dian3",
+        "wo3",
+        "men5",
+        "xian4",
+        "zai4",
+        "lai2",
+        "kan4",
+        "de5",
+        "hua4",
+        "zhi1",
+        "dao4",
+        "shi4"
+      ],
+      "words": [
+        "wu4",
+        "le5",
+        "zhe4 ge5",
+        "guan1 dian3",
+        "wo3 men5",
+        "xian4 zai4",
+        "lai2 kan4",
+        "de5 hua4",
+        "zhi1 dao4",
+        "shi4"
+      ],
+      "syllableCount": 17,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.041.mp3",
+      "fileName": "001.041.mp3",
+      "transcript": "cuo4-de5-ke3-shi4-dang1-nian2-bu4-xing2-dang1-nian2-zhi3-yao4-tan2-dao4",
+      "syllables": [
+        "cuo4",
+        "de5",
+        "ke3",
+        "shi4",
+        "dang1",
+        "nian2",
+        "bu4",
+        "xing2",
+        "dang1",
+        "nian2",
+        "zhi3",
+        "yao4",
+        "tan2",
+        "dao4"
+      ],
+      "words": [
+        "cuo4",
+        "de5",
+        "ke3 shi4",
+        "dang1 nian2",
+        "bu4 xing2",
+        "dang1 nian2",
+        "zhi3 yao4",
+        "tan2 dao4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.042.mp3",
+      "fileName": "001.042.mp3",
+      "transcript": "shen1-hai3-ji1-hu1-dou1-ren4-wei2-mei2-you3-sheng1-wu4-ke3-yi3-zai4",
+      "syllables": [
+        "shen1",
+        "hai3",
+        "ji1",
+        "hu1",
+        "dou1",
+        "ren4",
+        "wei2",
+        "mei2",
+        "you3",
+        "sheng1",
+        "wu4",
+        "ke3",
+        "yi3",
+        "zai4"
+      ],
+      "words": [
+        "shen1 hai3",
+        "ji1 hu1",
+        "dou1",
+        "ren4 wei2",
+        "mei2 you3",
+        "sheng1 wu4",
+        "ke3 yi3",
+        "zai4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.043.mp3",
+      "fileName": "001.043.mp3",
+      "transcript": "shen1-hai3-sheng1-cun2-yin1-wei4-cong2-ren2-lei4-de5-jiao3-du4-lai2",
+      "syllables": [
+        "shen1",
+        "hai3",
+        "sheng1",
+        "cun2",
+        "yin1",
+        "wei4",
+        "cong2",
+        "ren2",
+        "lei4",
+        "de5",
+        "jiao3",
+        "du4",
+        "lai2"
+      ],
+      "words": [
+        "shen1 hai3",
+        "sheng1 cun2",
+        "yin1 wei4",
+        "cong2",
+        "ren2 lei4",
+        "de5",
+        "jiao3 du4",
+        "lai2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.044.mp3",
+      "fileName": "001.044.mp3",
+      "transcript": "kan4-wo3-men5-ken3-ding4-shi4-wu2-fa3-sheng1-cun2-de5-yin1-wei4-ren2",
+      "syllables": [
+        "kan4",
+        "wo3",
+        "men5",
+        "ken3",
+        "ding4",
+        "shi4",
+        "wu2",
+        "fa3",
+        "sheng1",
+        "cun2",
+        "de5",
+        "yin1",
+        "wei4",
+        "ren2"
+      ],
+      "words": [
+        "kan4",
+        "wo3 men5",
+        "ken3 ding4",
+        "shi4",
+        "wu2 fa3",
+        "sheng1 cun2",
+        "de5",
+        "yin1 wei4",
+        "ren2"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.045.mp3",
+      "fileName": "001.045.mp3",
+      "transcript": "ti3-cheng2-shou4-bu4-liao3-shen1-hai3-de5-ya1-li4-er2-qie3-yi2-pian4",
+      "syllables": [
+        "ti3",
+        "cheng2",
+        "shou4",
+        "bu4",
+        "liao3",
+        "shen1",
+        "hai3",
+        "de5",
+        "ya1",
+        "li4",
+        "er2",
+        "qie3",
+        "yi2",
+        "pian4"
+      ],
+      "words": [
+        "ti3",
+        "cheng2 shou4",
+        "bu4 liao3",
+        "shen1 hai3",
+        "de5",
+        "ya1 li4",
+        "er2 qie3",
+        "yi2 pian4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.046.mp3",
+      "fileName": "001.046.mp3",
+      "transcript": "qi1-hei1-mei2-you3-guang1-suo3-yi3-yi1-zhi2-yi3-lai2-ren2-men5-dui4-shen1",
+      "syllables": [
+        "qi1",
+        "hei1",
+        "mei2",
+        "you3",
+        "guang1",
+        "suo3",
+        "yi3",
+        "yi1",
+        "zhi2",
+        "yi3",
+        "lai2",
+        "ren2",
+        "men5",
+        "dui4",
+        "shen1"
+      ],
+      "words": [
+        "qi1 hei1",
+        "mei2 you3",
+        "guang1",
+        "suo3 yi3",
+        "yi1 zhi2",
+        "yi3 lai2",
+        "ren2 men5",
+        "dui4",
+        "shen1"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.047.mp3",
+      "fileName": "001.047.mp3",
+      "transcript": "hai3-de5-ren4-zhi1-jiu4-you3-xie1-pian1-jian4-jing1-guo4-le5",
+      "syllables": [
+        "hai3",
+        "de5",
+        "ren4",
+        "zhi1",
+        "jiu4",
+        "you3",
+        "xie1",
+        "pian1",
+        "jian4",
+        "jing1",
+        "guo4",
+        "le5"
+      ],
+      "words": [
+        "hai3",
+        "de5",
+        "ren4 zhi1",
+        "jiu4",
+        "you3 xie1",
+        "pian1 jian4",
+        "jing1 guo4",
+        "le5"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.048.mp3",
+      "fileName": "001.048.mp3",
+      "transcript": "liang3-nian2-duo1-de5-hang2-xing2-nian2-de5-yue4-tiao3",
+      "syllables": [
+        "liang3",
+        "nian2",
+        "duo1",
+        "de5",
+        "hang2",
+        "xing2",
+        "nian2",
+        "de5",
+        "yue4",
+        "tiao3"
+      ],
+      "words": [
+        "liang3 nian2",
+        "duo1",
+        "de5",
+        "hang2 xing2",
+        "nian2",
+        "de5",
+        "yue4",
+        "tiao3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.049.mp3",
+      "fileName": "001.049.mp3",
+      "transcript": "zhan4-zhe3-hao4-lai2-dao4-le5-wei4-yu2-guan1-dao3-he2-ma3-li3",
+      "syllables": [
+        "zhan4",
+        "zhe3",
+        "hao4",
+        "lai2",
+        "dao4",
+        "le5",
+        "wei4",
+        "yu2",
+        "guan1",
+        "dao3",
+        "he2",
+        "ma3",
+        "li3"
+      ],
+      "words": [
+        "zhan4 zhe3",
+        "hao4",
+        "lai2 dao4",
+        "le5",
+        "wei4 yu2",
+        "guan1 dao3",
+        "he2",
+        "ma3 li3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.050.mp3",
+      "fileName": "001.050.mp3",
+      "transcript": "ya4-na4-qun2-dao3-dong1-bu4-de5-hai3-yu4-ta1-men5-yong4-wa1",
+      "syllables": [
+        "ya4",
+        "na4",
+        "qun2",
+        "dao3",
+        "dong1",
+        "bu4",
+        "de5",
+        "hai3",
+        "yu4",
+        "ta1",
+        "men5",
+        "yong4",
+        "wa1"
+      ],
+      "words": [
+        "ya4 na4",
+        "qun2 dao3",
+        "dong1 bu4",
+        "de5",
+        "hai3 yu4",
+        "ta1 men5",
+        "yong4",
+        "wa1"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.051.mp3",
+      "fileName": "001.051.mp3",
+      "transcript": "ni2-chuan2-zai4-mi3-yi3-xia4-de5-di4-fang5-fa1-xian4",
+      "syllables": [
+        "ni2",
+        "chuan2",
+        "zai4",
+        "mi3",
+        "yi3",
+        "xia4",
+        "de5",
+        "di4",
+        "fang5",
+        "fa1",
+        "xian4"
+      ],
+      "words": [
+        "ni2 chuan2",
+        "zai4",
+        "mi3",
+        "yi3 xia4",
+        "de5",
+        "di4 fang5",
+        "fa1 xian4"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.052.mp3",
+      "fileName": "001.052.mp3",
+      "transcript": "le5-fei1-chang2-duo1-de5-sheng1-ming4-er2-qie3-da3-lao1-shang4-lai2-de5",
+      "syllables": [
+        "le5",
+        "fei1",
+        "chang2",
+        "duo1",
+        "de5",
+        "sheng1",
+        "ming4",
+        "er2",
+        "qie3",
+        "da3",
+        "lao1",
+        "shang4",
+        "lai2",
+        "de5"
+      ],
+      "words": [
+        "le5",
+        "fei1 chang2",
+        "duo1",
+        "de5",
+        "sheng1 ming4",
+        "er2 qie3",
+        "da3 lao1",
+        "shang4 lai2",
+        "de5"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.053.mp3",
+      "fileName": "001.053.mp3",
+      "transcript": "sheng1-wu4-yue4-lai2-yue4-qi2-guai4-suo3-yi3-hen3-kuai4-da4-jia1-jiu4-fa1",
+      "syllables": [
+        "sheng1",
+        "wu4",
+        "yue4",
+        "lai2",
+        "yue4",
+        "qi2",
+        "guai4",
+        "suo3",
+        "yi3",
+        "hen3",
+        "kuai4",
+        "da4",
+        "jia1",
+        "jiu4",
+        "fa1"
+      ],
+      "words": [
+        "sheng1 wu4",
+        "yue4 lai2 yue4",
+        "qi2 guai4",
+        "suo3 yi3",
+        "hen3 kuai4",
+        "da4 jia1",
+        "jiu4",
+        "fa1"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.054.mp3",
+      "fileName": "001.054.mp3",
+      "transcript": "xian4-shen1-hai3-wu2-sheng1-wu4-lun4-wan2-quan2-shi4-cuo4-de5-hai3",
+      "syllables": [
+        "xian4",
+        "shen1",
+        "hai3",
+        "wu2",
+        "sheng1",
+        "wu4",
+        "lun4",
+        "wan2",
+        "quan2",
+        "shi4",
+        "cuo4",
+        "de5",
+        "hai3"
+      ],
+      "words": [
+        "xian4",
+        "shen1 hai3 wu2 sheng1 wu4 lun4",
+        "wan2 quan2",
+        "shi4",
+        "cuo4",
+        "de5",
+        "hai3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.055.mp3",
+      "fileName": "001.055.mp3",
+      "transcript": "yang2-li3-qi2-shi2-chong1-man3-le5-sheng1-ming4-er2-qie3-hai2-you3-yi2-jian4",
+      "syllables": [
+        "yang2",
+        "li3",
+        "qi2",
+        "shi2",
+        "chong1",
+        "man3",
+        "le5",
+        "sheng1",
+        "ming4",
+        "er2",
+        "qie3",
+        "hai2",
+        "you3",
+        "yi2",
+        "jian4"
+      ],
+      "words": [
+        "yang2 li3",
+        "qi2 shi2",
+        "chong1 man3",
+        "le5",
+        "sheng1 ming4",
+        "er2 qie3",
+        "hai2 you3",
+        "yi2 jian4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.056.mp3",
+      "fileName": "001.056.mp3",
+      "transcript": "shi4-ye3-rang4-ta1-men5-gan3-dao4-fei1-chang2-zhen4-jing1-qi2-shi2-ta1-men5-zai4",
+      "syllables": [
+        "shi4",
+        "ye3",
+        "rang4",
+        "ta1",
+        "men5",
+        "gan3",
+        "dao4",
+        "fei1",
+        "chang2",
+        "zhen4",
+        "jing1",
+        "qi2",
+        "shi2",
+        "ta1",
+        "men5",
+        "zai4"
+      ],
+      "words": [
+        "shi4",
+        "ye3",
+        "rang4",
+        "ta1 men5",
+        "gan3 dao4",
+        "fei1 chang2",
+        "zhen4 jing1",
+        "qi2 shi2",
+        "ta1 men5",
+        "zai4"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.057.mp3",
+      "fileName": "001.057.mp3",
+      "transcript": "hang2-xing2-qi1-jian1-chu2-le5-ri4-chang2-de5-bu3-lao1-gong1-zuo4",
+      "syllables": [
+        "hang2",
+        "xing2",
+        "qi1",
+        "jian1",
+        "chu2",
+        "le5",
+        "ri4",
+        "chang2",
+        "de5",
+        "bu3",
+        "lao1",
+        "gong1",
+        "zuo4"
+      ],
+      "words": [
+        "hang2 xing2",
+        "qi1 jian1",
+        "chu2 le5",
+        "ri4 chang2",
+        "de5",
+        "bu3 lao1",
+        "gong1 zuo4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.058.mp3",
+      "fileName": "001.058.mp3",
+      "transcript": "mei3-ge2-ji3-tian1-jiu4-hui4-wang3-hai3-li3-reng1-yi4-tiao2",
+      "syllables": [
+        "mei3",
+        "ge2",
+        "ji3",
+        "tian1",
+        "jiu4",
+        "hui4",
+        "wang3",
+        "hai3",
+        "li3",
+        "reng1",
+        "yi4",
+        "tiao2"
+      ],
+      "words": [
+        "mei3 ge2",
+        "ji3 tian1",
+        "jiu4 hui4",
+        "wang3 hai3 li3",
+        "reng1",
+        "yi4 tiao2"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.059.mp3",
+      "fileName": "001.059.mp3",
+      "transcript": "sheng2-zi5-sheng2-zi5-de5-ling4-yi4-tou2-bang3-zhe5-qian1-kuai4",
+      "syllables": [
+        "sheng2",
+        "zi5",
+        "sheng2",
+        "zi5",
+        "de5",
+        "ling4",
+        "yi4",
+        "tou2",
+        "bang3",
+        "zhe5",
+        "qian1",
+        "kuai4"
+      ],
+      "words": [
+        "sheng2 zi5",
+        "sheng2 zi5",
+        "de5",
+        "ling4 yi4 tou2",
+        "bang3",
+        "zhe5",
+        "qian1 kuai4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.060.mp3",
+      "fileName": "001.060.mp3",
+      "transcript": "ta1-men5-jiu4-yong4-zhe4-zhong3-fang1-shi4-lai2-ce4-liang2-hai3-yu4",
+      "syllables": [
+        "ta1",
+        "men5",
+        "jiu4",
+        "yong4",
+        "zhe4",
+        "zhong3",
+        "fang1",
+        "shi4",
+        "lai2",
+        "ce4",
+        "liang2",
+        "hai3",
+        "yu4"
+      ],
+      "words": [
+        "ta1 men5",
+        "jiu4",
+        "yong4",
+        "zhe4 zhong3",
+        "fang1 shi4",
+        "lai2",
+        "ce4 liang2",
+        "hai3 yu4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.061.mp3",
+      "fileName": "001.061.mp3",
+      "transcript": "de5-shen1-du4-ta1-men5-yong4-de5-zhe4-ge5-sheng2-zi5-jiang1-jin4",
+      "syllables": [
+        "de5",
+        "shen1",
+        "du4",
+        "ta1",
+        "men5",
+        "yong4",
+        "de5",
+        "zhe4",
+        "ge5",
+        "sheng2",
+        "zi5",
+        "jiang1",
+        "jin4"
+      ],
+      "words": [
+        "de5",
+        "shen1 du4",
+        "ta1 men5",
+        "yong4",
+        "de5",
+        "zhe4 ge5",
+        "sheng2 zi5",
+        "jiang1 jin4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.062.mp3",
+      "fileName": "001.062.mp3",
+      "transcript": "qian1-mi3-chang2-dan4-shi4-zai4-zhe4-kuai4-hai3-yu4-ta1-men5-ba3-zheng3",
+      "syllables": [
+        "qian1",
+        "mi3",
+        "chang2",
+        "dan4",
+        "shi4",
+        "zai4",
+        "zhe4",
+        "kuai4",
+        "hai3",
+        "yu4",
+        "ta1",
+        "men5",
+        "ba3",
+        "zheng3"
+      ],
+      "words": [
+        "qian1 mi3",
+        "chang2",
+        "dan4 shi4",
+        "zai4",
+        "zhe4 kuai4",
+        "hai3 yu4",
+        "ta1 men5",
+        "ba3",
+        "zheng3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.063.mp3",
+      "fileName": "001.063.mp3",
+      "transcript": "ge4-sheng2-zi5-quan2-reng1-dao4-hai3-li3-zhi1-hou4-qian1-kuai4",
+      "syllables": [
+        "ge4",
+        "sheng2",
+        "zi5",
+        "quan2",
+        "reng1",
+        "dao4",
+        "hai3",
+        "li3",
+        "zhi1",
+        "hou4",
+        "qian1",
+        "kuai4"
+      ],
+      "words": [
+        "ge4",
+        "sheng2 zi5",
+        "quan2",
+        "reng1",
+        "dao4",
+        "hai3 li3",
+        "zhi1 hou4",
+        "qian1 kuai4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.064.mp3",
+      "fileName": "001.064.mp3",
+      "transcript": "dou1-mei2-you3-peng4-dao4-hai3-di3-yu2-shi4-ta1-men5-jiu4-ji4-xu4",
+      "syllables": [
+        "dou1",
+        "mei2",
+        "you3",
+        "peng4",
+        "dao4",
+        "hai3",
+        "di3",
+        "yu2",
+        "shi4",
+        "ta1",
+        "men5",
+        "jiu4",
+        "ji4",
+        "xu4"
+      ],
+      "words": [
+        "dou1",
+        "mei2 you3",
+        "peng4 dao4",
+        "hai3 di3",
+        "yu2 shi4",
+        "ta1 men5",
+        "jiu4",
+        "ji4 xu4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.065.mp3",
+      "fileName": "001.065.mp3",
+      "transcript": "gei3-sheng2-zi5-zeng1-jia1-chang2-du4-zhi2-dao4-ba3-chuan2-shang4",
+      "syllables": [
+        "gei3",
+        "sheng2",
+        "zi5",
+        "zeng1",
+        "jia1",
+        "chang2",
+        "du4",
+        "zhi2",
+        "dao4",
+        "ba3",
+        "chuan2",
+        "shang4"
+      ],
+      "words": [
+        "gei3",
+        "sheng2 zi5",
+        "zeng1 jia1",
+        "chang2 du4",
+        "zhi2 dao4",
+        "ba3",
+        "chuan2 shang4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.066.mp3",
+      "fileName": "001.066.mp3",
+      "transcript": "de5-sheng2-zi5-dou1-yong4-wan2-le5-yi2-gong4-mi3",
+      "syllables": [
+        "de5",
+        "sheng2",
+        "zi5",
+        "dou1",
+        "yong4",
+        "wan2",
+        "le5",
+        "yi2",
+        "gong4",
+        "mi3"
+      ],
+      "words": [
+        "de5",
+        "sheng2 zi5",
+        "dou1",
+        "yong4",
+        "wan2",
+        "le5",
+        "yi2 gong4",
+        "mi3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.067.mp3",
+      "fileName": "001.067.mp3",
+      "transcript": "chang2-de5-sheng2-zi5-qian1-kuai4-hai2-shi5-mei2-you3-peng4-dao4-hai3-di3",
+      "syllables": [
+        "chang2",
+        "de5",
+        "sheng2",
+        "zi5",
+        "qian1",
+        "kuai4",
+        "hai2",
+        "shi5",
+        "mei2",
+        "you3",
+        "peng4",
+        "dao4",
+        "hai3",
+        "di3"
+      ],
+      "words": [
+        "chang2",
+        "de5",
+        "sheng2 zi5",
+        "qian1 kuai4",
+        "hai2 shi5",
+        "mei2 you3",
+        "peng4 dao4",
+        "hai3 di3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.068.mp3",
+      "fileName": "001.068.mp3",
+      "transcript": "zhe4-ge5-shen1-du4-jiu4-xiang1-dang1-yu2-ba3-zhu1-mu4-lang3-ma3",
+      "syllables": [
+        "zhe4",
+        "ge5",
+        "shen1",
+        "du4",
+        "jiu4",
+        "xiang1",
+        "dang1",
+        "yu2",
+        "ba3",
+        "zhu1",
+        "mu4",
+        "lang3",
+        "ma3"
+      ],
+      "words": [
+        "zhe4 ge5",
+        "shen1 du4",
+        "jiu4",
+        "xiang1 dang1 yu2",
+        "ba3",
+        "zhu1 mu4 lang3 ma3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.069.mp3",
+      "fileName": "001.069.mp3",
+      "transcript": "feng1-dao3-zhe5-fang4-hai3-li3-le5-yi1-yang4-yu2-shi4-zai4",
+      "syllables": [
+        "feng1",
+        "dao3",
+        "zhe5",
+        "fang4",
+        "hai3",
+        "li3",
+        "le5",
+        "yi1",
+        "yang4",
+        "yu2",
+        "shi4",
+        "zai4"
+      ],
+      "words": [
+        "feng1",
+        "dao3",
+        "zhe5",
+        "fang4 hai3 li3",
+        "le5",
+        "yi1 yang4",
+        "yu2 shi4",
+        "zai4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.070.mp3",
+      "fileName": "001.070.mp3",
+      "transcript": "tong2-nian2-de5-yue4-fen4-chuan2-shang4-de5-zhe4-ming2-ke1",
+      "syllables": [
+        "tong2",
+        "nian2",
+        "de5",
+        "yue4",
+        "fen4",
+        "chuan2",
+        "shang4",
+        "de5",
+        "zhe4",
+        "ming2",
+        "ke1"
+      ],
+      "words": [
+        "tong2 nian2",
+        "de5",
+        "yue4 fen4",
+        "chuan2 shang4",
+        "de5",
+        "zhe4",
+        "ming2",
+        "ke1"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.071.mp3",
+      "fileName": "001.071.mp3",
+      "transcript": "xue2-jia1-gei3-chu1-le5-zhe4-ci4-de5-kao3-cha2-bao4-gao4",
+      "syllables": [
+        "xue2",
+        "jia1",
+        "gei3",
+        "chu1",
+        "le5",
+        "zhe4",
+        "ci4",
+        "de5",
+        "kao3",
+        "cha2",
+        "bao4",
+        "gao4"
+      ],
+      "words": [
+        "xue2 jia1",
+        "gei3 chu1",
+        "le5",
+        "zhe4 ci4",
+        "de5",
+        "kao3 cha2 bao4 gao4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.072.mp3",
+      "fileName": "001.072.mp3",
+      "transcript": "bao4-gao4-li3-shuo1-Ma3-li3-ya4-na4-Hai3-gou1-de5-zui4",
+      "syllables": [
+        "bao4",
+        "gao4",
+        "li3",
+        "shuo1",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "de5",
+        "zui4"
+      ],
+      "words": [
+        "bao4 gao4",
+        "li3",
+        "shuo1",
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "de5",
+        "zui4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
       "hasTones": true,
       "contrasts": []
     },
     {
-      "file": "audio/zheng-fu-ji-ji-zuo-wei-jie-jue.001.mp3",
-      "transcript": "zheng-fu-ji-ji-zuo-wei-jie-jue",
+      "file": "audio/001.073.mp3",
+      "fileName": "001.073.mp3",
+      "transcript": "shen1-chu4-da4-yue1-shi4-hai3-ping2-mian4-yi3-xia4",
       "syllables": [
-        "zheng",
-        "fu",
-        "ji",
-        "ji",
-        "zuo",
-        "wei",
-        "jie",
-        "jue"
+        "shen1",
+        "chu4",
+        "da4",
+        "yue1",
+        "shi4",
+        "hai3",
+        "ping2",
+        "mian4",
+        "yi3",
+        "xia4"
       ],
-      "syllableCount": 8,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/zhi4-liang4-fa1-zhan3-zhi1-lu4.001.mp3",
-      "transcript": "zhi4-liang4-fa1-zhan3-zhi1-lu4",
-      "syllables": [
-        "zhi4",
-        "liang4",
-        "fa1",
-        "zhan3",
-        "zhi1",
-        "lu4"
+      "words": [
+        "shen1 chu4",
+        "da4 yue1",
+        "shi4",
+        "hai3 ping2 mian4",
+        "yi3 xia4"
       ],
-      "syllableCount": 6,
-      "difficulty": "L2",
+      "syllableCount": 10,
+      "difficulty": "L4",
       "hasTones": true,
-      "contrasts": [
-        "n_final",
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/zhu-ru-geng-duo-de-huo-li-yi-wu.mp3",
-      "transcript": "zhu-ru-geng-duo-de-huo-li-yi-wu",
-      "syllables": [
-        "zhu",
-        "ru",
-        "geng",
-        "duo",
-        "de",
-        "huo",
-        "li",
-        "yi",
-        "wu"
-      ],
-      "syllableCount": 9,
-      "difficulty": "L3",
-      "hasTones": false,
-      "contrasts": [
-        "ng_final"
-      ]
-    },
-    {
-      "file": "audio/zhuan-xia-lai-de-zhe-yi-di-tong-jin.001.mp3",
-      "transcript": "zhuan-xia-lai-de-zhe-yi-di-tong-jin",
-      "syllables": [
-        "zhuan",
-        "xia",
-        "lai",
-        "de",
-        "zhe",
-        "yi",
-        "di",
-        "tong",
-        "jin"
-      ],
-      "syllableCount": 9,
-      "difficulty": "L3",
-      "hasTones": false,
       "contrasts": [
         "n_final",
         "ng_final",
@@ -1008,41 +2691,3811 @@
       ]
     },
     {
-      "file": "audio/zou-dao-hai-yan-cong-hai.001.mp3",
-      "transcript": "zou-dao-hai-yan-cong-hai",
+      "file": "audio/001.074.mp3",
+      "fileName": "001.074.mp3",
+      "transcript": "mi3-shi4-di4-qiu2-shang4-zui4-shen1-de5-di4-fang5-er2-qie3-ta1-men5",
       "syllables": [
-        "zou",
-        "dao",
-        "hai",
-        "yan",
-        "cong",
-        "hai"
+        "mi3",
+        "shi4",
+        "di4",
+        "qiu2",
+        "shang4",
+        "zui4",
+        "shen1",
+        "de5",
+        "di4",
+        "fang5",
+        "er2",
+        "qie3",
+        "ta1",
+        "men5"
       ],
-      "syllableCount": 6,
-      "difficulty": "L2",
-      "hasTones": false,
+      "words": [
+        "mi3",
+        "shi4",
+        "di4 qiu2",
+        "shang4",
+        "zui4 shen1",
+        "de5",
+        "di4 fang5",
+        "er2 qie3",
+        "ta1 men5"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.075.mp3",
+      "fileName": "001.075.mp3",
+      "transcript": "hai2-fa1-xian4-le5-yi2-gong4-duo1-zhong3-yi3-qian2-mei2",
+      "syllables": [
+        "hai2",
+        "fa1",
+        "xian4",
+        "le5",
+        "yi2",
+        "gong4",
+        "duo1",
+        "zhong3",
+        "yi3",
+        "qian2",
+        "mei2"
+      ],
+      "words": [
+        "hai2",
+        "fa1 xian4",
+        "le5",
+        "yi2 gong4",
+        "duo1 zhong3",
+        "yi3 qian2",
+        "mei2"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.076.mp3",
+      "fileName": "001.076.mp3",
+      "transcript": "jian4-guo4-de5-xin1-sheng1-ming4-zhe4-ci4-kao3-cha2-jie2-guo3",
+      "syllables": [
+        "jian4",
+        "guo4",
+        "de5",
+        "xin1",
+        "sheng1",
+        "ming4",
+        "zhe4",
+        "ci4",
+        "kao3",
+        "cha2",
+        "jie2",
+        "guo3"
+      ],
+      "words": [
+        "jian4",
+        "guo4",
+        "de5",
+        "xin1",
+        "sheng1 ming4",
+        "zhe4 ci4",
+        "kao3 cha2",
+        "jie2 guo3"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.077.mp3",
+      "fileName": "001.077.mp3",
+      "transcript": "zai4-dang1-shi2-de5-hai3-yang2-ke1-xue2-jie4-ye3-yin3-qi3",
+      "syllables": [
+        "zai4",
+        "dang1",
+        "shi2",
+        "de5",
+        "hai3",
+        "yang2",
+        "ke1",
+        "xue2",
+        "jie4",
+        "ye3",
+        "yin3",
+        "qi3"
+      ],
+      "words": [
+        "zai4",
+        "dang1 shi2",
+        "de5",
+        "hai3 yang2 ke1 xue2 jie4",
+        "ye3",
+        "yin3 qi3"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.078.mp3",
+      "fileName": "001.078.mp3",
+      "transcript": "le5-bu4-xiao3-de5-bo1-dong4-ke3-yi3-suan4-de5-shang4-shi4-yi1",
+      "syllables": [
+        "le5",
+        "bu4",
+        "xiao3",
+        "de5",
+        "bo1",
+        "dong4",
+        "ke3",
+        "yi3",
+        "suan4",
+        "de5",
+        "shang4",
+        "shi4",
+        "yi1"
+      ],
+      "words": [
+        "le5",
+        "bu4 xiao3",
+        "de5",
+        "bo1 dong4",
+        "ke3 yi3",
+        "suan4 de5 shang4",
+        "shi4",
+        "yi1"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.079.mp3",
+      "fileName": "001.079.mp3",
+      "transcript": "chang3-ke1-xue2-ge2-ming4-le5-bu2-guo4-da4-jia1-ye3-kan4-chu1",
+      "syllables": [
+        "chang3",
+        "ke1",
+        "xue2",
+        "ge2",
+        "ming4",
+        "le5",
+        "bu2",
+        "guo4",
+        "da4",
+        "jia1",
+        "ye3",
+        "kan4",
+        "chu1"
+      ],
+      "words": [
+        "chang3",
+        "ke1 xue2 ge2 ming4",
+        "le5",
+        "bu2 guo4",
+        "da4 jia1",
+        "ye3",
+        "kan4 chu1"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.080.mp3",
+      "fileName": "001.080.mp3",
+      "transcript": "lai2-le5-ta1-men5-bao4-gao4-li3-gei3-chu1-de5-mi3",
+      "syllables": [
+        "lai2",
+        "le5",
+        "ta1",
+        "men5",
+        "bao4",
+        "gao4",
+        "li3",
+        "gei3",
+        "chu1",
+        "de5",
+        "mi3"
+      ],
+      "words": [
+        "lai2",
+        "le5",
+        "ta1 men5",
+        "bao4 gao4",
+        "li3",
+        "gei3 chu1",
+        "de5",
+        "mi3"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.081.mp3",
+      "fileName": "001.081.mp3",
+      "transcript": "shi4-cuo4-de5-zhe4-bing4-bu2-shi4-Ma3-li3-ya4-na4-Hai3-gou1",
+      "syllables": [
+        "shi4",
+        "cuo4",
+        "de5",
+        "zhe4",
+        "bing4",
+        "bu2",
+        "shi4",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1"
+      ],
+      "words": [
+        "shi4",
+        "cuo4",
+        "de5",
+        "zhe4",
+        "bing4",
+        "bu2 shi4",
+        "Ma3 li3 ya4 na4 Hai3 gou1"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.082.mp3",
+      "fileName": "001.082.mp3",
+      "transcript": "de5-zui4-shen1-chu4-dan4-shi4-you2-yu2-dang1-shi2-de5-ce4-liang2",
+      "syllables": [
+        "de5",
+        "zui4",
+        "shen1",
+        "chu4",
+        "dan4",
+        "shi4",
+        "you2",
+        "yu2",
+        "dang1",
+        "shi2",
+        "de5",
+        "ce4",
+        "liang2"
+      ],
+      "words": [
+        "de5",
+        "zui4 shen1 chu4",
+        "dan4 shi4",
+        "you2 yu2",
+        "dang1 shi2",
+        "de5",
+        "ce4 liang2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final"
       ]
     },
     {
-      "file": "audio/zui-rang-ren-yi-yan-nan.001.mp3",
-      "transcript": "zui-rang-ren-yi-yan-nan",
+      "file": "audio/001.083.mp3",
+      "fileName": "001.083.mp3",
+      "transcript": "ji4-shu4-you3-xian4-ren2-lei4-zhen1-zheng4-ce4-de5-ma3-li3",
       "syllables": [
-        "zui",
-        "rang",
-        "ren",
-        "yi",
-        "yan",
-        "nan"
+        "ji4",
+        "shu4",
+        "you3",
+        "xian4",
+        "ren2",
+        "lei4",
+        "zhen1",
+        "zheng4",
+        "ce4",
+        "de5",
+        "ma3",
+        "li3"
       ],
-      "syllableCount": 6,
-      "difficulty": "L2",
-      "hasTones": false,
+      "words": [
+        "ji4 shu4",
+        "you3 xian4",
+        "ren2 lei4",
+        "zhen1 zheng4",
+        "ce4",
+        "de5",
+        "ma3 li3"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.084.mp3",
+      "fileName": "001.084.mp3",
+      "transcript": "ya4-na4-hai3-gou1-de5-shen1-du4-yi3-jing1-shi4-nian2-zhi1",
+      "syllables": [
+        "ya4",
+        "na4",
+        "hai3",
+        "gou1",
+        "de5",
+        "shen1",
+        "du4",
+        "yi3",
+        "jing1",
+        "shi4",
+        "nian2",
+        "zhi1"
+      ],
+      "words": [
+        "ya4 na4",
+        "hai3 gou1",
+        "de5",
+        "shen1 du4",
+        "yi3 jing1",
+        "shi4",
+        "nian2",
+        "zhi1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
       "contrasts": [
         "n_final",
         "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.085.mp3",
+      "fileName": "001.085.mp3",
+      "transcript": "hou4-le5-nian2-Tiao3-zhan4-zhe3-Er4-hao4-zai4",
+      "syllables": [
+        "hou4",
+        "le5",
+        "nian2",
+        "Tiao3",
+        "zhan4",
+        "zhe3",
+        "Er4",
+        "hao4",
+        "zai4"
+      ],
+      "words": [
+        "hou4",
+        "le5",
+        "nian2",
+        "Tiao3 zhan4 zhe3 Er4 hao4",
+        "zai4"
+      ],
+      "syllableCount": 9,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.086.mp3",
+      "fileName": "001.086.mp3",
+      "transcript": "ci4-lai2-dao4-Ma3-li3-ya4-na4-Hai3-gou1-zhe4-ci4-chuan2-shang4",
+      "syllables": [
+        "ci4",
+        "lai2",
+        "dao4",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "zhe4",
+        "ci4",
+        "chuan2",
+        "shang4"
+      ],
+      "words": [
+        "ci4",
+        "lai2 dao4",
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "zhe4 ci4",
+        "chuan2 shang4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.087.mp3",
+      "fileName": "001.087.mp3",
+      "transcript": "an1-zhuang1-le5-xin1-xing2-sheng1-na4-she4-bei4-mu4-di4-jiu4-shi4",
+      "syllables": [
+        "an1",
+        "zhuang1",
+        "le5",
+        "xin1",
+        "xing2",
+        "sheng1",
+        "na4",
+        "she4",
+        "bei4",
+        "mu4",
+        "di4",
+        "jiu4",
+        "shi4"
+      ],
+      "words": [
+        "an1 zhuang1",
+        "le5",
+        "xin1 xing2",
+        "sheng1 na4",
+        "she4 bei4",
+        "mu4 di4",
+        "jiu4 shi4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.088.mp3",
+      "fileName": "001.088.mp3",
+      "transcript": "yao4-long4-ming2-bai5-Ma3-li3-ya4-na4-Hai3-gou1-dao4-di3-chang2-shen2-me5",
+      "syllables": [
+        "yao4",
+        "long4",
+        "ming2",
+        "bai5",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "dao4",
+        "di3",
+        "chang2",
+        "shen2",
+        "me5"
+      ],
+      "words": [
+        "yao4",
+        "long4",
+        "ming2 bai5",
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "dao4 di3",
+        "chang2",
+        "shen2 me5"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.089.mp3",
+      "fileName": "001.089.mp3",
+      "transcript": "yang4-ta1-men5-tong1-guo4-xiang4-hai3-di3-fa1-song4-sheng1-bo1-ran2-hou4",
+      "syllables": [
+        "yang4",
+        "ta1",
+        "men5",
+        "tong1",
+        "guo4",
+        "xiang4",
+        "hai3",
+        "di3",
+        "fa1",
+        "song4",
+        "sheng1",
+        "bo1",
+        "ran2",
+        "hou4"
+      ],
+      "words": [
+        "yang4",
+        "ta1 men5",
+        "tong1 guo4",
+        "xiang4",
+        "hai3 di3",
+        "fa1 song4",
+        "sheng1 bo1",
+        "ran2 hou4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.090.mp3",
+      "fileName": "001.090.mp3",
+      "transcript": "zai4-yong4-miao3-biao3-ji4-lu4-sheng1-bo1-fa1-song4-he2-fan3",
+      "syllables": [
+        "zai4",
+        "yong4",
+        "miao3",
+        "biao3",
+        "ji4",
+        "lu4",
+        "sheng1",
+        "bo1",
+        "fa1",
+        "song4",
+        "he2",
+        "fan3"
+      ],
+      "words": [
+        "zai4 yong4",
+        "miao3 biao3",
+        "ji4 lu4",
+        "sheng1 bo1",
+        "fa1 song4",
+        "he2",
+        "fan3"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.091.mp3",
+      "fileName": "001.091.mp3",
+      "transcript": "hui2-hou4-de5-shi2-jian1-cha1-jiu4-zhe4-yang4-Tiao3-zhan4-zhe3-Er4-hao4",
+      "syllables": [
+        "hui2",
+        "hou4",
+        "de5",
+        "shi2",
+        "jian1",
+        "cha1",
+        "jiu4",
+        "zhe4",
+        "yang4",
+        "Tiao3",
+        "zhan4",
+        "zhe3",
+        "Er4",
+        "hao4"
+      ],
+      "words": [
+        "hui2 hou4",
+        "de5",
+        "shi2 jian1 cha1",
+        "jiu4",
+        "zhe4 yang4",
+        "Tiao3 zhan4 zhe3 Er4 hao4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.092.mp3",
+      "fileName": "001.092.mp3",
+      "transcript": "shou3-ci4-miao2-hui4-chu1-le5-Ma3-li3-ya4-na4-Hai3-gou1",
+      "syllables": [
+        "shou3",
+        "ci4",
+        "miao2",
+        "hui4",
+        "chu1",
+        "le5",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1"
+      ],
+      "words": [
+        "shou3 ci4",
+        "miao2 hui4 chu1",
+        "le5",
+        "Ma3 li3 ya4 na4 Hai3 gou1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": []
+    },
+    {
+      "file": "audio/001.093.mp3",
+      "fileName": "001.093.mp3",
+      "transcript": "de5-yang4-zi5-zhe4-shi4-yi4-tiao2-ping2-jun1-shen1-du4-chao1-guo4",
+      "syllables": [
+        "de5",
+        "yang4",
+        "zi5",
+        "zhe4",
+        "shi4",
+        "yi4",
+        "tiao2",
+        "ping2",
+        "jun1",
+        "shen1",
+        "du4",
+        "chao1",
+        "guo4"
+      ],
+      "words": [
+        "de5",
+        "yang4 zi5",
+        "zhe4 shi4",
+        "yi4 tiao2",
+        "ping2 jun1",
+        "shen1 du4",
+        "chao1 guo4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.094.mp3",
+      "fileName": "001.094.mp3",
+      "transcript": "le5-mi3-chang2-du4-chao1-guo4-le5-qian1",
+      "syllables": [
+        "le5",
+        "mi3",
+        "chang2",
+        "du4",
+        "chao1",
+        "guo4",
+        "le5",
+        "qian1"
+      ],
+      "words": [
+        "le5",
+        "mi3",
+        "chang2 du4",
+        "chao1 guo4",
+        "le5",
+        "qian1"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.095.mp3",
+      "fileName": "001.095.mp3",
+      "transcript": "mi3-de5-da4-xia2-gu3-er2-qie3-hai3-gou1-de5-nan2-bian5-hai2-you3",
+      "syllables": [
+        "mi3",
+        "de5",
+        "da4",
+        "xia2",
+        "gu3",
+        "er2",
+        "qie3",
+        "hai3",
+        "gou1",
+        "de5",
+        "nan2",
+        "bian5",
+        "hai2",
+        "you3"
+      ],
+      "words": [
+        "mi3",
+        "de5",
+        "da4 xia2 gu3",
+        "er2 qie3",
+        "hai3 gou1",
+        "de5",
+        "nan2 bian5",
+        "hai2 you3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.096.mp3",
+      "fileName": "001.096.mp3",
+      "transcript": "yi2-ge4-chui2-zhi2-luo4-cha1-duo1-mi3-de5-shen1-yuan1-jiao4",
+      "syllables": [
+        "yi2",
+        "ge4",
+        "chui2",
+        "zhi2",
+        "luo4",
+        "cha1",
+        "duo1",
+        "mi3",
+        "de5",
+        "shen1",
+        "yuan1",
+        "jiao4"
+      ],
+      "words": [
+        "yi2 ge4",
+        "chui2 zhi2",
+        "luo4 cha1",
+        "duo1 mi3",
+        "de5",
+        "shen1 yuan1",
+        "jiao4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.097.mp3",
+      "fileName": "001.097.mp3",
+      "transcript": "zuo4-Tiao3-zhan4-zhe3-Shen1-yuan1-zhe4-shi4-mu4-qian2-yi3-zhi1-de5-hai3",
+      "syllables": [
+        "zuo4",
+        "Tiao3",
+        "zhan4",
+        "zhe3",
+        "Shen1",
+        "yuan1",
+        "zhe4",
+        "shi4",
+        "mu4",
+        "qian2",
+        "yi3",
+        "zhi1",
+        "de5",
+        "hai3"
+      ],
+      "words": [
+        "zuo4",
+        "Tiao3 zhan4 zhe3 Shen1 yuan1",
+        "zhe4 shi4",
+        "mu4 qian2",
+        "yi3 zhi1",
+        "de5",
+        "hai3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.098.mp3",
+      "fileName": "001.098.mp3",
+      "transcript": "yang2-zui4-shen1-chu4-zui4-da4-shen1-du4-wei4",
+      "syllables": [
+        "yang2",
+        "zui4",
+        "shen1",
+        "chu4",
+        "zui4",
+        "da4",
+        "shen1",
+        "du4",
+        "wei4"
+      ],
+      "words": [
+        "yang2",
+        "zui4 shen1 chu4",
+        "zui4 da4",
+        "shen1 du4",
+        "wei4"
+      ],
+      "syllableCount": 9,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.099.mp3",
+      "fileName": "001.099.mp3",
+      "transcript": "mi3-di4-qiu2-shang4-jing4-ran2-hai2-you3-zhe4-me5-shen1-de5-di4-fang5-zhe4-ge5",
+      "syllables": [
+        "mi3",
+        "di4",
+        "qiu2",
+        "shang4",
+        "jing4",
+        "ran2",
+        "hai2",
+        "you3",
+        "zhe4",
+        "me5",
+        "shen1",
+        "de5",
+        "di4",
+        "fang5",
+        "zhe4",
+        "ge5"
+      ],
+      "words": [
+        "mi3",
+        "di4 qiu2",
+        "shang4",
+        "jing4 ran2",
+        "hai2 you3",
+        "zhe4 me5",
+        "shen1",
+        "de5",
+        "di4 fang5",
+        "zhe4 ge5"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.100.mp3",
+      "fileName": "001.100.mp3",
+      "transcript": "xiao1-xi5-gong1-bu4-chu1-lai2-zhi1-hou4-jiu4-yin3-qi3-le5-hen3-duo1",
+      "syllables": [
+        "xiao1",
+        "xi5",
+        "gong1",
+        "bu4",
+        "chu1",
+        "lai2",
+        "zhi1",
+        "hou4",
+        "jiu4",
+        "yin3",
+        "qi3",
+        "le5",
+        "hen3",
+        "duo1"
+      ],
+      "words": [
+        "xiao1 xi5",
+        "gong1 bu4 chu1 lai2",
+        "zhi1 hou4",
+        "jiu4",
+        "yin3 qi3",
+        "le5",
+        "hen3 duo1"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.101.mp3",
+      "fileName": "001.101.mp3",
+      "transcript": "ren2-de5-xing4-qu4-qi2-zhong1-you3-yi2-ge4-nian2-qing1-ren2-jiao4",
+      "syllables": [
+        "ren2",
+        "de5",
+        "xing4",
+        "qu4",
+        "qi2",
+        "zhong1",
+        "you3",
+        "yi2",
+        "ge4",
+        "nian2",
+        "qing1",
+        "ren2",
+        "jiao4"
+      ],
+      "words": [
+        "ren2",
+        "de5",
+        "xing4 qu4",
+        "qi2 zhong1",
+        "you3",
+        "yi2 ge4",
+        "nian2 qing1 ren2",
+        "jiao4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.102.mp3",
+      "fileName": "001.102.mp3",
+      "transcript": "Ya3-ke4-Pi2-ka3-de2-ta1-shuo1-ta1-xiang3-shi4-shi4",
+      "syllables": [
+        "Ya3",
+        "ke4",
+        "Pi2",
+        "ka3",
+        "de2",
+        "ta1",
+        "shuo1",
+        "ta1",
+        "xiang3",
+        "shi4",
+        "shi4"
+      ],
+      "words": [
+        "Ya3 ke4",
+        "Pi2 ka3 de2",
+        "ta1",
+        "shuo1",
+        "ta1",
+        "xiang3",
+        "shi4 shi4"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.103.mp3",
+      "fileName": "001.103.mp3",
+      "transcript": "ta1-xiang3-qian2-ru4-Ma3-li3-ya4-na4-Hai3-gou1-qu4-kan4-kan4",
+      "syllables": [
+        "ta1",
+        "xiang3",
+        "qian2",
+        "ru4",
+        "Ma3",
+        "li3",
+        "ya4",
+        "na4",
+        "Hai3",
+        "gou1",
+        "qu4",
+        "kan4",
+        "kan4"
+      ],
+      "words": [
+        "ta1",
+        "xiang3",
+        "qian2 ru4",
+        "Ma3 li3 ya4 na4 Hai3 gou1",
+        "qu4",
+        "kan4 kan4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.104.mp3",
+      "fileName": "001.104.mp3",
+      "transcript": "shen1-hai3-dao4-di3-shi4-yi2-ge4-shen2-me5-yang4-de5-shi4-jie4-dan4-shi4-wen4-ti2",
+      "syllables": [
+        "shen1",
+        "hai3",
+        "dao4",
+        "di3",
+        "shi4",
+        "yi2",
+        "ge4",
+        "shen2",
+        "me5",
+        "yang4",
+        "de5",
+        "shi4",
+        "jie4",
+        "dan4",
+        "shi4",
+        "wen4",
+        "ti2"
+      ],
+      "words": [
+        "shen1 hai3",
+        "dao4 di3",
+        "shi4",
+        "yi2 ge4",
+        "shen2 me5 yang4",
+        "de5",
+        "shi4 jie4",
+        "dan4 shi4",
+        "wen4 ti2"
+      ],
+      "syllableCount": 17,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.105.mp3",
+      "fileName": "001.105.mp3",
+      "transcript": "shi4-zen3-me5-cai2-neng2-qu4-dao4-shen1-hai3-ne5-zhe4-ge5-shi2-hou5-ta1-xiang3",
+      "syllables": [
+        "shi4",
+        "zen3",
+        "me5",
+        "cai2",
+        "neng2",
+        "qu4",
+        "dao4",
+        "shen1",
+        "hai3",
+        "ne5",
+        "zhe4",
+        "ge5",
+        "shi2",
+        "hou5",
+        "ta1",
+        "xiang3"
+      ],
+      "words": [
+        "shi4",
+        "zen3 me5",
+        "cai2 neng2",
+        "qu4",
+        "dao4",
+        "shen1 hai3",
+        "ne5",
+        "zhe4 ge5",
+        "shi2 hou5",
+        "ta1",
+        "xiang3"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.106.mp3",
+      "fileName": "001.106.mp3",
+      "transcript": "qi3-le5-yi2-ge4-ren2-jiu4-shi4-mei3-guo2-de5-sheng1-wu4-xue2-jia1",
+      "syllables": [
+        "qi3",
+        "le5",
+        "yi2",
+        "ge4",
+        "ren2",
+        "jiu4",
+        "shi4",
+        "mei3",
+        "guo2",
+        "de5",
+        "sheng1",
+        "wu4",
+        "xue2",
+        "jia1"
+      ],
+      "words": [
+        "qi3",
+        "le5",
+        "yi2 ge4",
+        "ren2",
+        "jiu4 shi4",
+        "mei3 guo2",
+        "de5",
+        "sheng1 wu4 xue2 jia1"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/001.107.mp3",
+      "fileName": "001.107.mp3",
+      "transcript": "Wei1-lian2-Bi3-bi3-zai4",
+      "syllables": [
+        "Wei1",
+        "lian2",
+        "Bi3",
+        "bi3",
+        "zai4"
+      ],
+      "words": [
+        "Wei1 lian2",
+        "Bi3 bi3",
+        "zai4"
+      ],
+      "syllableCount": 5,
+      "difficulty": "L2",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/001.108.mp3",
+      "fileName": "001.108.mp3",
+      "transcript": "nian2-de5-shi2-hou5-gen1-ta1-de5-yi2-ge4-peng2-you5-Ba1-dun4-gong4-tong2-she4",
+      "syllables": [
+        "nian2",
+        "de5",
+        "shi2",
+        "hou5",
+        "gen1",
+        "ta1",
+        "de5",
+        "yi2",
+        "ge4",
+        "peng2",
+        "you5",
+        "Ba1",
+        "dun4",
+        "gong4",
+        "tong2",
+        "she4"
+      ],
+      "words": [
+        "nian2",
+        "de5",
+        "shi2 hou5",
+        "gen1",
+        "ta1",
+        "de5",
+        "yi2 ge4",
+        "peng2 you5",
+        "Ba1 dun4",
+        "gong4 tong2",
+        "she4"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.109.mp3",
+      "fileName": "001.109.mp3",
+      "transcript": "ji4-le5-yi2-ge4-qian2-shui3-qiu2-zhe4-shi4-yi2-ge4-gang1-zhi4-de5-qiu2",
+      "syllables": [
+        "ji4",
+        "le5",
+        "yi2",
+        "ge4",
+        "qian2",
+        "shui3",
+        "qiu2",
+        "zhe4",
+        "shi4",
+        "yi2",
+        "ge4",
+        "gang1",
+        "zhi4",
+        "de5",
+        "qiu2"
+      ],
+      "words": [
+        "ji4",
+        "le5",
+        "yi2 ge4",
+        "qian2 shui3",
+        "qiu2",
+        "zhe4 shi4",
+        "yi2 ge4",
+        "gang1 zhi4",
+        "de5",
+        "qiu2"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.110.mp3",
+      "fileName": "001.110.mp3",
+      "transcript": "ti3-zhi2-jing4-shi4",
+      "syllables": [
+        "ti3",
+        "zhi2",
+        "jing4",
+        "shi4"
+      ],
+      "words": [
+        "ti3",
+        "zhi2 jing4",
+        "shi4"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/001.111.mp3",
+      "fileName": "001.111.mp3",
+      "transcript": "mi3-zhong4-liang4-shi4-qian1-ke4-you3-san1-ge4",
+      "syllables": [
+        "mi3",
+        "zhong4",
+        "liang4",
+        "shi4",
+        "qian1",
+        "ke4",
+        "you3",
+        "san1",
+        "ge4"
+      ],
+      "words": [
+        "mi3",
+        "zhong4 liang4",
+        "shi4",
+        "qian1 ke4",
+        "you3",
+        "san1 ge4"
+      ],
+      "syllableCount": 9,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/001.112.mp3",
+      "fileName": "001.112.mp3",
+      "transcript": "zhi2-jing4-li2-mi3-de5-xiao3-chuang1-hu5-li3-mian4-ke3-yi3",
+      "syllables": [
+        "zhi2",
+        "jing4",
+        "li2",
+        "mi3",
+        "de5",
+        "xiao3",
+        "chuang1",
+        "hu5",
+        "li3",
+        "mian4",
+        "ke3",
+        "yi3"
+      ],
+      "words": [
+        "zhi2 jing4",
+        "li2 mi3",
+        "de5",
+        "xiao3",
+        "chuang1 hu5",
+        "li3 mian4",
+        "ke3 yi3"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.001.mp3",
+      "fileName": "002.001.mp3",
+      "transcript": "zhe4-shi4-shang4-you3-hen3-duo1-ling4-ren2-tan4-wei2-guan1-zhi3-de5",
+      "syllables": [
+        "zhe4",
+        "shi4",
+        "shang4",
+        "you3",
+        "hen3",
+        "duo1",
+        "ling4",
+        "ren2",
+        "tan4",
+        "wei2",
+        "guan1",
+        "zhi3",
+        "de5"
+      ],
+      "words": [
+        "zhe4",
+        "shi4 shang4",
+        "you3",
+        "hen3 duo1",
+        "ling4 ren2",
+        "tan4 wei2 guan1 zhi3",
+        "de5"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.002.mp3",
+      "fileName": "002.002.mp3",
+      "transcript": "qi2-ji4-xiang4-shi4-Ying1-guo2-de5-Ju4-shi2-zhen4-yue4-nan2",
+      "syllables": [
+        "qi2",
+        "ji4",
+        "xiang4",
+        "shi4",
+        "Ying1",
+        "guo2",
+        "de5",
+        "Ju4",
+        "shi2",
+        "zhen4",
+        "yue4",
+        "nan2"
+      ],
+      "words": [
+        "qi2 ji4",
+        "xiang4 shi4",
+        "Ying1 guo2",
+        "de5",
+        "Ju4 shi2 zhen4",
+        "yue4 nan2"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.003.mp3",
+      "fileName": "002.003.mp3",
+      "transcript": "de5-Xia4-long2-Wan1-huo4-shi4-jian3-pu3-zhai4-de5-Wu2-ge1",
+      "syllables": [
+        "de5",
+        "Xia4",
+        "long2",
+        "Wan1",
+        "huo4",
+        "shi4",
+        "jian3",
+        "pu3",
+        "zhai4",
+        "de5",
+        "Wu2",
+        "ge1"
+      ],
+      "words": [
+        "de5",
+        "Xia4 long2 Wan1",
+        "huo4 shi4",
+        "jian3 pu3 zhai4",
+        "de5",
+        "Wu2 ge1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.004.mp3",
+      "fileName": "002.004.mp3",
+      "transcript": "ku1-qi2-zhong1-yi2-ge4-ling4-wo3-men5-fei1-chang2-hao4-qi2-de5-jiu4-shi4-wei4",
+      "syllables": [
+        "ku1",
+        "qi2",
+        "zhong1",
+        "yi2",
+        "ge4",
+        "ling4",
+        "wo3",
+        "men5",
+        "fei1",
+        "chang2",
+        "hao4",
+        "qi2",
+        "de5",
+        "jiu4",
+        "shi4",
+        "wei4"
+      ],
+      "words": [
+        "ku1",
+        "qi2 zhong1",
+        "yi2 ge4",
+        "ling4",
+        "wo3 men5",
+        "fei1 chang2",
+        "hao4 qi2",
+        "de5",
+        "jiu4 shi4",
+        "wei4"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.005.mp3",
+      "fileName": "002.005.mp3",
+      "transcript": "zai4-Bo2-li4-zi1-de5-da4-lan2-dong4",
+      "syllables": [
+        "zai4",
+        "Bo2",
+        "li4",
+        "zi1",
+        "de5",
+        "da4",
+        "lan2",
+        "dong4"
+      ],
+      "words": [
+        "zai4",
+        "Bo2 li4 zi1",
+        "de5",
+        "da4 lan2 dong4"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.006.mp3",
+      "fileName": "002.006.mp3",
+      "transcript": "zhe4-quan2-shi4-jie4-zui4-da4-de5-shui3-xia4-dong4-xue2-yong1-you3",
+      "syllables": [
+        "zhe4",
+        "quan2",
+        "shi4",
+        "jie4",
+        "zui4",
+        "da4",
+        "de5",
+        "shui3",
+        "xia4",
+        "dong4",
+        "xue2",
+        "yong1",
+        "you3"
+      ],
+      "words": [
+        "zhe4",
+        "quan2 shi4 jie4",
+        "zui4 da4",
+        "de5",
+        "shui3 xia4",
+        "dong4 xue2",
+        "yong1 you3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.007.mp3",
+      "fileName": "002.007.mp3",
+      "transcript": "shi4-shang4-qi1-da4-hai3-di3-qi2-jing3-zhi1-yi1-de5-cheng1",
+      "syllables": [
+        "shi4",
+        "shang4",
+        "qi1",
+        "da4",
+        "hai3",
+        "di3",
+        "qi2",
+        "jing3",
+        "zhi1",
+        "yi1",
+        "de5",
+        "cheng1"
+      ],
+      "words": [
+        "shi4 shang4",
+        "qi1 da4",
+        "hai3 di3",
+        "qi2 jing3",
+        "zhi1 yi1",
+        "de5",
+        "cheng1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.008.mp3",
+      "fileName": "002.008.mp3",
+      "transcript": "hao4-zhe4-ge5-wei2-yi1-ke3-yi3-yong4-rou4-yan3-cong2-wai4-tai4-kong1",
+      "syllables": [
+        "hao4",
+        "zhe4",
+        "ge5",
+        "wei2",
+        "yi1",
+        "ke3",
+        "yi3",
+        "yong4",
+        "rou4",
+        "yan3",
+        "cong2",
+        "wai4",
+        "tai4",
+        "kong1"
+      ],
+      "words": [
+        "hao4",
+        "zhe4 ge5",
+        "wei2 yi1",
+        "ke3 yi3",
+        "yong4",
+        "rou4 yan3",
+        "cong2",
+        "wai4 tai4 kong1"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.009.mp3",
+      "fileName": "002.009.mp3",
+      "transcript": "kan4-dao4-de5-shen2-mi4-lan2-dong4-li3-mian4-dao4-di3-chang2-shen2-me5-yang4",
+      "syllables": [
+        "kan4",
+        "dao4",
+        "de5",
+        "shen2",
+        "mi4",
+        "lan2",
+        "dong4",
+        "li3",
+        "mian4",
+        "dao4",
+        "di3",
+        "chang2",
+        "shen2",
+        "me5",
+        "yang4"
+      ],
+      "words": [
+        "kan4 dao4",
+        "de5",
+        "shen2 mi4",
+        "lan2 dong4",
+        "li3 mian4",
+        "dao4 di3",
+        "chang2",
+        "shen2 me5 yang4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.010.mp3",
+      "fileName": "002.010.mp3",
+      "transcript": "zi3-zai4-zhe4-mi3-shen1-de5-da4-lan2-dong4",
+      "syllables": [
+        "zi3",
+        "zai4",
+        "zhe4",
+        "mi3",
+        "shen1",
+        "de5",
+        "da4",
+        "lan2",
+        "dong4"
+      ],
+      "words": [
+        "zi3",
+        "zai4",
+        "zhe4",
+        "mi3",
+        "shen1",
+        "de5",
+        "da4 lan2 dong4"
+      ],
+      "syllableCount": 9,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.011.mp3",
+      "fileName": "002.011.mp3",
+      "transcript": "li3-dao4-di3-cun2-zai4-shen2-me5-yang4-de5-sheng1-wu4-ta1-you4-wei4-shen2-me5",
+      "syllables": [
+        "li3",
+        "dao4",
+        "di3",
+        "cun2",
+        "zai4",
+        "shen2",
+        "me5",
+        "yang4",
+        "de5",
+        "sheng1",
+        "wu4",
+        "ta1",
+        "you4",
+        "wei4",
+        "shen2",
+        "me5"
+      ],
+      "words": [
+        "li3",
+        "dao4 di3",
+        "cun2 zai4",
+        "shen2 me5 yang4",
+        "de5",
+        "sheng1 wu4",
+        "ta1",
+        "you4",
+        "wei4 shen2 me5"
+      ],
+      "syllableCount": 16,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.012.mp3",
+      "fileName": "002.012.mp3",
+      "transcript": "shi4-qian2-shui3-ai4-hao4-zhe3-de5-bi4-qu4-qian2-dian3-zhi1",
+      "syllables": [
+        "shi4",
+        "qian2",
+        "shui3",
+        "ai4",
+        "hao4",
+        "zhe3",
+        "de5",
+        "bi4",
+        "qu4",
+        "qian2",
+        "dian3",
+        "zhi1"
+      ],
+      "words": [
+        "shi4",
+        "qian2 shui3",
+        "ai4 hao4 zhe3",
+        "de5",
+        "bi4 qu4",
+        "qian2 dian3",
+        "zhi1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.013.mp3",
+      "fileName": "002.013.mp3",
+      "transcript": "yi1-ne5-wei4-le5-zhao3-chu1-wo3-men5-wen4-ti2-de5-da2-an4-wo3-men5",
+      "syllables": [
+        "yi1",
+        "ne5",
+        "wei4",
+        "le5",
+        "zhao3",
+        "chu1",
+        "wo3",
+        "men5",
+        "wen4",
+        "ti2",
+        "de5",
+        "da2",
+        "an4",
+        "wo3",
+        "men5"
+      ],
+      "words": [
+        "yi1",
+        "ne5",
+        "wei4 le5",
+        "zhao3 chu1",
+        "wo3 men5",
+        "wen4 ti2",
+        "de5",
+        "da2 an4",
+        "wo3 men5"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.014.mp3",
+      "fileName": "002.014.mp3",
+      "transcript": "dang1-ran2-jiu4-shi4-yao4-zi4-ji3-qian2-shui3-jin4-qu4-kan4-lo5-zhun3",
+      "syllables": [
+        "dang1",
+        "ran2",
+        "jiu4",
+        "shi4",
+        "yao4",
+        "zi4",
+        "ji3",
+        "qian2",
+        "shui3",
+        "jin4",
+        "qu4",
+        "kan4",
+        "lo5",
+        "zhun3"
+      ],
+      "words": [
+        "dang1 ran2",
+        "jiu4 shi4",
+        "yao4",
+        "zi4 ji3",
+        "qian2 shui3",
+        "jin4 qu4",
+        "kan4 lo5",
+        "zhun3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.015.mp3",
+      "fileName": "002.015.mp3",
+      "transcript": "bei4-qi4-ping2-le5-ma5-wo3-dou1-wang4-le5-zhe4-yi1-dian3-ni3",
+      "syllables": [
+        "bei4",
+        "qi4",
+        "ping2",
+        "le5",
+        "ma5",
+        "wo3",
+        "dou1",
+        "wang4",
+        "le5",
+        "zhe4",
+        "yi1",
+        "dian3",
+        "ni3"
+      ],
+      "words": [
+        "bei4",
+        "qi4 ping2",
+        "le5",
+        "ma5",
+        "wo3",
+        "dou1",
+        "wang4",
+        "le5",
+        "zhe4",
+        "yi1 dian3",
+        "ni3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.016.mp3",
+      "fileName": "002.016.mp3",
+      "transcript": "mei2-you3-dai4-qi4-ping2-ya5-mei2-you3-suo3-yi3-hou4-mian4-de5-zhong1-jian1",
+      "syllables": [
+        "mei2",
+        "you3",
+        "dai4",
+        "qi4",
+        "ping2",
+        "ya5",
+        "mei2",
+        "you3",
+        "suo3",
+        "yi3",
+        "hou4",
+        "mian4",
+        "de5",
+        "zhong1",
+        "jian1"
+      ],
+      "words": [
+        "mei2 you3",
+        "dai4",
+        "qi4 ping2",
+        "ya5",
+        "mei2 you3",
+        "suo3 yi3",
+        "hou4 mian4",
+        "de5",
+        "zhong1 jian1"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.017.mp3",
+      "fileName": "002.017.mp3",
+      "transcript": "hui4-bi3-jiao4-bu4-hao3-hou4-mian4-zhong1-jian1-o5-zai4-dao4-da2",
+      "syllables": [
+        "hui4",
+        "bi3",
+        "jiao4",
+        "bu4",
+        "hao3",
+        "hou4",
+        "mian4",
+        "zhong1",
+        "jian1",
+        "o5",
+        "zai4",
+        "dao4",
+        "da2"
+      ],
+      "words": [
+        "hui4",
+        "bi3 jiao4",
+        "bu4 hao3",
+        "hou4 mian4",
+        "zhong1 jian1",
+        "o5",
+        "zai4",
+        "dao4 da2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.018.mp3",
+      "fileName": "002.018.mp3",
+      "transcript": "le5-Bo2-li4-zi1-zhi1-hou4-wo3-men5-cong2-ben3-dao3-chu1-fa1",
+      "syllables": [
+        "le5",
+        "Bo2",
+        "li4",
+        "zi1",
+        "zhi1",
+        "hou4",
+        "wo3",
+        "men5",
+        "cong2",
+        "ben3",
+        "dao3",
+        "chu1",
+        "fa1"
+      ],
+      "words": [
+        "le5",
+        "Bo2 li4 zi1",
+        "zhi1 hou4",
+        "wo3 men5",
+        "cong2",
+        "ben3 dao3",
+        "chu1 fa1"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.019.mp3",
+      "fileName": "002.019.mp3",
+      "transcript": "zuo4-chuan2-qian2-wang3-wei4-zai4-Bo2-li4-zi1-dong1-bian5-de5",
+      "syllables": [
+        "zuo4",
+        "chuan2",
+        "qian2",
+        "wang3",
+        "wei4",
+        "zai4",
+        "Bo2",
+        "li4",
+        "zi1",
+        "dong1",
+        "bian5",
+        "de5"
+      ],
+      "words": [
+        "zuo4 chuan2",
+        "qian2 wang3",
+        "wei4",
+        "zai4",
+        "Bo2 li4 zi1",
+        "dong1 bian5",
+        "de5"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.020.mp3",
+      "fileName": "002.020.mp3",
+      "transcript": "yi2-ge4-dao3-yu3-Ku4-er3-ke4-Dao3-ye3-jiu4-shi4-wo3-men5-zhe4",
+      "syllables": [
+        "yi2",
+        "ge4",
+        "dao3",
+        "yu3",
+        "Ku4",
+        "er3",
+        "ke4",
+        "Dao3",
+        "ye3",
+        "jiu4",
+        "shi4",
+        "wo3",
+        "men5",
+        "zhe4"
+      ],
+      "words": [
+        "yi2 ge4",
+        "dao3 yu3",
+        "Ku4 er3 ke4 Dao3",
+        "ye3",
+        "jiu4 shi4",
+        "wo3 men5",
+        "zhe4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.021.mp3",
+      "fileName": "002.021.mp3",
+      "transcript": "ci4-mao4-xian3-de5-di4-dian3-hao3-wo3-men5-jin4-lan2-dong4-qian2",
+      "syllables": [
+        "ci4",
+        "mao4",
+        "xian3",
+        "de5",
+        "di4",
+        "dian3",
+        "hao3",
+        "wo3",
+        "men5",
+        "jin4",
+        "lan2",
+        "dong4",
+        "qian2"
+      ],
+      "words": [
+        "ci4",
+        "mao4 xian3",
+        "de5",
+        "di4 dian3",
+        "hao3",
+        "wo3 men5",
+        "jin4",
+        "lan2",
+        "dong4",
+        "qian2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.022.mp3",
+      "fileName": "002.022.mp3",
+      "transcript": "shui3-zhi1-qian2-ne5-wo3-men5-xian1-zuo4-fei1-ji1-cong2-tian1-kong1-shang4",
+      "syllables": [
+        "shui3",
+        "zhi1",
+        "qian2",
+        "ne5",
+        "wo3",
+        "men5",
+        "xian1",
+        "zuo4",
+        "fei1",
+        "ji1",
+        "cong2",
+        "tian1",
+        "kong1",
+        "shang4"
+      ],
+      "words": [
+        "shui3",
+        "zhi1 qian2",
+        "ne5",
+        "wo3 men5",
+        "xian1",
+        "zuo4 fei1 ji1",
+        "cong2",
+        "tian1 kong1",
+        "shang4"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.023.mp3",
+      "fileName": "002.023.mp3",
+      "transcript": "kan4-ta1-dao4-di3-you3-duo1-zhuang4-guan1-zai4",
+      "syllables": [
+        "kan4",
+        "ta1",
+        "dao4",
+        "di3",
+        "you3",
+        "duo1",
+        "zhuang4",
+        "guan1",
+        "zai4"
+      ],
+      "words": [
+        "kan4",
+        "ta1",
+        "dao4 di3",
+        "you3",
+        "duo1",
+        "zhuang4 guan1",
+        "zai4"
+      ],
+      "syllableCount": 9,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.024.mp3",
+      "fileName": "002.024.mp3",
+      "transcript": "zuo4-le5-fen1-zhong1-de5-fei1-ji1-hou4-wo3-men5-ye3-zhong1",
+      "syllables": [
+        "zuo4",
+        "le5",
+        "fen1",
+        "zhong1",
+        "de5",
+        "fei1",
+        "ji1",
+        "hou4",
+        "wo3",
+        "men5",
+        "ye3",
+        "zhong1"
+      ],
+      "words": [
+        "zuo4",
+        "le5",
+        "fen1 zhong1",
+        "de5",
+        "fei1 ji1",
+        "hou4",
+        "wo3 men5",
+        "ye3",
+        "zhong1"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.025.mp3",
+      "fileName": "002.025.mp3",
+      "transcript": "yu2-neng2-gou4-qin1-yan3-mu4-du3-wo3-men5-qi1-dai4-yi3-jiu3",
+      "syllables": [
+        "yu2",
+        "neng2",
+        "gou4",
+        "qin1",
+        "yan3",
+        "mu4",
+        "du3",
+        "wo3",
+        "men5",
+        "qi1",
+        "dai4",
+        "yi3",
+        "jiu3"
+      ],
+      "words": [
+        "yu2",
+        "neng2 gou4",
+        "qin1 yan3 mu4 du3",
+        "wo3 men5",
+        "qi1 dai4 yi3 jiu3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.026.mp3",
+      "fileName": "002.026.mp3",
+      "transcript": "de5-da4-lan2-dong4-wa1-hao3-shuai4-o5-zhe4-zhong3",
+      "syllables": [
+        "de5",
+        "da4",
+        "lan2",
+        "dong4",
+        "wa1",
+        "hao3",
+        "shuai4",
+        "o5",
+        "zhe4",
+        "zhong3"
+      ],
+      "words": [
+        "de5",
+        "da4 lan2 dong4",
+        "wa1",
+        "hao3 shuai4",
+        "o5",
+        "zhe4 zhong3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.027.mp3",
+      "fileName": "002.027.mp3",
+      "transcript": "fei1-ji1-ne5-dai1-hui4-r5-shui4-yi2-jiao4-a5-hao3-yun1-o5",
+      "syllables": [
+        "fei1",
+        "ji1",
+        "ne5",
+        "dai1",
+        "hui4",
+        "r5",
+        "shui4",
+        "yi2",
+        "jiao4",
+        "a5",
+        "hao3",
+        "yun1",
+        "o5"
+      ],
+      "words": [
+        "fei1 ji1",
+        "ne5",
+        "dai1 hui4 r5",
+        "shui4 yi2 jiao4",
+        "a5",
+        "hao3",
+        "yun1",
+        "o5"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.028.mp3",
+      "fileName": "002.028.mp3",
+      "transcript": "gang1-mang2-zhe5-zhao4-xiang4-xian4-zai4-tou2-yun1-hou4-ji3-tian1-qian2",
+      "syllables": [
+        "gang1",
+        "mang2",
+        "zhe5",
+        "zhao4",
+        "xiang4",
+        "xian4",
+        "zai4",
+        "tou2",
+        "yun1",
+        "hou4",
+        "ji3",
+        "tian1",
+        "qian2"
+      ],
+      "words": [
+        "gang1 mang2",
+        "zhe5",
+        "zhao4 xiang4",
+        "xian4 zai4",
+        "tou2 yun1",
+        "hou4",
+        "ji3 tian1",
+        "qian2"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.029.mp3",
+      "fileName": "002.029.mp3",
+      "transcript": "shui3-wo3-dou1-kuai4-gua4-diao4-le5-yun1-bao4-le5-wo3-jue2-de5-man2",
+      "syllables": [
+        "shui3",
+        "wo3",
+        "dou1",
+        "kuai4",
+        "gua4",
+        "diao4",
+        "le5",
+        "yun1",
+        "bao4",
+        "le5",
+        "wo3",
+        "jue2",
+        "de5",
+        "man2"
+      ],
+      "words": [
+        "shui3",
+        "wo3",
+        "dou1",
+        "kuai4",
+        "gua4 diao4",
+        "le5",
+        "yun1",
+        "bao4",
+        "le5",
+        "wo3",
+        "jue2 de5",
+        "man2"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.030.mp3",
+      "fileName": "002.030.mp3",
+      "transcript": "tie1-xin1-de5-hai2-you3-hu4-o5-hen3-qi1-dai4",
+      "syllables": [
+        "tie1",
+        "xin1",
+        "de5",
+        "hai2",
+        "you3",
+        "hu4",
+        "o5",
+        "hen3",
+        "qi1",
+        "dai4"
+      ],
+      "words": [
+        "tie1 xin1",
+        "de5",
+        "hai2 you3",
+        "hu4",
+        "o5",
+        "hen3",
+        "qi1 dai4"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.031.mp3",
+      "fileName": "002.031.mp3",
+      "transcript": "zai4-kong1-zhong1-kan4-wan2-zhe4-zhuang4-guan1-de5-lan2-dong4-zhi1-hou4",
+      "syllables": [
+        "zai4",
+        "kong1",
+        "zhong1",
+        "kan4",
+        "wan2",
+        "zhe4",
+        "zhuang4",
+        "guan1",
+        "de5",
+        "lan2",
+        "dong4",
+        "zhi1",
+        "hou4"
+      ],
+      "words": [
+        "zai4",
+        "kong1 zhong1",
+        "kan4",
+        "wan2",
+        "zhe4",
+        "zhuang4 guan1",
+        "de5",
+        "lan2 dong4",
+        "zhi1 hou4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.032.mp3",
+      "fileName": "002.032.mp3",
+      "transcript": "wo3-men5-ye3-zhun3-bei4-hao3-yao4-kai1-shi3-wo3-men5-zhen1-zheng4-de5-tiao3",
+      "syllables": [
+        "wo3",
+        "men5",
+        "ye3",
+        "zhun3",
+        "bei4",
+        "hao3",
+        "yao4",
+        "kai1",
+        "shi3",
+        "wo3",
+        "men5",
+        "zhen1",
+        "zheng4",
+        "de5",
+        "tiao3"
+      ],
+      "words": [
+        "wo3 men5",
+        "ye3",
+        "zhun3 bei4",
+        "hao3",
+        "yao4",
+        "kai1 shi3",
+        "wo3 men5",
+        "zhen1 zheng4",
+        "de5",
+        "tiao3"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.033.mp3",
+      "fileName": "002.033.mp3",
+      "transcript": "zhan4-qian2-shui3-jin4-dao4-quan2-shi4-jie4-zui4-da4-de5-shui3-xia4-bing1",
+      "syllables": [
+        "zhan4",
+        "qian2",
+        "shui3",
+        "jin4",
+        "dao4",
+        "quan2",
+        "shi4",
+        "jie4",
+        "zui4",
+        "da4",
+        "de5",
+        "shui3",
+        "xia4",
+        "bing1"
+      ],
+      "words": [
+        "zhan4",
+        "qian2 shui3",
+        "jin4",
+        "dao4",
+        "quan2 shi4 jie4",
+        "zui4 da4",
+        "de5",
+        "shui3 xia4",
+        "bing1"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.034.mp3",
+      "fileName": "002.034.mp3",
+      "transcript": "xue2-shuo1-suo3-yi3-wei1-feng1-hai2-suan4-ping2-wen3-zhi1-suo3-yi3",
+      "syllables": [
+        "xue2",
+        "shuo1",
+        "suo3",
+        "yi3",
+        "wei1",
+        "feng1",
+        "hai2",
+        "suan4",
+        "ping2",
+        "wen3",
+        "zhi1",
+        "suo3",
+        "yi3"
+      ],
+      "words": [
+        "xue2",
+        "shuo1",
+        "suo3 yi3",
+        "wei1 feng1",
+        "hai2",
+        "suan4",
+        "ping2 wen3",
+        "zhi1 suo3 yi3"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.035.mp3",
+      "fileName": "002.035.mp3",
+      "transcript": "shuo1-shi4-ge4-tiao3-zhan4-shi4-yin1-wei4-bing4-bu2-shi4-suo3-you3-ren2-dou1",
+      "syllables": [
+        "shuo1",
+        "shi4",
+        "ge4",
+        "tiao3",
+        "zhan4",
+        "shi4",
+        "yin1",
+        "wei4",
+        "bing4",
+        "bu2",
+        "shi4",
+        "suo3",
+        "you3",
+        "ren2",
+        "dou1"
+      ],
+      "words": [
+        "shuo1",
+        "shi4",
+        "ge4",
+        "tiao3 zhan4",
+        "shi4 yin1 wei4",
+        "bing4",
+        "bu2 shi4",
+        "suo3 you3 ren2",
+        "dou1"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.036.mp3",
+      "fileName": "002.036.mp3",
+      "transcript": "ke3-yi3-qian2-shui3-jin4-da4-lan2-dong4-de5-yin1-wei4-ta1-de5-shen1-du4",
+      "syllables": [
+        "ke3",
+        "yi3",
+        "qian2",
+        "shui3",
+        "jin4",
+        "da4",
+        "lan2",
+        "dong4",
+        "de5",
+        "yin1",
+        "wei4",
+        "ta1",
+        "de5",
+        "shen1",
+        "du4"
+      ],
+      "words": [
+        "ke3 yi3",
+        "qian2 shui3",
+        "jin4",
+        "da4 lan2 dong4",
+        "de5",
+        "yin1 wei4",
+        "ta1",
+        "de5",
+        "shen1 du4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.037.mp3",
+      "fileName": "002.037.mp3",
+      "transcript": "he2-di4-xing2-de5-fu4-za2-cheng2-du4-xiang3-yao4-zai4-da4",
+      "syllables": [
+        "he2",
+        "di4",
+        "xing2",
+        "de5",
+        "fu4",
+        "za2",
+        "cheng2",
+        "du4",
+        "xiang3",
+        "yao4",
+        "zai4",
+        "da4"
+      ],
+      "words": [
+        "he2",
+        "di4 xing2",
+        "de5",
+        "fu4 za2 cheng2 du4",
+        "xiang3 yao4",
+        "zai4",
+        "da4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.038.mp3",
+      "fileName": "002.038.mp3",
+      "transcript": "lan2-dong4-li3-zuo4-zui4-ji1-chu3-de5-qian2-shui3-huo2-dong4",
+      "syllables": [
+        "lan2",
+        "dong4",
+        "li3",
+        "zuo4",
+        "zui4",
+        "ji1",
+        "chu3",
+        "de5",
+        "qian2",
+        "shui3",
+        "huo2",
+        "dong4"
+      ],
+      "words": [
+        "lan2 dong4",
+        "li3",
+        "zuo4",
+        "zui4",
+        "ji1 chu3",
+        "de5",
+        "qian2 shui3",
+        "huo2 dong4"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.039.mp3",
+      "fileName": "002.039.mp3",
+      "transcript": "de5-hua4-bi4-xu1-yao4-yong1-you3-ren4-zheng4-de5",
+      "syllables": [
+        "de5",
+        "hua4",
+        "bi4",
+        "xu1",
+        "yao4",
+        "yong1",
+        "you3",
+        "ren4",
+        "zheng4",
+        "de5"
+      ],
+      "words": [
+        "de5 hua4",
+        "bi4 xu1",
+        "yao4",
+        "yong1 you3",
+        "ren4 zheng4",
+        "de5"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.040.mp3",
+      "fileName": "002.040.mp3",
+      "transcript": "ye3-jiu4-shi4-jin4-jie1-kai1-fang4-shui3",
+      "syllables": [
+        "ye3",
+        "jiu4",
+        "shi4",
+        "jin4",
+        "jie1",
+        "kai1",
+        "fang4",
+        "shui3"
+      ],
+      "words": [
+        "ye3",
+        "jiu4 shi4",
+        "jin4 jie1",
+        "kai1 fang4",
+        "shui3"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.041.mp3",
+      "fileName": "002.041.mp3",
+      "transcript": "yu4-de5-zhi2-zhao4-kao3-dao4-zhe4",
+      "syllables": [
+        "yu4",
+        "de5",
+        "zhi2",
+        "zhao4",
+        "kao3",
+        "dao4",
+        "zhe4"
+      ],
+      "words": [
+        "yu4",
+        "de5",
+        "zhi2 zhao4",
+        "kao3 dao4",
+        "zhe4"
+      ],
+      "syllableCount": 7,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": []
+    },
+    {
+      "file": "audio/002.042.mp3",
+      "fileName": "002.042.mp3",
+      "transcript": "zhi2-zhao4-ye3-jiu4-shi4-wo3-men5-zhe4-ci4-jin4-dao4-lan2-dong4",
+      "syllables": [
+        "zhi2",
+        "zhao4",
+        "ye3",
+        "jiu4",
+        "shi4",
+        "wo3",
+        "men5",
+        "zhe4",
+        "ci4",
+        "jin4",
+        "dao4",
+        "lan2",
+        "dong4"
+      ],
+      "words": [
+        "zhi2 zhao4",
+        "ye3",
+        "jiu4 shi4",
+        "wo3 men5",
+        "zhe4 ci4",
+        "jin4 dao4",
+        "lan2 dong4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.043.mp3",
+      "fileName": "002.043.mp3",
+      "transcript": "yi3-qian2-de5-zhu3-yao4-ren4-wu4-yi4-nian2-ban4-mei2-you3-qian2-shui3",
+      "syllables": [
+        "yi3",
+        "qian2",
+        "de5",
+        "zhu3",
+        "yao4",
+        "ren4",
+        "wu4",
+        "yi4",
+        "nian2",
+        "ban4",
+        "mei2",
+        "you3",
+        "qian2",
+        "shui3"
+      ],
+      "words": [
+        "yi3 qian2",
+        "de5",
+        "zhu3 yao4",
+        "ren4 wu4",
+        "yi4 nian2",
+        "ban4",
+        "mei2 you3",
+        "qian2 shui3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.044.mp3",
+      "fileName": "002.044.mp3",
+      "transcript": "hui4-jin3-zhang1-ma5",
+      "syllables": [
+        "hui4",
+        "jin3",
+        "zhang1",
+        "ma5"
+      ],
+      "words": [
+        "hui4",
+        "jin3 zhang1",
+        "ma5"
+      ],
+      "syllableCount": 4,
+      "difficulty": "L1",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.045.mp3",
+      "fileName": "002.045.mp3",
+      "transcript": "qi2-shi2-wo3-man2-jin3-zhang1-de5-wo3-ye3-qi2-shi2-hen3-jin3-zhang1-yuan2",
+      "syllables": [
+        "qi2",
+        "shi2",
+        "wo3",
+        "man2",
+        "jin3",
+        "zhang1",
+        "de5",
+        "wo3",
+        "ye3",
+        "qi2",
+        "shi2",
+        "hen3",
+        "jin3",
+        "zhang1",
+        "yuan2"
+      ],
+      "words": [
+        "qi2 shi2",
+        "wo3",
+        "man2",
+        "jin3 zhang1",
+        "de5",
+        "wo3",
+        "ye3",
+        "qi2 shi2",
+        "hen3",
+        "jin3 zhang1",
+        "yuan2"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.046.mp3",
+      "fileName": "002.046.mp3",
+      "transcript": "ben3-kao3-shi4-wo3-de5-shu1-shi4-quan1",
+      "syllables": [
+        "ben3",
+        "kao3",
+        "shi4",
+        "wo3",
+        "de5",
+        "shu1",
+        "shi4",
+        "quan1"
+      ],
+      "words": [
+        "ben3",
+        "kao3",
+        "shi4",
+        "wo3",
+        "de5",
+        "shu1 shi4 quan1"
+      ],
+      "syllableCount": 8,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.047.mp3",
+      "fileName": "002.047.mp3",
+      "transcript": "tai4-jiu3-bu4-peng4-you4-sheng1-shu1-le5-you4-bian4-cheng2-le5-cai4",
+      "syllables": [
+        "tai4",
+        "jiu3",
+        "bu4",
+        "peng4",
+        "you4",
+        "sheng1",
+        "shu1",
+        "le5",
+        "you4",
+        "bian4",
+        "cheng2",
+        "le5",
+        "cai4"
+      ],
+      "words": [
+        "tai4 jiu3",
+        "bu4",
+        "peng4",
+        "you4",
+        "sheng1 shu1",
+        "le5",
+        "you4",
+        "bian4 cheng2",
+        "le5",
+        "cai4"
+      ],
+      "syllableCount": 13,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.048.mp3",
+      "fileName": "002.048.mp3",
+      "transcript": "niao3-ran2-hou4-wo3-men5-you4-shi4-yao4-jin4-jie1-dao4",
+      "syllables": [
+        "niao3",
+        "ran2",
+        "hou4",
+        "wo3",
+        "men5",
+        "you4",
+        "shi4",
+        "yao4",
+        "jin4",
+        "jie1",
+        "dao4"
+      ],
+      "words": [
+        "niao3",
+        "ran2 hou4",
+        "wo3 men5",
+        "you4",
+        "shi4",
+        "yao4",
+        "jin4 jie1",
+        "dao4"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.049.mp3",
+      "fileName": "002.049.mp3",
+      "transcript": "sui1-ran2-wo3-men5-de5-jiao4-lian4-you3-shuo1-hui4",
+      "syllables": [
+        "sui1",
+        "ran2",
+        "wo3",
+        "men5",
+        "de5",
+        "jiao4",
+        "lian4",
+        "you3",
+        "shuo1",
+        "hui4"
+      ],
+      "words": [
+        "sui1 ran2",
+        "wo3 men5",
+        "de5",
+        "jiao4 lian4",
+        "you3",
+        "shuo1",
+        "hui4"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.050.mp3",
+      "fileName": "002.050.mp3",
+      "transcript": "gei3-wo3-men5-yi2-ge4-rang4-wo3-men5-zai4-qian2-de5",
+      "syllables": [
+        "gei3",
+        "wo3",
+        "men5",
+        "yi2",
+        "ge4",
+        "rang4",
+        "wo3",
+        "men5",
+        "zai4",
+        "qian2",
+        "de5"
+      ],
+      "words": [
+        "gei3",
+        "wo3 men5",
+        "yi2 ge4",
+        "rang4",
+        "wo3 men5",
+        "zai4",
+        "qian2",
+        "de5"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.051.mp3",
+      "fileName": "002.051.mp3",
+      "transcript": "di4-fang5-qian2-yi2-xia4-ke3-shi4-hai2-shi5-you3-dian3-jin3-zhang1-xi1-wang4-shi4-shun4-li4",
+      "syllables": [
+        "di4",
+        "fang5",
+        "qian2",
+        "yi2",
+        "xia4",
+        "ke3",
+        "shi4",
+        "hai2",
+        "shi5",
+        "you3",
+        "dian3",
+        "jin3",
+        "zhang1",
+        "xi1",
+        "wang4",
+        "shi4",
+        "shun4",
+        "li4"
+      ],
+      "words": [
+        "di4 fang5",
+        "qian2",
+        "yi2 xia4",
+        "ke3 shi4",
+        "hai2 shi5",
+        "you3 dian3",
+        "jin3 zhang1",
+        "xi1 wang4",
+        "shi4",
+        "shun4 li4"
+      ],
+      "syllableCount": 18,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.052.mp3",
+      "fileName": "002.052.mp3",
+      "transcript": "qian2-shui3-yuan2-de5-shou3-yao4-ren4-wu4-jiu4-shi4-yao4-zhu4-yi4-zi4-ji3",
+      "syllables": [
+        "qian2",
+        "shui3",
+        "yuan2",
+        "de5",
+        "shou3",
+        "yao4",
+        "ren4",
+        "wu4",
+        "jiu4",
+        "shi4",
+        "yao4",
+        "zhu4",
+        "yi4",
+        "zi4",
+        "ji3"
+      ],
+      "words": [
+        "qian2 shui3 yuan2",
+        "de5",
+        "shou3 yao4 ren4 wu4",
+        "jiu4 shi4",
+        "yao4",
+        "zhu4 yi4",
+        "zi4 ji3"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.053.mp3",
+      "fileName": "002.053.mp3",
+      "transcript": "de5-an1-quan2-hen3-jiu3-mei2-you3-qian2-shui3-de5-wo3-men5-ye3-yin1-ci3",
+      "syllables": [
+        "de5",
+        "an1",
+        "quan2",
+        "hen3",
+        "jiu3",
+        "mei2",
+        "you3",
+        "qian2",
+        "shui3",
+        "de5",
+        "wo3",
+        "men5",
+        "ye3",
+        "yin1",
+        "ci3"
+      ],
+      "words": [
+        "de5",
+        "an1 quan2",
+        "hen3",
+        "jiu3",
+        "mei2 you3",
+        "qian2 shui3",
+        "de5",
+        "wo3 men5",
+        "ye3",
+        "yin1 ci3"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.054.mp3",
+      "fileName": "002.054.mp3",
+      "transcript": "zhuan1-xin1-lian4-xi2-he2-chong2-xin1-shu2-xi1-qian2-shui3-de5",
+      "syllables": [
+        "zhuan1",
+        "xin1",
+        "lian4",
+        "xi2",
+        "he2",
+        "chong2",
+        "xin1",
+        "shu2",
+        "xi1",
+        "qian2",
+        "shui3",
+        "de5"
+      ],
+      "words": [
+        "zhuan1 xin1",
+        "lian4 xi2",
+        "he2",
+        "chong2 xin1",
+        "shu2 xi1",
+        "qian2 shui3",
+        "de5"
+      ],
+      "syllableCount": 12,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.055.mp3",
+      "fileName": "002.055.mp3",
+      "transcript": "gan3-jue2",
+      "syllables": [
+        "gan3",
+        "jue2"
+      ],
+      "words": [
+        "gan3 jue2"
+      ],
+      "syllableCount": 2,
+      "difficulty": "L1",
+      "hasTones": true,
+      "contrasts": [
+        "n_final"
+      ]
+    },
+    {
+      "file": "audio/002.056.mp3",
+      "fileName": "002.056.mp3",
+      "transcript": "you3-zhe4-ge5-yi3-hou4-hui4-bi3-jiao4-you3-di3",
+      "syllables": [
+        "you3",
+        "zhe4",
+        "ge5",
+        "yi3",
+        "hou4",
+        "hui4",
+        "bi3",
+        "jiao4",
+        "you3",
+        "di3"
+      ],
+      "words": [
+        "you3",
+        "zhe4 ge5",
+        "yi3 hou4",
+        "hui4",
+        "bi3 jiao4",
+        "you3",
+        "di3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": []
+    },
+    {
+      "file": "audio/002.057.mp3",
+      "fileName": "002.057.mp3",
+      "transcript": "huan4-qi3-le5-hui2-yi4-you3-mei3-yi2-bu4-dou1-hui4-shuo1-ei4-dui4-dui4",
+      "syllables": [
+        "huan4",
+        "qi3",
+        "le5",
+        "hui2",
+        "yi4",
+        "you3",
+        "mei3",
+        "yi2",
+        "bu4",
+        "dou1",
+        "hui4",
+        "shuo1",
+        "ei4",
+        "dui4",
+        "dui4"
+      ],
+      "words": [
+        "huan4 qi3",
+        "le5",
+        "hui2 yi4",
+        "you3",
+        "mei3",
+        "yi2 bu4",
+        "dou1",
+        "hui4",
+        "shuo1",
+        "ei4",
+        "dui4",
+        "dui4"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.058.mp3",
+      "fileName": "002.058.mp3",
+      "transcript": "dui4-zhe4-ge5-ni3-ke3-neng2-xue2-guo4-le5-jin3",
+      "syllables": [
+        "dui4",
+        "zhe4",
+        "ge5",
+        "ni3",
+        "ke3",
+        "neng2",
+        "xue2",
+        "guo4",
+        "le5",
+        "jin3"
+      ],
+      "words": [
+        "dui4",
+        "zhe4 ge5",
+        "ni3",
+        "ke3 neng2",
+        "xue2 guo4",
+        "le5",
+        "jin3"
+      ],
+      "syllableCount": 10,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.059.mp3",
+      "fileName": "002.059.mp3",
+      "transcript": "zhang1-ma5",
+      "syllables": [
+        "zhang1",
+        "ma5"
+      ],
+      "words": [
+        "zhang1",
+        "ma5"
+      ],
+      "syllableCount": 2,
+      "difficulty": "L1",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final"
+      ]
+    },
+    {
+      "file": "audio/002.060.mp3",
+      "fileName": "002.060.mp3",
+      "transcript": "gan3-jue2-hen3-jin3-zhang1-wo3-jue2-de5-yi1-kai1-shi3-hen3-qian3-suo3-yi3-hai2-hao3",
+      "syllables": [
+        "gan3",
+        "jue2",
+        "hen3",
+        "jin3",
+        "zhang1",
+        "wo3",
+        "jue2",
+        "de5",
+        "yi1",
+        "kai1",
+        "shi3",
+        "hen3",
+        "qian3",
+        "suo3",
+        "yi3",
+        "hai2",
+        "hao3"
+      ],
+      "words": [
+        "gan3 jue2",
+        "hen3",
+        "jin3 zhang1",
+        "wo3",
+        "jue2 de5",
+        "yi1",
+        "kai1 shi3",
+        "hen3",
+        "qian3",
+        "suo3 yi3",
+        "hai2 hao3"
+      ],
+      "syllableCount": 17,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.061.mp3",
+      "fileName": "002.061.mp3",
+      "transcript": "la5-xi1-wang4-jin1-tian1-guo4-hou4-hui4-bi3-jiao4-you3-jin4-bu4-la5-ni3",
+      "syllables": [
+        "la5",
+        "xi1",
+        "wang4",
+        "jin1",
+        "tian1",
+        "guo4",
+        "hou4",
+        "hui4",
+        "bi3",
+        "jiao4",
+        "you3",
+        "jin4",
+        "bu4",
+        "la5",
+        "ni3"
+      ],
+      "words": [
+        "la5",
+        "xi1 wang4",
+        "jin1 tian1",
+        "guo4 hou4",
+        "hui4",
+        "bi3 jiao4",
+        "you3",
+        "jin4 bu4",
+        "la5",
+        "ni3"
+      ],
+      "syllableCount": 15,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.062.mp3",
+      "fileName": "002.062.mp3",
+      "transcript": "zai4-bu4-xia4-chuan2-wo3-zai4-kai1-jin4-qu4-ha1-ha1-ha1-ha1-mei3",
+      "syllables": [
+        "zai4",
+        "bu4",
+        "xia4",
+        "chuan2",
+        "wo3",
+        "zai4",
+        "kai1",
+        "jin4",
+        "qu4",
+        "ha1",
+        "ha1",
+        "ha1",
+        "ha1",
+        "mei3"
+      ],
+      "words": [
+        "zai4",
+        "bu4",
+        "xia4 chuan2",
+        "wo3",
+        "zai4",
+        "kai1 jin4 qu4",
+        "ha1 ha1 ha1 ha1",
+        "mei3"
+      ],
+      "syllableCount": 14,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.063.mp3",
+      "fileName": "002.063.mp3",
+      "transcript": "ci4-chuan2-ting2-xia4-lai2-dou1-hao3-yun1-wo5-mei2-guan1-xi5-ni3-deng3-yi2-xia4-yao4",
+      "syllables": [
+        "ci4",
+        "chuan2",
+        "ting2",
+        "xia4",
+        "lai2",
+        "dou1",
+        "hao3",
+        "yun1",
+        "wo5",
+        "mei2",
+        "guan1",
+        "xi5",
+        "ni3",
+        "deng3",
+        "yi2",
+        "xia4",
+        "yao4"
+      ],
+      "words": [
+        "ci4",
+        "chuan2",
+        "ting2 xia4 lai2",
+        "dou1",
+        "hao3",
+        "yun1",
+        "wo5",
+        "mei2 guan1 xi5",
+        "ni3",
+        "deng3",
+        "yi2 xia4",
+        "yao4"
+      ],
+      "syllableCount": 17,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.064.mp3",
+      "fileName": "002.064.mp3",
+      "transcript": "qiang3-xian1-xia4-shui3-de5-hua4-zai4-jin1-tian1-sheng4-xia4-de5-shi2-jian1-li3-wo3-men5-ye3",
+      "syllables": [
+        "qiang3",
+        "xian1",
+        "xia4",
+        "shui3",
+        "de5",
+        "hua4",
+        "zai4",
+        "jin1",
+        "tian1",
+        "sheng4",
+        "xia4",
+        "de5",
+        "shi2",
+        "jian1",
+        "li3",
+        "wo3",
+        "men5",
+        "ye3"
+      ],
+      "words": [
+        "qiang3 xian1",
+        "xia4 shui3",
+        "de5 hua4",
+        "zai4",
+        "jin1 tian1",
+        "sheng4 xia4",
+        "de5",
+        "shi2 jian1",
+        "li3",
+        "wo3 men5",
+        "ye3"
+      ],
+      "syllableCount": 18,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial",
+        "x_initial"
+      ]
+    },
+    {
+      "file": "audio/002.065.mp3",
+      "fileName": "002.065.mp3",
+      "transcript": "wan2-cheng2-le5-suo3-yao1-qiu2-de5-chuan2-qian2-ding3-jian1",
+      "syllables": [
+        "wan2",
+        "cheng2",
+        "le5",
+        "suo3",
+        "yao1",
+        "qiu2",
+        "de5",
+        "chuan2",
+        "qian2",
+        "ding3",
+        "jian1"
+      ],
+      "words": [
+        "wan2 cheng2",
+        "le5",
+        "suo3",
+        "yao1 qiu2",
+        "de5",
+        "chuan2",
+        "qian2",
+        "ding3 jian1"
+      ],
+      "syllableCount": 11,
+      "difficulty": "L4",
+      "hasTones": true,
+      "contrasts": [
+        "n_final",
+        "ng_final",
+        "q_initial"
+      ]
+    },
+    {
+      "file": "audio/002.066.mp3",
+      "fileName": "002.066.mp3",
+      "transcript": "zhong1-xing4-fu2-li4-he2-dao3-hang2",
+      "syllables": [
+        "zhong1",
+        "xing4",
+        "fu2",
+        "li4",
+        "he2",
+        "dao3",
+        "hang2"
+      ],
+      "words": [
+        "zhong1 xing4",
+        "fu2 li4",
+        "he2",
+        "dao3 hang2"
+      ],
+      "syllableCount": 7,
+      "difficulty": "L3",
+      "hasTones": true,
+      "contrasts": [
+        "ng_final",
+        "x_initial"
       ]
     }
   ]

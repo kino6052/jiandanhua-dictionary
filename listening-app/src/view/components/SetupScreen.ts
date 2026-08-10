@@ -16,6 +16,7 @@ interface Props {
 
 export function SetupScreen({ vm, contrasts }: Props) {
   const mode = vm.mode.value;
+  const granularity = vm.granularity.value;
   const difficulty = vm.difficulty.value;
   const contrast = vm.contrast.value;
   const count = vm.count.value;
@@ -44,6 +45,28 @@ export function SetupScreen({ vm, contrasts }: Props) {
             onChange=${() => vm.setMode("sounds_tones")}
           />
           Sounds + tones
+        </label>
+      </fieldset>
+
+      <fieldset class="field">
+        <legend>Answer by</legend>
+        <label class="radio-row">
+          <input
+            type="radio"
+            name="granularity"
+            checked=${granularity === "syllable"}
+            onChange=${() => vm.setGranularity("syllable")}
+          />
+          Syllable (type each syllable)
+        </label>
+        <label class="radio-row">
+          <input
+            type="radio"
+            name="granularity"
+            checked=${granularity === "word"}
+            onChange=${() => vm.setGranularity("word")}
+          />
+          Word (type each word, comma-separated)
         </label>
       </fieldset>
 

@@ -5,8 +5,10 @@ import type { Sample } from "../src/model/types";
 function makeSample(overrides: Partial<Sample>): Sample {
   return {
     file: `audio/${overrides.transcript ?? "x"}.001.mp3`,
+    fileName: `${overrides.transcript ?? "x"}.001.mp3`,
     transcript: "x",
     syllables: ["x"],
+    words: ["x"],
     syllableCount: 1,
     difficulty: "L1",
     hasTones: false,

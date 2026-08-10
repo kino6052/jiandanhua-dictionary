@@ -4,137 +4,295 @@ lessonNumber: 6
 order: 6
 title:
   eng: "Dongzuo (Verbs)"
-  ru: "Дунцзо (Глаголы)"
+  rus: "Дунцзо (Глаголы)"
   zh: "动作（动词）"
 
 summary:
-  eng: 'Verbs carry no tense; the particle {{word:le}} marks a completed action, and words shift category by context alone ({{word:chi1}} as verb "eat" vs. noun "food").'
-  ru: 'Глаголы не имеют временных форм; частица {{word:le}} отмечает завершённое действие, а слова меняют категорию исключительно по контексту ({{word:chi1}} как глагол "есть" против существительного "еда").'
-  zh: "动词没有时态变化；助词“了”表示动作完成，词语仅凭上下文就能转换词类（“吃”作为动词“吃” vs. 名词“食物”）。"
+  eng: "Verbs carry no tense; `{{word:le}}` marks completion (not simply \"the past\"), words shift category by context alone, and directional complements like `{{word:qi3}}`, `{{word:xia4}}`, and `{{word:shang4}}` bind onto verbs via a hyphen to add direction and completion nuance."
+  rus: "Глаголы не имеют временных форм; `{{word:le}}` отмечает завершённость (а не просто «прошедшее время»), слова меняют категорию исключительно по контексту, а направленческие комплементы вроде `{{word:qi3}}`, `{{word:xia4}}` и `{{word:shang4}}` присоединяются к глаголам через дефис, добавляя оттенок направления и завершённости."
+  zh: "动词没有时态；`{{word:le}}` 表示完成（而不仅仅是“过去”），词语仅凭上下文就能转换词类，而像 `{{word:qi3}}`、`{{word:xia4}}`、`{{word:shang4}}` 这样的方向补语通过连字符附着在动词上，增添方向和完成的意味。"
 
 blocks:
   - type: vocab
     items:
       - term: "{{word:you3}}"
+        ttsText: "有"
         definition:
           eng: "to have, contain, carry"
-          ru: "иметь, содержать, носить"
+          rus: "иметь, содержать, носить"
           zh: "有，包含，携带"
       - term: "{{word:ting1}}"
+        ttsText: "听"
         definition:
           eng: "to listen to, hear, obey"
-          ru: "слушать, слышать, повиноваться"
+          rus: "слушать, слышать, повиноваться"
           zh: "听，听见，服从"
       - term: "{{word:chi1}}"
+        ttsText: "吃"
         definition:
           eng: "to eat, drink, consume; food"
-          ru: "есть, пить, потреблять; еда"
+          rus: "есть, пить, потреблять; еда"
           zh: "吃，喝，消耗；食物"
       - term: "{{word:zuo4}}"
+        ttsText: "做"
         definition:
           eng: "to make, do, work on"
-          ru: "делать, работать над"
+          rus: "делать, работать над"
           zh: "做，从事"
       - term: "{{word:zhi1dao4}}"
+        ttsText: "知道"
         definition:
           eng: "to know"
-          ru: "знать"
+          rus: "знать"
           zh: "知道"
       - term: "{{word:shuo1}}"
+        ttsText: "说"
         definition:
           eng: "to talk, speak, communicate"
-          ru: "говорить, разговаривать, общаться"
+          rus: "говорить, разговаривать, общаться"
           zh: "说，讲，交流"
+      - term: "{{word:qi3}}"
+        ttsText: "起"
+        definition:
+          eng: "to rise, get up; begin"
+          rus: "подниматься, вставать; начинать"
+          zh: "起，起身；开始"
+      - term: "{{word:xia4}}"
+        ttsText: "下"
+        definition:
+          eng: "down, below, under"
+          rus: "вниз, ниже, под"
+          zh: "下，向下，在……之下"
+      - term: "{{word:shang4}}"
+        ttsText: "上"
+        definition:
+          eng: "up, above, on"
+          rus: "вверх, наверху, на"
+          zh: "上，向上，在……之上"
+      - term: "{{word:lai2}}"
+        ttsText: "来"
+        definition:
+          eng: "to come, arrive, happen"
+          rus: "приходить, прибывать, происходить"
+          zh: "来，到达，发生"
 
   - type: prose
     text:
-      eng: "Hao-shuo-de eliminates Toki Pona's direct object marker _e_ entirely by relying on standard Mandarin Subject-Verb-Object (SVO) word order."
-      ru: '"Хао-шуо-дэ" полностью устраняет необходимость в маркере прямого дополнения _e_ из токи-поны, полагаясь исключительно на стандартный порядок слов "подлежащее-сказуемое-дополнение" (SVO) в мандарине.'
-      zh: "“好说”消除了道本语中直接宾语标记“e”的需要，完全依靠标准汉语的主谓宾(SVO)语序。"
+      eng: "Every sentence you've built so far -- with `{{word:shi4}}`, with `{{word:hen3}}`, with `-{{word:de}}` -- has relied on one fixed habit: words always sit in the same order, subject first, then the action, then whatever the action touches. Verbs don't break that habit; they lean on it completely. Because word order alone already tells you what's doing the action and what's being acted on, Hao-shuo-de never needs a special marker word standing in front of the object to flag it. If a word shows up right after the verb, it's the object -- that's the whole rule, and it doesn't need any more machinery than that."
+      rus: "Каждое предложение, которое вы построили до сих пор — с `{{word:shi4}}`, с `{{word:hen3}}`, с `-{{word:de}}` — опиралось на одну неизменную привычку: слова всегда стоят в одном и том же порядке — сначала подлежащее, затем действие, затем то, на что это действие направлено. Глаголы не нарушают эту привычку; они полностью на неё опираются. Поскольку сам по себе порядок слов уже показывает, кто совершает действие, а на что оно направлено, Hao-shuo-de никогда не нуждается в специальном маркере перед дополнением, чтобы его обозначить. Если слово стоит сразу после глагола — это дополнение; вот и всё правило, и никакого дополнительного механизма для этого не нужно."
+      zh: "到目前为止你构建的每一句话——用 `{{word:shi4}}`、用 `{{word:hen3}}`、用 `-{{word:de}}`——都依赖同一个固定的习惯：词语总是按同样的顺序排列，先是主语，然后是动作，然后是这个动作所触及的东西。动词并不打破这个习惯，反而完全依赖它。因为词序本身已经能说明谁在做动作、动作作用在谁身上，Hao-shuo-de 从不需要在宾语前面放一个专门的标记词来指出它。只要一个词紧跟在动词后面，它就是宾语——规则就这么简单，不需要更多的机制。"
     tldr:
-      eng: "No direct-object marker is needed; SVO word order alone shows what the object is."
-      ru: "Маркер прямого дополнения не нужен; один только порядок слов SVO показывает, что является объектом."
-      zh: "不需要直接宾语标记；主谓宾语序本身就表明宾语是什么。"
+      eng: "Word order alone marks the object -- nothing comes after the verb by accident."
+      rus: "Порядок слов сам по себе отмечает дополнение — ничто не оказывается после глагола случайно."
+      zh: "词序本身就标记了宾语——没有什么会偶然出现在动词后面。"
     necessity:
-      eng: "Confirms Lesson 3's SVO order is doing double duty here, replacing a marker particle other minimal languages (like Toki Pona) rely on."
-      ru: "Подтверждает, что порядок SVO из Урока 3 выполняет двойную функцию здесь, заменяя маркерную частицу, на которую полагаются другие минимальные языки (например, токи-пона)."
-      zh: "确认了第3课的主谓宾语序在这里承担双重任务，取代了其他最小语言（如道本语）依赖的标记助词。"
+      eng: "Confirms Lesson 3's fixed word order carries real grammatical weight -- it's not just a style choice, it's replacing work a marker particle would otherwise have to do."
+      rus: "Подтверждает, что фиксированный порядок слов из Урока 3 несёт настоящую грамматическую нагрузку — это не просто стилистический выбор, а замена работы, которую иначе выполняла бы маркерная частица."
+      zh: "证实了第三课中固定的词序承担着真正的语法功能——这不仅仅是文体选择，而是替代了本该由标记助词完成的工作。"
+
+  - type: info
+    subtype: grammar
+    tag: "verbs/word-order"
+    title:
+      eng: "No Object Marker Needed"
+      rus: "Маркер дополнения не нужен"
+      zh: "不需要宾语标记"
+    items:
+      - text:
+          eng: "Subject + Verb + Object. Whatever sits directly after the verb is what's being acted on -- word order alone marks it, so no extra particle is required."
+          rus: "Подлежащее + Глагол + Дополнение. То, что стоит непосредственно после глагола, и есть объект действия — порядок слов сам по себе это отмечает, поэтому дополнительная частица не требуется."
+          zh: "主语 + 动词 + 宾语。紧跟在动词后面的就是动作作用的对象——词序本身就标记了这一点，因此不需要额外的助词。"
 
   - type: prose
     text:
-      eng: 'Verbs do not change their forms to reflect past, present, or future tenses. Instead, aspect markers like the perfective particle `{{word:le}}` can be appended to show completed actions. Words fluidly shift roles depending on context -- for instance, `{{word:chi1}}` represents the action "to eat" or the noun "food," while `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` acts as "a knowledgeable person".'
-      ru: 'Глаголы не изменяют свою форму для обозначения прошедшего, настоящего или будущего времени. Вместо этого, аспектуальные маркеры, такие как перфективная частица `{{word:le}}`, могут добавляться для обозначения завершённых действий. Слова свободно меняют свою роль в зависимости от контекста — например, `{{word:chi1}}` обозначает действие "есть" или существительное "еда", тогда как `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` означает "знающий человек".'
-      zh: "动词不改变形式来表示过去、现在或将来时态。相反，像完成体助词“了”这样的体标记可以附加在动词后表示动作已完成。词语根据上下文灵活转换角色——例如，“吃”代表动作“吃”或名词“食物”，而“知道的人”则意为“有知识的人”。"
+      eng: 'Hao-shuo-de verbs never change shape to show when something happened. There is no separate "did," no separate "will do" -- the verb `{{word:chi1}}` means "eat" whether that eating happened yesterday, is happening now, or has not happened yet. Context, and a small set of markers, carry that weight instead.
+
+        The most important of these markers is `{{word:le}}`. It is easy to mistake `{{word:le}}` for a simple stand-in for the English past tense, but that is not quite what it is doing. `{{word:le}}` marks that a change has actually taken place -- an action reached completion, or a state flipped from one thing to another. Most of the time that lines up with "the past," since a finished action usually did happen earlier. But `{{word:le}}` is about completion, not time: a sentence can use `{{word:le}}` to describe something that just finished a second ago, or something expected to be finished by tomorrow. What `{{word:le}}` never does is turn a verb into a "past-tense form" the way English `-ed` does -- it simply marks the point where a change became real.'
+      rus: 'Глаголы Hao-shuo-de никогда не меняют форму, чтобы показать, когда что-то произошло. Нет отдельной формы для «сделал», нет отдельной формы для «сделает» — глагол `{{word:chi1}}` означает «есть» независимо от того, произошло ли это вчера, происходит сейчас или ещё не произошло. Вместо этого эту нагрузку несёт контекст и небольшой набор маркеров.
+
+        Самый важный из этих маркеров — `{{word:le}}`. Легко ошибочно принять `{{word:le}}` за простой аналог английского прошедшего времени, но это не совсем то, что он делает. `{{word:le}}` отмечает, что изменение действительно произошло — действие достигло завершения, или состояние сменилось с одного на другое. Чаще всего это совпадает с «прошедшим», поскольку завершённое действие обычно уже произошло раньше. Но `{{word:le}}` — это про завершённость, а не про время: в предложении `{{word:le}}` может описывать то, что только что закончилось секунду назад, или то, что должно завершиться к завтрашнему дню. Чего `{{word:le}}` никогда не делает — так это не превращает глагол в «форму прошедшего времени», как это делает английское `-ed`; он просто отмечает момент, когда изменение стало реальностью.'
+      zh: "Hao-shuo-de 的动词从不改变形式来表示事情发生的时间。没有单独的“做过”形式，也没有单独的“将做”形式——动词 `{{word:chi1}}` 表示“吃”，不管这个吃发生在昨天、正在发生，还是尚未发生。承担这份工作的，是上下文和一小组标记词。\n\n这些标记词中最重要的是 `{{word:le}}`。人们很容易把 `{{word:le}}` 误认为是英语过去时的简单替代品，但它做的事其实不太一样。`{{word:le}}` 表示一个变化确实发生了——一个动作达到了完成，或者一个状态从一种转变成了另一种。大多数情况下这与“过去”是吻合的，因为一个已完成的动作通常确实发生在更早的时候。但 `{{word:le}}` 关乎的是完成，而不是时间：一句话可以用 `{{word:le}}` 描述一秒钟前刚刚结束的事，也可以描述预计明天就会完成的事。`{{word:le}}` 从来不会像英语的 `-ed` 那样，把动词变成一个“过去式形式”——它只是标记出变化真正发生的那个点。"
     tldr:
-      eng: "Verbs carry no tense; `{{word:le}}` marks a completed action, and a word's category (verb vs. noun) shifts with context alone."
-      ru: "Глаголы не имеют временных форм; `{{word:le}}` отмечает завершённое действие, а категория слова (глагол против существительного) меняется исключительно по контексту."
-      zh: "动词没有时态；“了”表示动作完成，词语的词类（动词 vs. 名词）仅凭上下文就能转换。"
+      eng: '`{{word:le}}` marks that a change or action reached completion -- not simply "the past."'
+      rus: "`{{word:le}}` отмечает, что изменение или действие достигло завершения — а не просто «прошедшее время»."
+      zh: "`{{word:le}}` 表示一个变化或动作达到了完成——而不仅仅是“过去”。"
     necessity:
-      eng: "Introduces the two mechanisms that stand in for tense and for separate word classes elsewhere in the grammar."
-      ru: "Представляет два механизма, которые заменяют время и отдельные классы слов, существующие в других грамматиках."
-      zh: "介绍了两种机制，它们在本语法中替代了其他语言中的时态和独立词类。"
+      eng: "This distinction avoids a very common early mistake: treating `{{word:le}}` as English `-ed`. It marks completion, and completion usually happens in the past, but they aren't the same thing."
+      rus: "Это различие помогает избежать очень распространённой ранней ошибки: восприятия `{{word:le}}` как английского `-ed`. Он отмечает завершённость, а завершённость обычно происходит в прошлом, но это не одно и то же."
+      zh: "这个区分能避免一个非常常见的早期错误：把 `{{word:le}}` 当成英语的 `-ed`。它标记的是完成，而完成通常发生在过去，但两者并不是一回事。"
+
+  - type: info
+    subtype: grammar
+    tag: "verbs/aspect"
+    title:
+      eng: "The Completion Marker `{{word:le}}`"
+      rus: "Показатель завершённости `{{word:le}}`"
+      zh: "完成标记 `{{word:le}}`"
+    items:
+      - text:
+          eng: "Attach `{{word:le}}` after a verb to mark that an action or change has reached completion. `{{word:le}}` marks completion, not tense -- it can describe something finished a moment ago or something expected to be finished by a future point."
+          rus: "Присоедините `{{word:le}}` после глагола, чтобы отметить, что действие или изменение достигло завершения. `{{word:le}}` отмечает завершённость, а не время — он может описывать что-то, только что закончившееся, или что-то, что должно завершиться в будущем."
+          zh: "在动词后加上 `{{word:le}}`，表示动作或变化已经完成。`{{word:le}}` 标记的是完成，而不是时态——它既可以描述刚刚结束的事，也可以描述预计将来会完成的事。"
+
+  - type: prose
+    text:
+      eng: 'One more habit worth noticing: Hao-shuo-de words do not come pre-labeled as "this one is only ever a verb" or "this one is only ever a noun." The same word slides between roles depending on where it sits in the sentence. `{{word:chi1}}`, for example, is the action "to eat" when it is doing something in a sentence -- but the very same word, sitting where a noun belongs, means "food." Nothing about the spelling changes; only the job the word is doing changes. The same thing happens with `-{{word:de}}`: `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` does not build a new word for "someone who knows things" -- it just takes the verb `{{word:zhi1dao4}}` ("to know") and, bound to `{{word:ren2}}` ("person") with `-{{word:de}}`, lets it describe a noun directly, the same way `{{word:xie3}}-{{word:de}} {{word:dong1xi}}` ("a written thing") worked back in Lesson 2.'
+      rus: 'Ещё одна привычка, на которую стоит обратить внимание: слова Hao-shuo-de не помечены заранее как «это всегда только глагол» или «это всегда только существительное». Одно и то же слово скользит между ролями в зависимости от того, где оно стоит в предложении. `{{word:chi1}}`, например, — это действие «есть», когда оно что-то делает в предложении, — но то же самое слово, стоящее там, где должно быть существительное, означает «еда». Написание никак не меняется — меняется только та работа, которую слово выполняет. То же самое происходит с `-{{word:de}}`: `{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` не создаёт нового слова для «того, кто знает вещи» — оно просто берёт глагол `{{word:zhi1dao4}}` («знать») и, присоединённый к `{{word:ren2}}` («человек») через `-{{word:de}}`, позволяет ему напрямую описывать существительное — точно так же, как `{{word:xie3}}-{{word:de}} {{word:dong1xi}}` («написанная вещь») работало ещё в Уроке 2.'
+      zh: "还有一个值得注意的习惯：Hao-shuo-de 的词并不预先贴上“这个只能是动词”或“这个只能是名词”的标签。同一个词会根据它在句子中所处的位置在不同角色之间滑动。比如 `{{word:chi1}}`，当它在句子里执行一个动作时，是“吃”这个动作；但同一个词，站在名词应该出现的位置上，就意味着“食物”。拼写没有任何变化——变化的只是这个词正在做的工作。`-{{word:de}}` 也是如此：`{{word:zhi1dao4}}-{{word:de}} {{word:ren2}}` 并不是为“懂事情的人”造了一个新词——它只是把动词 `{{word:zhi1dao4}}`（“知道”）通过 `-{{word:de}}` 连接到 `{{word:ren2}}`（“人”）上，让它直接描述一个名词，就像第二课里 `{{word:xie3}}-{{word:de}} {{word:dong1xi}}`（“写的东西”）的做法一样。"
+    tldr:
+      eng: "The same word shifts between verb and noun roles depending on its position in the sentence -- no separate forms needed."
+      rus: "Одно и то же слово меняет роль между глаголом и существительным в зависимости от своей позиции в предложении — отдельные формы не нужны."
+      zh: "同一个词根据它在句子中的位置在动词和名词角色之间转换——不需要单独的形式。"
+    necessity:
+      eng: "This is why Hao-shuo-de's small dictionary goes further than its word count suggests -- every verb is already a potential noun, for free."
+      rus: "Именно поэтому небольшой словарь Hao-shuo-de даёт больше, чем говорит его количество слов, — каждый глагол уже потенциально является существительным, причём бесплатно."
+      zh: "这就是为什么 Hao-shuo-de 精简的词典能发挥出比词汇量看起来更大的作用——每个动词本身就已经是一个潜在的名词，不需要额外付出代价。"
+
+  - type: info
+    subtype: grammar
+    tag: "words/category-flexibility"
+    title:
+      eng: "One Word, Several Jobs"
+      rus: "Одно слово, несколько ролей"
+      zh: "一词多用"
+    items:
+      - text:
+          eng: "A Hao-shuo-de word's category (verb, noun, etc.) is not fixed -- it's determined by where the word sits in the sentence. The same spelling can act as a verb in one sentence and a noun-describing phrase (via `-{{word:de}}`) in another."
+          rus: "Категория слова в Hao-shuo-de (глагол, существительное и т.д.) не фиксирована — она определяется тем, где слово стоит в предложении. Одно и то же написание может работать как глагол в одном предложении и как описывающая существительное фраза (через `-{{word:de}}`) в другом."
+          zh: "Hao-shuo-de 中一个词的词类（动词、名词等）不是固定的——它由这个词在句子中所处的位置决定。同样的拼写在一个句子里可以是动词，在另一个句子里（通过 `-{{word:de}}`）可以是修饰名词的短语。"
+
+  - type: prose
+    text:
+      eng: 'Verbs can pick up an extra layer of meaning by binding a small directional word onto them with a hyphen -- the same hyphen that has been doing grammar work since Lesson 1. Three of these are worth knowing early, all built on `{{word:lai2}}` ("to come"):
+
+        - `{{word:qi3}}-{{word:lai2}}` ("rise-come") marks the start of something. Bound onto another verb the same way, `{{word:qi3}}` alone marks a beginning: `{{word:shuo1}}-{{word:qi3}}` does not just mean "speak" -- it means "bring something up," the moment a topic starts existing in a conversation.
+        - `{{word:xia4}}-{{word:lai2}}` ("down-come") marks something settling into place, or continuing on steadily from where it already was.
+        - `{{word:shang4}}-{{word:lai2}}` ("up-come") marks something arriving toward you, or finally succeeding at reaching a point.
+
+        None of this needed a new word class or a new particle. It is the same hyphen-composition rule from Lesson 1 -- gluing two known pieces into one working unit -- just pointed at direction instead of description.'
+      rus: 'Глаголы могут приобретать дополнительный слой значения, присоединяя к себе через дефис небольшое направленческое слово — тот же самый дефис, который выполняет грамматическую работу начиная с Урока 1. Стоит рано познакомиться с тремя такими словами, все они строятся на `{{word:lai2}}` («приходить»):
+
+        - `{{word:qi3}}-{{word:lai2}}` («подняться-прийти») отмечает начало чего-либо. Присоединённый таким же образом к другому глаголу, `{{word:qi3}}` сам по себе отмечает начало: `{{word:shuo1}}-{{word:qi3}}` означает не просто «говорить» — это значит «завести речь о чём-то», момент, когда тема начинает существовать в разговоре.
+        - `{{word:xia4}}-{{word:lai2}}` («вниз-прийти») отмечает, что нечто устанавливается на месте или стабильно продолжается с того момента, в котором уже находилось.
+        - `{{word:shang4}}-{{word:lai2}}` («вверх-прийти») отмечает, что нечто приближается к вам или наконец успешно достигает какой-то точки.
+
+        Для всего этого не потребовалось ни нового класса слов, ни новой частицы. Это то же самое правило соединения через дефис из Урока 1 — склеивание двух известных частей в одну рабочую единицу, — только направленное на направление, а не на описание.'
+      zh: "动词可以通过连字符附加一个小小的方向词来获得额外一层含义——这正是从第一课起就在承担语法工作的同一个连字符。有三个值得早点认识，它们都建立在 `{{word:lai2}}`（“来”）之上：\n\n- `{{word:qi3}}-{{word:lai2}}`（“起-来”）标记某事的开始。以同样的方式附着在另一个动词上，`{{word:qi3}}` 单独就能标记一个开端：`{{word:shuo1}}-{{word:qi3}}` 不仅仅意味着“说”——它意味着“提起某事”，也就是一个话题开始出现在对话中的那一刻。\n- `{{word:xia4}}-{{word:lai2}}`（“下-来”）标记某事安定下来，或从已有的状态平稳地延续下去。\n- `{{word:shang4}}-{{word:lai2}}`（“上-来”）标记某事朝你靠近，或者最终成功达到某个点。\n\n这一切都不需要新的词类，也不需要新的助词。它就是第一课里那条连字符组合规则——把两个已知的部件粘成一个可运作的单位——只是这次指向的是方向，而不是描述。"
+    tldr:
+      eng: "`{{word:qi3}}`, `{{word:xia4}}`, and `{{word:shang4}}` bind onto `{{word:lai2}}` (or other verbs) via a hyphen to add direction/completion nuance -- rise, settle, or arrive."
+      rus: "`{{word:qi3}}`, `{{word:xia4}}` и `{{word:shang4}}` присоединяются к `{{word:lai2}}` (или другим глаголам) через дефис, добавляя оттенок направления/завершённости — подняться, устояться или прибыть."
+      zh: "`{{word:qi3}}`、`{{word:xia4}}`、`{{word:shang4}}` 通过连字符附着在 `{{word:lai2}}`（或其他动词）上，添加方向/完成的意味——升起、安定或到达。"
+    necessity:
+      eng: "Extends the hyphen-composition principle from Lesson 1 into a new domain (verb direction), without adding new grammar machinery."
+      rus: "Расширяет принцип соединения через дефис из Урока 1 на новую область (направление глагола), не добавляя новых грамматических механизмов."
+      zh: "把第一课的连字符组合原则扩展到了一个新的领域（动词方向），而没有增加新的语法机制。"
+
+  - type: info
+    subtype: grammar
+    tag: "verbs/directional-complements"
+    title:
+      eng: "Directional Complements"
+      rus: "Направленческие комплементы"
+      zh: "方向补语"
+    items:
+      - text:
+          eng: '`{{word:qi3}}-{{word:lai2}}` -- marks the beginning of an action or state (e.g. `{{word:shuo1}}-{{word:qi3}}`, "bring up/mention")'
+          rus: "`{{word:qi3}}-{{word:lai2}}` — отмечает начало действия или состояния (например, `{{word:shuo1}}-{{word:qi3}}`, «завести речь о чём-то»)"
+          zh: "`{{word:qi3}}-{{word:lai2}}` —— 标记动作或状态的开始（例如 `{{word:shuo1}}-{{word:qi3}}`，“提起，说到”）"
+      - text:
+          eng: "`{{word:xia4}}-{{word:lai2}}` -- marks a state settling into place or continuing on"
+          rus: "`{{word:xia4}}-{{word:lai2}}` — отмечает, что состояние устанавливается на месте или продолжается"
+          zh: "`{{word:xia4}}-{{word:lai2}}` —— 标记状态的确立或延续"
+      - text:
+          eng: "`{{word:shang4}}-{{word:lai2}}` -- marks something arriving toward the speaker, or succeeding at reaching a point"
+          rus: "`{{word:shang4}}-{{word:lai2}}` — отмечает, что нечто приближается к говорящему или успешно достигает какой-то точки"
+          zh: "`{{word:shang4}}-{{word:lai2}}` —— 标记朝说话人靠近，或成功达到某个点"
 
   - type: examples
     items:
       - pinyin: "{{Word:wo3}} {{word:zhi1dao4}} {{word:hao3}} {{word:shuo1}}-{{word:de}}."
+        ttsText: "我知道好说的。"
         translation:
           eng: "I know a simple language / good speech."
-          ru: "Я знаю простой язык / хорошую речь."
+          rus: "Я знаю простой язык / хорошую речь."
           zh: "我知道好说的。/ 我知道一种简单的语言/好的言语。"
       - pinyin: "{{Word:na4}}-ge {{word:nan2ren2}} {{word:shi4}} {{word:shuo1}}-{{word:de}} {{word:ren2}}."
+        ttsText: "那个男人是说的人。"
         translation:
           eng: "That man is a messenger / speaking person."
-          ru: "Тот человек — посланник / говорящий человек."
-          zh: "那个男人是说的的人。/ 那个男人是信使/说话的人。"
+          rus: "Тот человек — посланник / говорящий человек."
+          zh: "那个男人是说的人。/ 那个男人是信使/说话的人。"
       - pinyin: "{{Word:da4}}-{{word:de}} {{word:dong4wu4}} {{word:zai4}} {{word:chi1}} {{word:ni3}}."
+        ttsText: "大的动物在吃你。"
         translation:
           eng: "A large animal is eating you."
-          ru: "Большое животное ест вас."
+          rus: "Большое животное ест вас."
           zh: "大的动物在吃你。"
       - pinyin: "{{Word:qun2}}-{{word:de}} {{word:xie3}}-{{word:de}} {{word:dong1xi}} {{word:hen3}} {{word:hao3}}."
+        ttsText: "群的写的东西很好。"
         translation:
           eng: "The community's book is reliable."
-          ru: "Книга сообщества надёжна."
+          rus: "Книга сообщества надёжна."
           zh: "群的写的东西很好。"
       - pinyin: "{{Word:ni3}} {{word:zuo4}} {{word:le}} {{word:xin1}}-{{word:de}} {{word:chi1}}."
+        ttsText: "你做了新的吃。"
         translation:
           eng: "You made new food."
-          ru: "Вы приготовили новую еду."
+          rus: "Вы приготовили новую еду."
           zh: "你做了新的吃。"
       - pinyin: "{{Word:zhi1dao4}}-{{word:de}} {{word:ren2}} {{word:ting1}}."
+        ttsText: "知道的人听。"
         translation:
           eng: "A person of knowledge listens."
-          ru: "Знающий человек слушает."
+          rus: "Знающий человек слушает."
           zh: "知道的人听。"
       - pinyin: "{{Word:zhi1dao4}}-{{word:de}} {{word:di4fang1}} {{word:you3}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        ttsText: "知道的地方有写的东西。"
         translation:
           eng: "The school / house of knowledge has books."
-          ru: "Школа / дом знаний имеет книги."
+          rus: "Школа / дом знаний имеет книги."
           zh: "知道的地方有写的东西。"
+      - pinyin: "{{Word:ta1}} {{word:shuo1}}-{{word:qi3}} Hǎo-shuō-de."
+        ttsText: "他说起好说的。"
+        translation:
+          eng: "He brings up Hao-shuo-de / mentions Hao-shuo-de."
+          rus: "Он заводит речь о Hao-shuo-de / упоминает Hao-shuo-de."
+          zh: "他说起好说的。"
 
   - type: exercise
     items:
       - eng: "I will listen to you."
-        ru: "Я буду слушать вас."
+        rus: "Я буду слушать вас."
         zh: "我会听你。"
       - eng: "The woman obeyed the man."
-        ru: "Женщина послушалась мужчину."
+        rus: "Женщина послушалась мужчину."
         zh: "女人听了男人。"
       - eng: "The friends ate meat."
-        ru: "Друзья съели мясо."
+        rus: "Друзья съели мясо."
         zh: "好的朋友吃了动物。"
+      - eng: "She mentions the community."
+        rus: "Она упоминает сообщество."
+        zh: "她提起这个群。"
 
   - type: answers
     items:
       - text:
           eng: "{{Word:wo3}} {{word:ting1}} {{word:ni3}}."
-          ru: "Я слушаю тебя."
-          zh: "我听你。"
+          rus: "{{Word:wo3}} {{word:ting1}} {{word:ni3}}."
+          zh: "{{Word:wo3}} {{word:ting1}} {{word:ni3}}."
+        ttsText: "我听你。"
       - text:
           eng: "{{Word:nv3ren2}} {{word:ting1}} {{word:le}} {{word:nan2ren2}}."
-          ru: "Женщина послушалась мужчину."
-          zh: "女人听了男人。"
+          rus: "{{Word:nv3ren2}} {{word:ting1}} {{word:le}} {{word:nan2ren2}}."
+          zh: "{{Word:nv3ren2}} {{word:ting1}} {{word:le}} {{word:nan2ren2}}."
+        ttsText: "女人听了男人。"
       - text:
           eng: "{{Word:hao3}}-{{word:de}} {{word:ren2}} {{word:chi1}} {{word:le}} {{word:dong4wu4}}."
-          ru: "Хороший человек съел животное."
-          zh: "好的人吃了动物。"
+          rus: "{{Word:hao3}}-{{word:de}} {{word:ren2}} {{word:chi1}} {{word:le}} {{word:dong4wu4}}."
+          zh: "{{Word:hao3}}-{{word:de}} {{word:ren2}} {{word:chi1}} {{word:le}} {{word:dong4wu4}}."
+        ttsText: "好的人吃了动物。"
+      - text:
+          eng: "{{Word:ta1}} {{word:shuo1}}-{{word:qi3}} {{word:qun2}}."
+          rus: "{{Word:ta1}} {{word:shuo1}}-{{word:qi3}} {{word:qun2}}."
+          zh: "{{Word:ta1}} {{word:shuo1}}-{{word:qi3}} {{word:qun2}}."
+        ttsText: "她说起群。"

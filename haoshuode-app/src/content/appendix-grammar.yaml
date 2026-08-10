@@ -1,0 +1,415 @@
+id: appendix-grammar
+type: appendix
+order: 4
+title:
+  eng: "Grammar Patterns Reference"
+  rus: "Справочник грамматических конструкций"
+  zh: "语法结构参考"
+
+summary:
+  eng: "Every grammar pattern taught across the 20 lessons, pulled into one quick-reference page -- the way appendix-pinyin already does for phonology. 29 patterns, grouped into 12 categories, each with its formula, a short explanation, and a worked example."
+  rus: "Все грамматические конструкции, изученные в 20 уроках, собраны на одной справочной странице — так же, как appendix-pinyin уже делает это для фонетики. 29 конструкций, сгруппированных в 12 категорий, каждая со своей формулой, кратким объяснением и разобранным примером."
+  zh: "把20课里教过的每一个语法结构，都汇总到这一页快速参考中——就像 appendix-pinyin 已经为语音系统做的那样。29个结构，归入12个类别，每一条都配有公式、简短说明和例句。"
+
+blocks:
+  - type: prose
+    text:
+      eng: 'This is the complete grammar reference the lessons never quite pulled together into one place (see `CONTENT_CHECKLIST.md` §5.2.34). Nothing here is new -- every pattern below was already taught somewhere between Lesson 1 and Lesson 17 -- but grouping them by function instead of by lesson number makes them lookup-able the way a dictionary entry is: forgot how to ask a question? Go to "Questions." Forgot which particle binds a modifier onto a noun? Go to "Modification." Each entry names the lesson it was first taught in, so you can always go back to the fuller explanation.'
+      rus: "Это полный грамматический справочник, который уроки так и не собрали воедино (см. `CONTENT_CHECKLIST.md` §5.2.34). Здесь нет ничего нового — каждая конструкция ниже уже была изучена где-то между Уроком 1 и Уроком 17, — но группировка по функции, а не по номеру урока, делает их доступными для поиска так же, как словарная статья: забыли, как задать вопрос? Идите в раздел «Вопросы». Забыли, какая частица присоединяет определение к существительному? Идите в раздел «Определение». Каждая статья называет урок, в котором это было впервые изучено, чтобы вы всегда могли вернуться к более полному объяснению."
+      zh: '这是各课始终没有汇总到一处的完整语法参考（见 `CONTENT_CHECKLIST.md` §5.2.34）。这里没有任何新内容——下面的每一条结构都已经在第1课到第17课之间的某处教过了——但是按功能而不是按课号分组，能让它们像词典词条一样方便查阅：忘了怎么提问？去查"疑问句"。忘了用哪个助词把修饰语接到名词上？去查"修饰"。每一条都标明了它最初是在哪一课教的，方便你随时回去看更完整的讲解。'
+    tldr:
+      eng: "Every grammar rule from Lessons 1-17, reorganized by function into one lookup reference."
+      rus: "Каждое грамматическое правило из Уроков 1–17, реорганизованное по функции в один справочник для поиска."
+      zh: "把第1课到第17课的每条语法规则按功能重新整理成一份可供查阅的参考。"
+    necessity:
+      eng: "Closes a gap the project's own checklist flagged: no single page previously let a reader look up a rule by what it does rather than by which lesson taught it."
+      rus: "Закрывает пробел, отмеченный в собственном чек-листе проекта: раньше не было ни одной страницы, где читатель мог бы найти правило по тому, что оно делает, а не по тому, в каком уроке оно преподавалось."
+      zh: "填补了项目自己的检查清单中标记出的空缺：以前没有一个页面能让读者按规则的功能而不是按教它的课程来查找。"
+
+  - type: heading
+    text:
+      eng: "1. Sound & Script Conventions"
+      rus: "1. Условности звука и письма"
+      zh: "1. 语音与书写规则"
+
+  - type: info
+    title:
+      eng: "1.1 Syllable as the Reading Unit"
+      rus: "1.1 Слог как единица чтения"
+      zh: "1.1 音节作为朗读单位"
+    items:
+      - text:
+          eng: "Pinyin is read syllable by syllable, never fused into one whole word the way alphabetic spelling is. **Zhōng-guó-rén** breaks into three separate beats: Zhōng, guó, rén. — Lesson 1"
+          rus: "Пиньинь читается по слогам, а не слитно, как в алфавитной записи. **Zhōng-guó-rén** делится на три отдельных такта: Zhōng, guó, rén. — Урок 1"
+          zh: "拼音要逐音节朗读，而不是像字母文字那样整体连读。**Zhōng-guó-rén** 分成三个独立的音节：Zhōng、guó、rén。——第1课"
+  - type: info
+    title:
+      eng: "1.2 Tone as Meaning-Bearing"
+      rus: "1.2 Тон как носитель значения"
+      zh: "1.2 声调承载意义"
+    items:
+      - text:
+          eng: "Every syllable carries one of four tones (or the neutral tone); the tone is part of the word, not decoration. **mā / má / mǎ / mà** are four completely different words. — Lesson 1"
+          rus: "Каждый слог несёт один из четырёх тонов (или нейтральный тон); тон — часть слова, а не украшение. **mā / má / mǎ / mà** — четыре совершенно разных слова. — Урок 1"
+          zh: "每个音节都带有四声之一（或轻声）；声调是词的一部分，而不是装饰。**mā / má / mǎ / mà** 是四个完全不同的词。——第1课"
+  - type: info
+    title:
+      eng: "1.3 Punctuation-as-Grammar"
+      rus: "1.3 Пунктуация как грамматика"
+      zh: "1.3 标点即语法"
+    items:
+      - text:
+          eng: 'Formula: **solid compound** (one dictionary word) / **hyphen** (a bound grammar particle) / **"quotes"** (an untranslatable proper name or sound). Example: {{word:dong4wu4}} (solid) — {{word:zhe4}}-ge (hyphen-bound) — "Beijing" (quoted). — Lesson 1'
+          rus: "Формула: **слитное слово** (одно словарное слово) / **дефис** (связанная грамматическая частица) / **«кавычки»** (непереводимое имя собственное или звук). Пример: {{word:dong4wu4}} (слитно) — {{word:zhe4}}-ge (через дефис) — «Beijing» (в кавычках). — Урок 1"
+          zh: '公式：**连写词**（一个词典词）/ **连字符**（粘着的语法成分）/ **"引号"**（不可译的专有名词或声音）。例：{{word:dong4wu4}}（连写）——{{word:zhe4}}-ge（连字符连接）——"Beijing"（加引号）。——第1课'
+
+  - type: heading
+    text:
+      eng: "2. Word Formation"
+      rus: "2. Словообразование"
+      zh: "2. 构词法"
+
+  - type: info
+    title:
+      eng: "2.1 Compounding"
+      rus: "2.1 Словосложение"
+      zh: "2.1 复合构词"
+    items:
+      - text:
+          eng: 'Formula: Root + Root → one memorized word. Multi-syllable words are built from roots but learned and used as indivisible wholes -- the roots are history, not a live formula. Example: nǚ ("female") + rén ("person") → {{word:nv3ren2}} ("woman"). — Lesson 2'
+          rus: "Формула: корень + корень → одно заученное слово. Многослоговые слова строятся из корней, но заучиваются и используются как неделимое целое — корни — это история, а не действующая формула. Пример: nǚ («женский») + rén («человек») → {{word:nv3ren2}} («женщина»). — Урок 2"
+          zh: '公式：词根 + 词根 → 一个整体记住的词。多音节词由词根构成，但作为不可拆分的整体来学习和使用——词根是它的来历，不是随用随拼的公式。例：nǚ（"女性的"）+ rén（"人"）→ {{word:nv3ren2}}（"女人"）。——第2课'
+  - type: info
+    title:
+      eng: "2.2 Category-Shifting by Context"
+      rus: "2.2 Смена категории по контексту"
+      zh: "2.2 依语境转换词性"
+    items:
+      - text:
+          eng: 'A word''s part of speech isn''t fixed on the word itself; its position in the sentence tells you whether it''s functioning as a verb or a noun. Example: {{word:chi1}} ("to eat") vs. {{word:chi1}}-{{word:de}}-{{word:dong1xi}} ("food," literally "eat-thing"). — Lesson 6'
+          rus: "Часть речи не закреплена за самим словом; его положение в предложении показывает, функционирует ли оно как глагол или как существительное. Пример: {{word:chi1}} («есть») и {{word:chi1}}-{{word:de}}-{{word:dong1xi}} («еда», буквально «еда-вещь»). — Урок 6"
+          zh: '词性并非固定在词本身上；它在句中的位置才决定了它是充当动词还是名词。例：{{word:chi1}}（"吃"）与 {{word:chi1}}-{{word:de}}-{{word:dong1xi}}（"食物"，字面意思是"吃的东西"）。——第6课'
+  - type: info
+    title:
+      eng: "2.3 Compositional Adjectives"
+      rus: "2.3 Составные прилагательные"
+      zh: "2.3 组合式形容词"
+    items:
+      - text:
+          eng: 'Formula: {{word:you3}} + Noun → a new descriptive quality. A quality without its own dictionary word can be built by combining "to have" with an abstract noun. Example: {{word:you3}} {{word:li4liang4}} ("to have power" = strong). — Lesson 7'
+          rus: "Формула: {{word:you3}} + существительное → новое качественное значение. Качество, для которого нет отдельного словарного слова, можно построить, сочетая «иметь» с абстрактным существительным. Пример: {{word:you3}} {{word:li4liang4}} («иметь силу» = сильный). — Урок 7"
+          zh: '公式：{{word:you3}} + 名词 → 一个新的描述性性质。没有专门词典词的性质，可以通过把"有"和一个抽象名词组合起来构成。例：{{word:you3}} {{word:li4liang4}}（"有力量" = 强壮）。——第7课'
+
+  - type: heading
+    text:
+      eng: "3. Nouns & Reference"
+      rus: "3. Существительные и референция"
+      zh: "3. 名词与指称"
+
+  - type: info
+    title:
+      eng: "3.1 Number-Neutral Nouns"
+      rus: "3.1 Существительные, нейтральные к числу"
+      zh: "3.1 不分单复数的名词"
+    items:
+      - text:
+          eng: 'Nouns never change shape for singular vs. plural; context alone tells you how many. Example: {{word:nv3ren2}} means "woman" or "women" depending on the situation. — Lessons 2-3'
+          rus: "Существительные никогда не меняют форму для единственного и множественного числа; количество определяет только контекст. Пример: {{word:nv3ren2}} означает «женщина» или «женщины» в зависимости от ситуации. — Уроки 2–3"
+          zh: '名词从不为单复数而改变形态；数量完全由语境决定。例：{{word:nv3ren2}} 根据情况可以表示"女人"或"女人们"。——第2-3课'
+  - type: info
+    title:
+      eng: "3.2 Pronouns as Ordinary Nouns"
+      rus: "3.2 Местоимения как обычные существительные"
+      zh: "3.2 代词如同普通名词"
+    items:
+      - text:
+          eng: 'Pronouns take the same Subject slot as any noun, carry no number of their own, and bind possession with -de the same way any noun does. Example: {{word:wo3}}-{{word:de}} ("my") uses the exact same particle as any other possessive. — Lesson 5'
+          rus: "Местоимения занимают то же место Подлежащего, что и любое существительное, не несут собственного числа и присоединяют принадлежность через -de так же, как любое существительное. Пример: {{word:wo3}}-{{word:de}} («мой») использует ту же самую частицу, что и любое другое притяжательное. — Урок 5"
+          zh: '代词占据的主语位置与任何名词相同，本身不带数量，也用同样的方式通过 -de 表示所属关系。例：{{word:wo3}}-{{word:de}}（"我的"）用的连接助词和其他任何所属结构完全一样。——第5课'
+  - type: info
+    title:
+      eng: "3.3 Quoted Proper Names as Pre-Nominal Adjectives"
+      rus: "3.3 Имена собственные в кавычках как препозитивные прилагательные"
+      zh: "3.3 引号专有名词作前置定语"
+    items:
+      - text:
+          eng: 'Formula: "Name" + Noun. A quoted proper name sits directly before the generic noun it identifies, functioning like an adjective. Example: "Zhongguo" {{word:ren2}} ("China" person = a Chinese person). — Lesson 10'
+          rus: "Формула: «Имя» + существительное. Имя собственное в кавычках стоит непосредственно перед обозначаемым им родовым существительным, действуя как прилагательное. Пример: «Zhongguo» {{word:ren2}} (человек «Китай» = китаец). — Урок 10"
+          zh: '公式："名字" + 名词。引号中的专有名词直接放在它所限定的通用名词前面，作用如同形容词。例："Zhongguo" {{word:ren2}}（"中国"人 = 中国人）。——第10课'
+
+  - type: heading
+    text:
+      eng: "4. The Sentence Core"
+      rus: "4. Ядро предложения"
+      zh: "4. 句子核心"
+
+  - type: info
+    title:
+      eng: "4.1 Fixed Subject-Verb-Object Order"
+      rus: "4.1 Неизменный порядок Подлежащее-Глагол-Дополнение"
+      zh: "4.1 固定的主谓宾语序"
+    items:
+      - text:
+          eng: "Formula: Subject + Verb + Object. Grammatical role is shown by position alone -- there's no case marking, so the order can never be rearranged for style or emphasis. Example: {{word:wo3}} {{word:ai4}} {{word:ni3}}. (Subject-Verb-Object.) — Lesson 3"
+          rus: "Формула: Подлежащее + Глагол + Дополнение. Грамматическая роль показывается только позицией — падежных окончаний нет, поэтому порядок никогда нельзя переставить ради стиля или акцента. Пример: {{word:wo3}} {{word:ai4}} {{word:ni3}}. (Подлежащее-Глагол-Дополнение.) — Урок 3"
+          zh: "公式：主语 + 动词 + 宾语。语法角色只靠位置表示——没有格变化，所以语序不能为了文体或强调而调换。例：{{word:wo3}} {{word:ai4}} {{word:ni3}}。（主谓宾语序。）——第3课"
+  - type: info
+    title:
+      eng: "4.2 The Copula shì"
+      rus: "4.2 Связка shì"
+      zh: "4.2 系词 shì"
+    items:
+      - text:
+          eng: "Formula: Subject + {{word:shi4}} + Noun. Links a subject to a classifying or identifying noun; never used before a bare adjective (see 5.1). Example: {{Word:zhe4}}-ge {{word:shi4}} {{word:ren2}}. (This is a person.) — Lesson 3"
+          rus: "Формула: Подлежащее + {{word:shi4}} + существительное. Связывает подлежащее с классифицирующим или отождествляющим существительным; никогда не используется перед одиночным прилагательным (см. 5.1). Пример: {{Word:zhe4}}-ge {{word:shi4}} {{word:ren2}}. (Это человек.) — Урок 3"
+          zh: "公式：主语 + {{word:shi4}} + 名词。把主语和用来归类或判断身份的名词连接起来；绝不用在单独的形容词前面（见4.2/5.1）。例：{{Word:zhe4}}-ge {{word:shi4}} {{word:ren2}}。（这是一个人。）——第3课"
+
+  - type: heading
+    text:
+      eng: "5. Modification: hěn and -de"
+      rus: "5. Определение: hěn и -de"
+      zh: "5. 修饰：hěn 与 -de"
+
+  - type: info
+    title:
+      eng: "5.1 The Adjective-Copula hěn"
+      rus: "5.1 Прилагательное-связка hěn"
+      zh: "5.1 形容词谓语标记 hěn"
+    items:
+      - text:
+          eng: 'Formula: Subject + {{word:hen3}} + Adjective. A bare adjective predicate needs hěn to read as a complete, neutral statement; in this position hěn is a grammatical requirement, not an intensifier meaning "very." Example: {{word:shui3}} {{word:hen3}} {{word:hao3}}. (Water is good.) — Lesson 4'
+          rus: "Формула: Подлежащее + {{word:hen3}} + прилагательное. Голое прилагательное-сказуемое нуждается в hěn, чтобы прозвучать как законченное нейтральное утверждение; в этой позиции hěn — грамматическое требование, а не усилитель со значением «очень». Пример: {{word:shui3}} {{word:hen3}} {{word:hao3}}. (Вода хорошая.) — Урок 4"
+          zh: '公式：主语 + {{word:hen3}} + 形容词。单独的形容词谓语需要 hěn 才能读起来像一句完整、中性的陈述；在这个位置上，hěn 是语法上的要求，而不是表示"非常"的加强语气词。例：{{word:shui3}} {{word:hen3}} {{word:hao3}}。（水很好。）——第4课'
+  - type: info
+    title:
+      eng: "5.2 -de for Possession and Modifier-Binding"
+      rus: "5.2 -de для принадлежности и присоединения определений"
+      zh: "5.2 -de 表示所属与连接修饰语"
+    items:
+      - text:
+          eng: "Formula: Modifier + -{{word:de}} + Noun. The single particle -de attaches a possessor, an adjective, or a verb-turned-noun onto a following noun. Example: {{word:wo3}}-{{word:de}} {{word:chi1}}-{{word:de}}-{{word:dong1xi}} (my food); {{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:ren2}} (a very good person). — Lessons 4-5"
+          rus: "Формула: определение + -{{word:de}} + существительное. Одна частица -de присоединяет к следующему существительному притяжательное значение, прилагательное или превращённый в существительное глагол. Пример: {{word:wo3}}-{{word:de}} {{word:chi1}}-{{word:de}}-{{word:dong1xi}} (моя еда); {{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:ren2}} (очень хороший человек). — Уроки 4–5"
+          zh: "公式：修饰语 + -{{word:de}} + 名词。同一个助词 -de 可以把所属关系、形容词或由动词变来的名词连接到后面的名词上。例：{{word:wo3}}-{{word:de}} {{word:chi1}}-{{word:de}}-{{word:dong1xi}}（我的食物）；{{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:ren2}}（一个很好的人）。——第4-5课"
+  - type: info
+    title:
+      eng: "5.3 Adjectives as Adverbs"
+      rus: "5.3 Прилагательные в роли наречий"
+      zh: "5.3 形容词作副词"
+    items:
+      - text:
+          eng: "Formula: {{word:hen3}} + Adjective, placed before a verb or another adjective. The same intensifying pattern that predicates an adjective can precede a verb to modify it adverbially. Example: {{word:hen3}} {{word:duo1}} (very much / a lot). — Lesson 7"
+          rus: "Формула: {{word:hen3}} + прилагательное, стоящее перед глаголом или другим прилагательным. Та же усилительная модель, что образует сказуемое-прилагательное, может стоять перед глаголом, модифицируя его как наречие. Пример: {{word:hen3}} {{word:duo1}} (очень много). — Урок 7"
+          zh: "公式：{{word:hen3}} + 形容词，放在动词或另一个形容词之前。构成形容词谓语的同一种加强模式，也可以放在动词前面起副词作用。例：{{word:hen3}} {{word:duo1}}（很多）。——第7课"
+  - type: info
+    title:
+      eng: "5.4 Modifier Stacking"
+      rus: "5.4 Накопление определений"
+      zh: "5.4 修饰语叠加"
+    items:
+      - text:
+          eng: "Formula: [Modifier-de][Modifier-de][Modifier-de] + Noun. Multiple -de-bound modifiers chain in sequence before one head noun, read left to right as a single block -- no separate grouping particle is needed. Example: {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:dong4wu4}} (a very big, very good animal). — Lesson 12"
+          rus: "Формула: [определение-de][определение-de][определение-de] + существительное. Несколько определений, присоединённых через -de, выстраиваются в цепочку перед одним главным существительным и читаются слева направо как единый блок — отдельная группирующая частица не нужна. Пример: {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:dong4wu4}} (очень большое, очень хорошее животное). — Урок 12"
+          zh: "公式：[修饰语-de][修饰语-de][修饰语-de] + 名词。多个通过 -de 连接的修饰语依次连成一串，放在同一个中心名词前面，从左到右当作一个整体来读——不需要另外的分组助词。例：{{word:hen3}}-{{word:da4}}-{{word:de}} {{word:hen3}}-{{word:hao3}}-{{word:de}} {{word:dong4wu4}}（一只很大很好的动物）。——第12课"
+
+  - type: heading
+    text:
+      eng: "6. Verbs: Tense, Aspect & Auxiliaries"
+      rus: "6. Глаголы: время, вид и вспомогательные глаголы"
+      zh: "6. 动词：时态、体貌与助动词"
+
+  - type: info
+    title:
+      eng: "6.1 Verb Tenselessness + Perfective le"
+      rus: "6.1 Отсутствие времени у глагола + совершенный вид le"
+      zh: "6.1 动词无时态 + 完成体标记 le"
+    items:
+      - text:
+          eng: "Formula: Verb (no tense) / Verb + {{word:le}} (completed). Verbs never conjugate for past, present, or future; le marks that an action or change of state has completed -- it is not simple past tense. Example: {{word:chi1}} {{word:le}} (has eaten / ate). — Lesson 6"
+          rus: "Формула: глагол (без времени) / глагол + {{word:le}} (завершено). Глаголы никогда не спрягаются по временам; le показывает, что действие или изменение состояния завершилось — это не простое прошедшее время. Пример: {{word:chi1}} {{word:le}} (поел / съел). — Урок 6"
+          zh: "公式：动词（无时态）/ 动词 + {{word:le}}（已完成）。动词从不因过去、现在、将来而变形；le 表示某个动作或状态变化已经完成——它不是简单的过去时。例：{{word:chi1}} {{word:le}}（吃了）。——第6课"
+  - type: info
+    title:
+      eng: "6.2 Auxiliary / Pre-Verbs"
+      rus: "6.2 Вспомогательные глаголы / преглаголы"
+      zh: "6.2 助动词/前置动词"
+    items:
+      - text:
+          eng: 'Formula: Subject + Auxiliary + Main Verb. Modal or intent verbs like {{word:yao4}} ("want to"), {{word:zhi1dao4}} ("know how to"), {{word:kai1shi3}} ("begin to") sit directly before the main verb they modify. Example: {{word:wo3}} {{word:yao4}} {{word:qu4}} (I want to go). — Lesson 14'
+          rus: "Формула: Подлежащее + вспомогательный глагол + основной глагол. Модальные глаголы или глаголы намерения, такие как {{word:yao4}} («хотеть»), {{word:zhi1dao4}} («уметь»), {{word:kai1shi3}} («начинать»), стоят прямо перед основным глаголом, который они модифицируют. Пример: {{word:wo3}} {{word:yao4}} {{word:qu4}} (я хочу идти). — Урок 14"
+          zh: '公式：主语 + 助动词 + 主要动词。像 {{word:yao4}}（"想要"）、{{word:zhi1dao4}}（"懂得怎么做"）、{{word:kai1shi3}}（"开始"）这样表示情态或意图的动词，直接放在它们所修饰的主要动词前面。例：{{word:wo3}} {{word:yao4}} {{word:qu4}}（我想去）。——第14课'
+  - type: info
+    title:
+      eng: "6.3 Inchoative kāishǐ + State-Change biàn"
+      rus: "6.3 Начинательное kāishǐ + глагол изменения состояния biàn"
+      zh: "6.3 起始体 kāishǐ 与状态变化动词 biàn"
+    items:
+      - text:
+          eng: "Formula: {{word:kai1shi3}} + Verb (begin to X) / Subject + {{word:bian4}} + Adjective (become X). kāishǐ marks the gradual onset of an action; biàn marks a subject transitioning into a new state. Example: {{word:di4fang1}} {{word:bian4}} {{word:da4}} (the place becomes big). — Lesson 14"
+          rus: "Формула: {{word:kai1shi3}} + глагол (начать X) / подлежащее + {{word:bian4}} + прилагательное (стать X). kāishǐ отмечает постепенное начало действия; biàn отмечает переход подлежащего в новое состояние. Пример: {{word:di4fang1}} {{word:bian4}} {{word:da4}} (место становится большим). — Урок 14"
+          zh: "公式：{{word:kai1shi3}} + 动词（开始做X）/ 主语 + {{word:bian4}} + 形容词（变成X）。kāishǐ 表示动作的逐渐开始；biàn 表示主语转变为一种新状态。例：{{word:di4fang1}} {{word:bian4}} {{word:da4}}（地方变大了）。——第14课"
+
+  - type: heading
+    text:
+      eng: "7. The Causative"
+      rus: "7. Каузативная конструкция"
+      zh: "7. 致使结构"
+
+  - type: info
+    title:
+      eng: "7.1 bǎ...biàn Causative"
+      rus: "7.1 Каузатив bǎ...biàn"
+      zh: "7.1 bǎ...biàn 致使句"
+    items:
+      - text:
+          eng: 'Formula: Subject + {{word:ba3}} + Object + {{word:bian4}} + Adjective. Turns a plain adjective into a transitive action -- "to make Object become Adjective." bǎ fronts the object ahead of the verb that acts on it. Example: {{word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}. (Eating makes me big.) — Lesson 7'
+          rus: "Формула: Подлежащее + {{word:ba3}} + Дополнение + {{word:bian4}} + Прилагательное. Превращает обычное прилагательное в переходное действие — «сделать так, чтобы Дополнение стало Прилагательным». bǎ выносит дополнение перед глаголом, который на него воздействует. Пример: {{word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}. (Еда делает меня большим.) — Урок 7"
+          zh: '公式：主语 + {{word:ba3}} + 宾语 + {{word:bian4}} + 形容词。把一个普通的形容词转变为及物性的动作——"使宾语变成（某形容词）"。bǎ 把宾语提到作用于它的动词之前。例：{{word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}。（吃把我变大了。）——第7课'
+
+  - type: heading
+    text:
+      eng: "8. Questions"
+      rus: "8. Вопросы"
+      zh: "8. 疑问句"
+
+  - type: info
+    title:
+      eng: "8.1 Wh-Questions In-Situ"
+      rus: "8.1 Вопросы с вопросительным словом на месте"
+      zh: "8.1 原位疑问句"
+    items:
+      - text:
+          eng: "A question word ({{word:shen2me}}, {{word:na3li3}}, {{word:wei4shen2me}}, {{word:zen3me}}) takes the exact sentence slot of the information being asked for, without fronting to the front of the sentence. Example: {{Word:ni3}} {{word:qu4}} {{word:na3li3}}? (You go where?) — Lesson 8"
+          rus: "Вопросительное слово ({{word:shen2me}}, {{word:na3li3}}, {{word:wei4shen2me}}, {{word:zen3me}}) занимает именно то место в предложении, где стояла бы искомая информация, не выносясь в начало предложения. Пример: {{Word:ni3}} {{word:qu4}} {{word:na3li3}}? (Ты идёшь куда?) — Урок 8"
+          zh: "疑问词（{{word:shen2me}}、{{word:na3li3}}、{{word:wei4shen2me}}、{{word:zen3me}}）占据被询问信息本来所在的那个句子位置，不提到句首。例：{{Word:ni3}} {{word:qu4}} {{word:na3li3}}？（你去哪里？）——第8课"
+  - type: info
+    title:
+      eng: "8.2 Yes/No Questions via ma"
+      rus: "8.2 Вопросы да/нет через ma"
+      zh: "8.2 用 ma 构成的是非问句"
+    items:
+      - text:
+          eng: "Formula: [Statement] + {{word:ma}}? Appending ma to the end of a plain statement turns it into a yes/no question, with no other change to the sentence. Example: {{Word:ni3}} {{word:hao3}} {{word:ma}}? (Are you well?) — Lesson 8"
+          rus: "Формула: [утверждение] + {{word:ma}}? Добавление ma в конец обычного утверждения превращает его в вопрос да/нет без каких-либо других изменений в предложении. Пример: {{Word:ni3}} {{word:hao3}} {{word:ma}}? (Ты в порядке?) — Урок 8"
+          zh: "公式：[陈述句] + {{word:ma}}？在普通陈述句末尾加上 ma，就把它变成了是非问句，句子其余部分不需要改变。例：{{Word:ni3}} {{word:hao3}} {{word:ma}}？（你好吗？）——第8课"
+  - type: info
+    title:
+      eng: "8.3 A-bù-A / A-méi-A Reduplication"
+      rus: "8.3 Редупликация A-bù-A / A-méi-A"
+      zh: "8.3 A-不-A / A-没-A 重叠问句"
+    items:
+      - text:
+          eng: "An alternative yes/no question form: reduplicates the main verb or adjective around its negative particle ({{word:bu4}} for most words, {{word:mei2}} only for {{word:you3}}). Example: {{word:ting1}}-{{word:bu4}}-{{word:ting1}}? (Does [he] listen or not?) — Lesson 8"
+          rus: "Альтернативная форма вопроса да/нет: редупликация основного глагола или прилагательного вокруг его отрицательной частицы ({{word:bu4}} для большинства слов, {{word:mei2}} только для {{word:you3}}). Пример: {{word:ting1}}-{{word:bu4}}-{{word:ting1}}? (Слушает [он] или нет?) — Урок 8"
+          zh: "另一种是非问句形式：把主要动词或形容词与它的否定词（多数词用 {{word:bu4}}，只有 {{word:you3}} 用 {{word:mei2}}）重叠起来。例：{{word:ting1}}-{{word:bu4}}-{{word:ting1}}？（听不听？）——第8课"
+
+  - type: heading
+    text:
+      eng: "9. Coverbs"
+      rus: "9. Ковербы"
+      zh: "9. 动介词"
+
+  - type: info
+    title:
+      eng: "9.1 Coverb Sentence Template"
+      rus: "9.1 Шаблон предложения с ковербом"
+      zh: "9.1 动介词句式模板"
+    items:
+      - text:
+          eng: "Formula: Subject + Coverb Phrase + Verb + Object. Words that resemble prepositions ({{word:gei3}}, {{word:yong4}}, {{word:dui4}}, {{word:cong2}}) behave syntactically like verbs, introducing a noun phrase right before the main action. Example: {{word:wo3}} {{word:gei3}} {{word:ta1}} {{word:qian2}} (I give money to her). — Lesson 9"
+          rus: "Формула: Подлежащее + Фраза с ковербом + Глагол + Дополнение. Слова, похожие на предлоги ({{word:gei3}}, {{word:yong4}}, {{word:dui4}}, {{word:cong2}}), синтаксически ведут себя как глаголы, вводя именную группу прямо перед основным действием. Пример: {{word:wo3}} {{word:gei3}} {{word:ta1}} {{word:qian2}} (я даю ей деньги). — Урок 9"
+          zh: "公式：主语 + 动介词短语 + 动词 + 宾语。像 {{word:gei3}}、{{word:yong4}}、{{word:dui4}}、{{word:cong2}} 这样类似介词的词，在句法上表现得像动词，紧接在主要动作前引出一个名词短语。例：{{word:wo3}} {{word:gei3}} {{word:ta1}} {{word:qian2}}（我给她钱）。——第9课"
+  - type: info
+    title:
+      eng: "9.2 Coverb-as-Main-Predicate"
+      rus: "9.2 Ковербкак главное сказуемое"
+      zh: "9.2 动介词作主要谓语"
+    items:
+      - text:
+          eng: "Formula: Subject + Coverb + Object (no other verb present). If no separate action verb appears in the clause, the coverb itself steps up to serve as the sentence's main predicate. Example: {{word:wo3}} {{word:zai4}} {{word:di4fang1}} (I am in the place). — Lesson 9"
+          rus: "Формула: Подлежащее + Коверб + Дополнение (без другого глагола). Если в предложении нет отдельного глагола действия, сам коверб выступает в роли главного сказуемого предложения. Пример: {{word:wo3}} {{word:zai4}} {{word:di4fang1}} (я в этом месте). — Урок 9"
+          zh: "公式：主语 + 动介词 + 宾语（没有其他动词）。如果分句中没有出现单独的动作动词，动介词本身就充当句子的主要谓语。例：{{word:wo3}} {{word:zai4}} {{word:di4fang1}}（我在这个地方）。——第9课"
+
+  - type: heading
+    text:
+      eng: "10. Numbers & Counting"
+      rus: "10. Числа и счёт"
+      zh: "10. 数字与计数"
+
+  - type: info
+    title:
+      eng: "10.1 The Number System"
+      rus: "10.1 Система числительных"
+      zh: "10.1 数字系统"
+    items:
+      - text:
+          eng: 'Formula: Number-{{word:ge4}} (1-2, precise) / {{word:duo1}} (3+, "many") / dì- + Number (ordinal). Precise counting stops at two ({{word:yi1}}-ge, {{word:liang3}}-ge); anything beyond is expressed with duō ("many") rather than a specific digit; the prefix dì- turns any number into an ordinal. Example: {{word:liang3}}-ge {{word:xiao3}} {{word:dong4wu4}} (two small animals); dì-yī (first). — Lesson 13'
+          rus: "Формула: Число-{{word:ge4}} (1–2, точно) / {{word:duo1}} (3+, «много») / dì- + число (порядковое). Точный счёт останавливается на двух ({{word:yi1}}-ge, {{word:liang3}}-ge); всё, что больше, выражается словом duō («много»), а не конкретной цифрой; префикс dì- превращает любое число в порядковое. Пример: {{word:liang3}}-ge {{word:xiao3}} {{word:dong4wu4}} (два маленьких животных); dì-yī (первый). — Урок 13"
+          zh: '公式：数字-{{word:ge4}}（1-2，精确）/ {{word:duo1}}（3以上，"多"）/ dì- + 数字（序数）。精确计数只到二（{{word:yi1}}-ge、{{word:liang3}}-ge）；超过二的一律用 duō（"多"）表示，而不用具体数字；前缀 dì- 把任何数字变成序数。例：{{word:liang3}}-ge {{word:xiao3}} {{word:dong4wu4}}（两只小动物）；dì-yī（第一）。——第13课'
+
+  - type: heading
+    text:
+      eng: "11. Topic, Location, Perspective & Connectors"
+      rus: "11. Тема, местоположение, перспектива и союзы"
+      zh: "11. 话题、位置、视角与连接词"
+
+  - type: info
+    title:
+      eng: "11.1 Topic/Condition-Fronting"
+      rus: "11.1 Вынесение темы/условия в начало"
+      zh: "11.1 话题/条件前置"
+    items:
+      - text:
+          eng: "Formula: [Context / Condition], [Main Statement]. A background or conditional clause is simply placed at the very front of the sentence, followed by a pause -- no dedicated particle marks it, unlike Toki Pona's la. Example: {{Word:zhe4}}-ge {{word:hei1se4}}-{{word:de}} {{word:shi2jian1}}, {{word:ta1}} {{word:lai2}}. (During this dark time, he comes.) — Lesson 15"
+          rus: "Формула: [контекст / условие], [главное утверждение]. Фоновое или условное придаточное просто ставится в самое начало предложения, за которым следует пауза — никакая отдельная частица его не отмечает, в отличие от la в Токипоне. Пример: {{Word:zhe4}}-ge {{word:hei1se4}}-{{word:de}} {{word:shi2jian1}}, {{word:ta1}} {{word:lai2}}. (В это тёмное время он приходит.) — Урок 15"
+          zh: "公式：[背景/条件]，[主要陈述]。背景或条件从句直接放在句子最开头，后面跟一个停顿——不像道本语的 la，这里没有专门的助词来标记它。例：{{Word:zhe4}}-ge {{word:hei1se4}}-{{word:de}} {{word:shi2jian1}}, {{word:ta1}} {{word:lai2}}。（在这个黑暗的时刻，他来了。）——第15课"
+  - type: info
+    title:
+      eng: "11.2 zài (Static) vs. dào (Motion)"
+      rus: "11.2 zài (статично) против dào (движение)"
+      zh: "11.2 zài（静态）与 dào（动态）"
+    items:
+      - text:
+          eng: "Formula: Subject + {{word:zai4}} + Location (is at) / Subject + dào + Location (moves to). zài marks static presence at a location; dào marks motion toward a destination (dào itself is a documented dictionary gap -- see `CONTENT_CHECKLIST.md` §3.2.3). Example: {{word:wo3}} {{word:zai4}} {{word:ni3}}-{{word:de}} {{word:pang2bian1}} (I am at your side). — Lesson 16"
+          rus: "Формула: Подлежащее + {{word:zai4}} + местоположение (находится) / Подлежащее + dào + местоположение (движется). zài отмечает статичное присутствие в месте; dào отмечает движение к цели (сам dào — это задокументированный пробел в словаре, см. `CONTENT_CHECKLIST.md` §3.2.3). Пример: {{word:wo3}} {{word:zai4}} {{word:ni3}}-{{word:de}} {{word:pang2bian1}} (я рядом с тобой). — Урок 16"
+          zh: "公式：主语 + {{word:zai4}} + 地点（在某处）/ 主语 + dào + 地点（移动到某处）。zài 表示静止地存在于某地；dào 表示朝目的地移动（dào 本身是词典中一个已记录在案的空缺——见 `CONTENT_CHECKLIST.md` §3.2.3）。例：{{word:wo3}} {{word:zai4}} {{word:ni3}}-{{word:de}} {{word:pang2bian1}}（我在你旁边）。——第16课"
+  - type: info
+    title:
+      eng: "11.3 Perspective Marker & Connectors"
+      rus: "11.3 Маркер перспективы и союзы"
+      zh: "11.3 视角标记与连接词"
+    items:
+      - text:
+          eng: 'Formula: {{word:dui4}}...{{word:lai2}} {{word:shuo1}}, [Statement] ("from X''s perspective") / Noun {{word:he2}} Noun (joins nouns only) / [Predicate], {{word:ye3}} [Predicate] (sequences a second predicate onto the same subject) / [X], {{word:dan4shi4}} [Y] (contrast). Example: {{Word:dui4}} {{word:wo3}} {{word:lai2}} {{word:shuo1}}, ... (From my perspective, ...). — Lesson 17'
+          rus: "Формула: {{word:dui4}}...{{word:lai2}} {{word:shuo1}}, [утверждение] («с точки зрения X») / существительное {{word:he2}} существительное (соединяет только существительные) / [сказуемое], {{word:ye3}} [сказуемое] (добавляет второе сказуемое к тому же подлежащему) / [X], {{word:dan4shi4}} [Y] (противопоставление). Пример: {{Word:dui4}} {{word:wo3}} {{word:lai2}} {{word:shuo1}}, ... (С моей точки зрения, ...). — Урок 17"
+          zh: '公式：{{word:dui4}}...{{word:lai2}} {{word:shuo1}}，[陈述]（"从X的角度来说"）/ 名词 {{word:he2}} 名词（只连接名词）/ [谓语]，{{word:ye3}} [谓语]（给同一个主语接上第二个谓语）/ [X]，{{word:dan4shi4}} [Y]（转折）。例：{{Word:dui4}} {{word:wo3}} {{word:lai2}} {{word:shuo1}}，……（从我的角度来说，……）。——第17课'
+
+  - type: heading
+    text:
+      eng: "12. Speech Acts"
+      rus: "12. Речевые акты"
+      zh: "12. 言语行为"
+
+  - type: info
+    title:
+      eng: "12.1 Greetings, Imperatives, Animal Sounds & Blessings"
+      rus: "12.1 Приветствия, повелительное наклонение, звуки животных и пожелания"
+      zh: "12.1 问候、祈使句、动物叫声与祝福语"
+    items:
+      - text:
+          eng: "Four everyday patterns reuse existing grammar rather than adding new particles: a greeting is just a statement/question ({{word:ni3}} {{word:hao3}} {{word:ma}}?); an imperative simply drops the subject, leaving a bare verb; an animal sound uses {{word:jiao4}} plus a quoted onomatopoeia; a blessing reduplicates an adjective before a noun. Example: {{Word:hao3}}-{{word:hao3}}-{{word:de}} {{word:ri4}}! (Have a good day!) — Lesson 11"
+          rus: "Четыре повседневные модели используют уже существующую грамматику, не добавляя новых частиц: приветствие — это просто утверждение/вопрос ({{word:ni3}} {{word:hao3}} {{word:ma}}?); повелительное наклонение просто опускает подлежащее, оставляя голый глагол; звук животного использует {{word:jiao4}} плюс звукоподражание в кавычках; пожелание — это редупликация прилагательного перед существительным. Пример: {{Word:hao3}}-{{word:hao3}}-{{word:de}} {{word:ri4}}! (Хорошего дня!) — Урок 11"
+          zh: "四种日常句式都沿用已有的语法，而不是添加新的助词：问候只是一句陈述句/疑问句（{{word:ni3}} {{word:hao3}} {{word:ma}}？）；祈使句只是省去主语，留下一个光杆动词；动物叫声用 {{word:jiao4}} 加上引号里的拟声词；祝福语则是把形容词叠加后放在名词前面。例：{{Word:hao3}}-{{word:hao3}}-{{word:de}} {{word:ri4}}！（祝你有美好的一天！）——第11课"
+
+  - type: prose
+    text:
+      eng: '**Not yet covered.** Four grammar points are genuinely missing from the book, not just from this reference (see `CONTENT_CHECKLIST.md` §5.2.30-33): negating existence/possession beyond bù vs. méi ("there isn''t"); comparison and comparatives ("bigger than," "the biggest"); expressing time and frequency (today, now, sometimes); and plural/definiteness workarounds beyond gè ("some things" vs. "the thing" vs. "things in general"). These aren''t omissions from this page -- they don''t have an answer anywhere in the book yet.'
+      rus: "**Пока не рассмотрено.** Четыре грамматических пункта на самом деле отсутствуют в книге, а не только в этом справочнике (см. `CONTENT_CHECKLIST.md` §5.2.30–33): отрицание существования/обладания за пределами bù и méi («не имеется»); сравнение и сравнительная степень («больше, чем», «самый большой»); выражение времени и частотности (сегодня, сейчас, иногда); а также обходные пути для множественного числа/определённости за пределами gè («какие-то вещи» против «эта вещь» против «вещи вообще»). Это не пропуски именно этой страницы — ответа на них пока нет нигде в книге."
+      zh: '**尚未涉及。** 有四个语法点在整本书里都确实还没有讲到，不只是这份参考里没有（见 `CONTENT_CHECKLIST.md` §5.2.30-33）：bù 与 méi 之外用来否定存在/拥有的说法（"没有……"）；比较和比较级（"比……大"、"最大的"）；表达时间和频率（今天、现在、有时候）；以及 gè 之外表示复数/是否特指的变通说法（"一些东西" vs. "这个东西" vs. "东西泛指"）。这些不是这一页遗漏的内容——它们目前在全书任何地方都还没有答案。'
+    tldr:
+      eng: "Four grammar points -- negated existence, comparison, time/frequency, and plurals beyond gè -- aren't covered anywhere in the book yet."
+      rus: "Четыре грамматических пункта — отрицание существования, сравнение, время/частотность и множественное число за пределами gè — пока нигде в книге не рассмотрены."
+      zh: "有四个语法点——否定存在、比较、时间/频率，以及 gè 之外的复数表达——目前全书都还没有涉及。"
+    necessity:
+      eng: "Keeps this reference honest about its own limits, matching the project's practice elsewhere of naming gaps rather than papering over them."
+      rus: "Не даёт этому справочнику скрывать собственные границы — в духе принятой в проекте практики называть пробелы, а не замалчивать их."
+      zh: "让这份参考诚实地面对自身的局限，符合本项目一贯的做法：指出空缺，而不是掩盖它们。"

@@ -42,13 +42,13 @@ Numbering is strictly hierarchical: `5.1.17.1` is section 5, subsection 1, item 
 ## 3. Dictionary
 
 - **3.1 Structural completeness**
-  - [x] 3.1.1 Generated alphabetical listing — `dictionary.md` (128 words, eng/rus/zh parallel)
+  - [x] 3.1.1 Generated alphabetical listing — `dictionary.md` (130 words, eng/rus/zh parallel)
   - [x] 3.1.2 Categorical listing, 15 top-level categories with subcategories (and subsubcategories where warranted) rendered as a real collapsible nested tree straight from `dictionary.json` — `CategoricalDictionarySection.jsx`
   - [x] 3.1.3 Toki Pona gloss column on every entry
   - [x] 3.1.4 Stable `id` per word for `{{word:ID}}` referencing (build fails loudly on an unknown id)
 - **3.2 Known vocabulary/dictionary mismatches — must resolve**
 
-  Confirmed by cross-checking every lesson's vocab against `src/data/dictionary.json` (128 words, checked programmatically). These pinyin syllables are used as if they were dictionary words in lessons, but have **no entry** in `dictionary.json`:
+  Confirmed by cross-checking every lesson's vocab against `src/data/dictionary.json` (130 words, checked programmatically). These pinyin syllables are used as if they were dictionary words in lessons, but have **no entry** in `dictionary.json`:
   - [ ] 3.2.1 `kěyǐ` ("can/may," lesson-14) — not in dictionary. Either add it, or replace with an existing modality word (dictionary already has `néng`)
   - [ ] 3.2.2 `dǒng` ("understand," lesson-17) — not in dictionary. Nearest existing word is `zhīdào` ("know") — decide whether "understand" is a distinct primitive or should be expressed via `zhīdào`
   - [ ] 3.2.3 `dào` ("to, toward," lesson-16) — not in dictionary; only `lái`/`qù` exist under Motion. Lesson-16's "zài-qù-dào" construction depends on a word the dictionary doesn't define
@@ -59,7 +59,7 @@ Numbering is strictly hierarchical: `5.1.17.1` is section 5, subsection 1, item 
     - [ ] 3.2.7.1 `èr` (math/serial "two") vs. `liǎng` (counting "two") is explicitly taught in lesson-13 as a real distinction — `èr` should very likely be a dictionary entry regardless of how the rest of the numbers are resolved.
 
 - **3.3 Coverage/design questions worth deciding explicitly**
-  - [ ] 3.3.1 Is 128 words the intended final size, or a target ceiling still being approached? (`appendix-minimality.yaml` argues for sufficiency in principle but doesn't commit to an exact final count)
+  - [ ] 3.3.1 Is 130 words the intended final size, or a target ceiling still being approached? (`appendix-minimality.yaml` argues for sufficiency in principle but doesn't commit to an exact final count; 5 words -- shēngyīn, zhēn, wèn, nǎlǐ, pà -- were added for `appendix-stories.yaml`, and niǎo/yú were removed again in favor of compositional phrasing (huì-fēi-de dòngwù, zài-shuǐ-lǐ-de dòngwù), see §8.28 -- net effect is a dictionary that's still being actively tuned, not a fixed ceiling)
   - [ ] 3.3.2 Category 9 (Life and Death) and Category 10 (Time) each have exactly **one** word (`sǐ`, `shíjiān`). Confirm this is intentional minimalism and not an oversight — e.g. no word for "to live/be alive" (only "to die"), no words for relative time (before/after/now/soon)
   - [ ] 3.3.3 No dedicated "sound/hear" vocabulary beyond `tīng` (hear) and `jiào` (to call/cry out) — confirm this is sufficient for lesson-11's animal-sounds content once `shēngyīn` is resolved (§3.2)
   - [ ] 3.3.4 Create Source-language 2 hao-shuo-de dictionary with at least 5000 entries
@@ -100,7 +100,7 @@ Audited against the dictionary's 15 categories and the core grammar machinery ac
   - [x] 5.1.13 Location/Existence/Possession (lesson-03: shì; lesson-05: possessive -de/yǒu — **confirm `zài` as "exist/be located" vs. `zài` as coverb "at" are both taught, they're easy to conflate**)
   - [ ] 5.1.14 Life and Death (`sǐ`) — **no lesson found covering this word at all**, and now mechanically confirmed unused anywhere in the book (§8.27.1.5)
   - [ ] 5.1.15 Time (`shíjiān`) — taught only as a vocabulary item in lesson-12; **no lesson on expressing when something happens** (no tense markers exist by design, but relative/absolute time expression — "today," "yesterday," "at 3 o'clock" — has no home)
-  - [x] 5.1.16 Space (lesson-16: relative position + `cóng`/`duì`/`dìfāng`/`dìbǎn`)
+  - [x] 5.1.16 Space (lesson-16: relative position + `cóng`/`duì`/`dìfāng`/`tái`)
   - [x] 5.1.17 Logical Concepts & Particles (lesson-06: le; lesson-08: ma; lesson-09: bǎ via causative in lesson-07; lesson-17: hé/yě/dànshì; lesson-08: wèishénme/zěnme; lesson-14: néng)
     - [ ] 5.1.17.1 `méi` (negation, paired with `bù`) — **confirm it gets explicit contrastive treatment** (bù vs. méi is a classic Mandarin trap; lesson-06 mentions `le` but the survey didn't confirm a méi-vs-bù explainer)
   - [x] 5.1.18 Intensifier `hěn` (lesson-04, lesson-07)
@@ -139,7 +139,7 @@ Audited against the dictionary's 15 categories and the core grammar machinery ac
   - [ ] 5.2.31 **Comparison / comparatives** ("bigger than," "the biggest") — no lesson found covering comparison at all; this is a structurally important gap since Mandarin comparison (`bǐ`) needs a coverb the dictionary doesn't currently have
   - [ ] 5.2.32 **Expressing time/frequency** (today, now, always, sometimes) — no lesson; ties to the Time-category gap in §5.1
   - [ ] 5.2.33 **Plurals/definiteness workarounds beyond `gè`** — e.g. how to actually say "some things" vs "the thing" vs "things in general" is implied across lessons but never consolidated into one explicit rule
-  - [ ] 5.2.34 **A cumulative review/reference lesson** — nothing currently pulls all ~19 grammar rules into one quick-reference "grammar in one page," the way appendix-pinyin does for phonology
+  - [x] 5.2.34 ~~A cumulative review/reference lesson~~ — **done**: `appendix-grammar.yaml` pulls all 29 confirmed grammar patterns into one quick-reference page, grouped by function, the way appendix-pinyin does for phonology; see §8.29. (A separate, narrower ask — an in-narrative "what you've learned" recap inside lesson-20 itself — is still open, see §8.23.1.9.)
 - **5.3 Structural/production gaps across lessons 1–20**
   - [ ] 5.3.1 Lessons 6–20 (18 of 20 lessons) have **no Russian or Chinese translation** — English only
   - [x] 5.3.2 ~~Lessons 6–20 dropped tone diacritics (plain "wo" instead of "wǒ")~~ — **tone diacritics restored across lessons 6–20 and proverbs.md**, cross-checked against `dictionary.json`
@@ -157,7 +157,7 @@ Audited against the dictionary's 15 categories and the core grammar machinery ac
 
 **Status: does not exist yet.** No `phrasebook*` file was found anywhere in `src/content/`. This is a whole missing section, per the Toki Pona book's own "useful phrases" chapter as precedent.
 
-- [ ] 6.1 Decide scope: a phrasebook here can only use the ~128-word (currently 128, pending §3.2 fixes) dictionary — every phrase must be checked against actual vocabulary, not invented on the spot
+- [ ] 6.1 Decide scope: a phrasebook here can only use the ~130-word (currently 130, pending §3.2 fixes) dictionary — every phrase must be checked against actual vocabulary, not invented on the spot
 - [ ] 6.2 Greetings & social opener/closers (hello, goodbye, thank you, sorry, please)
 - [ ] 6.3 Basic needs (I want X, I need X, where is X, how much/many)
 - [ ] 6.4 Asking for help / expressing trouble (I don't understand, please repeat, I am lost) — blocked on the `dǒng` ("understand") dictionary gap from §3.2
@@ -181,6 +181,7 @@ Audited against the dictionary's 15 categories and the core grammar machinery ac
 - [ ] 7.8 `proverbs.md` has no Russian/Chinese translation
 - [ ] 7.9 Consider a short dialogue-form story (two speakers) at some point — all current stories are third-person narration; dialogue would exercise questions/answers (lesson-08) and greetings (lesson-11) in context
 - [ ] 7.10 Cross-check every word used in the stories against the dictionary the same way §3.2 did for lessons — the story survey flagged `líkāi` and `wǎn` as undictionaried; a full pass hasn't been done on lessons 18–20's remaining vocabulary beyond what was already sampled
+- [x] 7.11 A second, independent set of connected texts now exists beyond the Mawijo/Sili arc — `appendix-stories.yaml`, ten classic public-domain fairy tales/fables retold using only the dictionary's ~130 words, addressing the "only one narrative arc" concern in §7.6 for variety (though these are retellings, not an original arc). Each tale is a numbered heading followed by a numbered, `{{word:ID}}`-referenced sentence list; see §8.28. Two animals (a flying animal and a "meowing" animal, plus a generic "swimming animal") have no dedicated dictionary word and are built compositionally instead (huì-fēi-de dòngwù; jiào "miāo-miāo" de dòngwù; zài-shuǐ-lǐ-de dòngwù) — niǎo (bird) and yú (fish) were removed from the dictionary in favor of always demonstrating this compositional technique
 
 ---
 
@@ -575,7 +576,7 @@ Every file currently in `src/content/`. Each chapter nests up to three grouped s
   - **8.24.1 Content & Pedagogy**
     - [x] 8.24.1.1 Full initials table organized by the three confusable groups (j/q/x, zh/ch/sh/r, z/c/s), each with an English-approximation cue
     - [x] 8.24.1.2 Full finals table
-    - [ ] 8.24.1.3 Confirms every final actually used across the 128-word dictionary is covered (not yet cross-checked)
+    - [ ] 8.24.1.3 Confirms every final actually used across the 130-word dictionary is covered (not yet cross-checked)
     - [x] 8.24.1.4 Explains the yi/wu/yu bare-vowel stand-in spelling rule with examples
     - [x] 8.24.1.5 Explains the silent-ü-spelled-as-u rule after j/q/x/y with examples
     - [x] 8.24.1.6 Covers third-tone sandhi with a worked example
@@ -621,20 +622,44 @@ Every file currently in `src/content/`. Each chapter nests up to three grouped s
 
 - **8.27 dictionary.md / dictionary-categorical.md**
   - **8.27.1 Content & Pedagogy**
-    - [x] 8.27.1.1 Every one of the 128 words has a complete eng/rus/zh definition
+    - [x] 8.27.1.1 Every one of the 130 words has a complete eng/rus/zh definition
     - [x] 8.27.1.2 Every word carries a Toki Pona gloss for comparison
     - [ ] 8.27.1.3 **Every word used across all 20 lessons + stories + proverbs actually has a dictionary entry** — the master check that §3.2's specific gaps roll up into; currently fails for at least 7 known words
     - [x] 8.27.1.4 The 15-category/subcategory grouping is internally consistent
     - [ ] 8.27.1.5 Confirms the categorical grouping's category names match the Aristotelian framing used in appendix-minimality (not yet explicitly cross-checked)
     - [x] 8.27.1.6 Every category has at least one word explicitly illustrated in a lesson or the theory chapter, so no category feels abstract/unillustrated — **now mechanically checked via word-usage.json: every category clears this except Life-and-Death** (its only word, sǐ/die, is confirmed unused anywhere — Time's only word, shíjiān, is actually fine, contrary to the earlier §3.3 suspicion)
   - **8.27.2 Production Quality**
-    - [x] 8.27.2.1 **The reverse check — every dictionary word's usage across lessons/proverbs/appendix — is now automated and mechanically verified**, not just spot-audited: lessons reference words by id (`{{word:ID}}`/`{{Word:ID}}`, see `scripts/word-refs.js`) instead of hardcoding pinyin, and `scripts/generate-word-usage.js` scans every chapter's raw source for those references, producing `src/data/word-usage.json` (word id → chapter list). The dictionary UI (`CategoricalDictionarySection.jsx`, `DictionarySection.jsx`) shows "Used in: ..." per word, or a flagged "not used in any chapter yet" — as of this pass, **111/128 words are used somewhere; 17 are not** (moon/yuè, air/kōngqì, nose/bízi, foot/jiǎo, skin/pífū, hand/shǒu, reptile/páxíngdòngwù, container/hézi, paste/ní, sex/xìng, color/yánsè, hard/yìng, round/yuán, finish/wánchéng, die/sǐ, away/wài, be-able-to/néng)
+    - [x] 8.27.2.1 **The reverse check — every dictionary word's usage across lessons/proverbs/appendix — is now automated and mechanically verified**, not just spot-audited: lessons reference words by id (`{{word:ID}}`/`{{Word:ID}}`, see `scripts/word-refs.js`) instead of hardcoding pinyin, and `scripts/generate-word-usage.js` scans every chapter's raw source for those references, producing `src/data/word-usage.json` (word id → chapter list). The dictionary UI (`CategoricalDictionarySection.jsx`, `DictionarySection.jsx`) shows "Used in: ..." per word, or a flagged "not used in any chapter yet" — as of this pass (after `appendix-stories.yaml`/`appendix-grammar.yaml`, and after niǎo/yú were removed in favor of compositional phrasing), **117/130 words are used somewhere; 13 are not** (moon/yuè, air/kōngqì, nose/bízi, foot/jiǎo, skin/pífū, hand/shǒu, container/hézi, paste/ní, sex/xìng, color/yánsè, round/yuán, finish/wánchéng, die/sǐ)
     - [x] 8.27.2.2 Alphabetical and categorical listings stay in sync (both generated from the same source)
     - [x] 8.27.2.3 Stable `id`s exist for every word so `{{word:ID}}` references never break — **word ids were renamed from English-gloss slugs (e.g. `good`) to numbered-pinyin slugs (e.g. `hao3`; multi-syllable words get one digit per syllable, e.g. `dong4wu4`; neutral-tone words stay bare, e.g. `de`/`le`/`ma`)**, which also makes tone-differing homophones (dà "big" `da4` vs. dǎ "hit" `da3`) naturally distinct ids instead of colliding
     - [x] 8.27.2.4 Part-of-speech labeling present and consistent for every entry
     - [x] 8.27.2.5 Pinyin tone marks correct and consistent (single source-of-truth spelling per word)
     - [x] 8.27.2.6 Every word's `id` is stable by construction — it's the word's own key in `dictionary.json`'s `words` map, so adding a new word can never disturb an existing id
     - [x] 8.27.2.7 Dictionary is never hand-edited directly; generation process is documented in README
+
+- **8.28 appendix-stories.yaml — "Ten Short Stories"**
+  - **8.28.1 Content & Pedagogy**
+    - [x] 8.28.1.1 Ten distinct, recognizable, public-domain tales (Little Red Riding Hood, the two little pigs, Goldilocks, the tortoise and the hare, the boy who cried wolf, the ugly duckling, Jack and the beanstalk, the emperor's new clothes, the ant and the grasshopper, the fisherman and the golden fish), each retold in 7-10 short sentences
+    - [x] 8.28.1.2 Every sentence stays strictly inside the ~130-word dictionary, verified mechanically: every `{{word:ID}}` reference must resolve against `dictionary.json` or the build throws (see `scripts/word-refs.js`)
+    - [x] 8.28.1.3 Concepts with no dictionary word (a wolf, a bed, a king, "to buy," "again") are routed around compositionally rather than invented on the spot, consistent with Lesson 2's own rule
+    - [x] 8.28.1.4 A short opening note explains the vocabulary constraint before the reader meets any story, and each story gets its own numbered heading plus its own `tldr`/`necessity` pair for the TL;DR carousel
+    - [ ] 8.28.1.5 No comprehension exercises or vocabulary-recall questions per story — purely reading material, matching stories 18-20's own "no exercise" precedent (§5.3.9) rather than lessons' pattern
+    - [ ] 8.28.1.6 Doesn't yet name which specific fairy tale each retelling is based on inside the chapter itself (relies on the reader recognizing it, or on this checklist/README) — consider adding a one-line attribution per story
+  - **8.28.2 Production Quality**
+    - [x] 8.28.2.1 5 new dictionary words were added specifically to support this chapter (shēngyīn, zhēn, wèn, nǎlǐ, pà) with full eng/rus/zh definitions and tone-number ids; the in-chapter "New Words" note explains the rationale for each — see §3.3.1
+    - [x] 8.28.2.2 Fully trilingual (eng/rus/zh) from day one — the Hao-shuo-de sentences themselves are language-invariant (same `{{word:ID}}` tokens), only the English/Russian/Chinese glosses differ per line
+    - [x] 8.28.2.3 Uses the YAML block schema exclusively (heading + prose blocks per story, no `story`-type blocks) — the `story`/`vocab`/`examples`/`exercise`/`answers` block types all flatten into one chapter-wide array regardless of position, which breaks per-tale ordering/demarcation for a multi-story chapter; heading+prose blocks concatenate in document order instead, which is what a reader actually needs here
+    - [ ] 8.28.2.4 No `<audio-example>` tags or audio playback per sentence, unlike lessons 1-2's prose — a deliberate scope cut for this pass, not yet revisited
+
+- **8.29 appendix-grammar.yaml — "Grammar Patterns Reference"**
+  - **8.29.1 Content & Pedagogy**
+    - [x] 8.29.1.1 Directly resolves §5.2.34: all 29 confirmed grammar patterns from §5.2.1-5.2.29 are pulled into one page, grouped by function (word formation, sentence core, modification, verbs/aspect, causative, questions, coverbs, numbers, topic/connectors, speech acts) instead of by lesson number
+    - [x] 8.29.1.2 Every entry gives a formula, a short trilingual explanation, a worked `{{word:ID}}`-referenced example, and the lesson it was first taught in, so the reader can always go back to the fuller original explanation
+    - [x] 8.29.1.3 Closes with an explicit "not yet covered" note naming the four still-open grammar gaps (§5.2.30-33: negated existence, comparison, time/frequency, plurals beyond gè) rather than silently omitting them, matching the project's practice of naming gaps instead of papering over them
+    - [ ] 8.29.1.4 Doesn't cross-link back to the _specific_ lesson section each pattern elaborates (only names the lesson number), mirroring the same bidirectional-navigation gap already flagged for appendix-pinyin at §2.9/§8.24.1.10
+  - **8.29.2 Production Quality**
+    - [x] 8.29.2.1 Fully trilingual (eng/rus/zh) from day one, YAML block schema throughout (heading + info blocks per pattern, matching the "New Words" info-block style already established in `appendix-stories.yaml`)
+    - [x] 8.29.2.2 Every `{{word:ID}}` reference verified to resolve against `dictionary.json` (build-throws-on-unknown-id check, same mechanism as §8.28.1.2)
 
 ---
 
@@ -649,9 +674,14 @@ Every file currently in `src/content/`. Each chapter nests up to three grouped s
 - [ ] 9.7 Proofread all answer keys for lessons 6–20 (typos/ungrammatical filler found in at least three files)
 - [ ] 9.8 Build the phrase book (§6) — entirely new content
 - [ ] 9.9 Decide and document the numbers design (§3.2/§5.2) — this single decision unblocks lesson-13, the dictionary, and the phrase book simultaneously
-- [x] 9.10 **Every chapter now references dictionary vocabulary by id (`{{word:ID}}`/`{{Word:ID}}`) instead of hardcoding pinyin** — `dictionary.json` is the single source of truth for spelling; a word's spelling can change in one place and every chapter picks it up automatically, and usage is exactly, mechanically trackable (`scripts/generate-word-usage.js` → `src/data/word-usage.json`, surfaced in the dictionary UI). Gap words not yet in the dictionary (kěyǐ, dào, líkāi, shēngyīn, the numbers, etc., §3.2) are still hardcoded literal text since they have no id to reference — resolving §3.2 also brings them into this system
+- [x] 9.10 **Every chapter now references dictionary vocabulary by id (`{{word:ID}}`/`{{Word:ID}}`) instead of hardcoding pinyin** — `dictionary.json` is the single source of truth for spelling; a word's spelling can change in one place and every chapter picks it up automatically, and usage is exactly, mechanically trackable (`scripts/generate-word-usage.js` → `src/data/word-usage.json`, surfaced in the dictionary UI). Gap words not yet in the dictionary (kěyǐ, dào, líkāi, the numbers, etc., §3.2) are still hardcoded literal text since they have no id to reference — resolving §3.2 also brings them into this system. (`shēngyīn` used to be one of these examples; it's now a real dictionary entry, added for §8.28)
+- [x] 9.11 A worked example of this book's own minimality claim now exists outside the theory chapter: `appendix-stories.yaml` retells ten well-known tales using only dictionary vocabulary, functioning as an informal, larger-scale version of the "stress test" §4.6/§8.25.1.7 still asks for (though a single hard _concept_ decomposed live is still missing — these are narratives, not a decomposition walkthrough)
 
 ## 10 Misc
 
 - [ ] Add search across the site
 - [ ] Add video chapter
+- [ ] Add online translator
+- [ ] Chapter 5 should list all prepositions
+- [] remove tamen
+- [] reorganize checklist theory / practice / implementation details

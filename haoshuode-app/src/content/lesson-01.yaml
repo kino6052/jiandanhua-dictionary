@@ -37,14 +37,14 @@ blocks:
       zh: "例子"
     items:
       - text:
-          eng: "<i>Zhōngguó -- China</i>"
-          rus: "<i>Zhōngguó  -- Китай</i>"
-          zh: "<i>Zhōngguó -- 中国</i>"
+          eng: "<i>Word:</i> <b>Zhōngguó</b> (China)"
+          rus: "<i>Слово:</i> <b>Zhōngguó</b> (Китай)"
+          zh: "<i>Word:</i> <b>Zhōngguó</b> (中国)</i>"
         items:
           - text:
-              eng: "Syllables: Zhōng and guó"
-              rus: "Слоги: Zhōng и guó"
-              zh: "音节：Zhōng 和 guó"
+              eng: "<i>Syllables</i>: <b>Zhōng</b> and <b>guó</b>"
+              rus: "<i>Слоги:</i> <b>Zhōng</b> и <b>guó</b>"
+              zh: "<i>音节：</i> <b>Zhōng</b> 和 <b>guó</b>"
 
   - type: prose
     text:

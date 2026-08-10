@@ -20,8 +20,8 @@ In Hao-shuo-de, prepositions function exactly like standard Mandarin coverbs. Th
 If no other action verb is present in the clause, the coverb itself steps up to serve as the main predicate of the sentence (e.g., `{{Word:wo3}} {{word:zai4}} {{word:di4fang1}}` -- I am in the house).
 
 ```examples
-{{Word:wo3}} {{word:gei3}} {{word:ta1}} {{word:yu2}}. | I give fish to her.
-{{Word:wo3}} {{word:zai4}} {{word:di4fang1}} {{word:gei3}} {{word:ta1}} {{word:yu2}}. | I give fish to her in the house.
+{{Word:wo3}} {{word:gei3}} {{word:ta1}} {{word:zai4}}-{{word:shui3}}-lǐ-{{word:de}} {{word:dong4wu4}}. | I give a swimming animal to her.
+{{Word:wo3}} {{word:zai4}} {{word:di4fang1}} {{word:gei3}} {{word:ta1}} {{word:zai4}}-{{word:shui3}}-lǐ-{{word:de}} {{word:dong4wu4}}. | I give a swimming animal to her in the house.
 {{Word:wo3}} {{word:zai4}} {{word:di4fang1}}. | I am in the house.
 {{Word:wo3}} {{word:qu4}} {{word:ni3}}-{{word:de}} {{word:pang2bian1}}. | I am moving towards you / going to your side.
 {{Word:wo3}}-{{word:de}} {{word:fu4mu3}} {{word:qu4}} {{word:kan4}} {{word:hen3}}-{{word:da4}}-{{word:de}} {{word:shui3}}. | My parent is going to the sea / big water.

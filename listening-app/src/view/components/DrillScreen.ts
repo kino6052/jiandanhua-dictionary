@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "preact/hooks";
 import html from "../html";
 import type { ViewModel } from "../../model/viewModel";
+import { flagStore } from "../../model/flagStore";
 
 interface Props {
   vm: ViewModel;
@@ -17,6 +18,8 @@ export function DrillScreen({ vm }: Props) {
   const progress = vm.progress.value;
   const result = vm.currentResult.value;
   const isLast = vm.isLastSample.value;
+  const granularity = vm.granularity.value;
+  const flagged = sample ? flagStore.isFlagged(sample.fileName) : false;
 
   useEffect(() => {
     if (audioRef.current) {
@@ -60,6 +63,18 @@ export function DrillScreen({ vm }: Props) {
     <div class="screen drill-screen" onKeyDown=${subPhase === "feedback" ? handleFeedbackKeyDown : undefined}>
       <p class="progress">Sample ${progress.position} of ${progress.total}</p>
 
+      <div class="file-row">
+        <span class="file-name">${sample.fileName}</span>
+        <button
+          type="button"
+          class=${flagged ? "flag-btn flag-btn-active" : "flag-btn"}
+          onClick=${() => flagStore.toggleFlag(sample.fileName)}
+          aria-pressed=${flagged}
+        >
+          🚩 ${flagged ? "Flagged" : "Flag as bad"}
+        </button>
+      </div>
+
       <audio ref=${audioRef} src=${sample.file} preload="auto"></audio>
 
       <div class="playback-controls">
@@ -81,7 +96,11 @@ export function DrillScreen({ vm }: Props) {
       ${subPhase === "answering"
         ? html`
             <div class="answer-area">
-              <label for="pinyin-input">Type what you heard (pinyin)</label>
+              <label for="pinyin-input">
+                ${granularity === "word"
+                  ? "Type what you heard, word by word (comma-separated)"
+                  : "Type what you heard (pinyin)"}
+              </label>
               <input
                 id="pinyin-input"
                 type="text"
@@ -89,6 +108,7 @@ export function DrillScreen({ vm }: Props) {
                 autocomplete="off"
                 autocapitalize="off"
                 spellcheck=${false}
+                placeholder=${granularity === "word" ? "e.g. ni3 hao3, ma5" : undefined}
                 value=${input}
                 onInput=${(e: Event) => vm.updateInput((e.target as HTMLInputElement).value)}
                 onKeyDown=${handleAnswerKeyDown}

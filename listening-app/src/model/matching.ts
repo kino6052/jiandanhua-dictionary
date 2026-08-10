@@ -84,3 +84,65 @@ export function compareSample(
     };
   });
 }
+
+/**
+ * Splits raw user input into word tokens for word-granularity mode: words
+ * are comma-separated, and each word's own syllables stay space-separated
+ * within its segment, e.g. "zhe4, shi4 shang4, you3".
+ */
+export function splitWordsInput(input: string): string[] {
+  return input
+    .split(",")
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+}
+
+/**
+ * Whether every syllable in `userSyllables` matches the corresponding
+ * syllable in `keySyllables`, position-by-position, under the given mode.
+ * Unequal lengths are always a mismatch -- there's no partial credit for
+ * getting "some of the syllables in a word" right at word granularity.
+ */
+function allSyllablesMatch(
+  keySyllables: ReturnType<typeof parseSyllable>[],
+  userSyllables: ReturnType<typeof parseSyllable>[],
+  mode: Mode,
+): boolean {
+  if (keySyllables.length !== userSyllables.length) return false;
+  return keySyllables.every((key, i) => {
+    const user = userSyllables[i]!;
+    const soundOk = user.base === key.base && key.base.length > 0;
+    if (mode === "sounds") return soundOk;
+    if (key.tone === null) return soundOk; // nothing to grade the tone against
+    return soundOk && user.tone === key.tone;
+  });
+}
+
+/**
+ * Compares one user answer against a sample's word-level key, positionally,
+ * one comma-separated user word per key word. Each word is scored
+ * atomically (see allSyllablesMatch): full credit only if every syllable in
+ * that word matches, none otherwise. Missing user words are a mismatch;
+ * extra user words beyond the key length are ignored, mirroring
+ * compareSample's alignment rules.
+ */
+export function compareWords(keyWords: string[], userInput: string, mode: Mode): SyllableResult[] {
+  const userWords = splitWordsInput(userInput);
+
+  return keyWords.map((keyWord, i): SyllableResult => {
+    const userRaw = userWords[i] ?? null;
+    const keySyllables = splitUserInput(keyWord).map(parseSyllable);
+    const userSyllables = userRaw !== null ? splitUserInput(userRaw).map(parseSyllable) : null;
+
+    const matched = userSyllables !== null && allSyllablesMatch(keySyllables, userSyllables, mode);
+
+    return {
+      keySyllable: keyWord,
+      userSyllable: userRaw,
+      soundCorrect: matched,
+      toneCorrect: null,
+      earned: matched ? 1 : 0,
+      possible: 1,
+    };
+  });
+}

@@ -38,5 +38,5 @@ Do you want to eat some fish?
 ```answers
 {{Word:ni3}} kěyǐ {{word:liu2}} {{word:ni3}}-{{word:de}} {{word:ni3}}-{{word:jiao4}}-{{word:de}} {{word:ci2}}.
 {{Word:fang1fa3}} {{word:bian4}} {{word:xiao3}}.
-{{Word:ni3}} {{word:yao4}}-{{word:bu4}}-{{word:yao4}} {{word:chi1}} {{word:yu2}}?
+{{Word:ni3}} {{word:yao4}}-{{word:bu4}}-{{word:yao4}} {{word:chi1}} {{word:zai4}}-{{word:shui3}}-lǐ-{{word:de}} {{word:dong4wu4}}?
 ```

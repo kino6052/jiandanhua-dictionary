@@ -3,6 +3,7 @@ import { defaultShuffle, filterPool, selectSession, type Shuffle } from "./selec
 import { buildReport, scoreSample } from "./scoring";
 import type {
   Difficulty,
+  Granularity,
   Mode,
   Report,
   Sample,
@@ -23,6 +24,7 @@ export class ViewModel {
 
   // Setup signals — editable only while phase === "setup".
   readonly mode = signal<Mode>("sounds");
+  readonly granularity = signal<Granularity>("syllable");
   readonly difficulty = signal<Difficulty>("L1");
   readonly contrast = signal<string | "all">("all");
   readonly count = signal<number>(10);
@@ -67,6 +69,11 @@ export class ViewModel {
   setMode(mode: Mode) {
     if (this.phase.value !== "setup") return;
     this.mode.value = mode;
+  }
+
+  setGranularity(granularity: Granularity) {
+    if (this.phase.value !== "setup") return;
+    this.granularity.value = granularity;
   }
 
   setDifficulty(difficulty: Difficulty) {
@@ -122,7 +129,13 @@ export class ViewModel {
     const sample = this.currentSample.value;
     if (!sample) return;
 
-    const record = scoreSample(sample, this.input.value, this.playCount.value, this.mode.value);
+    const record = scoreSample(
+      sample,
+      this.input.value,
+      this.playCount.value,
+      this.mode.value,
+      this.granularity.value,
+    );
     this.records.value = [...this.records.value, record];
     this.currentResult.value = record.syllables;
     this.subPhase.value = "feedback";

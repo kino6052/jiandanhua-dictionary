@@ -1,13 +1,17 @@
-import { compareSample } from "./matching";
-import type { Band, Mode, Report, Sample, SampleRecord } from "./types";
+import { compareSample, compareWords } from "./matching";
+import type { Band, Granularity, Mode, Report, Sample, SampleRecord } from "./types";
 
 export function scoreSample(
   sample: Sample,
   answer: string,
   playCount: number,
   mode: Mode,
+  granularity: Granularity = "syllable",
 ): SampleRecord {
-  const syllables = compareSample(sample.syllables, answer, mode);
+  const syllables =
+    granularity === "word"
+      ? compareWords(sample.words, answer, mode)
+      : compareSample(sample.syllables, answer, mode);
   const earned = syllables.reduce((sum, s) => sum + s.earned, 0);
   const possible = syllables.reduce((sum, s) => sum + s.possible, 0);
 

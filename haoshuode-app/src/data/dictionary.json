@@ -406,48 +406,6 @@
       },
       "maps": "pipi"
     },
-    "niao3": {
-      "term": "niǎo",
-      "pos": {
-        "eng": "noun",
-        "rus": "существительное",
-        "zh": "名词"
-      },
-      "definition": {
-        "eng": "bird, flying creature, winged animal",
-        "rus": "птица, летающее существо, крылатое животное",
-        "zh": "鸟，飞行生物，有翼动物"
-      },
-      "maps": "waso"
-    },
-    "pa2xing2dong4wu4": {
-      "term": "páxíngdòngwù",
-      "pos": {
-        "eng": "noun",
-        "rus": "существительное",
-        "zh": "名词"
-      },
-      "definition": {
-        "eng": "reptile, amphibian, non-cute crawling animal",
-        "rus": "рептилия, земноводное, неприятное на вид ползающее животное",
-        "zh": "爬行动物，两栖动物，不可爱的爬行生物"
-      },
-      "maps": "akesi"
-    },
-    "yu2": {
-      "term": "yú",
-      "pos": {
-        "eng": "noun",
-        "rus": "существительное",
-        "zh": "名词"
-      },
-      "definition": {
-        "eng": "fish, marine animal, sea creature",
-        "rus": "рыба, морское животное, морское существо",
-        "zh": "鱼，海洋动物，海洋生物"
-      },
-      "maps": "kala"
-    },
     "dong1xi": {
       "term": "dōngxi",
       "pos": {
@@ -1457,7 +1415,7 @@
       "maps": ""
     },
     "di4ban3": {
-      "term": "dìbǎn",
+      "term": "tái",
       "pos": {
         "eng": "noun",
         "rus": "существительное",
@@ -1791,6 +1749,188 @@
         "zh": "方式，习俗，道路，方法，学说"
       },
       "maps": "nasin"
+    },
+    "sheng1yin1": {
+      "term": "shēngyīn",
+      "pos": {
+        "eng": "noun",
+        "rus": "существительное",
+        "zh": "名词"
+      },
+      "definition": {
+        "eng": "sound, noise, voice",
+        "rus": "звук, шум, голос",
+        "zh": "声音，噪音，嗓音"
+      },
+      "maps": "kalama"
+    },
+    "zhen1": {
+      "term": "zhēn",
+      "pos": {
+        "eng": "adjective",
+        "rus": "прилагательное",
+        "zh": "形容词"
+      },
+      "definition": {
+        "eng": "true, real, genuine, actual",
+        "rus": "истинный, настоящий, подлинный",
+        "zh": "真的，真实的，真正的"
+      },
+      "maps": "lon"
+    },
+    "wen4": {
+      "term": "wèn",
+      "pos": {
+        "eng": "verb",
+        "rus": "глагол",
+        "zh": "动词"
+      },
+      "definition": {
+        "eng": "to ask, inquire, question",
+        "rus": "спрашивать, задавать вопрос",
+        "zh": "问，询问，提问"
+      },
+      "maps": ""
+    },
+    "na3li3": {
+      "term": "nǎlǐ",
+      "pos": {
+        "eng": "pronoun",
+        "rus": "местоимение",
+        "zh": "代词"
+      },
+      "definition": {
+        "eng": "where; which place",
+        "rus": "где; какое место",
+        "zh": "哪里，什么地方"
+      },
+      "maps": ""
+    },
+    "pa4": {
+      "term": "pà",
+      "pos": {
+        "eng": "verb/adjective",
+        "rus": "глагол/прилагательное",
+        "zh": "动词/形容词"
+      },
+      "definition": {
+        "eng": "to fear, be afraid of; scared, frightened",
+        "rus": "бояться, пугаться; испуганный",
+        "zh": "害怕，恐惧；害怕的"
+      },
+      "maps": ""
+    },
+    "xia4": {
+      "term": "xià",
+      "pos": {
+        "eng": "noun/directional",
+        "rus": "существительное/направление",
+        "zh": "名词/方向"
+      },
+      "definition": {
+        "eng": "down, below, under; composes with other roots via a hyphen (e.g. {{word:xia4}}-{{word:lai2}}, {{word:xia4}}-{{word:mian4}})",
+        "rus": "вниз, ниже, под; соединяется с другими корнями через дефис (например, {{word:xia4}}-{{word:lai2}}, {{word:xia4}}-{{word:mian4}})",
+        "zh": "下，向下，在……之下；通过连字符与其他词根组合（例如 {{word:xia4}}-{{word:lai2}}、{{word:xia4}}-{{word:mian4}}）"
+      },
+      "maps": ""
+    },
+    "shang4": {
+      "term": "shàng",
+      "pos": {
+        "eng": "noun/directional",
+        "rus": "существительное/направление",
+        "zh": "名词/方向"
+      },
+      "definition": {
+        "eng": "up, above, on; composes with other roots via a hyphen (e.g. {{word:shang4}}-{{word:lai2}}, {{word:shang4}}-{{word:mian4}})",
+        "rus": "вверх, наверху, на; соединяется с другими корнями через дефис (например, {{word:shang4}}-{{word:lai2}}, {{word:shang4}}-{{word:mian4}})",
+        "zh": "上，向上，在……之上；通过连字符与其他词根组合（例如 {{word:shang4}}-{{word:lai2}}、{{word:shang4}}-{{word:mian4}}）"
+      },
+      "maps": ""
+    },
+    "qi3": {
+      "term": "qǐ",
+      "pos": {
+        "eng": "verb/directional",
+        "rus": "глагол/направление",
+        "zh": "动词/方向"
+      },
+      "definition": {
+        "eng": "to rise, get up; begin; composes with a verb via a hyphen to mark the start of an action (e.g. {{word:shuo1}}-{{word:qi3}}, \"to bring up/mention\")",
+        "rus": "подниматься, вставать; начинать; соединяется с глаголом через дефис, отмечая начало действия (например, {{word:shuo1}}-{{word:qi3}}, «завести речь о чём-то»)",
+        "zh": "起，起身；开始；通过连字符与动词组合，表示动作的开始（例如 {{word:shuo1}}-{{word:qi3}}，“提起，说到”）"
+      },
+      "maps": ""
+    },
+    "hou4": {
+      "term": "hòu",
+      "pos": {
+        "eng": "noun/directional",
+        "rus": "существительное/направление",
+        "zh": "名词/方向"
+      },
+      "definition": {
+        "eng": "behind, after, back; composes with other roots via a hyphen (e.g. {{word:hou4}}-{{word:mian4}})",
+        "rus": "сзади, после, позади; соединяется с другими корнями через дефис (например, {{word:hou4}}-{{word:mian4}})",
+        "zh": "后，在……后面，之后；通过连字符与其他词根组合（例如 {{word:hou4}}-{{word:mian4}}）"
+      },
+      "maps": ""
+    },
+    "li3": {
+      "term": "lǐ",
+      "pos": {
+        "eng": "noun/directional",
+        "rus": "существительное/направление",
+        "zh": "名词/方向"
+      },
+      "definition": {
+        "eng": "inside, within; composes with other roots via a hyphen (e.g. {{word:li3}}-{{word:mian4}})",
+        "rus": "внутри, внутрь; соединяется с другими корнями через дефис (например, {{word:li3}}-{{word:mian4}})",
+        "zh": "里，里面，之内；通过连字符与其他词根组合（例如 {{word:li3}}-{{word:mian4}}）"
+      },
+      "maps": ""
+    },
+    "mian4": {
+      "term": "miàn",
+      "pos": {
+        "eng": "noun/suffix",
+        "rus": "существительное/суффикс",
+        "zh": "名词/后缀"
+      },
+      "definition": {
+        "eng": "side, face, surface; binds to a directional root via a hyphen to form a location noun (e.g. {{word:xia4}}-{{word:mian4}}, \"below\")",
+        "rus": "сторона, лицо, поверхность; присоединяется к направленческому корню через дефис, образуя пространственное существительное (например, {{word:xia4}}-{{word:mian4}}, «внизу»)",
+        "zh": "面，脸，表面；通过连字符与方向词根结合，构成方位名词（例如 {{word:xia4}}-{{word:mian4}}，“下面”）"
+      },
+      "maps": ""
+    },
+    "bian1": {
+      "term": "biān",
+      "pos": {
+        "eng": "noun/suffix",
+        "rus": "существительное/суффикс",
+        "zh": "名词/后缀"
+      },
+      "definition": {
+        "eng": "side, edge; binds to a directional root via a hyphen to form a location noun (e.g. {{word:pang2}}-{{word:bian1}}, \"beside\")",
+        "rus": "сторона, край; присоединяется к направленческому корню через дефис, образуя пространственное существительное (например, {{word:pang2}}-{{word:bian1}}, «рядом»)",
+        "zh": "边，边缘；通过连字符与方向词根结合，构成方位名词（例如 {{word:pang2}}-{{word:bian1}}，“旁边”）"
+      },
+      "maps": ""
+    },
+    "pang2": {
+      "term": "páng",
+      "pos": {
+        "eng": "noun/directional",
+        "rus": "существительное/направление",
+        "zh": "名词/方向"
+      },
+      "definition": {
+        "eng": "beside, alongside; composes with {{word:bian1}} via a hyphen (e.g. {{word:pang2}}-{{word:bian1}})",
+        "rus": "рядом, сбоку; соединяется с {{word:bian1}} через дефис (например, {{word:pang2}}-{{word:bian1}})",
+        "zh": "旁，旁边；通过连字符与 {{word:bian1}} 组合（例如 {{word:pang2}}-{{word:bian1}}）"
+      },
+      "maps": ""
     }
   },
   "categories": [
@@ -1898,10 +2038,7 @@
           },
           "wordIds": [
             "dong4wu4",
-            "chong2zi",
-            "niao3",
-            "pa2xing2dong4wu4",
-            "yu2"
+            "chong2zi"
           ]
         },
         {
@@ -1968,7 +2105,8 @@
           "wordIds": [
             "ci2",
             "li4liang4",
-            "xing4"
+            "xing4",
+            "sheng1yin1"
           ]
         }
       ]
@@ -2157,7 +2295,8 @@
           },
           "wordIds": [
             "yao4",
-            "ai4"
+            "ai4",
+            "pa4"
           ]
         },
         {
@@ -2195,7 +2334,8 @@
       },
       "wordIds": [
         "shuo1",
-        "xie3"
+        "xie3",
+        "wen4"
       ]
     },
     {
@@ -2450,7 +2590,8 @@
           },
           "wordIds": [
             "wei4shen2me",
-            "zen3me"
+            "zen3me",
+            "na3li3"
           ]
         },
         {
@@ -2462,6 +2603,17 @@
           },
           "wordIds": [
             "neng2"
+          ]
+        },
+        {
+          "key": "truth-value",
+          "title": {
+            "eng": "Truth Value",
+            "rus": "Истинностное значение",
+            "zh": "真值"
+          },
+          "wordIds": [
+            "zhen1"
           ]
         }
       ]

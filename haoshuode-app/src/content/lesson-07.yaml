@@ -1,0 +1,245 @@
+id: lesson-07
+type: lesson
+lessonNumber: 7
+order: 7
+title:
+  eng: "More Adjectives & State Changes"
+  rus: "Больше прилагательных и изменения состояния"
+  zh: "更多形容词与状态变化"
+
+summary:
+  eng: 'Hao-shuo-de builds "strong" by combining {{word:you3}} with {{word:li4liang4}}, adjectives can modify verbs directly as adverbs, `{{word:le}}` attached to an adjective marks a change of state, and the {{word:ba3}}...{{word:bian4}} construction turns an adjective into a causative action ("to make good" = "to fix").'
+  rus: 'Hao-shuo-de образует «сильный», соединяя {{word:you3}} с {{word:li4liang4}}, прилагательные могут напрямую определять глаголы как наречия, `{{word:le}}`, присоединённый к прилагательному, отмечает изменение состояния, а конструкция {{word:ba3}}...{{word:bian4}} превращает прилагательное в каузативное действие («сделать хорошим» = «починить»).'
+  zh: "Hao-shuo-de 通过把 {{word:you3}} 和 {{word:li4liang4}} 结合来构造“强壮”，形容词可以直接作为副词修饰动词，附着在形容词上的 `{{word:le}}` 表示状态变化，而 {{word:ba3}}...{{word:bian4}} 结构则把形容词变成使役动作（“使变好”=“修理”）。"
+
+blocks:
+  - type: vocab
+    items:
+      - term: "{{word:bu4}}"
+        ttsText: "不"
+        definition:
+          eng: "not, no"
+          rus: "не, нет"
+          zh: "不，没有"
+      - term: "{{word:huai4}}"
+        ttsText: "坏"
+        definition:
+          eng: "bad, negative, broken"
+          rus: "плохой, отрицательный, сломанный"
+          zh: "坏的，负面的，坏掉的"
+      - term: "{{word:duo1}}"
+        ttsText: "多"
+        definition:
+          eng: "many, a lot, very"
+          rus: "много, весьма"
+          zh: "多，非常"
+      - term: "{{word:fu4mu3}}"
+        ttsText: "父母"
+        definition:
+          eng: "parent, ancestor"
+          rus: "родитель, предок"
+          zh: "父母，祖先"
+      - term: "{{word:yi1}}"
+        ttsText: "一"
+        definition:
+          eng: "one, united"
+          rus: "один, единый"
+          zh: "一，统一"
+      - term: "{{word:li4liang4}}"
+        ttsText: "力量"
+        definition:
+          eng: "power, energy"
+          rus: "сила, энергия"
+          zh: "力量，能量"
+
+  - type: prose
+    text:
+      eng: 'Not every idea gets its own dedicated word in Hao-shuo-de -- and "strong" is a good example of why that''s fine. Rather than adding a 121st word to the dictionary just for this one concept, Hao-shuo-de builds it out of two words you already know: {{word:you3}} ("to have," from Lesson 6) plus {{word:li4liang4}} ("power, energy"). Put them side by side and you get {{word:you3}} {{word:li4liang4}}, literally "to have power" -- which is really just describing what being strong actually means, one plain idea at a time, instead of packaging it into a single opaque label.
+
+        To use that description the way you''d use any other adjective, bind it onto the noun it''s describing with `-{{word:de}}`, the same connecting particle from Lessons 2 and 4: {{word:you3}}-{{word:li4liang4}}-{{word:de}} {{word:nan2ren2}}, "a strong man." Once it''s bound this way, the whole three-word phrase behaves exactly like a single adjective would -- it just happens to be built rather than memorized.'
+      rus: 'Не каждая идея получает в Hao-shuo-de собственное отдельное слово — и «сильный» хороший тому пример. Вместо того чтобы добавить в словарь 121-е слово только ради одного этого понятия, Hao-shuo-de строит его из двух уже известных вам слов: {{word:you3}} («иметь», из Урока 6) плюс {{word:li4liang4}} («сила, энергия»). Поставьте их рядом — и получите {{word:you3}} {{word:li4liang4}}, буквально «иметь силу» — что на самом деле просто описывает, что значит быть сильным, по одной простой идее за раз, вместо того чтобы упаковывать это в единый непрозрачный ярлык.
+
+        Чтобы использовать это описание так же, как любое другое прилагательное, присоедините его к определяемому существительному через `-{{word:de}}`, ту же связующую частицу из Уроков 2 и 4: {{word:you3}}-{{word:li4liang4}}-{{word:de}} {{word:nan2ren2}}, «сильный мужчина». После такого присоединения вся трёхсловная фраза ведёт себя точно так же, как одно-единственное прилагательное — просто оно построено, а не заучено.'
+      zh: "并不是每个概念在 Hao-shuo-de 里都有专属的词——“强壮”就是一个很好的例子。与其为了这一个概念专门在词典里添加第121个词，Hao-shuo-de 用两个你已经认识的词把它构造出来：{{word:you3}}（“有”，来自第六课）加上 {{word:li4liang4}}（“力量，能量”）。把它们并排放在一起，就得到 {{word:you3}} {{word:li4liang4}}，字面意思是“有力量”——这其实只是把“强壮”到底是什么意思，用一个个朴素的概念说清楚，而不是把它打包成一个不透明的标签。\n\n要像使用任何其他形容词一样使用这个描述，就通过 `-{{word:de}}` 把它连接到它所描述的名词上——也就是第二课和第四课里那个连接用的助词：{{word:you3}}-{{word:li4liang4}}-{{word:de}} {{word:nan2ren2}}，“一个强壮的男人”。一旦这样连接起来，整个三词短语的表现就和单独一个形容词一模一样——只不过它是构造出来的，而不是死记硬背下来的。"
+    tldr:
+      eng: '"Strong" is built from {{word:you3}} + {{word:li4liang4}} ("to have power"), bound with `-{{word:de}}` to modify a noun directly.'
+      rus: '«Сильный» строится из {{word:you3}} + {{word:li4liang4}} («иметь силу»), присоединяется через `-{{word:de}}` для прямого определения существительного.'
+      zh: "“强壮”由 {{word:you3}} + {{word:li4liang4}}（“有力量”）构成，通过 `-{{word:de}}` 连接直接修饰名词。"
+    necessity:
+      eng: "Shows that Hao-shuo-de's small dictionary handles missing adjectives by composing existing words, not by inventing new vocabulary."
+      rus: "Показывает, что небольшой словарь Hao-shuo-de восполняет недостающие прилагательные за счёт соединения уже известных слов, а не изобретения новой лексики."
+      zh: "说明 Hao-shuo-de 精简的词典是通过组合已有的词来填补缺失的形容词，而不是发明新词汇。"
+
+  - type: info
+    subtype: grammar
+    tag: "adjectives/composition"
+    title:
+      eng: "Building an Adjective"
+      rus: "Построение прилагательного"
+      zh: "构造形容词"
+    items:
+      - text:
+          eng: "When the dictionary has no word for a description you need, combine an existing verb and noun (e.g. {{word:you3}} + {{word:li4liang4}}) and bind the pair onto its target noun with `-{{word:de}}`, the same way any adjective phrase attaches."
+          rus: "Когда в словаре нет слова для нужного вам описания, соедините существующий глагол и существительное (например, {{word:you3}} + {{word:li4liang4}}) и присоедините эту пару к определяемому существительному через `-{{word:de}}`, так же, как присоединяется любая фраза-прилагательное."
+          zh: "当词典里没有词能表达你需要的描述时，把一个已有的动词和名词组合起来（例如 {{word:you3}} + {{word:li4liang4}}），再通过 `-{{word:de}}` 把这对组合连接到它所修饰的名词上，就像任何形容词短语的连接方式一样。"
+
+  - type: prose
+    text:
+      eng: 'Adjectives have one more job available to them: standing directly in front of another adjective or a verb, they act as adverbs, describing how much or how that other word applies. You have actually already been doing this without naming it -- `{{word:hen3}}` itself, from Lesson 4, is just an adjective ("very") pressed into adverb duty in front of another adjective. `{{word:hen3}} {{word:duo1}}` works the same way: `{{word:duo1}}` ("many") on its own is already an adjective, and stacking `{{word:hen3}}` in front of it gives you "very many," no separate adverb form required.'
+      rus: 'У прилагательных есть ещё одна доступная им роль: стоя непосредственно перед другим прилагательным или глаголом, они работают как наречия, описывая, насколько или как применимо это другое слово. На самом деле вы уже делали это, просто не называя явно: сам `{{word:hen3}}`, из Урока 4, — это просто прилагательное («очень»), поставленное на службу наречия перед другим прилагательным. `{{word:hen3}} {{word:duo1}}` работает точно так же: `{{word:duo1}}` («много») само по себе уже прилагательное, и, поставив `{{word:hen3}}` перед ним, вы получаете «очень много», без какой-либо отдельной формы наречия.'
+      zh: "形容词还有一项可以承担的工作：直接站在另一个形容词或动词前面，起副词的作用，描述这个词适用的程度或方式。实际上你已经在不知不觉中这样做过了——第四课里的 `{{word:hen3}}` 本身，就只是一个形容词（“很”），被派去在另一个形容词前面充当副词。`{{word:hen3}} {{word:duo1}}` 的原理相同：`{{word:duo1}}`（“多”）本身已经是一个形容词，把 `{{word:hen3}}` 叠加在它前面，就得到了“很多”，不需要任何单独的副词形式。"
+    tldr:
+      eng: "An adjective placed directly before another adjective or verb functions as an adverb."
+      rus: "Прилагательное, стоящее непосредственно перед другим прилагательным или глаголом, работает как наречие."
+      zh: "形容词直接放在另一个形容词或动词前面时，起副词的作用。"
+    necessity:
+      eng: "Extends `{{word:hen3}}`'s connector role from Lesson 4 into a general adverb-formation pattern, without adding a new particle."
+      rus: "Расширяет роль связки `{{word:hen3}}` из Урока 4 до общей модели образования наречий, не добавляя новой частицы."
+      zh: "把第四课中 `{{word:hen3}}` 的连接作用扩展为一种通用的构造副词的方式，而无需增加新的助词。"
+
+  - type: info
+    subtype: grammar
+    tag: "adjectives/adverbial-use"
+    title:
+      eng: "Adjectives as Adverbs"
+      rus: "Прилагательные в роли наречий"
+      zh: "形容词作副词"
+    items:
+      - text:
+          eng: "Place an adjective directly before another adjective or a verb to use it as an adverb -- no separate adverb form exists."
+          rus: "Поставьте прилагательное непосредственно перед другим прилагательным или глаголом, чтобы использовать его как наречие — отдельной формы наречия не существует."
+          zh: "把一个形容词直接放在另一个形容词或动词前面，就可以把它当作副词使用——不存在单独的副词形式。"
+
+  - type: prose
+    text:
+      eng: "There's a second way `{{word:le}}` shows up beyond marking a finished action on a verb (Lesson 6): attached directly to an adjective, `{{word:le}}` marks that a state has changed -- that something wasn't true a moment ago, and now it is. `{{word:hao3}} {{word:le}}` doesn't just restate \"good\"; it means something has become good, or gotten better than it was. This is the same `{{word:le}}`, doing the same underlying job -- marking the moment a change became real -- just applied to a description instead of an action. Between this and the causative construction below, Hao-shuo-de actually has two distinct ways to talk about something changing: `{{word:le}}` reports that a change already happened, while `{{word:ba3}}`...`{{word:bian4}}` (next) is how you make one happen yourself."
+      rus: "У `{{word:le}}` есть и второе применение, помимо отметки завершённого действия у глагола (Урок 6): присоединённый прямо к прилагательному, `{{word:le}}` отмечает, что состояние изменилось — что мгновение назад что-то ещё не было верно, а теперь стало. `{{word:hao3}} {{word:le}}` — это не просто повторение «хороший»; это значит, что нечто стало хорошим или улучшилось по сравнению с тем, каким было. Это тот же самый `{{word:le}}`, выполняющий ту же самую базовую работу — отмечающий момент, когда изменение стало реальностью, — просто применённый к описанию, а не к действию. Между этим и каузативной конструкцией ниже у Hao-shuo-de на самом деле есть два разных способа говорить об изменении: `{{word:le}}` сообщает, что изменение уже произошло, а `{{word:ba3}}`...`{{word:bian4}}` (далее) — это то, как вы сами вызываете изменение."
+      zh: "`{{word:le}}` 除了标记动词上已完成的动作（第六课）之外，还有第二种用法：直接附着在形容词上，`{{word:le}}` 表示一种状态发生了变化——一瞬间之前还不是这样，现在变成了这样。`{{word:hao3}} {{word:le}}` 不只是重复“好”；它的意思是某事变好了，或者比原来更好了。这仍然是同一个 `{{word:le}}`，做着同样的根本工作——标记变化真正发生的那一刻——只是这次用在了描述上，而不是动作上。在这一点和下面的使役结构之间，Hao-shuo-de 实际上有两种不同的方式谈论变化：`{{word:le}}` 报告一个变化已经发生了，而 `{{word:ba3}}`...`{{word:bian4}}`（接下来）则是你自己让变化发生的方式。"
+    tldr:
+      eng: '`{{word:le}}` attached to an adjective marks a change of state -- `{{word:hao3}} {{word:le}}` means "it''s gotten good," not just "it is good."'
+      rus: "`{{word:le}}`, присоединённый к прилагательному, отмечает изменение состояния — `{{word:hao3}} {{word:le}}` означает «стало хорошо», а не просто «хорошо»."
+      zh: "附着在形容词上的 `{{word:le}}` 表示状态变化——`{{word:hao3}} {{word:le}}` 意思是“变好了”，而不只是“好”。"
+    necessity:
+      eng: "Extends Lesson 6's `{{word:le}}` (completion on verbs) to adjectives, and sets up the contrast with the causative construction below: `{{word:le}}` reports a change, `{{word:ba3}}`...`{{word:bian4}}` causes one."
+      rus: "Расширяет `{{word:le}}` из Урока 6 (завершённость у глаголов) на прилагательные и задаёт контраст с каузативной конструкцией ниже: `{{word:le}}` сообщает об изменении, `{{word:ba3}}`...`{{word:bian4}}` вызывает его."
+      zh: "把第六课的 `{{word:le}}`（动词上的完成）扩展到了形容词，并为下面的使役结构建立了对比：`{{word:le}}` 报告变化，`{{word:ba3}}`...`{{word:bian4}}` 引发变化。"
+
+  - type: info
+    subtype: grammar
+    tag: "adjectives/state-change"
+    title:
+      eng: "State Change with `{{word:le}}`"
+      rus: "Изменение состояния с `{{word:le}}`"
+      zh: "用 `{{word:le}}` 表示状态变化"
+    items:
+      - text:
+          eng: '`{{word:le}}` attaches directly after an adjective to mark that a state has changed. `{{word:hao3}} {{word:le}}` means "it has become good," not simply "it is good."'
+          rus: "`{{word:le}}` присоединяется прямо после прилагательного, отмечая, что состояние изменилось. `{{word:hao3}} {{word:le}}` означает «стало хорошо», а не просто «хорошо»."
+          zh: "`{{word:le}}` 直接附着在形容词后面，表示状态已经发生变化。`{{word:hao3}} {{word:le}}` 意思是“已经变好了”，而不仅仅是“好”。"
+
+  - type: info
+    subtype: grammar
+    tag: "adjectives/causative"
+    title:
+      eng: "The Causative Rule"
+      rus: "Правило каузатива"
+      zh: "使役规则"
+    items:
+      - text:
+          eng: 'To turn an adjective into a transitive action (such as transforming "good" into "to fix/improve" or "bad" into "to break"), you must use the standard Mandarin {{word:ba3}} construction paired with {{word:bian4}} (to become/change):'
+          rus: "Чтобы превратить прилагательное в переходное действие (например, превратить «хороший» в «чинить/улучшать» или «плохой» в «ломать»), нужно использовать стандартную мандаринскую конструкцию {{word:ba3}} в паре с {{word:bian4}} (становиться/меняться):"
+          zh: "要把形容词变成及物动作（比如把“好”变成“修理/改善”，或把“坏”变成“弄坏”），需要使用标准普通话的 {{word:ba3}} 结构搭配 {{word:bian4}}（变成/改变）："
+        items:
+          - text:
+              eng: "Subject + {{word:ba3}} + Object + {{word:bian4}} + Adjective"
+              rus: "Подлежащее + {{word:ba3}} + Дополнение + {{word:bian4}} + Прилагательное"
+              zh: "主语 + {{word:ba3}} + 宾语 + {{word:bian4}} + 形容词"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:ni3}}-{{word:de}} {{word:zuo4}}-{{word:de}} {{word:hen3}} {{word:hao3}}."
+        ttsText: "你的做的很好。"
+        translation:
+          eng: "Your work is very good."
+          rus: "Ваша работа очень хороша."
+          zh: "你的工作很好。"
+      - pinyin: "{{Word:shui3}} {{word:gei3}} {{word:wo3}} {{word:li4liang4}}."
+        ttsText: "水给我力量。"
+        translation:
+          eng: "Water strengthens me / gives me energy."
+          rus: "Вода даёт мне силы / придаёт мне энергии."
+          zh: "水给我力量。"
+      - pinyin: "{{Word:ni3}} {{word:shi4}} {{word:you3}}-{{word:li4liang4}}-{{word:de}} {{word:nan2ren2}}."
+        ttsText: "你是有力量的男人。"
+        translation:
+          eng: "You're a strong man."
+          rus: "Ты сильный мужчина."
+          zh: "你是有力量的男人。"
+      - pinyin: "{{Word:zhi1dao4}}-{{word:de}} {{word:ren2}} {{word:kan4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        ttsText: "知道的人看写的东西。"
+        translation:
+          eng: "The scholars read the document / look at the paper."
+          rus: "Знающие люди читают документ / смотрят на бумагу."
+          zh: "知道的人看写的东西。/ 学者们阅读文件。"
+      - pinyin: "{{Word:xiao3}}-{{word:de}} {{word:nv3ren2}} méiyǒu {{word:hao3}}-{{word:de}} {{word:ting1}} {{word:fu4mu3}}."
+        ttsText: "小的女人没有好的听父母。"
+        translation:
+          eng: "The girls misheard / didn't listen well to the parent."
+          rus: "Маленькие женщины плохо слушали родителя / ослышались."
+          zh: "小的女人没有好的听父母。/ 女孩们没听清父母的话。"
+      - pinyin: "{{Word:shui3}} {{word:hao3}} {{word:le}}."
+        ttsText: "水好了。"
+        translation:
+          eng: "The water has gotten good now."
+          rus: "Вода стала хорошей."
+          zh: "水好了。"
+      - pinyin: "Méiyǒu {{word:ren2}} {{word:shi4}} {{word:huai4}}-{{word:de}}."
+        ttsText: "没有人是坏的。"
+        translation:
+          eng: "Nobody is bad."
+          rus: "Никто не плохой."
+          zh: "没有人是坏的。"
+      - pinyin: "{{Word:nan2ren2}}-{{word:de}} {{word:fu4mu3}} {{word:duo1}}-{{word:de}} {{word:kan4}} {{word:xie3}}-{{word:de}} {{word:dong1xi}}."
+        ttsText: "男人的父母多的看写的东西。"
+        translation:
+          eng: "Fathers use/read the book a lot."
+          rus: "Родители мужчины много читают написанные вещи."
+          zh: "男人的父母多的看写的东西。/ 父亲们经常阅读书籍。"
+
+  - type: exercise
+    items:
+      - eng: "The man doesn't eat bad fruit."
+        rus: "Мужчина не ест плохие фрукты."
+        zh: "这个男人不吃坏的水果。"
+      - eng: "Eating makes me tall."
+        rus: "Еда делает меня высоким."
+        zh: "吃东西让我变高。"
+      - eng: "I know Hao-shuo-de a bit."
+        rus: "Я немного знаю Hao-shuo-de."
+        zh: "我懂一点儿好说的。"
+      - eng: "The community has become strong."
+        rus: "Сообщество стало сильным."
+        zh: "这个群变得有力量了。"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:nan2ren2}} {{word:bu4}} {{word:chi1}} {{word:huai4}}-{{word:de}} {{word:shui3guo3}}."
+          rus: "{{Word:nan2ren2}} {{word:bu4}} {{word:chi1}} {{word:huai4}}-{{word:de}} {{word:shui3guo3}}."
+          zh: "{{Word:nan2ren2}} {{word:bu4}} {{word:chi1}} {{word:huai4}}-{{word:de}} {{word:shui3guo3}}."
+        ttsText: "男人不吃坏的水果。"
+      - text:
+          eng: "{{Word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}."
+          rus: "{{Word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}."
+          zh: "{{Word:chi1}} {{word:ba3}} {{word:wo3}} {{word:bian4}} {{word:da4}}."
+        ttsText: "吃把我变大。"
+      - text:
+          eng: "Hǎo-shuō-de, {{word:wo3}} {{word:zhi1dao4}}-{{word:de}} {{word:bu4}} {{word:duo1}}."
+          rus: "Hǎo-shuō-de, {{word:wo3}} {{word:zhi1dao4}}-{{word:de}} {{word:bu4}} {{word:duo1}}."
+          zh: "Hǎo-shuō-de, {{word:wo3}} {{word:zhi1dao4}}-{{word:de}} {{word:bu4}} {{word:duo1}}."
+        ttsText: "好说的，我知道的不多。"
+      - text:
+          eng: "{{Word:qun2}} {{word:you3}}-{{word:li4liang4}} {{word:le}}."
+          rus: "{{Word:qun2}} {{word:you3}}-{{word:li4liang4}} {{word:le}}."
+          zh: "{{Word:qun2}} {{word:you3}}-{{word:li4liang4}} {{word:le}}."
+        ttsText: "群有力量了。"

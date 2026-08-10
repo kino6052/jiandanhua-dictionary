@@ -1,0 +1,194 @@
+id: lesson-08
+type: lesson
+lessonNumber: 8
+order: 8
+title:
+  eng: "Questions and Answers"
+  rus: "Вопросы и ответы"
+  zh: "问与答"
+
+summary:
+  eng: 'Question words sit exactly where the answer would go; yes-or-no questions use the `{{word:ma}}` particle or an A-not-A reduplication; and answering "yes" or "no" means repeating the verb, since Hao-shuo-de has no dedicated word for either.'
+  rus: 'Вопросительные слова стоят ровно там, где был бы ответ; вопросы «да/нет» используют частицу `{{word:ma}}` или редупликацию A-не-A; а ответ «да» или «нет» означает повторение глагола, поскольку в Hao-shuo-de нет отдельного слова ни для того, ни для другого.'
+  zh: "疑问词就放在答案本应出现的位置；是非问句使用 `{{word:ma}}` 助词或“A不A”重叠形式；而回答“是”或“不是”就是重复动词，因为 Hao-shuo-de 没有专门表示这两者的词。"
+
+blocks:
+  - type: vocab
+    items:
+      - term: "{{word:gong1ju4}}"
+        ttsText: "工具"
+        definition:
+          eng: "tool, machine, device"
+          rus: "инструмент, машина, устройство"
+          zh: "工具，机器，装置"
+      - term: "{{word:ta1}}"
+        ttsText: "他"
+        definition:
+          eng: "he, she, it, they"
+          rus: "он, она, оно, они"
+          zh: "他，她，它，他们"
+      - term: "{{word:huo4zhe3}}"
+        ttsText: "或者"
+        definition:
+          eng: "or"
+          rus: "или"
+          zh: "或者"
+      - term: "{{word:shen2me}}"
+        ttsText: "什么"
+        definition:
+          eng: "what, which"
+          rus: "что, какой"
+          zh: "什么，哪个"
+      - term: "{{word:wei4shen2me}}"
+        ttsText: "为什么"
+        definition:
+          eng: "why"
+          rus: "почему"
+          zh: "为什么"
+      - term: "{{word:zen3me}}"
+        ttsText: "怎么"
+        definition:
+          eng: "how"
+          rus: "как"
+          zh: "怎么"
+
+  - type: prose
+    text:
+      eng: 'To ask a "what" or "which" question in Hao-shuo-de, you do not alter the sentence structure. Simply place the question word `{{word:shen2me}}` directly into the syntactic position of the information you want to discover.'
+      rus: 'Чтобы задать вопрос «что» или «какой» в Hao-shuo-de, вам не нужно менять структуру предложения. Просто поставьте вопросительное слово `{{word:shen2me}}` прямо в ту синтаксическую позицию, где должна находиться искомая информация.'
+      zh: "在 Hao-shuo-de 中问“什么”或“哪个”这样的问题时，你不需要改变句子结构。只需把疑问词 `{{word:shen2me}}` 直接放在你想知道的信息所在的语法位置上。"
+    tldr:
+      eng: "Question words like `{{word:shen2me}}` sit exactly where the answer would go -- no sentence restructuring needed."
+      rus: "Вопросительные слова вроде `{{word:shen2me}}` стоят ровно там, где стоял бы ответ, — перестраивать предложение не нужно."
+      zh: "像 `{{word:shen2me}}` 这样的疑问词就放在答案本应出现的位置——不需要重新排列句子。"
+    necessity:
+      eng: "Confirms that Hao-shuo-de's fixed SVO order (Lesson 3) stays fixed even for questions, unlike English which moves the question word to the front."
+      rus: "Подтверждает, что фиксированный порядок SVO в Hao-shuo-de (Урок 3) остаётся неизменным даже в вопросах, в отличие от английского, где вопросительное слово выносится в начало."
+      zh: "确认了 Hao-shuo-de 固定的主谓宾语序（第三课）即使在提问时也保持不变，这与把疑问词提到句首的英语不同。"
+
+  - type: info
+    title:
+      eng: "Yes-or-No Questions"
+      rus: "Вопросы «да/нет»"
+      zh: "是非问句"
+    items:
+      - text:
+          eng: "Yes-or-no questions are built entirely from standard Mandarin grammatical structures, using two constructions:"
+          rus: "Вопросы «да/нет» строятся целиком из стандартных мандаринских грамматических структур, с помощью двух конструкций:"
+          zh: "是非问句完全用标准普通话的语法结构来构成，有两种方式："
+        items:
+          - text:
+              eng: "**The `{{word:ma}}` Construction:** Append the question marker `{{word:ma}}` to the very end of a standard statement."
+              rus: "**Конструкция `{{word:ma}}`:** Присоедините вопросительный маркер `{{word:ma}}` в самый конец обычного утвердительного предложения."
+              zh: "**`{{word:ma}}` 结构：** 在一个普通陈述句的最末尾加上疑问助词 `{{word:ma}}`。"
+          - text:
+              eng: "**The A-`{{word:bu4}}`-A / A-`{{word:mei2}}`-A Construction:** Reduplicate the main verb or adjective with the negative particle `{{word:bu4}}` (or `{{word:mei2}}` if using the verb `{{word:you3}}`)."
+              rus: "**Конструкция A-`{{word:bu4}}`-A / A-`{{word:mei2}}`-A:** Продублируйте основной глагол или прилагательное вместе с отрицательной частицей `{{word:bu4}}` (или `{{word:mei2}}`, если используется глагол `{{word:you3}}`)."
+              zh: "**A-`{{word:bu4}}`-A / A-`{{word:mei2}}`-A 结构：** 把主要动词或形容词与否定词 `{{word:bu4}}`（如果用的是动词 `{{word:you3}}`，则用 `{{word:mei2}}`）重复并列。"
+
+  - type: prose
+    text:
+      eng: 'To answer "yes," simply repeat the main verb. To answer "no," repeat the verb alongside its negative particle, or use `{{word:bu4}}` / `méiyǒu` on its own.'
+      rus: 'Чтобы ответить «да», просто повторите основной глагол. Чтобы ответить «нет», повторите глагол вместе с отрицательной частицей, либо используйте `{{word:bu4}}` / `méiyǒu` отдельно.'
+      zh: "要回答“是”，只需重复主要动词。要回答“不是”，把动词和它的否定词一起重复，或者单独使用 `{{word:bu4}}` / `méiyǒu`。"
+    tldr:
+      eng: 'Answer "yes" by repeating the verb; answer "no" by repeating it with its negative, or with `{{word:bu4}}`/`méiyǒu` alone.'
+      rus: "Отвечайте «да», повторяя глагол; отвечайте «нет», повторяя его с отрицанием, либо одним `{{word:bu4}}`/`méiyǒu`."
+      zh: "回答“是”就重复动词；回答“不是”就把动词和否定词一起重复，或者只说 `{{word:bu4}}`/`méiyǒu`。"
+    necessity:
+      eng: 'Hao-shuo-de has no dedicated word for "yes" or "no" -- this is the mechanism that replaces them.'
+      rus: "В Hao-shuo-de нет отдельного слова для «да» или «нет» — это механизм, который их заменяет."
+      zh: "Hao-shuo-de 没有专门表示“是”或“不是”的词——这就是替代它们的机制。"
+
+  - type: examples
+    items:
+      - pinyin: "{{Word:shen2me}} {{word:shi4}} {{word:xin1}}-{{word:de}}?"
+        ttsText: "什么是新的？"
+        translation:
+          eng: "What is new?"
+          rus: "Что нового?"
+          zh: "什么是新的？"
+      - pinyin: "{{Word:shen2me}} {{word:ren2}} {{word:zai4}} {{word:shuo1}}?"
+        ttsText: "什么人在说？"
+        translation:
+          eng: "Which person is speaking?"
+          rus: "Какой человек говорит?"
+          zh: "什么人在说？"
+      - pinyin: "{{Word:ta1}} {{word:you3}}-méi-{{word:you3}} {{word:hen3}}-{{word:duo1}}-{{word:de}} {{word:shui3guo3}}?"
+        ttsText: "他有没有很多的水果？"
+        translation:
+          eng: "Does he have many vegetables/fruits?"
+          rus: "У него есть много фруктов/овощей?"
+          zh: "他有没有很多的水果？"
+      - pinyin: "{{Word:you3}}."
+        ttsText: "有。"
+        translation:
+          eng: "Yes. / He has."
+          rus: "Да. / У него есть."
+          zh: "有。"
+      - pinyin: "{{Word:ni3}} {{word:ting1}}-{{word:bu4}}-{{word:ting1}} {{word:fu4mu3}}?"
+        ttsText: "你听不听父母？"
+        translation:
+          eng: "Do you obey your parents?"
+          rus: "Ты слушаешься родителей?"
+          zh: "你听不听父母？"
+      - pinyin: "{{Word:bu4}} {{word:ting1}}."
+        ttsText: "不听。"
+        translation:
+          eng: "No. / I don't obey."
+          rus: "Нет. / Я не слушаюсь."
+          zh: "不听。"
+      - pinyin: "{{Word:ta1}} {{word:zai4}} {{word:chi1}} {{word:shen2me}}?"
+        ttsText: "它在吃什么？"
+        translation:
+          eng: "What is it eating?"
+          rus: "Что оно ест?"
+          zh: "它在吃什么？"
+      - pinyin: "{{Word:ni3}} {{word:gei3}} {{word:ta1}} {{word:zai4}}-{{word:shui3}}-lǐ-{{word:de}} {{word:dong4wu4}} {{word:ma}}?"
+        ttsText: "你给她在水里的动物吗？"
+        translation:
+          eng: "Are you giving her a swimming animal?"
+          rus: "Ты даёшь ей плавающее животное?"
+          zh: "你给她在水里的动物吗？"
+      - pinyin: "{{Word:wei4shen2me}} {{word:ni3}} {{word:gei3}} {{word:ta1}} {{word:zai4}}-{{word:shui3}}-lǐ-{{word:de}} {{word:dong4wu4}}?"
+        ttsText: "为什么你给她在水里的动物？"
+        translation:
+          eng: "Why are you giving her a swimming animal?"
+          rus: "Почему ты даёшь ей плавающее животное?"
+          zh: "为什么你给她在水里的动物？"
+      - pinyin: "{{Word:ni3}} {{word:zen3me}} {{word:ba3}} Hǎo-shuō-de {{word:bian4}} {{word:zhi1dao4}}?"
+        ttsText: "你怎么把好说的变知道？"
+        translation:
+          eng: "How do you learn Hao-shuo-de?"
+          rus: "Как ты выучиваешь Hao-shuo-de? (буквально: «как ты превращаешь Hao-shuo-de в знание?»)"
+          zh: "你怎么把好说的变知道？（字面：你怎样把好说的变成知道的？）"
+
+  - type: exercise
+    items:
+      - eng: "What tools do you have?"
+        rus: "Какие инструменты у тебя есть?"
+        zh: "你有什么工具？"
+      - eng: "Does he listen?"
+        rus: "Он слушает?"
+        zh: "他听吗？"
+      - eng: "Is the tool small?"
+        rus: "Инструмент маленький?"
+        zh: "工具小吗？"
+
+  - type: answers
+    items:
+      - text:
+          eng: "{{Word:ni3}} {{word:you3}} {{word:shen2me}} {{word:gong1ju4}}?"
+          rus: "{{Word:ni3}} {{word:you3}} {{word:shen2me}} {{word:gong1ju4}}?"
+          zh: "{{Word:ni3}} {{word:you3}} {{word:shen2me}} {{word:gong1ju4}}?"
+        ttsText: "你有什么工具？"
+      - text:
+          eng: "{{Word:ta1}} {{word:ting1}}-{{word:bu4}}-{{word:ting1}}? (or {{Word:ta1}} {{word:ting1}} {{word:ma}}?)"
+          rus: "{{Word:ta1}} {{word:ting1}}-{{word:bu4}}-{{word:ting1}}? (или {{Word:ta1}} {{word:ting1}} {{word:ma}}?)"
+          zh: "{{Word:ta1}} {{word:ting1}}-{{word:bu4}}-{{word:ting1}}?（或 {{Word:ta1}} {{word:ting1}} {{word:ma}}?）"
+        ttsText: "他听不听？（或：他听吗？）"
+      - text:
+          eng: "{{Word:gong1ju4}} {{word:xiao3}}-{{word:bu4}}-{{word:xiao3}}? (or {{Word:gong1ju4}} {{word:xiao3}} {{word:ma}}?)"
+          rus: "{{Word:gong1ju4}} {{word:xiao3}}-{{word:bu4}}-{{word:xiao3}}? (или {{Word:gong1ju4}} {{word:xiao3}} {{word:ma}}?)"
+          zh: "{{Word:gong1ju4}} {{word:xiao3}}-{{word:bu4}}-{{word:xiao3}}?（或 {{Word:gong1ju4}} {{word:xiao3}} {{word:ma}}?）"
+        ttsText: "工具小不小？（或：工具小吗？）"
