@@ -98,7 +98,7 @@ export function DrillScreen({ vm }: Props) {
             <div class="answer-area">
               <label for="pinyin-input">
                 ${granularity === "word"
-                  ? "Type what you heard, word by word (comma-separated)"
+                  ? "Type the words you heard, comma-separated (any order is fine)"
                   : "Type what you heard (pinyin)"}
               </label>
               <input

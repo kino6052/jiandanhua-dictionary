@@ -252,3 +252,45 @@ describe("compareWords - sounds_tones mode", () => {
     expect(result[0]!.earned).toBe(1);
   });
 });
+
+describe("compareWords - order independence", () => {
+  const keyWords = ["zhe4", "shi4 shang4", "you3"];
+
+  test("words typed in a different order than the key are all still credited", () => {
+    const result = compareWords(keyWords, "you3, zhe4, shi4 shang4", "sounds");
+    expect(result.every((r) => r.earned === 1)).toBe(true);
+    expect(result.reduce((sum, r) => sum + r.earned, 0)).toBe(3);
+  });
+
+  test("each key word reports which user word satisfied it, even out of position", () => {
+    const result = compareWords(keyWords, "you3, zhe4, shi4 shang4", "sounds");
+    expect(result[0]).toMatchObject({ keySyllable: "zhe4", userSyllable: "zhe4", earned: 1 });
+    expect(result[2]).toMatchObject({ keySyllable: "you3", userSyllable: "you3", earned: 1 });
+  });
+
+  test("a scrambled order with one genuinely wrong word only loses credit for that word", () => {
+    const result = compareWords(keyWords, "you3, zhe4, lang4 shang4", "sounds");
+    const earnedTotal = result.reduce((sum, r) => sum + r.earned, 0);
+    expect(earnedTotal).toBe(2); // zhe4 and you3 captured; "shi4 shang4" not found anywhere
+  });
+
+  test("a repeated key word needs a separate matching user word for each occurrence", () => {
+    // Only one "hao3" supplied, but the key asks for it twice -- one user
+    // word must not be allowed to satisfy both key slots.
+    const result = compareWords(["hao3", "hao3"], "hao3", "sounds");
+    const earnedTotal = result.reduce((sum, r) => sum + r.earned, 0);
+    expect(earnedTotal).toBe(1);
+  });
+
+  test("supplying the repeated word twice captures both occurrences", () => {
+    const result = compareWords(["hao3", "hao3"], "hao3, hao3", "sounds");
+    const earnedTotal = result.reduce((sum, r) => sum + r.earned, 0);
+    expect(earnedTotal).toBe(2);
+  });
+
+  test("extra/unmatched user words beyond the key are simply not counted", () => {
+    const result = compareWords(["zhe4"], "you3, zhe4, shi4 shang4", "sounds");
+    expect(result).toHaveLength(1);
+    expect(result[0]!.earned).toBe(1);
+  });
+});

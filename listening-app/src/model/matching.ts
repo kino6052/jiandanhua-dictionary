@@ -119,26 +119,39 @@ function allSyllablesMatch(
 }
 
 /**
- * Compares one user answer against a sample's word-level key, positionally,
- * one comma-separated user word per key word. Each word is scored
- * atomically (see allSyllablesMatch): full credit only if every syllable in
- * that word matches, none otherwise. Missing user words are a mismatch;
- * extra user words beyond the key length are ignored, mirroring
- * compareSample's alignment rules.
+ * Compares one user answer against a sample's word-level key. Word mode is
+ * a word-*identification* task, not a transcription-in-order task: order
+ * doesn't matter, only which words were correctly captured and how many.
+ * Each key word searches the user's comma-separated words for any
+ * still-unconsumed match (in any position); once a user word satisfies a
+ * key word it's consumed, so a repeated key word still needs a separate
+ * matching user word for each occurrence. Each word is scored atomically
+ * (see allSyllablesMatch): full credit only if every syllable in that word
+ * matches, none otherwise. Unmatched key words and leftover/unmatched user
+ * words are simply not counted, in either direction.
  */
 export function compareWords(keyWords: string[], userInput: string, mode: Mode): SyllableResult[] {
   const userWords = splitWordsInput(userInput);
+  const userSyllableSets = userWords.map((w) => splitUserInput(w).map(parseSyllable));
+  const consumed = new Array<boolean>(userWords.length).fill(false);
 
-  return keyWords.map((keyWord, i): SyllableResult => {
-    const userRaw = userWords[i] ?? null;
+  return keyWords.map((keyWord): SyllableResult => {
     const keySyllables = splitUserInput(keyWord).map(parseSyllable);
-    const userSyllables = userRaw !== null ? splitUserInput(userRaw).map(parseSyllable) : null;
 
-    const matched = userSyllables !== null && allSyllablesMatch(keySyllables, userSyllables, mode);
+    let matchIndex = -1;
+    for (let j = 0; j < userWords.length; j++) {
+      if (consumed[j]) continue;
+      if (allSyllablesMatch(keySyllables, userSyllableSets[j]!, mode)) {
+        matchIndex = j;
+        break;
+      }
+    }
+    const matched = matchIndex !== -1;
+    if (matched) consumed[matchIndex] = true;
 
     return {
       keySyllable: keyWord,
-      userSyllable: userRaw,
+      userSyllable: matched ? userWords[matchIndex]! : null,
       soundCorrect: matched,
       toneCorrect: null,
       earned: matched ? 1 : 0,
